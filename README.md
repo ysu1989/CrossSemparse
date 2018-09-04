@@ -106,7 +106,7 @@ python scripts/extract_test_result.py cross-domain overnight 5 1
 ``` 
 
 
-### References
+## References
 
 Please refer to the following paper for more details. If you find it useful, please kindly consider to cite:
 
