@@ -54,7 +54,7 @@ pip install pyyaml
 ```
 
 ## Training
-We use the [Overnight](https://github.com/percyliang/sempre/tree/master/overnight) dataset, which contains 8 domains including Basketball, Calendar, and Restaurants. The dataset is already pre-processed and can be found under [data](data/). 
+We use the [Overnight](https://github.com/percyliang/sempre/tree/master/overnight) dataset, which contains 8 domains including Basketball, Calendar, and Restaurants. The dataset is already pre-processed and can be found under [`data`](data/). 
 
 Assume we are at the the root of the repo. All of training and testing can be done with the following command:
 
