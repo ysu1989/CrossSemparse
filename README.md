@@ -3,10 +3,10 @@
 ## The Cold Start Problem
 Semantic parsing, which maps natural language utterances into computer-understandable logical forms, has drawn substantial attention recently as a promising direction for developing natural language interfaces to computers. There are so many domains (healthcare, finance, IoT, sports, *etc.*) for which we can build a natural language interface, making *portability / scalability* an impending challenge. Or in other words, it's the *cold start problem of natural language interface*: 
 
-<p style="text-align: center;"><i>Given a new domain, how can we build a semantic parser for it?</i></p>
+<p align="center"><i>Given a new domain, how can we build a semantic parser for it?</i></p>
 
 <center>
-<img src="misc/cold_start.jpg" alt="Cold Start Problem" style="width:500px;"/>
+<img align="center" src="misc/cold_start.jpg" alt="Cold Start Problem" width="400px"/>
 </center>
 
 ## Solution
@@ -14,7 +14,7 @@ Semantic parsing, which maps natural language utterances into computer-understan
 There are three complementary ways to solve the cold start problem:
 
 <center>
-<img src="misc/cold_start_nli.png" alt="Cold Start Solution" style="width:400px;"/>
+<img align="center" src="misc/cold_start_nli.png" alt="Cold Start Solution" width="400px"/>
 </center>
 
 1. Re-use the training data for some existing domains via *transfer learning* (this repo)
@@ -53,7 +53,7 @@ Install yaml:
 pip install pyyaml
 ```
 
-## Train models
+## Training
 We use the [Overnight](https://github.com/percyliang/sempre/tree/master/overnight) dataset, which contains 8 domains including Basketball, Calendar, and Restaurants. The dataset is already pre-processed and can be found under [data](data/). 
 
 Assume we are at the the root of the repo. All of training and testing can be done with the following command:
@@ -83,7 +83,7 @@ It's easy to train for another word embedding initialization strategy, e.g., use
 sh scripts/batch_run.sh 0 train_grid_original overnight 1
 ```
 
-### Extract Testing Results
+## Extract Testing Results
 
 We provide a script to make it easy to extract the testing results across all of the domains. For example,
 
