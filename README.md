@@ -5,17 +5,17 @@ Semantic parsing, which maps natural language utterances into computer-understan
 
 <p align="center"><i>Given a new domain, how can we build a semantic parser for it?</i></p>
 
-<center>
+<p align="center">
 <img align="center" src="misc/cold_start.jpg" alt="Cold Start Problem" width="400px"/>
-</center>
+</p>
 
 ## Solution
 
 There are three complementary ways to solve the cold start problem:
 
-<center>
-<img align="center" src="misc/cold_start_nli.png" alt="Cold Start Solution" width="400px"/>
-</center>
+<p align="center">
+<img align="center" src="misc/cold_start_nli.png" alt="Cold Start Solution" width="500px"/>
+</p>
 
 1. Re-use the training data for some existing domains via *transfer learning* (this repo)
 2. Collect training data for the new domain via *crowdsourcing* [[1](#reference1)] [[2](#reference2)]
