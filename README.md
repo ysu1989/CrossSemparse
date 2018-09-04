@@ -19,7 +19,7 @@ There are three complementary ways to solve the cold start problem:
 
 1. Re-use the training data for some existing domains via *transfer learning* (this repo)
 2. Collect training data for the new domain via *crowdsourcing* [[1](#reference1)] [[2](#reference2)]
-3. Once we cold-started a natural language interface with reasonable performance, develop some *user-friendly interaction mechanism*, deploy the system and let it interact with real users so it can keep refining itself. [[3](#reference3)] [[4](#reference4)]
+3. Once we cold-started a natural language interface with reasonable performance, develop some *user-friendly interaction mechanism*, deploy the system and let it interact with real users so it can keep refining itself [[3](#reference3)] [[4](#reference4)]
 
 
 # Use of This Repo
@@ -27,7 +27,7 @@ There are three complementary ways to solve the cold start problem:
 ## Requirements
 
 * Python 2.7
-* Tensorflow 0.11 (yes the TF version is a bit old..but it still works reasonably well!)
+* Tensorflow 0.11 (yes the TF version is a bit old..but it's still working reasonably well!)
 * Yaml (for logging)
 
 ## Setup
@@ -67,7 +67,7 @@ The arguments are:
 * `GPU ID`: which GPU to use for this run?
 * `Training Script`: each word embedding initialization has a separate script
 * `Dataset`: for now, the only option is `overnight`
-* `Execution Number`: a unique number for this execution. A corresponding dir will be created under `execs/` to host the trained model and log of this execution.
+* `Execution Number`: a unique number for this execution. A corresponding dir will be created under `execs/` to host the trained model and the log of this execution.
 
 The command will do the following tasks for each of the 8 domains:
 
@@ -77,7 +77,7 @@ The command will do the following tasks for each of the 8 domains:
 4. Cross-domain: Warm-start on target domain with pre-trained model, fine-tune with in-domain data, and test
 4. Cross-domain: Re-train with full in-domain training data and then test (final results for cross-domain setting)
 
-It's easy to train for another word embedding initialization strategy, e.g., use original `word2vec` embedding without standardization (remember to use a different exec number):
+It's easy to train for another word embedding initialization strategy, e.g., original `word2vec` embedding without standardization. Just change the training script and execution number:
 
 ```
 sh scripts/batch_run.sh 0 train_grid_original overnight 1
@@ -118,8 +118,8 @@ Please refer to the following paper for more details. If you find it useful, ple
     pages     = {1235--1246},
     year      = {2017},
     address   = {Copenhagen, Denmark},
-    month     = {sept},
-    publisher = {Association for Computational Linguistics"
+    month     = {Sept},
+    publisher = {Association for Computational Linguistics}
 }
 ```
 
