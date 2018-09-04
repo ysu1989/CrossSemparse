@@ -1,0 +1,1512 @@
+(example
+  (utterance "neighborhoods with more than two apartment complexes")
+  (original "neighborhood that is neighborhood of more than two housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string >) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "housing allowing dogs that was posted on january 2")
+  (original "housing unit whose posting date is jan 2 and that allows dogs")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (date 2015 1 2)) (string allows_dogs)))
+
+  )
+)
+(example
+  (utterance "which housing unit has the rent of 123 sesame street")
+  (original "housing unit whose monthly rent is at least monthly rent of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string rent)))))
+
+  )
+)
+(example
+  (utterance "which housing unit is available for a rent of 1500 2000 dollars")
+  (original "housing unit whose monthly rent is at least 1500 dollars or 2000 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 1500 en.dollar) (number 2000 en.dollar)))))
+
+  )
+)
+(example
+  (utterance "housing unit whose monthly rent is 1500 dollars")
+  (original "housing unit whose monthly rent is 1500 dollars and whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "housing unit at most 800 or 1000 square feet")
+  (original "housing unit whose size is at most 800 square feet or 1000 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 800 en.square_feet) (number 1000 en.square_feet)))))
+
+  )
+)
+(example
+  (utterance "find pet friendly housing units")
+  (original "housing unit that allows cats and that allows dogs")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_cats)) (string allows_dogs)))
+
+  )
+)
+(example
+  (utterance "housing units with a posting date of january 2nd that are located in midtown west")
+  (original "housing unit whose posting date is jan 2 and whose neighborhood is midtown west")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (date 2015 1 2)) (string neighborhood) (string =) en.neighborhood.midtown_west))
+
+  )
+)
+(example
+  (utterance "what kind of housing has the least number of units")
+  (original "housing type that is housing type of the least number of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (string min) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "find 800 square feet housing units")
+  (original "housing unit whose size is 800 square feet and whose size is 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string =) (number 800 en.square_feet)) (string size) (string =) (number 800 en.square_feet)))
+
+  )
+)
+(example
+  (utterance "housing that are either apartments or houses for rent")
+  (original "housing unit that has at most two housing type")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string <=) (number 2)))
+
+  )
+)
+(example
+  (utterance "which housing provides a private room where dogs are allowed")
+  (original "housing unit that has a private room and that allows dogs")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_room)) (string allows_dogs)))
+
+  )
+)
+(example
+  (utterance "which 1500monthly rentals come with private room")
+  (original "housing unit whose monthly rent is 1500 dollars and that has a private room")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)) (string has_private_room)))
+
+  )
+)
+(example
+  (utterance "what is the average monthly rent")
+  (original "average monthly rent of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.aggregate (string avg) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent))))
+
+  )
+)
+(example
+  (utterance "housing unit as costly as the rent of the homes in 123 sesame street")
+  (original "housing unit whose monthly rent is at least monthly rent of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string rent)))))
+
+  )
+)
+(example
+  (utterance "private room for 1500 a month")
+  (original "housing unit whose monthly rent is 1500 dollars and that has a private room")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)) (string has_private_room)))
+
+  )
+)
+(example
+  (utterance "housing of more than two types")
+  (original "housing unit that has more than two housing type")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string >) (number 2)))
+
+  )
+)
+(example
+  (utterance "housing unit smaller than 800 or 1000 square feet")
+  (original "housing unit whose size is smaller than 800 square feet or 1000 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 800 en.square_feet) (number 1000 en.square_feet)))))
+
+  )
+)
+(example
+  (utterance "which housing unit with the highest rent")
+  (original "housing unit that has the largest monthly rent")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent))))
+
+  )
+)
+(example
+  (utterance "housing units that are smaller than 123 sesame street")
+  (original "housing unit whose size is smaller than size of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string size)))))
+
+  )
+)
+(example
+  (utterance "housing with private bath that was posted on january 2")
+  (original "housing unit whose posting date is jan 2 and that has a private bath")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (date 2015 1 2)) (string has_private_bath)))
+
+  )
+)
+(example
+  (utterance "find housing units with rental charges lesser than that of 123 sesame street")
+  (original "housing unit whose monthly rent is smaller than monthly rent of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string rent)))))
+
+  )
+)
+(example
+  (utterance "housing units bigger than homes on 123 sesame street")
+  (original "housing unit whose size is larger than size of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string size)))))
+
+  )
+)
+(example
+  (utterance "housing unit that is the same as the ones on 123 sesame street or 900 mission ave")
+  (original "housing type that is housing type of 123 sesame street or 900 mission ave")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.housing_unit.123_sesame_street en.housing_unit.900_mission_ave)))
+
+  )
+)
+(example
+  (utterance "which housing unit has a private bath and an area of 800 square feet")
+  (original "housing unit whose size is 800 square feet and that has a private bath")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string =) (number 800 en.square_feet)) (string has_private_bath)))
+
+  )
+)
+(example
+  (utterance "housing units that are posted on january end and have a total size of 800 square feet")
+  (original "housing unit whose posting date is jan 2 and whose size is 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (date 2015 1 2)) (string size) (string =) (number 800 en.square_feet)))
+
+  )
+)
+(example
+  (utterance "neighborhoods with catfriendly housing")
+  (original "neighborhood that is neighborhood of housing unit that allows cats")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_cats))))
+
+  )
+)
+(example
+  (utterance "housing with monthly rent less than 1500 dollars")
+  (original "housing unit whose monthly rent is smaller than 1500 dollars or 2000 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 1500 en.dollar) (number 2000 en.dollar)))))
+
+  )
+)
+(example
+  (utterance "housing units with private room")
+  (original "housing unit that has a private room")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_room)))
+
+  )
+)
+(example
+  (utterance "housing that is smaller than 123 sesame street")
+  (original "housing unit whose size is smaller than size of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string size)))))
+
+  )
+)
+(example
+  (utterance "housing near at least two neighborhoods")
+  (original "housing unit that has at least two neighborhood")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string >=) (number 2)))
+
+  )
+)
+(example
+  (utterance "which housing has the most amount of housing types")
+  (original "housing unit that has the most number of housing type")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string max) (string housing_type)))
+
+  )
+)
+(example
+  (utterance "find housing units with a private room and is of the housing type apartment")
+  (original "housing unit whose housing type is apartment and that has a private room")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) en.housing.apartment) (string has_private_room)))
+
+  )
+)
+(example
+  (utterance "apartments for 1500")
+  (original "housing unit whose monthly rent is 1500 dollars and whose housing type is apartment")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)) (string housing_type) (string =) en.housing.apartment))
+
+  )
+)
+(example
+  (utterance "what is the total area of a housing unit")
+  (original "total size of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.aggregate (string sum) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size))))
+
+  )
+)
+(example
+  (utterance "find 800 square feet housing units with 1500 dollars as rent")
+  (original "housing unit whose size is 800 square feet and whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string =) (number 800 en.square_feet)) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "find the housing unit with the least monthly rent")
+  (original "housing unit that has the smallest monthly rent")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string min) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent))))
+
+  )
+)
+(example
+  (utterance "show total number of all units")
+  (original "number of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "what housing unit has a price of 1500 dollars and allows dogs")
+  (original "housing unit that allows dogs and whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_dogs)) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "what neighborhood contains two housing units")
+  (original "neighborhood that is neighborhood of two housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "seeking housing with rent at 1500")
+  (original "housing type that is housing type of housing unit whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar))))
+
+  )
+)
+(example
+  (utterance "housing units that are 800 square feet")
+  (original "housing type that is housing type of housing unit whose size is 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string =) (number 800 en.square_feet))))
+
+  )
+)
+(example
+  (utterance "housing that allows cats that posted on january 2")
+  (original "housing unit whose posting date is jan 2 and that allows cats")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (date 2015 1 2)) (string allows_cats)))
+
+  )
+)
+(example
+  (utterance "exclude housing similar to 123 sesame street")
+  (original "housing type that is not housing type of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (string !=) en.housing_unit.123_sesame_street))
+
+  )
+)
+(example
+  (utterance "what housing unit posted on jan 2 allows dogs")
+  (original "housing unit that allows dogs and whose posting date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_dogs)) (string posting_date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "find housing units with size between 800 and 1000 square feet")
+  (original "housing unit whose size is smaller than 800 square feet or 1000 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 800 en.square_feet) (number 1000 en.square_feet)))))
+
+  )
+)
+(example
+  (utterance "housing unit that is 800 square feet or larger in size")
+  (original "housing unit whose size is at least 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (number 800 en.square_feet))))
+
+  )
+)
+(example
+  (utterance "which housing unit in midtown west permits dogs")
+  (original "housing unit that allows dogs and whose neighborhood is midtown west")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_dogs)) (string neighborhood) (string =) en.neighborhood.midtown_west))
+
+  )
+)
+(example
+  (utterance "housing available for 1500month")
+  (original "housing unit whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "which housing unit permits cats and has a private room")
+  (original "housing unit that has a private room and that allows cats")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_room)) (string allows_cats)))
+
+  )
+)
+(example
+  (utterance "housing unit with a private bath")
+  (original "housing unit that has a private bath and that has a private bath")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_bath)) (string has_private_bath)))
+
+  )
+)
+(example
+  (utterance "housing unit in the neighborhood of 123 sesame street")
+  (original "housing unit whose neighborhood is neighborhood that is neighborhood of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) en.housing_unit.123_sesame_street)))
+
+  )
+)
+(example
+  (utterance "housing units in the midtown west area")
+  (original "housing unit whose neighborhood is midtown west and whose neighborhood is midtown west")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string =) en.neighborhood.midtown_west) (string neighborhood) (string =) en.neighborhood.midtown_west))
+
+  )
+)
+(example
+  (utterance "housing posted on january 2 that rents out for 1500 dollar per month")
+  (original "housing unit whose posting date is jan 2 and whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (date 2015 1 2)) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "what kinds of housing is there in midtown west")
+  (original "housing type that is housing type of housing unit whose neighborhood is midtown west")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string =) en.neighborhood.midtown_west)))
+
+  )
+)
+(example
+  (utterance "housing with private bath posted on january 2")
+  (original "housing unit that has a private bath and whose posting date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_bath)) (string posting_date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "neighborhoods with apartments")
+  (original "neighborhood that is neighborhood of housing unit whose housing type is apartment")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) en.housing.apartment)))
+
+  )
+)
+(example
+  (utterance "units with 1500 dollar rent")
+  (original "housing type that is housing type of housing unit whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar))))
+
+  )
+)
+(example
+  (utterance "what housing units have a small amount of housing units")
+  (original "housing type that is housing type of the least number of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (string min) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "which area has the least number of housing units")
+  (original "housing unit that has the least number of neighborhood")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string min) (string neighborhood)))
+
+  )
+)
+(example
+  (utterance "apartments in midtown west")
+  (original "housing unit whose neighborhood is midtown west and whose housing type is apartment")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string =) en.neighborhood.midtown_west) (string housing_type) (string =) en.housing.apartment))
+
+  )
+)
+(example
+  (utterance "housing 800 sf in size posted on january 2")
+  (original "housing unit whose size is 800 square feet and whose posting date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string =) (number 800 en.square_feet)) (string posting_date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "which housing unit permits cats inside it and has a private room")
+  (original "housing unit that allows cats and that has a private room")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_cats)) (string has_private_room)))
+
+  )
+)
+(example
+  (utterance "list available neighborhoods besides 123 sesame street")
+  (original "neighborhood that is not neighborhood of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string !=) en.housing_unit.123_sesame_street))
+
+  )
+)
+(example
+  (utterance "show me places with private rooms where dogs are welcome")
+  (original "housing unit that allows dogs and that has a private room")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_dogs)) (string has_private_room)))
+
+  )
+)
+(example
+  (utterance "housing neighborhood that was posted on january 2")
+  (original "neighborhood that is neighborhood of housing unit whose posting date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (date 2015 1 2))))
+
+  )
+)
+(example
+  (utterance "which housing unit in midtown area has a monthly rent of 1500 dollars")
+  (original "housing unit whose neighborhood is midtown west and whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string =) en.neighborhood.midtown_west) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "what is the date on which 123 sesame street was posted")
+  (original "posting date of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string posting_date)))
+
+  )
+)
+(example
+  (utterance "find housing units in the neighborhoods of midtown west or chelsea")
+  (original "housing unit whose neighborhood is midtown west or chelsea")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.neighborhood.midtown_west en.neighborhood.chelsea)))
+
+  )
+)
+(example
+  (utterance "find housing units with a private room and is of size 800 square feet")
+  (original "housing unit whose size is 800 square feet and that has a private room")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string =) (number 800 en.square_feet)) (string has_private_room)))
+
+  )
+)
+(example
+  (utterance "housing in midtown west with 1500month rent")
+  (original "housing unit whose monthly rent is 1500 dollars and whose neighborhood is midtown west")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)) (string neighborhood) (string =) en.neighborhood.midtown_west))
+
+  )
+)
+(example
+  (utterance "show me the same kind of housing as 123 sesame street")
+  (original "housing unit whose housing type is housing type that is housing type of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (string =) en.housing_unit.123_sesame_street)))
+
+  )
+)
+(example
+  (utterance "dogfriendly hosing that is 800 square feet")
+  (original "housing unit that allows dogs and whose size is 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_dogs)) (string size) (string =) (number 800 en.square_feet)))
+
+  )
+)
+(example
+  (utterance "neighborhood with less than two housing")
+  (original "neighborhood that is neighborhood of less than two housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string <) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "dogfriendly apartments")
+  (original "housing unit that allows dogs and whose housing type is apartment")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_dogs)) (string housing_type) (string =) en.housing.apartment))
+
+  )
+)
+(example
+  (utterance "housing in midtown west that costs 1500month")
+  (original "housing unit whose neighborhood is midtown west and whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string =) en.neighborhood.midtown_west) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "find housing units with rental charges between 1500 and 2000 dollars")
+  (original "1500 dollars or 2000 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 1500 en.dollar) (number 2000 en.dollar)))
+
+  )
+)
+(example
+  (utterance "apartment complexes with the most units available")
+  (original "housing type that is housing type of the most number of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "find apartments with a private room")
+  (original "housing unit that has a private room and whose housing type is apartment")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_room)) (string housing_type) (string =) en.housing.apartment))
+
+  )
+)
+(example
+  (utterance "what neighborhoods have apartments")
+  (original "neighborhood that is neighborhood of housing unit whose housing type is apartment")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) en.housing.apartment)))
+
+  )
+)
+(example
+  (utterance "housing units with a private bath and a 1500 dollar monthly rent")
+  (original "housing unit whose monthly rent is 1500 dollars and that has a private bath")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)) (string has_private_bath)))
+
+  )
+)
+(example
+  (utterance "which housing has two types")
+  (original "housing unit that has two housing type")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) (number 2)))
+
+  )
+)
+(example
+  (utterance "neighborhood that has at least two listings")
+  (original "neighborhood that is neighborhood of at least two housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string >=) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "what housing that was posted on january 2 has the same rent as 123 sesame street")
+  (original "housing unit whose posting date is jan 2 and that is monthly rent of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (date 2015 1 2)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string rent)) (string =) en.housing_unit.123_sesame_street))
+
+  )
+)
+(example
+  (utterance "which housing unit offers a private room and a private bath")
+  (original "housing unit that has a private bath and that has a private room")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_bath)) (string has_private_room)))
+
+  )
+)
+(example
+  (utterance "building with the most kinds of units")
+  (original "housing unit that has the most number of housing type")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string max) (string housing_type)))
+
+  )
+)
+(example
+  (utterance "most recently posted housing")
+  (original "housing unit that has the largest posting date")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string posting_date))))
+
+  )
+)
+(example
+  (utterance "housing that is bigger than 800 square feet")
+  (original "housing unit whose size is larger than 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (number 800 en.square_feet))))
+
+  )
+)
+(example
+  (utterance "housing with rent at 1500")
+  (original "neighborhood that is neighborhood of housing unit whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar))))
+
+  )
+)
+(example
+  (utterance "what housing unit posted on jan 2 allows cats")
+  (original "housing unit that allows cats and whose posting date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_cats)) (string posting_date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "what kind of housing is at two or less housing units")
+  (original "housing type that is housing type of at most two housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (string <=) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "unit is 800 square feet")
+  (original "housing unit whose size is 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string =) (number 800 en.square_feet)))
+
+  )
+)
+(example
+  (utterance "housing unit that costs 1500 or 200 dollars in rent")
+  (original "housing unit whose monthly rent is 1500 dollars or 2000 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 1500 en.dollar) (number 2000 en.dollar))))
+
+  )
+)
+(example
+  (utterance "what is the housing type that charges 1500 dollars as monthly rent")
+  (original "housing type that is housing type of housing unit whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar))))
+
+  )
+)
+(example
+  (utterance "neighborhoods with housing that have a private bathroom")
+  (original "neighborhood that is neighborhood of housing unit that has a private bath")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_bath))))
+
+  )
+)
+(example
+  (utterance "housing units with monthly rents of 1500 dollars that posted on january 2")
+  (original "housing unit whose monthly rent is 1500 dollars and whose posting date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)) (string posting_date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "looking for housing in midtown west or chelsea area")
+  (original "midtown west or chelsea")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.neighborhood.midtown_west en.neighborhood.chelsea))
+
+  )
+)
+(example
+  (utterance "find housing with a private bath")
+  (original "housing unit that has a private bath and that has a private bath")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_bath)) (string has_private_bath)))
+
+  )
+)
+(example
+  (utterance "housing types of more than two units")
+  (original "housing type that is housing type of more than two housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (string >) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "housing unit with a private bath and room")
+  (original "housing unit that has a private bath and that has a private room")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_bath)) (string has_private_room)))
+
+  )
+)
+(example
+  (utterance "housing apartments that costs 1500 dollars")
+  (original "housing unit whose housing type is apartment and whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) en.housing.apartment) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "find 800 square feet housing units that allow cats")
+  (original "housing unit whose size is 800 square feet and that allows cats")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string =) (number 800 en.square_feet)) (string allows_cats)))
+
+  )
+)
+(example
+  (utterance "housing unit that costs as much rent as the homes in 123 sesame street")
+  (original "housing unit whose monthly rent is at most monthly rent of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string rent)))))
+
+  )
+)
+(example
+  (utterance "what is the average monthly rent of housing units")
+  (original "average monthly rent of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.aggregate (string avg) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent))))
+
+  )
+)
+(example
+  (utterance "what neighborhood has two housing units")
+  (original "neighborhood that is neighborhood of two housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "housing with rent less than 1500 or less than 2000")
+  (original "housing unit whose monthly rent is smaller than 1500 dollars or 2000 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 1500 en.dollar) (number 2000 en.dollar)))))
+
+  )
+)
+(example
+  (utterance "what type of housing unit posted jan 2nd")
+  (original "housing unit whose housing type is housing unit whose posting date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (date 2015 1 2))))
+
+  )
+)
+(example
+  (utterance "housing units that have a private bath")
+  (original "housing unit that has a private bath")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_bath)))
+
+  )
+)
+(example
+  (utterance "cats permitted 1500 rent monthly")
+  (original "housing unit whose monthly rent is 1500 dollars and that allows cats")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)) (string allows_cats)))
+
+  )
+)
+(example
+  (utterance "housing that is more expensive than 123 sesame street")
+  (original "housing unit whose monthly rent is larger than monthly rent of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string rent)))))
+
+  )
+)
+(example
+  (utterance "where are the biggest apartments")
+  (original "housing unit that has the largest size")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size))))
+
+  )
+)
+(example
+  (utterance "800 square feet housing unit which allows dogs")
+  (original "housing unit that allows dogs and whose size is 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_dogs)) (string size) (string =) (number 800 en.square_feet)))
+
+  )
+)
+(example
+  (utterance "what is the average monthly rent of the housing units")
+  (original "average monthly rent of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.aggregate (string avg) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent))))
+
+  )
+)
+(example
+  (utterance "apartment in the midtown west neighborhood")
+  (original "housing unit whose neighborhood is midtown west and whose neighborhood is midtown west")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string =) en.neighborhood.midtown_west) (string neighborhood) (string =) en.neighborhood.midtown_west))
+
+  )
+)
+(example
+  (utterance "which housing unit permits cats inside it and has the facility of a private bath")
+  (original "housing unit that has a private bath and that allows cats")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_bath)) (string allows_cats)))
+
+  )
+)
+(example
+  (utterance "apartment posted at a later date than 123 sesame street")
+  (original "housing unit whose posting date is larger than posting date of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string posting_date)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string posting_date)))))
+
+  )
+)
+(example
+  (utterance "which housing unit does not have apartment type of house")
+  (original "housing unit whose housing type is not apartment")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string !=) en.housing.apartment))
+
+  )
+)
+(example
+  (utterance "housing in midtown west with 800 square feet")
+  (original "housing unit whose neighborhood is midtown west and whose size is 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string =) en.neighborhood.midtown_west) (string size) (string =) (number 800 en.square_feet)))
+
+  )
+)
+(example
+  (utterance "what is the average area  of a housing unit")
+  (original "average size of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.aggregate (string avg) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size))))
+
+  )
+)
+(example
+  (utterance "which housing unit with an area of 800 square feet permits cats in it")
+  (original "housing unit whose size is 800 square feet and that allows cats")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string =) (number 800 en.square_feet)) (string allows_cats)))
+
+  )
+)
+(example
+  (utterance "which unit allows dogs and has a private bath")
+  (original "housing unit that allows dogs and that has a private bath")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_dogs)) (string has_private_bath)))
+
+  )
+)
+(example
+  (utterance "which neighborhood has two housing units maximum")
+  (original "neighborhood that is neighborhood of at most two housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string <=) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "unit on 123 sesame street or 900 mission avenue")
+  (original "123 sesame street or 900 mission ave")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.housing_unit.123_sesame_street en.housing_unit.900_mission_ave))
+
+  )
+)
+(example
+  (utterance "what kinds of housing allow dogs")
+  (original "housing type that is housing type of housing unit that allows dogs")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_dogs))))
+
+  )
+)
+(example
+  (utterance "housing that is the same size or smaller than 123 sesame street")
+  (original "housing unit whose size is at most size of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string size)))))
+
+  )
+)
+(example
+  (utterance "which housing units permits dogs and offers a private room")
+  (original "housing unit that allows dogs and that has a private room")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_dogs)) (string has_private_room)))
+
+  )
+)
+(example
+  (utterance "housing units that have the most housing types")
+  (original "housing unit that has at most two housing type")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string <=) (number 2)))
+
+  )
+)
+(example
+  (utterance "housing with 1500 rent and allows dogs")
+  (original "housing unit whose monthly rent is 1500 dollars and that allows dogs")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)) (string allows_dogs)))
+
+  )
+)
+(example
+  (utterance "what neighborhood housing units allows dogs")
+  (original "neighborhood that is neighborhood of housing unit that allows dogs")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_dogs))))
+
+  )
+)
+(example
+  (utterance "800 square feet apartment type housing unit")
+  (original "housing unit whose housing type is apartment and whose size is 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) en.housing.apartment) (string size) (string =) (number 800 en.square_feet)))
+
+  )
+)
+(example
+  (utterance "what are the neighborhoods of 123 sesame street or 900 mission ave")
+  (original "neighborhood that is neighborhood of 123 sesame street or 900 mission ave")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.housing_unit.123_sesame_street en.housing_unit.900_mission_ave)))
+
+  )
+)
+(example
+  (utterance "find housing units with rent as 1500 dollars")
+  (original "housing unit whose monthly rent is 1500 dollars and whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "housing unit posted january 2 with the same rent as 123 sesame street")
+  (original "housing unit whose posting date is jan 2 and that is monthly rent of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (date 2015 1 2)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string rent)) (string =) en.housing_unit.123_sesame_street))
+
+  )
+)
+(example
+  (utterance "find apartments that are pet friendly")
+  (original "housing unit whose housing type is apartment and that allows cats")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) en.housing.apartment) (string allows_cats)))
+
+  )
+)
+(example
+  (utterance "which housing unit in this area has a private room")
+  (original "neighborhood that is neighborhood of housing unit that has a private room")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_room))))
+
+  )
+)
+(example
+  (utterance "what housing units allow dogs")
+  (original "housing unit that allows dogs")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_dogs)))
+
+  )
+)
+(example
+  (utterance "which housing have more than 800 square feet of space")
+  (original "housing unit whose size is larger than 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (number 800 en.square_feet))))
+
+  )
+)
+(example
+  (utterance "housing size other than 800 square feet")
+  (original "housing unit whose size is not 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string !=) (number 800 en.square_feet)))
+
+  )
+)
+(example
+  (utterance "most expensive housing")
+  (original "housing unit that has the largest monthly rent")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent))))
+
+  )
+)
+(example
+  (utterance "which housing unit is available for a rent of 1500 pr 2000 dollars per month")
+  (original "housing unit whose monthly rent is at most 1500 dollars or 2000 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 1500 en.dollar) (number 2000 en.dollar)))))
+
+  )
+)
+(example
+  (utterance "apartments bigger than 800 square feet")
+  (original "housing unit whose size is larger than 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (number 800 en.square_feet))))
+
+  )
+)
+(example
+  (utterance "earliest posted housing")
+  (original "housing unit that has the smallest posting date")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string min) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string posting_date))))
+
+  )
+)
+(example
+  (utterance "find housing units of the type apartment or condo")
+  (original "housing unit whose housing type is apartment or condo")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.housing.apartment en.housing.condo)))
+
+  )
+)
+(example
+  (utterance "which nearby area has a housing unit of 800 square feet by area")
+  (original "neighborhood that is neighborhood of housing unit whose size is 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string =) (number 800 en.square_feet))))
+
+  )
+)
+(example
+  (utterance "neighborhoods that do not contain 123 sesame street")
+  (original "neighborhood that is not neighborhood of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string !=) en.housing_unit.123_sesame_street))
+
+  )
+)
+(example
+  (utterance "which housing unit was posted after the posting date of 123 sesame street")
+  (original "housing unit whose posting date is larger than posting date of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string posting_date)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string posting_date)))))
+
+  )
+)
+(example
+  (utterance "what is the smallest housing")
+  (original "housing unit that has the smallest size")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string min) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size))))
+
+  )
+)
+(example
+  (utterance "what housing has the same posting date as those in 123 sesame street")
+  (original "housing unit whose posting date is at least posting date of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string posting_date)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string posting_date)))))
+
+  )
+)
+(example
+  (utterance "which housing unit with an area of 800 square feet permits  cats and dogs inside it")
+  (original "housing unit that allows cats and whose size is 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_cats)) (string size) (string =) (number 800 en.square_feet)))
+
+  )
+)
+(example
+  (utterance "what housing units are in midtown west")
+  (original "housing unit whose neighborhood is midtown west")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string =) en.neighborhood.midtown_west))
+
+  )
+)
+(example
+  (utterance "units with the most neighborhoods")
+  (original "housing unit that has the most number of neighborhood")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string max) (string neighborhood)))
+
+  )
+)
+(example
+  (utterance "housing with 1500 dollar rent that was posted on january 2")
+  (original "housing unit whose posting date is jan 2 and whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (date 2015 1 2)) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "what is the total monthly rent")
+  (original "total monthly rent of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.aggregate (string sum) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent))))
+
+  )
+)
+(example
+  (utterance "neighborhoods in 123 sesame street or 900 mission ave")
+  (original "neighborhood that is neighborhood of 123 sesame street or 900 mission ave")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.housing_unit.123_sesame_street en.housing_unit.900_mission_ave)))
+
+  )
+)
+(example
+  (utterance "unit with same rent as 123 sesame street")
+  (original "housing unit whose monthly rent is monthly rent of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string rent))))
+
+  )
+)
+(example
+  (utterance "what neighborhood has two or less housing units")
+  (original "neighborhood that is neighborhood of at most two housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string <=) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "apartments between 800 and 1000 square feet")
+  (original "housing unit whose size is at least 800 square feet or 1000 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 800 en.square_feet) (number 1000 en.square_feet)))))
+
+  )
+)
+(example
+  (utterance "a neighborhood with twohouse units")
+  (original "neighborhood that is neighborhood of two housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "apartments with the least amount of units")
+  (original "housing type that is housing type of the least number of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (string min) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "what housing is posted either jan 2nd or feb 3rd")
+  (original "housing unit whose posting date is jan 2 or feb 3")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2015 1 2) (date 2015 2 3))))
+
+  )
+)
+(example
+  (utterance "what is the neighborhood area of that apartment")
+  (original "neighborhood that is neighborhood of housing unit whose housing type is apartment")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) en.housing.apartment)))
+
+  )
+)
+(example
+  (utterance "housing in the same neighborhood at 123 sesame street")
+  (original "housing unit whose neighborhood is neighborhood that is neighborhood of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) en.housing_unit.123_sesame_street)))
+
+  )
+)
+(example
+  (utterance "housing that is cheaper than 123 sesame street")
+  (original "housing unit whose monthly rent is smaller than monthly rent of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string rent)))))
+
+  )
+)
+(example
+  (utterance "find housing units with rent as 1500 dollars per month")
+  (original "housing unit whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "housing with monthly rent of 1500 dollars that was posted on january 2")
+  (original "housing unit whose monthly rent is 1500 dollars and whose posting date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar)) (string posting_date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "any units costing more than 1500 a month")
+  (original "housing unit whose monthly rent is larger than 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string rent)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (number 1500 en.dollar))))
+
+  )
+)
+(example
+  (utterance "which neighborhoods have housing with monthly rent of 1500 dollars")
+  (original "neighborhood that is neighborhood of housing unit whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string =) (number 1500 en.dollar))))
+
+  )
+)
+(example
+  (utterance "what is the housing unit number")
+  (original "number of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "looking for a pet friendly unit")
+  (original "housing unit that allows cats and that allows dogs")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_cats)) (string allows_dogs)))
+
+  )
+)
+(example
+  (utterance "apartments posted after january 2")
+  (original "housing unit whose posting date is not jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string !=) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "housing unit whose monthly rent is not 1500 dollars")
+  (original "housing unit whose monthly rent is not 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string rent) (string !=) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "housing unit posted at the latest january 2 or february 3")
+  (original "housing unit whose posting date is at most jan 2 or feb 3")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string posting_date)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2015 1 2) (date 2015 2 3)))))
+
+  )
+)
+(example
+  (utterance "which housing unit has less than 800 square feet")
+  (original "housing unit whose size is not 800 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string !=) (number 800 en.square_feet)))
+
+  )
+)
+(example
+  (utterance "what housing unit is in over two neighborhoods")
+  (original "housing unit that has more than two neighborhood")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string >) (number 2)))
+
+  )
+)
+(example
+  (utterance "housing that allows cats posted on january 2")
+  (original "housing unit that allows cats and whose posting date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_cats)) (string posting_date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "looking for a 2 family house")
+  (original "housing type that is housing type of at least two housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string housing_type)) (string >=) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "what housing units that are at least the size of 123 sesame street")
+  (original "housing unit whose size is at least size of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string size)))))
+
+  )
+)
+(example
+  (utterance "what 800 square foot housing posted jan 2nd")
+  (original "housing unit whose size is 800 square feet and whose posting date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size) (string =) (number 800 en.square_feet)) (string posting_date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "housing that is 1500month and cats are allowed")
+  (original "housing unit that allows cats and whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string allows_cats)) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "the neighborhood of apartment 123 sesame street")
+  (original "neighborhood that is neighborhood of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (string =) en.housing_unit.123_sesame_street))
+
+  )
+)
+(example
+  (utterance "apartment that is below 1000 or 800 square feet")
+  (original "housing unit whose size is smaller than 800 square feet or 1000 square feet")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string size)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 800 en.square_feet) (number 1000 en.square_feet)))))
+
+  )
+)
+(example
+  (utterance "find housing units with the same posting date as 123 sesame street")
+  (original "housing unit whose posting date is posting date of 123 sesame street")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string posting_date) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.housing_unit.123_sesame_street (string posting_date))))
+
+  )
+)
+(example
+  (utterance "housing unit which is an apartment with a monthly rent of 1500 dollars")
+  (original "housing unit whose housing type is apartment and whose monthly rent is 1500 dollars")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) en.housing.apartment) (string rent) (string =) (number 1500 en.dollar)))
+
+  )
+)
+(example
+  (utterance "housing unit with private bath as well as private room")
+  (original "housing unit that has a private bath and that has a private room")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string has_private_bath)) (string has_private_room)))
+
+  )
+)
+(example
+  (utterance "apartment that allows cats")
+  (original "housing unit whose housing type is apartment and that allows cats")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string housing_type) (string =) en.housing.apartment) (string allows_cats)))
+
+  )
+)
+(example
+  (utterance "private bath in midtown west")
+  (original "housing unit whose neighborhood is midtown west and that has a private bath")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string neighborhood) (string =) en.neighborhood.midtown_west) (string has_private_bath)))
+
+  )
+)
+(example
+  (utterance "find the neighborhood that has the least number of housing units")
+  (original "neighborhood that is neighborhood of the least number of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.neighborhood) (string !type)) (string min) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string neighborhood)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type))))
+
+  )
+)
+(example
+  (utterance "apartments with the most neighborhoods around it")
+  (original "housing unit that has the most number of neighborhood")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string max) (string neighborhood)))
+
+  )
+)
+(example
+  (utterance "what is the size of the apartment")
+  (original "total size of housing unit")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.aggregate (string sum) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.housing_unit) (string !type)) (string size))))
+
+  )
+)

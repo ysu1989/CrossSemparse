@@ -1,0 +1,168 @@
+meeting whose end time is larger than 10am or 3pm
+meeting that is important and whose length is three hours
+meeting whose length is smaller than three hours
+meeting whose start time is at most end time of weekly standup
+meeting that has the largest length
+meeting whose attendee is not alice
+meeting whose date is jan 2 and whose length is three hours
+person that is attendee of the most number of meeting
+meeting whose date is at least jan 2 or jan 3
+meeting whose length is three hours and whose start time is 10am
+meeting whose start time is 10am and whose location is greenberg cafe
+meeting whose date is jan 2 and whose date is jan 2
+meeting whose length is larger than length of weekly standup
+meeting whose date is larger than jan 2 or jan 3
+meeting whose date is at most jan 2 or jan 3
+meeting whose length is at most three hours or one hour
+meeting whose end time is at most 10am
+meeting that is important and whose start time is 10am
+meeting that has the largest length
+meeting whose end time is at most 10am or 3pm
+meeting whose start time is at least end time of weekly standup
+location that is location of weekly standup
+person that is attendee of weekly standup or annual review
+meeting that has the largest length
+meeting whose location is greenberg cafe and whose location is greenberg cafe
+meeting whose start time is end time of weekly standup
+meeting whose location is greenberg cafe and whose end time is 10am
+meeting whose date is jan 2 and whose date is jan 2
+meeting whose end time is not 10am
+meeting whose end time is at most 10am
+meeting whose start time is smaller than 10am
+meeting whose start time is smaller than end time of weekly standup
+meeting whose length is three hours and whose date is jan 2
+person that is attendee of meeting whose date is jan 2
+meeting whose start time is at least 10am
+location that is location of more than two meeting
+meeting whose date is jan 2 and whose location is greenberg cafe
+meeting that is important and whose length is three hours
+location that is location of meeting whose end time is 10am
+meeting that has the largest end time
+person that is attendee of meeting whose start time is 10am
+meeting whose end time is larger than 10am
+meeting whose attendee is alice and whose start time is 10am
+meeting whose end time is end time of weekly standup
+meeting whose length is three hours and whose location is greenberg cafe
+meeting that has the least number of attendee
+meeting whose end time is smaller than 10am or 3pm
+meeting whose start time is 10am or 3pm
+meeting whose location is greenberg cafe and whose attendee is alice
+meeting whose length is at most three hours
+location that is location of meeting whose length is three hours
+meeting whose date is jan 2 and whose attendee is alice
+meeting whose start time is 10am
+meeting whose attendee is alice and whose location is greenberg cafe
+meeting whose date is at least jan 2 or jan 3
+meeting whose end time is 10am or 3pm
+meeting that is important and whose attendee is alice
+meeting whose location is greenberg cafe and that is important
+end time of weekly standup
+meeting that has at most two location
+meeting whose start time is at most 10am
+meeting whose location is greenberg cafe and whose end time is 10am
+location that is location of meeting whose location is greenberg cafe
+location that is location of meeting whose date is jan 2
+meeting whose date is jan 2 and whose length is three hours
+meeting whose date is jan 2 and that is important
+meeting whose attendee is alice and whose location is greenberg cafe
+meeting whose date is larger than jan 2
+person that is attendee of the least number of meeting
+meeting that has the smallest date
+meeting whose end time is smaller than 10am
+meeting whose date is date of weekly standup
+meeting whose location is greenberg cafe and whose location is greenberg cafe
+meeting whose length is smaller than three hours
+meeting that has the most number of attendee
+meeting whose start time is start time of weekly standup
+meeting whose start time is 10am and whose length is three hours
+location that is location of weekly standup or annual review
+meeting whose end time is 10am and whose attendee is alice
+meeting whose start time is larger than 10am
+meeting whose attendee is not alice
+meeting that has the least number of location
+meeting whose start time is larger than end time of weekly standup
+meeting whose location is greenberg cafe and whose end time is 10am
+meeting whose location is not greenberg cafe
+meeting whose length is three hours and whose attendee is alice
+meeting whose date is at least jan 2
+location that is location of meeting whose end time is 10am
+meeting whose end time is at least end time of weekly standup
+meeting whose location is greenberg cafe or central office
+greenberg cafe or central office
+average length of meeting
+person that is attendee of meeting whose length is three hours
+meeting that is important
+meeting whose start time is at least start time of weekly standup
+meeting whose date is jan 2 and whose end time is 10am
+meeting whose start time is smaller than 10am or 3pm
+meeting whose location is greenberg cafe and whose end time is 10am
+meeting whose start time is at least 10am or 3pm
+person that is attendee of meeting that is important
+number of location
+meeting whose date is smaller than jan 2
+date of weekly standup
+meeting whose date is jan 2 and whose end time is 10am
+meeting whose date is jan 2 and whose date is jan 2
+meeting that is important and whose location is greenberg cafe
+meeting whose start time is start time of weekly standup
+meeting whose location is location of weekly standup
+meeting whose length is not three hours
+meeting whose length is three hours or one hour
+meeting whose attendee is alice and whose date is jan 2
+meeting whose attendee is alice and that is important
+meeting whose length is larger than length of weekly standup
+meeting that is important and whose length is three hours
+meeting that has the largest start time
+meeting that is important and whose end time is 10am
+meeting whose end time is at least end time of weekly standup
+meeting whose attendee is alice and whose date is jan 2
+meeting whose end time is start time of weekly standup
+meeting that has less than two location
+meeting whose end time is 10am and that is important
+meeting whose date is at least jan 2 or jan 3
+meeting whose end time is at most end time of weekly standup
+meeting whose end time is smaller than 10am
+meeting that has the most number of attendee
+meeting whose length is three hours or one hour
+meeting whose start time is 10am and whose end time is 10am
+meeting whose end time is smaller than end time of weekly standup
+meeting that has the most number of attendee
+person that is attendee of meeting whose end time is 10am
+meeting whose date is jan 2 or jan 3
+meeting whose length is three hours and whose start time is 10am
+meeting whose attendee is alice or bob
+meeting whose date is at most jan 2 or jan 3
+attendee of weekly standup
+meeting whose start time is at least 10am
+meeting whose end time is larger than 10am
+meeting that has less than two location
+attendee of weekly standup
+person that is attendee of at least two meeting
+meeting whose start time is at least end time of weekly standup
+meeting that has at most two attendee
+meeting whose end time is smaller than 10am or 3pm
+meeting that has at most two location
+meeting whose length is larger than three hours or one hour
+meeting that has at least two attendee
+meeting whose start time is 10am and whose length is three hours
+meeting that has the least number of location
+meeting whose location is greenberg cafe and whose length is three hours
+person that is attendee of weekly standup
+meeting whose date is jan 2 and whose length is three hours
+meeting whose start time is 10am and that is important
+meeting whose end time is at least start time of weekly standup
+meeting whose date is larger than date of weekly standup
+meeting whose end time is at least 10am
+meeting whose start time is 10am and whose end time is 10am
+meeting whose date is at most jan 2
+person that is attendee of more than two meeting
+meeting whose location is greenberg cafe and whose end time is 10am
+meeting whose end time is at least 10am
+meeting whose start time is 10am and that is important
+meeting whose attendee is alice
+meeting whose date is at least date of weekly standup
+location that is location of meeting whose start time is 10am
+meeting whose length is smaller than three hours or one hour
+meeting that has less than two location
+meeting whose date is smaller than date of weekly standup
+meeting whose attendee is alice and whose length is three hours

@@ -1,0 +1,930 @@
+original - article whose venue is annals of statistics
+  para - find an article in the annals of statistics venue, worker - A32CIL5S21Y4MR
+  para - what are some articles about annals of statistics, worker - A4WSGXF5IARBH
+original - venue that is venue of article whose venue is annals of statistics
+  para - name articles in annals of statistics, worker - A4WSGXF5IARBH
+  para - publications that contains articles that are also published in annals of statistics, worker - A11GZNNVLEWRGF
+  para - find a venue of an article in annals of statistics, worker - A32CIL5S21Y4MR
+original - article whose publication date is 2004 and whose publication date is 2004
+  para - article that is published in 2004, worker - A3PRT2O0B4B5E7
+  para - what article was published in 2004, worker - A32CIL5S21Y4MR
+  para - articles published in 2004, worker - A11GZNNVLEWRGF
+original - person that is author of article whose venue is annals of statistics
+  para - name the author whose article has its venue as annals of statistics, worker - AD5IKFAK8KN4P
+  para - who is the author of whose venue is annals of statistics, worker - A3DTN2OMF6DUSI
+  para - find an author of an article in annals of statistics, worker - A32CIL5S21Y4MR
+  para - authors of articles published in annals of statistics, worker - A11GZNNVLEWRGF
+  para - what author wrote about annals of statistics, worker - A4WSGXF5IARBH
+original - number of venue
+  para - number of publications, worker - A3HEEJU34TVU1
+  para - how many journals are there, worker - A11GZNNVLEWRGF
+  para - what is the venues number, worker - A32CIL5S21Y4MR
+original - article whose author is efron and whose publication date is 2004
+  para - what article was written by efron and has a publication date of 2004, worker - A4WSGXF5IARBH
+  para - articles by efron published in 2004, worker - A11GZNNVLEWRGF
+  para - article published by efron in 2004, worker - A3HEEJU34TVU1
+  para - article whose author is efron and whose publication date is 2004, worker - A2J6N5HD2EBCM6
+  para - which article was published in 2004 authored by efron, worker - A1ULLPIT6EU99K
+original - article that has the largest publication date
+  para - articles published most recently, worker - A2R085B34P2LYS
+  para - an article with the latest publication date, worker - A4WSGXF5IARBH
+  para - article that has the largest publication date, worker - A2J6N5HD2EBCM6
+  para - article published most recently, worker - A11GZNNVLEWRGF
+  para - what is the newest published article, worker - A32CIL5S21Y4MR
+  para - most recently published article, worker - A3HEEJU34TVU1
+original - person that is author of the most number of article
+  para - which author has written the most articles, worker - A11GZNNVLEWRGF
+  para - what author has written the most articles, worker - A4WSGXF5IARBH
+  para - who wrote the most articles, worker - A2R085B34P2LYS
+  para - author with the most number of articles, worker - AD5IKFAK8KN4P
+  para - who wrote the most articles, worker - A32CIL5S21Y4MR
+original - article whose author is not efron
+  para - articles not authored by efron, worker - AD5IKFAK8KN4P
+  para - find any article that efron didnt write, worker - A32CIL5S21Y4MR
+  para - name some articles that are not written by efron, worker - A4WSGXF5IARBH
+  para - articles not written by efron, worker - A3HEEJU34TVU1
+  para - articles not written by efron, worker - A11GZNNVLEWRGF
+original - article whose publication date is smaller than 2004
+  para - articles published before 2004, worker - A11GZNNVLEWRGF
+  para - articles published before 2004, worker - AD5IKFAK8KN4P
+  para - what article has a publication date earlier than 2004, worker - A4WSGXF5IARBH
+  para - find an article published before 2004, worker - A32CIL5S21Y4MR
+  para - articles published before 2004, worker - A2R085B34P2LYS
+original - venue that is venue of article that multivariate data analysis cites
+  para - venues of articles cited by multivariate data analysis, worker - A2R085B34P2LYS
+  para - what is the venue of an article cited by multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - name a publication containing an article about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - venue of article that cites multivariate data analysis, worker - A1ULLPIT6EU99K
+  para - what venue contains the article about city multivariate data analysis, worker - AZE084MMZVEYT
+  para - publisher of article citing multivariate data analysis, worker - A2A4LHPXF2E2GS
+  para - what is the venue of an article that cites multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - venue of article that multivariate data analysis cites, worker - A1ULLPIT6EU99K
+original - article whose publication date is smaller than publication date of multivariate data analysis
+  para - articles published before multivariate data analysis, worker - A2R085B34P2LYS
+  para - what article was published before multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - article whose publication date is smaller than publication date of multivariate data analysis, worker - A2J6N5HD2EBCM6
+  para - articles published before multivariate data analysis, worker - A11GZNNVLEWRGF
+  para - article published before multivariate data analysis, worker - AD5IKFAK8KN4P
+  para - what article was written before the publication date of articles about multivariate data analysis, worker - A4WSGXF5IARBH
+original - article that won an award
+  para - articles that have won an award, worker - A2R085B34P2LYS
+  para - award winning article, worker - A3HEEJU34TVU1
+  para - what article won an award, worker - A4WSGXF5IARBH
+original - article that multivariate data analysis cites and whose publication date is 2004
+  para - an article that cites multivariate data analysis published in 2004, worker - A3GE7CHWBLELVD
+  para - what article about multivariate data analysis was published in 2004, worker - A2RRYVYUDNK2GB
+  para - article citing multivariate data analysis published in 2004, worker - A2A4LHPXF2E2GS
+  para - article cited by multivariate data analysis and published in 2004, worker - A1ULLPIT6EU99K
+  para - articles cited by multivariate data analysis published in 2004, worker - A2R085B34P2LYS
+  para - article that cites multivariate data analysis and whose publication date is 2004, worker - A1ULLPIT6EU99K
+  para - name an article from 2004 about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - what article published in 2004 was cited by multivariate data analysis, worker - A32CIL5S21Y4MR
+original - article that has the smallest publication date
+  para - article that has the smallest publication date, worker - A2J6N5HD2EBCM6
+  para - what is the earliest published article, worker - A32CIL5S21Y4MR
+  para - what article has the oldest publication date, worker - A4WSGXF5IARBH
+  para - what is the article with the oldest publication date, worker - A11GZNNVLEWRGF
+  para - earliest published article, worker - A3HEEJU34TVU1
+  para - first published article, worker - AD5IKFAK8KN4P
+original - venue that is venue of the most number of article
+  para - what venue has the most articles, worker - A32CIL5S21Y4MR
+  para - publication that has included the most articles, worker - A11GZNNVLEWRGF
+  para - venues that have published the most articles, worker - A2R085B34P2LYS
+  para - what venue is about the most number of articles, worker - A4WSGXF5IARBH
+  para - venue in most of the articles, worker - AD5IKFAK8KN4P
+original - article that has at least two author
+  para - articles that have a minimum of two authors, worker - AD5IKFAK8KN4P
+  para - what article has at least two authors, worker - A4WSGXF5IARBH
+  para - find an article with two or more authors, worker - A32CIL5S21Y4MR
+  para - articles written by at least two authors, worker - A2R085B34P2LYS
+  para - articles with two or more authors, worker - A3HEEJU34TVU1
+original - venue that is venue of multivariate data analysis and that is venue of multivariate data analysis
+  para - what is the venue of multivariate data analysis, worker - AD5IKFAK8KN4P
+  para - what publications contain multivariate data analysis, worker - A11GZNNVLEWRGF
+  para - what venue can you find multivariate data analysis in, worker - A32CIL5S21Y4MR
+original - person that is author of article whose author is efron
+  para - who is the other author for the article written by efron, worker - AD5IKFAK8KN4P
+  para - find an additional author to an efron article, worker - A32CIL5S21Y4MR
+  para - what articles are written by efron, worker - A4WSGXF5IARBH
+  para - who has coauthored articles with efron, worker - A11GZNNVLEWRGF
+original - article that the most number of article cites
+  para - what article was cited the most, worker - A32CIL5S21Y4MR
+  para - which article is mentioned in most number of articles, worker - A1ULLPIT6EU99K
+  para - which article is cited by the most number of articles, worker - A11GZNNVLEWRGF
+  para - what article has the most number of articles cited, worker - A4WSGXF5IARBH
+  para - articles cited by the most articles, worker - A2R085B34P2LYS
+original - article that multivariate data analysis cites and whose author is efron
+  para - article that citesmultivariate data analysis by author efron, worker - A1ULLPIT6EU99K
+  para - what article by efron cites multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - article written by efron that is cited by multivariate data analysis, worker - A1ULLPIT6EU99K
+  para - who is the author of the article that cites multivariate data analysis, worker - A2TEWO3WJ5YKGG
+  para - which efron article cites multivariate data analysis, worker - A3GNQDFPZALU92
+  para - article citing multivariate data analysis by efron, worker - A2A4LHPXF2E2GS
+  para - articles cited by multivariate data analysis and written by efron, worker - A2R085B34P2LYS
+  para - articles citing multivariate data analysis written by efron, worker - A2R085B34P2LYS
+  para - what efron article is cited in multivariate data analysis, worker - A32CIL5S21Y4MR
+original - article that at least two article cites
+  para - what article is cited at least twice, worker - A32CIL5S21Y4MR
+  para - article that at least two article cites, worker - A2J6N5HD2EBCM6
+  para - articles that mention two or more cities, worker - AD5IKFAK8KN4P
+  para - articles that cites at least two article, worker - A3HEEJU34TVU1
+  para - what articles cites two other articles, worker - A4WSGXF5IARBH
+  para - articles cited by two or more articles, worker - A2R085B34P2LYS
+original - venue that is venue of two article
+  para - publication that two articles are published in, worker - A3GE7CHWBLELVD
+  para - what venue has two articles, worker - A32CIL5S21Y4MR
+  para - venue of two article, worker - A1ULLPIT6EU99K
+  para - which publication contains two articles, worker - A2RRYVYUDNK2GB
+  para - what is a venue of two articles, worker - A2RRYVYUDNK2GB
+  para - venue with two article published, worker - ALSHA3DAWJWRO
+  para - venue of two articles, worker - A2A4LHPXF2E2GS
+  para - venue of two articles, worker - A1ULLPIT6EU99K
+  para - venues of two articles, worker - A2R085B34P2LYS
+original - person that is author of at least two article
+  para - which authors have written two or more articles, worker - A11GZNNVLEWRGF
+  para - what author wrote two or more articles, worker - A32CIL5S21Y4MR
+  para - author who have written two or more articles, worker - AD5IKFAK8KN4P
+  para - name an author of at least two articles, worker - A4WSGXF5IARBH
+  para - which author has published at least two articles, worker - A1ULLPIT6EU99K
+original - venue that is venue of less than two article
+  para - what venue has under two articles, worker - A3GNQDFPZALU92
+  para - what is a venue with fewer than two articles, worker - A2RRYVYUDNK2GB
+  para - venues with less than two articles, worker - A2R085B34P2LYS
+  para - publisher of only one article, worker - A2A4LHPXF2E2GS
+  para - what venue has less than two articles, worker - A32CIL5S21Y4MR
+  para - what venue has fewer than two articles, worker - AZE084MMZVEYT
+  para - venue of only one article, worker - A1ULLPIT6EU99K
+  para - which venue is of less than two article, worker - A1ULLPIT6EU99K
+  para - venues of fewer than two articles, worker - A2R085B34P2LYS
+  para - name a publication with fewer than two articles, worker - A2RRYVYUDNK2GB
+original - person that is author of at most two article
+  para - which author wrote two articles maximum, worker - A3GNQDFPZALU92
+  para - name a person who has written no more than two articles, worker - A2RRYVYUDNK2GB
+  para - writers of two or fewer articles, worker - A2R085B34P2LYS
+  para - author of one or two articles, worker - A2A4LHPXF2E2GS
+  para - author with maximum two article, worker - ALSHA3DAWJWRO
+  para - name someone who has written no more than two articles, worker - A2RRYVYUDNK2GB
+  para - author of at most two articles, worker - A1ULLPIT6EU99K
+  para - author with at most two article, worker - A1ULLPIT6EU99K
+  para - writers of two articles at most, worker - A2R085B34P2LYS
+  para - who authored two or fewer articles, worker - A32CIL5S21Y4MR
+original - article whose publication date is 2004 and whose author is efron
+  para - article written by efron and published in 2004, worker - AD5IKFAK8KN4P
+  para - article whose publication date is 2004 and whose author is efron, worker - A2J6N5HD2EBCM6
+  para - articles written by efron published in 2004, worker - A11GZNNVLEWRGF
+  para - efron articles published in 2004, worker - A2R085B34P2LYS
+  para - what article written by efron has a publication date of 2004, worker - A4WSGXF5IARBH
+original - article whose publication date is at least 2004 or 2010
+  para - find an article published in 2004 or later, worker - A32CIL5S21Y4MR
+  para - articles published after 2004 or after 2010, worker - A11GZNNVLEWRGF
+  para - articles published from 2004 to 2010, worker - AD5IKFAK8KN4P
+original - article whose author is efron
+  para - articles by efron, worker - A11GZNNVLEWRGF
+  para - which articles author is efron, worker - A1ULLPIT6EU99K
+  para - what article is written by efron, worker - A4WSGXF5IARBH
+  para - all articles by efron, worker - A1V5OMRC87TDXW
+  para - find an efron article, worker - A32CIL5S21Y4MR
+original - article that not cites multivariate data analysis
+  para - articles that do not cite multivariate data analysis, worker - A11GZNNVLEWRGF
+  para - what article does not cite multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - articles that do not cite multivariate data analysis, worker - A2R085B34P2LYS
+  para - article that does not reference multivariate data analysis, worker - AD5IKFAK8KN4P
+  para - what article doesnt cite multivariate data analysis, worker - A4WSGXF5IARBH
+original - article whose publication date is 2004 and whose venue is annals of statistics
+  para - article with publication date as 2004 and has the venue as annals of statistics, worker - AD5IKFAK8KN4P
+  para - which article was published in 2004 at annals of statistics, worker - A1ULLPIT6EU99K
+  para - what article about annals and statistics has a publication ate of 2004, worker - A4WSGXF5IARBH
+  para - find an article published in 2004 in annals of statistics, worker - A32CIL5S21Y4MR
+original - article that more than two article cites
+  para - article cited more than twice, worker - A32CIL5S21Y4MR
+  para - which articles cite more than two articles, worker - A11GZNNVLEWRGF
+  para - articles that cite more than two article, worker - A3HEEJU34TVU1
+  para - article that cites three or more articles, worker - AD5IKFAK8KN4P
+  para - what article cites more than two other articles, worker - A4WSGXF5IARBH
+original - article that has at most two venue
+  para - articles published in two or fewer venues, worker - A2R085B34P2LYS
+  para - articles found in at most two publications, worker - A11GZNNVLEWRGF
+  para - article that has maximum two venues, worker - A1ULLPIT6EU99K
+  para - find an article with no more than two venues, worker - A32CIL5S21Y4MR
+original - article whose publication date is 2004 or 2010
+  para - find an article published in either 2004 or 2010, worker - A32CIL5S21Y4MR
+  para - articles published in 2004 or 2010, worker - A11GZNNVLEWRGF
+  para - articles with their publication dates between 2004 and 2010, worker - AD5IKFAK8KN4P
+  para - article published in 2004 or 2010, worker - A3HEEJU34TVU1
+  para - what are some articles with publications dates between 2004 and 2010, worker - A4WSGXF5IARBH
+original - venue that is venue of more than two article
+  para - what is the venue that is mentioned in more than two articles, worker - AD5IKFAK8KN4P
+  para - which venue was venue for more than two articles publication, worker - A1ULLPIT6EU99K
+  para - publications that have contained more than two articles, worker - A11GZNNVLEWRGF
+  para - find a venue with more than two articles in it, worker - A32CIL5S21Y4MR
+  para - what venue is of more than two articles, worker - A4WSGXF5IARBH
+original - article that has the least number of author
+  para - which article was written by minimum number of authors, worker - A1ULLPIT6EU99K
+  para - article with the fewest authors, worker - A3HEEJU34TVU1
+  para - what article has the least number of authors, worker - A4WSGXF5IARBH
+  para - articles with the least number of authors, worker - A11GZNNVLEWRGF
+  para - article that has the least number of author, worker - A2J6N5HD2EBCM6
+  para - what article has the least authors, worker - A32CIL5S21Y4MR
+original - article whose publication date is 2004 and that cites multivariate data analysis
+  para - name an article published in 2004 about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - what articles publication date is in 2004 and cites multivariate data analysis, worker - A4WSGXF5IARBH
+  para - article published in 2004 and that cites multivariate data analysis, worker - A1ULLPIT6EU99K
+  para - which article  that cites multivariate data analysis was published on 2004 , worker - A2TEWO3WJ5YKGG
+  para - articles published in 2004 and citing multivariate data analysis, worker - A2R085B34P2LYS
+  para - what article from 2004 cites multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - what 2004 article cites multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - articles published in 2004 citing multivariate data analysis, worker - A2R085B34P2LYS
+original - article that cites article whose venue is annals of statistics
+  para - what article cites other articles about annals of statistics, worker - A4WSGXF5IARBH
+  para - any article that cites another article published in annals of statistics, worker - A1ULLPIT6EU99K
+  para - what article cites an article from annals of statistics, worker - A32CIL5S21Y4MR
+  para - article with the venue as annals of statistics, worker - AD5IKFAK8KN4P
+  para - articles that cite articles published in annals of statistics, worker - A11GZNNVLEWRGF
+original - person that is author of multivariate data analysis and that is author of multivariate data analysis
+  para - name a person who is the author of an article about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - name someone who has written an article about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - who is the author of a multivariate data analysis, worker - A27VCRNC0FEHGU
+  para - who is and author of multivariate data analysis, worker - AOCX8D08T8ZQB
+  para - who is someone who has authored articles about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - who is the author of multivariate date analysis articles, worker - A2HGRSPR50ENHL
+  para - author of multivariate data analysis, worker - A2A4LHPXF2E2GS
+  para - writer of multivariate data analysis, worker - A2R085B34P2LYS
+  para - who wrote multivariate data analysis more than once, worker - A3GNQDFPZALU92
+original - article whose venue is annals of statistics and whose publication date is 2004
+  para - articles published in annals of statistics in 2004, worker - A2R085B34P2LYS
+  para - find an article in annals of statistics that was published in 2004, worker - A32CIL5S21Y4MR
+  para - what articles are published in annals of statistics and in the year 2004, worker - A3PRT2O0B4B5E7
+  para - what article discusses annals of statistics and whose publication date was 2004, worker - A4WSGXF5IARBH
+original - article whose publication date is at most publication date of multivariate data analysis
+  para - find an article published on or before multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - articles that have a publication date close to the date of multivariate data analysis, worker - A3HEEJU34TVU1
+  para - articles published before the date of multivariate data analysis, worker - AD5IKFAK8KN4P
+  para - article whose publication date is at most publication date of multivariate data analysis, worker - A2J6N5HD2EBCM6
+  para - articles published contemporaneous to or before the multivariate data analysis, worker - A2R085B34P2LYS
+original - article whose author is efron and whose venue is annals of statistics
+  para - articles written by efron and published in the annals of statistics, worker - A2R085B34P2LYS
+  para - what article was written by efron and discusses annals of statistics, worker - A4WSGXF5IARBH
+  para - article authored by efron and has the annals of statistics as its venue, worker - AD5IKFAK8KN4P
+original - person that is author of more than two article
+  para - who has written more than two articles, worker - A11GZNNVLEWRGF
+  para - what author has written more than two articles, worker - A32CIL5S21Y4MR
+  para - writers of more than two articles, worker - A2R085B34P2LYS
+  para - what author has written more than two articles, worker - A4WSGXF5IARBH
+  para - author of more than two articles, worker - A3HEEJU34TVU1
+original - article whose publication date is larger than 2004
+  para - which article was published after 2004, worker - A1ULLPIT6EU99K
+  para - what article has a publication date greater than 2004, worker - A4WSGXF5IARBH
+  para - what article was published after 2004, worker - A32CIL5S21Y4MR
+original - article that has the most number of venue
+  para - what article was in the most venues, worker - A32CIL5S21Y4MR
+  para - what article has the most venues, worker - A4WSGXF5IARBH
+  para - article with the maximum number of venues, worker - AD5IKFAK8KN4P
+  para - articles published in the most venues, worker - A2R085B34P2LYS
+  para - article found in the most publications, worker - A11GZNNVLEWRGF
+original - article that cites multivariate data analysis
+  para - multivariate data analysis cited articles, worker - A3HEEJU34TVU1
+original - author of multivariate data analysis
+  para - who authored multivariate data analysis, worker - AD5IKFAK8KN4P
+  para - who wrote multivariate data analysis, worker - A32CIL5S21Y4MR
+original - article that cites at most two article
+  para - article that cites two or fewer articles, worker - A11GZNNVLEWRGF
+  para - articles that cities maximum two articles, worker - A1V5OMRC87TDXW
+  para - article that mentions at least two other articles, worker - A1ULLPIT6EU99K
+  para - find an article that makes two or fewer citations, worker - A32CIL5S21Y4MR
+original - article that has less than two venue
+  para - what article was in less than two venues, worker - A32CIL5S21Y4MR
+  para - articles with a venue, worker - AD5IKFAK8KN4P
+  para - article in less than two publications, worker - A3HEEJU34TVU1
+  para - what article has fewer than two venues, worker - A4WSGXF5IARBH
+  para - articles found in less than two publications, worker - A11GZNNVLEWRGF
+  para - article that has less than two venue, worker - A2J6N5HD2EBCM6
+original - article whose venue is venue of multivariate data analysis
+  para - articles published in multivariate data analysis, worker - A2R085B34P2LYS
+  para - find an article with the same venue as multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - articles published in the same publication as multivariate data analysis, worker - A11GZNNVLEWRGF
+  para - what article has a venue of multivariate data analysis, worker - A4WSGXF5IARBH
+  para - article that cites multivariate data analysis, worker - AD5IKFAK8KN4P
+original - article that article that multivariate data analysis cites cites
+  para - what is an article cited in a publication about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - what article cites an article cited in multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - an article that cites multivariate data analysis, worker - A3GE7CHWBLELVD
+original - article that cites multivariate data analysis and that cites multivariate data analysis
+  para - articles that cite multivariate data analysis, worker - A11GZNNVLEWRGF
+  para - article that cites the multivariate data analysis article, worker - A3PRT2O0B4B5E7
+  para - find an article that cites multivariate data analysis, worker - A32CIL5S21Y4MR
+original - article whose venue is not annals of statistics
+  para - what are some articles unrelated to annals of statistics, worker - A4WSGXF5IARBH
+  para - article not in annals of statistics, worker - A3HEEJU34TVU1
+  para - articles not published in annals of statistics, worker - A2R085B34P2LYS
+  para - find an article not in annals of statistics, worker - A32CIL5S21Y4MR
+  para - articles not published in the annals of statistics, worker - A11GZNNVLEWRGF
+original - article that cites less than two article
+  para - articles with less than two references, worker - AD5IKFAK8KN4P
+  para - what article sites only one other article, worker - A4WSGXF5IARBH
+  para - what article has less than two citations, worker - A32CIL5S21Y4MR
+  para - article that mentions one article, worker - A1ULLPIT6EU99K
+  para - which articles cite less than two articles, worker - A11GZNNVLEWRGF
+original - efron or lakoff
+original - annals of statistics or computational linguistics
+  para - list articles on annals of statistics or computational linguistics, worker - AD5IKFAK8KN4P
+  para - either annals of statistics or computational linguistics, worker - A1ULLPIT6EU99K
+original - article that multivariate data analysis cites and that multivariate data analysis cites
+  para - an article that multivariate data analysis cites, worker - AOCX8D08T8ZQB
+  para - articles cited by studies using multivariate data analysis, worker - ANFWGSQ8BQRZ
+  para - article that multivariate data analysis cites, worker - A1ULLPIT6EU99K
+  para - name an article citing multivariate data analysis, worker - A2RRYVYUDNK2GB
+original - article whose publication date is larger than 2004 or 2010
+  para - article published after 2004, worker - A3HEEJU34TVU1
+  para - find an article published after 2004, worker - A32CIL5S21Y4MR
+  para - articles published after 2010, worker - A11GZNNVLEWRGF
+original - article whose venue is annals of statistics or computational linguistics
+  para - what article is about a venue of annals of statistics or computational linguistics, worker - A4WSGXF5IARBH
+  para - find an article in either annals of statistics or computational linguistics, worker - A32CIL5S21Y4MR
+  para - articles published in annals of statistics or computational linguistics, worker - A11GZNNVLEWRGF
+original - article that less than two article cites
+  para - article that cites a single article, worker - AD5IKFAK8KN4P
+  para - what article cites less than two other articles, worker - A4WSGXF5IARBH
+  para - article cited by less than two articles, worker - A11GZNNVLEWRGF
+  para - what article has been cited less than twice, worker - A32CIL5S21Y4MR
+  para - articles cited by fewer than two articles, worker - A2R085B34P2LYS
+original - article that cites the least number of article
+  para - articles with fewest citations, worker - A2R085B34P2LYS
+  para - article that cites the least number of article, worker - A2J6N5HD2EBCM6
+  para - find the article with the fewest citations, worker - A32CIL5S21Y4MR
+  para - what article cites the fewest articles, worker - A4WSGXF5IARBH
+  para - article that references the least number of articles, worker - AD5IKFAK8KN4P
+  para - which article cites the fewest articles, worker - A11GZNNVLEWRGF
+original - person that is author of multivariate data analysis
+  para - who is the author of multivariate data analysis article, worker - AD5IKFAK8KN4P
+  para - who is the author of multivariate data analysis, worker - A11GZNNVLEWRGF
+original - person that is author of article whose publication date is 2004
+  para - writers who published in 2004, worker - A2R085B34P2LYS
+  para - name an author whose publication date is 2004, worker - A4WSGXF5IARBH
+  para - what author published an article in 2004, worker - A32CIL5S21Y4MR
+  para - authors of articles published in 2004, worker - A11GZNNVLEWRGF
+  para - authors who published their works in 2004, worker - AD5IKFAK8KN4P
+original - article that has more than two venue
+  para - what article has over two venues, worker - A3GNQDFPZALU92
+  para - which article was published  in more than two magazines, worker - A2TEWO3WJ5YKGG
+  para - name an article found in more than two publications, worker - A2RRYVYUDNK2GB
+  para - what article has over two venues, worker - A32CIL5S21Y4MR
+  para - article with more than two venue, worker - A1ULLPIT6EU99K
+  para - articles published in more than two venues, worker - A2R085B34P2LYS
+  para - article with more than two venues, worker - A1ULLPIT6EU99K
+  para - name an article found in more than two venues, worker - A2RRYVYUDNK2GB
+  para - articles about more than two venues, worker - A2HGRSPR50ENHL
+  para - articles with more than two venues, worker - A2R085B34P2LYS
+original - article whose author is efron and that won an award
+  para - award winning article published by efron, worker - A3HEEJU34TVU1
+  para - articles that won an award written by efron, worker - A2R085B34P2LYS
+  para - what efron article has won an award, worker - A32CIL5S21Y4MR
+  para - awardwinning articles by efron, worker - A11GZNNVLEWRGF
+  para - what article is written by efron and won an award, worker - A4WSGXF5IARBH
+original - article whose publication date is 2004 and that multivariate data analysis cites
+  para - what 2004 article was cited by multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - articles published in 2004 cited in multivariate data analysis, worker - ANFWGSQ8BQRZ
+  para - articles published in 2004 and cited by multivariate data analysis, worker - A2R085B34P2LYS
+  para - article whose publication date is 2004 and cited by multivariate data analysis, worker - A1ULLPIT6EU99K
+  para - articles published in 2004 cited by multivariate data analysis, worker - A2R085B34P2LYS
+original - article that won an award and whose venue is annals of statistics
+  para - what award winning article has annals of statistics as a venue, worker - A32CIL5S21Y4MR
+  para - what article won an award and is about annals of statistics, worker - A4WSGXF5IARBH
+  para - articles that won an award published in annals of statistics, worker - A2R085B34P2LYS
+  para - which article won an award and has its venue as annals of statistics, worker - AD5IKFAK8KN4P
+original - person that is author of article that multivariate data analysis cites
+  para - writers of articles citing multivariate data analysis, worker - A2R085B34P2LYS
+  para - name the author of an article about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - who is the author of an article cited by multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - author of article that cites multivariate data analysis, worker - A1ULLPIT6EU99K
+  para - author citing multivariate data analysis in article, worker - A2A4LHPXF2E2GS
+  para - writer of articles cited by multivariate data analysis, worker - A2R085B34P2LYS
+  para - who wrote an article about city multivariate data analysis, worker - AZE084MMZVEYT
+  para - who wrote an article citing multivariate data analysis, worker - A3GNQDFPZALU92
+  para - name an author of an article about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - author of article cited by multivariate data analysis, worker - A1ULLPIT6EU99K
+original - article that has two venue
+  para - articles published in two venues, worker - A2R085B34P2LYS
+  para - name an article found in two venues, worker - A2RRYVYUDNK2GB
+  para - find me an article that is in two venues, worker - A32CIL5S21Y4MR
+  para - articles with two venues, worker - A2R085B34P2LYS
+  para - what is an article that has two venues, worker - AOCX8D08T8ZQB
+  para - article with two venues, worker - A1ULLPIT6EU99K
+  para - name an article found in two publications, worker - A2RRYVYUDNK2GB
+  para - what article was in two venues, worker - A3GNQDFPZALU92
+  para - articles published in multiple places, worker - ANFWGSQ8BQRZ
+  para - article with two publishers, worker - A2A4LHPXF2E2GS
+original - number of article
+  para - what is the number of the article, worker - A32CIL5S21Y4MR
+  para - what is the date of the article, worker - A3PRT2O0B4B5E7
+original - publication date of multivariate data analysis
+  para - what is the publication date of a multivariate data analysis article, worker - A4WSGXF5IARBH
+  para - what is the date of publication  for multivariate data analysis, worker - AD5IKFAK8KN4P
+  para - when was multivariate data analysis published, worker - A32CIL5S21Y4MR
+  para - when was multivariate data analysis published, worker - A2R085B34P2LYS
+  para - publication date of multivariate data analysis, worker - A2J6N5HD2EBCM6
+  para - when was multivariate data analysis published, worker - A11GZNNVLEWRGF
+original - venue that is venue of article that cites multivariate data analysis
+  para - venue that is venue of article that cites multivariate data analysis, worker - A2J6N5HD2EBCM6
+  para - what venues cite multivariate data analysis, worker - A2R085B34P2LYS
+  para - publications containing articles that cite multivariate data analysis, worker - A11GZNNVLEWRGF
+  para - what article is about multivariate data analysis, worker - A4WSGXF5IARBH
+original - article that won an award and whose publication date is 2004
+  para - articles publised in 2004 that won an award, worker - A3DTN2OMF6DUSI
+  para - articles published in 2004 that have won an award, worker - A2R085B34P2LYS
+  para - what article won an award and has a publication date of 2004, worker - A4WSGXF5IARBH
+original - article that article whose author is efron cites
+  para - the article cites that the author is efron, worker - A2TEWO3WJ5YKGG
+  para - name an article by the author efron, worker - A2RRYVYUDNK2GB
+  para - articles cited by efron, worker - A2R085B34P2LYS
+  para - articles cited in articles by efron, worker - ANFWGSQ8BQRZ
+  para - what article is cited by an efron article, worker - A32CIL5S21Y4MR
+  para - article cited by article written by efron, worker - A1ULLPIT6EU99K
+  para - name an article by efron, worker - A2RRYVYUDNK2GB
+  para - article whose author is efron, worker - A1ULLPIT6EU99K
+  para - articles written by efron cites, worker - A2HGRSPR50ENHL
+original - article that cites multivariate data analysis and whose publication date is 2004
+  para - article published in 2004 that cites multivariate data analysis, worker - A2A4LHPXF2E2GS
+  para - articles that cite multivariate data analysis published in 2004, worker - A2R085B34P2LYS
+  para - article that cites multivariate data analysis that is published in 2004, worker - A1ULLPIT6EU99K
+  para - name an article about multivariate data analysis published in 2004, worker - A2RRYVYUDNK2GB
+  para - articles published in 2004 that cite multivariate data analysis, worker - ANFWGSQ8BQRZ
+  para - what article published in 2004 cited multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - what multivariate data analysis city articles were published after 2004, worker - A2HGRSPR50ENHL
+original - article that article that won an award cites
+  para - articles cited by awardwinning articles, worker - ANFWGSQ8BQRZ
+  para - article cited by award winning article, worker - A1ULLPIT6EU99K
+  para - article citing awardwinning article, worker - A2A4LHPXF2E2GS
+  para - articles cited by award winning articles, worker - A2R085B34P2LYS
+  para - name an article that won an award, worker - A2RRYVYUDNK2GB
+  para - what article was cited by the award winning article, worker - A32CIL5S21Y4MR
+  para - an article that won award cites another article, worker - A38ZM1QKQ4C4QR
+  para - which article cites an awardwinning article, worker - A3GNQDFPZALU92
+original - article that multivariate data analysis cites and that cites multivariate data analysis
+  para - what article exchanged citations with multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - what are the articles that multivariate data analysis cites, worker - ALSHA3DAWJWRO
+  para - articles that cite multivariate data analysis and are cited in multivariate data analysis, worker - ANFWGSQ8BQRZ
+  para - article that cites multivariate data analysis, worker - A1ULLPIT6EU99K
+original - article that has at most two author
+  para - find an article with no more than two authors, worker - A32CIL5S21Y4MR
+  para - what article has two authors or less, worker - A4WSGXF5IARBH
+  para - articles written by two authors at most, worker - A2R085B34P2LYS
+  para - article that has at most two author, worker - A2J6N5HD2EBCM6
+  para - articles written by one or two authors, worker - A3HEEJU34TVU1
+  para - articles with one or two authors, worker - AD5IKFAK8KN4P
+original - article that article that cites multivariate data analysis cites
+  para - article that cites multivariate data analysis, worker - A1ULLPIT6EU99K
+  para - which article cites multivariate data analysis, worker - A2TEWO3WJ5YKGG
+  para - what article cites multivariate data analysis, worker - A4WSGXF5IARBH
+  para - what article did the article that cited multivariate data analysis cite, worker - A32CIL5S21Y4MR
+  para - which article cites multivariate data analysis, worker - A3GNQDFPZALU92
+  para - name an article about multivariate data analysis, worker - A2RRYVYUDNK2GB
+original - article that multivariate data analysis cites and that won an award
+  para - articles on multivariate data analysis that won an award, worker - ALSHA3DAWJWRO
+  para - articles cited by multivariate data analysis that won awards, worker - A2R085B34P2LYS
+  para - name an article about multivariate data analysis that has won an award, worker - A2RRYVYUDNK2GB
+  para - what award winning article was cited by multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - awardwinning articles cited in multivariate data analysis, worker - ANFWGSQ8BQRZ
+  para - award winning article cited bymultivariate data analysis, worker - A1ULLPIT6EU99K
+  para - articles cited by multivariate data analysis and that won awards, worker - A2R085B34P2LYS
+original - article that multivariate data analysis not cites
+  para - articles not cited by multivariate data analysis, worker - A2R085B34P2LYS
+  para - what article is not cited in multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - what is an article that does not cite multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - article not citing multivariate data analysis, worker - A2A4LHPXF2E2GS
+  para - which article does not cite multivariate data analysis, worker - A3GNQDFPZALU92
+  para - name an article that is not about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - article that does not cite multivariate data analysis, worker - A1ULLPIT6EU99K
+  para - articles that does not cites multivariate data analysis, worker - ALSHA3DAWJWRO
+original - article whose publication date is at least 2004
+  para - articles published in or after 2004, worker - AD5IKFAK8KN4P
+  para - what article was published in 2004 or later, worker - A32CIL5S21Y4MR
+  para - article whose publication date is at least 2004, worker - A2J6N5HD2EBCM6
+  para - articles published 2004 or more recent, worker - A3HEEJU34TVU1
+  para - what article has a publication date of at least 2004, worker - A4WSGXF5IARBH
+original - article whose publication date is smaller than 2004 or 2010
+  para - what article was published before 2010, worker - A32CIL5S21Y4MR
+original - article whose venue is annals of statistics and that multivariate data analysis cites
+  para - articles published in annals of statistics cited by multivariate data analysis, worker - A2R085B34P2LYS
+  para - article citing multivariate data analysis published in annals of statistics, worker - A2A4LHPXF2E2GS
+  para - what article is in annals of statistics and is cited by multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - article with venue anals of statistics that multivariate data analysis cites, worker - A1ULLPIT6EU99K
+  para - articles published in annals of statistics and cited by multivariate data analysis, worker - A2R085B34P2LYS
+original - article that the least number of article cites
+  para - what article makes the fewest citations, worker - A32CIL5S21Y4MR
+  para - article that cites the fewest articles, worker - A3HEEJU34TVU1
+  para - article cited the fewest times, worker - A11GZNNVLEWRGF
+  para - which article is mentioned in least number of other articles, worker - A1ULLPIT6EU99K
+  para - article that the least number of article cites, worker - A2J6N5HD2EBCM6
+original - article that article whose publication date is 2004 cites
+  para - what article cites a 2004 article, worker - A3GNQDFPZALU92
+  para - articles cited by articles published in 2004, worker - A2R085B34P2LYS
+  para - article whose publication date is 2004, worker - A1ULLPIT6EU99K
+  para - articles published in 2004 citations, worker - A2R085B34P2LYS
+  para - article cited by article which is published in 2004, worker - A1ULLPIT6EU99K
+  para - articles about cities published after 2004, worker - A2HGRSPR50ENHL
+  para - name an article published in 2004, worker - A2RRYVYUDNK2GB
+  para - name an article not published in 2004, worker - A2RRYVYUDNK2GB
+  para - what article was cited by a 2004 article, worker - A32CIL5S21Y4MR
+original - venue that is venue of article that won an award
+  para - award winning article publication venue, worker - A3HEEJU34TVU1
+  para - venue that won an award based on the article, worker - AD5IKFAK8KN4P
+  para - find a venue of an award winning article, worker - A32CIL5S21Y4MR
+  para - what venue is about an article that won an award, worker - A4WSGXF5IARBH
+original - article that cites multivariate data analysis and that multivariate data analysis cites
+  para - an article citing multivariate data analysis, worker - A3GE7CHWBLELVD
+  para - what article discusses the multivariate data analysis of cities, worker - AZE084MMZVEYT
+  para - articles citing multivariate data analysis and cited by multivariate data analysis, worker - A2R085B34P2LYS
+  para - article cited by as well as cites multivariate data analysis, worker - A1ULLPIT6EU99K
+original - article that cites multivariate data analysis and whose author is efron
+  para - what article was written by efron and cities multivariate data analysis, worker - A4WSGXF5IARBH
+  para - article written by efron that references multivariate data analysis, worker - AD5IKFAK8KN4P
+  para - articles written by efron citing multivariate data analysis, worker - A2R085B34P2LYS
+original - article whose publication date is larger than publication date of multivariate data analysis
+  para - articles published after multivariate data analysis, worker - AD5IKFAK8KN4P
+  para - find an article published after multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - what article has a publication date greater than that of multivariate data analysis, worker - A4WSGXF5IARBH
+  para - articles published after multivariate data analysis, worker - A2R085B34P2LYS
+  para - articles published after multivariate data analysis, worker - A11GZNNVLEWRGF
+original - article that two article cites
+  para - what article was cited twice, worker - A32CIL5S21Y4MR
+  para - articles cited by two other articles, worker - A11GZNNVLEWRGF
+  para - what article has two other articles cited within it, worker - A4WSGXF5IARBH
+  para - articles that are cited by two articles, worker - A2R085B34P2LYS
+  para - article cited by two articles, worker - A3HEEJU34TVU1
+original - article that cites article that multivariate data analysis cites
+  para - articles citing articles cited in multivariate data analysis, worker - ANFWGSQ8BQRZ
+  para - articles that city multivariate data analysis articles, worker - A2HGRSPR50ENHL
+  para - what article cites an article cited by multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - articles citing articles cited by multivariate data analysis, worker - A2R085B34P2LYS
+  para - article that cites article that multivariate data analysis cites, worker - A1ULLPIT6EU99K
+  para - article that cites multivariate data analysis, worker - A2A4LHPXF2E2GS
+  para - what article cites an article that cites multivariate data analysis, worker - A3GNQDFPZALU92
+  para - name an article about multivariate data analysis, worker - A2RRYVYUDNK2GB
+original - person that is author of two article
+  para - writer of two articles, worker - A2R085B34P2LYS
+  para - what author wrote two articles, worker - A32CIL5S21Y4MR
+  para - who is the author of the two articles, worker - A2TEWO3WJ5YKGG
+  para - which author wrote two articles, worker - A3GNQDFPZALU92
+  para - name a person who has written two articles, worker - A2RRYVYUDNK2GB
+  para - author of two articles, worker - A2A4LHPXF2E2GS
+  para - author of two articles, worker - A1ULLPIT6EU99K
+  para - name an author of two articles, worker - A2RRYVYUDNK2GB
+  para - writers of two articles, worker - A2R085B34P2LYS
+original - venue that is venue of at least two article
+  para - venues that have published at least two articles, worker - A2R085B34P2LYS
+  para - what venue is about at least two articles, worker - A4WSGXF5IARBH
+  para - venue that is mentioned in at least  two articles, worker - AD5IKFAK8KN4P
+  para - what venue has two or more articles, worker - A32CIL5S21Y4MR
+  para - publications with at least two articles, worker - A3HEEJU34TVU1
+original - article that cites more than two article
+  para - article that cites more than two article, worker - A2J6N5HD2EBCM6
+  para - what article cites other articles, worker - A4WSGXF5IARBH
+  para - articles that mention three or more cities, worker - AD5IKFAK8KN4P
+  para - article citing more than two articles, worker - A3HEEJU34TVU1
+  para - articles that cite more than two articles, worker - A11GZNNVLEWRGF
+  para - find an article that cites more than two articles, worker - A32CIL5S21Y4MR
+original - venue that is venue of at most two article
+  para - venue of one or two articles, worker - A2A4LHPXF2E2GS
+  para - name a publication containing no more than two articles, worker - A2RRYVYUDNK2GB
+  para - what is the venue of at least two articles, worker - A27VCRNC0FEHGU
+  para - venue of at most two article, worker - A1ULLPIT6EU99K
+  para - what venue has two or less articles, worker - A32CIL5S21Y4MR
+  para - name a venue of no more than two articles, worker - A2RRYVYUDNK2GB
+  para - venue of maximum two articles, worker - ALSHA3DAWJWRO
+  para - venues of two articles or fewer, worker - A2R085B34P2LYS
+  para - venues that have published at most two articles, worker - A2R085B34P2LYS
+  para - which venue has two articles maximum, worker - A3GNQDFPZALU92
+original - article that at most two article cites
+  para - which articles cite two or fewer articles, worker - A11GZNNVLEWRGF
+  para - articles that cite two or fewer articles, worker - A3HEEJU34TVU1
+  para - article that references one or two articles, worker - AD5IKFAK8KN4P
+  para - article cited two or fewer times, worker - A32CIL5S21Y4MR
+original - article that cites multivariate data analysis and whose venue is annals of statistics
+  para - articles in the annals of statistics that cite multivariate data analysis, worker - ANFWGSQ8BQRZ
+  para - what article in annals of statistics cites multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - article that cites multivariate data analysis whose venue is annals of statistics, worker - A1ULLPIT6EU99K
+  para - articles about a citys annals of statistics, worker - A2HGRSPR50ENHL
+  para - what annals of statistics article cites multivariate data analysis, worker - A3GNQDFPZALU92
+  para - articles that cite multivariate data analysis in annals of statistics, worker - A2R085B34P2LYS
+  para - an article on statistics that cites multivariate data analysis, worker - A38ZM1QKQ4C4QR
+  para - articles citing multivariate data analysis published in annals of statistics, worker - A2R085B34P2LYS
+  para - which annals of statistics article cites multivariate data analysis, worker - A3GNQDFPZALU92
+  para - name an article from the annals of statistics about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - which is the article that cites multivariate data analysis that was published in the annals of statistics, worker - A2TEWO3WJ5YKGG
+  para - name an article about multivariate data analysis from the annals of statistics, worker - A2RRYVYUDNK2GB
+  para - what article citing multivariate data analysis was in annals of statistics, worker - A32CIL5S21Y4MR
+  para - articles published in annals of statistics that cite multivariate data analysis, worker - A2R085B34P2LYS
+original - article that cites the most number of article
+  para - article that references the most number of articles, worker - AD5IKFAK8KN4P
+  para - what article cites the most number of other articles, worker - A4WSGXF5IARBH
+  para - articles that cite the most articles, worker - A2R085B34P2LYS
+  para - what article makes the most citations, worker - A32CIL5S21Y4MR
+  para - which article cites the most articles, worker - A11GZNNVLEWRGF
+  para - article that cites the most number of article, worker - A2J6N5HD2EBCM6
+original - article whose author is efron and whose author is efron
+  para - articles authored by efron, worker - A3HEEJU34TVU1
+  para - find an article by efron, worker - A32CIL5S21Y4MR
+  para - articles written by efron, worker - A2R085B34P2LYS
+  para - article by efron, worker - A11GZNNVLEWRGF
+  para - what is an article written by efron, worker - A4WSGXF5IARBH
+original - article that has the least number of venue
+  para - articles that has the minimum number of venues stated, worker - AD5IKFAK8KN4P
+  para - what article has the least venues, worker - A32CIL5S21Y4MR
+  para - what article has the least number of venues, worker - A4WSGXF5IARBH
+  para - article that has the least number of venue, worker - A2J6N5HD2EBCM6
+  para - articles published in the fewest places, worker - A3HEEJU34TVU1
+  para - articles published in the fewest venues, worker - A2R085B34P2LYS
+original - article that cites article whose author is efron
+  para - articles that cite articles written by efron, worker - A11GZNNVLEWRGF
+  para - articles that cities articles by efron, worker - AD5IKFAK8KN4P
+  para - what article cites articles written by efron, worker - A4WSGXF5IARBH
+  para - what article cites an efron article, worker - A32CIL5S21Y4MR
+  para - articles citing efron, worker - A2R085B34P2LYS
+  para - article that cites article whose author is efron, worker - A2J6N5HD2EBCM6
+original - article whose publication date is 2004
+  para - find an article published in 2004, worker - A32CIL5S21Y4MR
+original - article that cites article that won an award
+  para - awarded articles, worker - A1V5OMRC87TDXW
+  para - what article discusses another article that won an award, worker - A4WSGXF5IARBH
+  para - articles that cite awardwinning articles, worker - A11GZNNVLEWRGF
+  para - any article that mentions award winning article, worker - A1ULLPIT6EU99K
+  para - what article cites an award winning article, worker - A32CIL5S21Y4MR
+original - article that won an award and that won an award
+  para - article that was awarded, worker - AD5IKFAK8KN4P
+original - venue that is venue of multivariate data analysis
+  para - in what publication was multivariate data analysis published, worker - A11GZNNVLEWRGF
+  para - articles on multivariate data analysis, worker - A2R085B34P2LYS
+  para - what venue is multivariate data analysis in, worker - A32CIL5S21Y4MR
+original - article that won an award and that cites multivariate data analysis
+  para - award winning article that cites multivariate data analysis, worker - A3HEEJU34TVU1
+  para - which article that cites multivariate data analysis won an award, worker - AD5IKFAK8KN4P
+original - article that has the most number of author
+  para - article with the largest amount of authors, worker - A3DTN2OMF6DUSI
+  para - what article has more authors than any other, worker - A32CIL5S21Y4MR
+  para - articles written by the most writers, worker - A2R085B34P2LYS
+  para - what article has the most authors, worker - A3PRT2O0B4B5E7
+  para - what article has the fewest authors, worker - A4WSGXF5IARBH
+original - article that multivariate data analysis cites
+  para - what articles are published in multivariate data analysis, worker - ALSHA3DAWJWRO
+  para - article cited bymultivariate data analysis, worker - A1ULLPIT6EU99K
+original - article whose venue is annals of statistics and that won an award
+  para - award winning article published by annals of statistics, worker - A3HEEJU34TVU1
+  para - what article won an award and whose venue is annals and statistics, worker - A4WSGXF5IARBH
+  para - award winning article whose venue is annals of statistics, worker - A1ULLPIT6EU99K
+  para - what award winning article was in annals of statistics, worker - A32CIL5S21Y4MR
+  para - article whose venue is annals of statistics and that won an award, worker - A2J6N5HD2EBCM6
+original - number of person
+  para - how many people, worker - A3HEEJU34TVU1
+  para - what is the persons number, worker - A32CIL5S21Y4MR
+original - person that is author of article that cites multivariate data analysis
+  para - what author wrote an article that cities multivariate data analysis, worker - A4WSGXF5IARBH
+  para - which authors cite multivariate data analysis in their articles, worker - A11GZNNVLEWRGF
+  para - author of the article that cites multivariate data analysis, worker - A3HEEJU34TVU1
+  para - who is the author of an article citing multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - person that is author of article that cites multivariate data analysis, worker - A2J6N5HD2EBCM6
+  para - writers who cited multivariate data analysis, worker - A2R085B34P2LYS
+original - article whose venue is venue that is venue of multivariate data analysis
+  para - what article has the same venue as multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - article whose venue is venue that is venue of multivariate data analysis, worker - A2J6N5HD2EBCM6
+  para - what article is about multivariate data analysis, worker - A4WSGXF5IARBH
+  para - articles published in the same venue as multivariate data analysis, worker - A2R085B34P2LYS
+  para - article publication of multivariate data analysis, worker - A3HEEJU34TVU1
+  para - articles that do not appear in the same publications as multivariate data analysis, worker - A11GZNNVLEWRGF
+original - article whose publication date is at most 2004 or 2010
+  para - what articles are written between 2004 and 2010, worker - A4WSGXF5IARBH
+  para - articles published before 2010, worker - A2R085B34P2LYS
+  para - articles published before 2004 or before 2010, worker - A11GZNNVLEWRGF
+  para - articles published between 2004 and 2010, worker - AD5IKFAK8KN4P
+  para - what article was published in 2010 or earlier, worker - A32CIL5S21Y4MR
+original - article that has more than two author
+  para - article by three or more authors, worker - A2A4LHPXF2E2GS
+  para - articles with three or more authors, worker - ANFWGSQ8BQRZ
+  para - article written by more than two authors, worker - A1ULLPIT6EU99K
+  para - articles with more than two authors, worker - A2HGRSPR50ENHL
+  para - what article has over two authors, worker - A32CIL5S21Y4MR
+  para - name an article produced by more than two authors, worker - A2RRYVYUDNK2GB
+  para - articles with more than two authors, worker - A2R085B34P2LYS
+  para - article by more than two author, worker - A1ULLPIT6EU99K
+  para - name an article with more than two authors, worker - A2RRYVYUDNK2GB
+original - venue that is not venue of multivariate data analysis
+  para - venues other than the multivariate data analysis venue, worker - A2R085B34P2LYS
+  para - what is a venue that is not multivariate data analysis related, worker - A4WSGXF5IARBH
+  para - find a venue that does not have multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - publications that do not publish multivariate data analysis, worker - A3HEEJU34TVU1
+  para - journal that did not publish multivariate data analysis, worker - A11GZNNVLEWRGF
+original - article that cites two article
+  para - articles citing two articles, worker - A2R085B34P2LYS
+  para - what article cites two other articles, worker - A4WSGXF5IARBH
+  para - what article has two citations, worker - A32CIL5S21Y4MR
+  para - which articles cite two articles, worker - A11GZNNVLEWRGF
+  para - this article cites 2 other articles, worker - A3PRT2O0B4B5E7
+original - article that won an award and whose author is efron
+  para - articles written by efron that have won an award, worker - A2R085B34P2LYS
+  para - what article written by efron won an award, worker - A4WSGXF5IARBH
+  para - awardwinning article by efron, worker - A3PRT2O0B4B5E7
+  para - what award winning article was written by efron, worker - A32CIL5S21Y4MR
+  para - article written by efron that won an award, worker - A3DTN2OMF6DUSI
+original - article whose publication date is 2004 and that won an award
+  para - articles published in 2004 that won awards, worker - A2R085B34P2LYS
+  para - what article has a publication date of 2003 and won an award, worker - A4WSGXF5IARBH
+  para - award winning articles published in 2004, worker - A11GZNNVLEWRGF
+original - article whose publication date is at most 2004
+  para - articles published in or before 2004, worker - A2R085B34P2LYS
+  para - articles published in or before 2004, worker - A11GZNNVLEWRGF
+  para - articles published in 2004 or before, worker - A3HEEJU34TVU1
+  para - what article was published on or before 2004, worker - A32CIL5S21Y4MR
+  para - article whose publication date is at most 2004, worker - A2J6N5HD2EBCM6
+  para - articles that were written before 2004, worker - A4WSGXF5IARBH
+original - article whose author is efron and that multivariate data analysis cites
+  para - an article by efron that cites multivariate data analysis, worker - A38ZM1QKQ4C4QR
+  para - articles by efron cited in multivariate data analysis, worker - ANFWGSQ8BQRZ
+  para - what efron article was cited by multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - articles written by efron cited by multivariate data analysis, worker - A2R085B34P2LYS
+  para - article by efron citing multivariate data analysis, worker - A2A4LHPXF2E2GS
+  para - what efron article cites multivariate data analysis, worker - A3GNQDFPZALU92
+  para - article written by efron which multivariate data analysis cites, worker - A1ULLPIT6EU99K
+  para - name an article about multivariate data analysis by the author efron, worker - A2RRYVYUDNK2GB
+  para - articles written by efron and cited by multivariate data analysis, worker - A2R085B34P2LYS
+original - article that cites at least two article
+  para - article that cite at least two articles, worker - A3HEEJU34TVU1
+  para - which articles cite at least two articles, worker - A11GZNNVLEWRGF
+  para - article that cites two or more articles, worker - A32CIL5S21Y4MR
+  para - what article cites at least two other articles, worker - A4WSGXF5IARBH
+  para - article that refernces a single article, worker - AD5IKFAK8KN4P
+original - article whose venue is annals of statistics and whose author is efron
+  para - what article did efron write whose venue is annals of statistics, worker - A4WSGXF5IARBH
+  para - article on annals of statistics by efron, worker - A3DTN2OMF6DUSI
+  para - which article is authored by efron and has the annals of statistics as its venue, worker - AD5IKFAK8KN4P
+original - article that multivariate data analysis cites and whose venue is annals of statistics
+  para - article that cites multivariate data analysis in the annals of statistics, worker - A2A4LHPXF2E2GS
+  para - what annals of statistics article was cited by multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - article cited bymultivariate data analysis whose venue is annals of statistics, worker - A1ULLPIT6EU99K
+  para - name an article about multivariate data analysis in the annals of statistics, worker - A2RRYVYUDNK2GB
+  para - articles cited by multivariate data analysis and published in annals of statistics, worker - A2R085B34P2LYS
+  para - articles in annals of statistics cited in multivariate data analysis, worker - ANFWGSQ8BQRZ
+  para - what is an article in annals of statistics about multivariate data analysis, worker - A2RRYVYUDNK2GB
+original - article whose venue is annals of statistics and whose venue is annals of statistics
+  para - article published in annals of statistics, worker - A3HEEJU34TVU1
+  para - what article is about annals of statistics, worker - A4WSGXF5IARBH
+  para - articles found in annals of statistics, worker - A11GZNNVLEWRGF
+  para - what article has annals of statistics as a venue, worker - A32CIL5S21Y4MR
+original - article that has at least two venue
+  para - find me an article with two or more venues, worker - A32CIL5S21Y4MR
+  para - what article has two venues minimum, worker - A27VCRNC0FEHGU
+  para - article with two or more publishers, worker - A2A4LHPXF2E2GS
+  para - what article has no less than two venues, worker - A3GNQDFPZALU92
+  para - articles published in two or more venues, worker - A2R085B34P2LYS
+  para - name an article found in at least two publications, worker - A2RRYVYUDNK2GB
+  para - name an article found in two or more venues, worker - A2RRYVYUDNK2GB
+  para - there are at least two venues in the article, worker - A38ZM1QKQ4C4QR
+  para - article with minimum two venue, worker - A1ULLPIT6EU99K
+original - person that is author of article that won an award
+  para - what person wrote articles than won an award, worker - A4WSGXF5IARBH
+  para - authors of awardwinning articles, worker - A11GZNNVLEWRGF
+  para - who is the author of the article who won an award, worker - AD5IKFAK8KN4P
+  para - find the author of an award winning article, worker - A32CIL5S21Y4MR
+original - article whose author is person that is author of multivariate data analysis
+  para - article by the same author of multivariate data analysis, worker - A3PRT2O0B4B5E7
+  para - articles written by the author of multivariate data analysis, worker - A11GZNNVLEWRGF
+  para - what articles are written by authors of multivariate data analysis, worker - A4WSGXF5IARBH
+  para - articles written by the writer of multivariate data analysis, worker - A2R085B34P2LYS
+original - article that article whose venue is annals of statistics cites
+  para - what article cites an annals of statistics article, worker - A3GNQDFPZALU92
+  para - name an article from the annals of statistics, worker - A2RRYVYUDNK2GB
+  para - articles cited in annals of statistics, worker - A2R085B34P2LYS
+  para - article whose venue is annals of statistics, worker - A1ULLPIT6EU99K
+  para - article citing article published in annals of statistics, worker - A2A4LHPXF2E2GS
+  para - what articles are published in annals of statistics, worker - ALSHA3DAWJWRO
+  para - what article is cited by an article in annals of statistics, worker - A32CIL5S21Y4MR
+  para - articles cited by articles in annals of statistics, worker - ANFWGSQ8BQRZ
+  para - articles cited by articles published in annals of statistics, worker - A2R085B34P2LYS
+original - venue of multivariate data analysis
+  para - what journal is multivariate data analysis published in, worker - A11GZNNVLEWRGF
+  para - publications of multivariate data analysis, worker - A3HEEJU34TVU1
+  para - multivariate data analysis venue, worker - AD5IKFAK8KN4P
+  para - where can you see multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - what venue consists of multivariate data analysis, worker - A4WSGXF5IARBH
+original - article whose author is efron and that cites multivariate data analysis
+  para - article written by efron that cites multivariate data analysis, worker - AD5IKFAK8KN4P
+  para - efron articles citing multivariate data analysis, worker - A2R085B34P2LYS
+  para - find an efron article that cites multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - what article written by efron cites multivariate data analysis, worker - A4WSGXF5IARBH
+original - venue that is venue of the least number of article
+  para - publication with the fewest articles, worker - A3HEEJU34TVU1
+  para - journal that publishes the fewest number of articles, worker - A11GZNNVLEWRGF
+  para - venues publishing the fewest articles, worker - A2R085B34P2LYS
+  para - what venue has the fewest articles, worker - A32CIL5S21Y4MR
+original - article whose author is author of multivariate data analysis
+  para - articles written by the multivariate data analysis writer, worker - A2R085B34P2LYS
+  para - article whose author is author of multivariate data analysis, worker - A2J6N5HD2EBCM6
+  para - article with author of multivariate data analysis, worker - A3HEEJU34TVU1
+  para - an article whose also authored multivariate data analysis, worker - A4WSGXF5IARBH
+original - article that has less than two author
+  para - which article  is written by less than two authors, worker - A2TEWO3WJ5YKGG
+  para - what is an article written by only one author, worker - A2RRYVYUDNK2GB
+  para - article written by one author, worker - A1ULLPIT6EU99K
+  para - what articles have under two authors, worker - A3GNQDFPZALU92
+  para - articles written by fewer than two people, worker - A2R085B34P2LYS
+  para - article by only one author, worker - A1ULLPIT6EU99K
+  para - what article has less than two authors, worker - A32CIL5S21Y4MR
+  para - articles with fewer than two authors, worker - A2R085B34P2LYS
+  para - name an article with fewer than two authors, worker - A2RRYVYUDNK2GB
+  para - articles authored by one, worker - A2A4LHPXF2E2GS
+original - venue that is venue of article whose author is efron
+  para - publications where articles by efron can be found, worker - A11GZNNVLEWRGF
+  para - venues that have efrons article, worker - A2R085B34P2LYS
+  para - venue that is venue of article whose author is efron, worker - A2J6N5HD2EBCM6
+  para - publications with articles authored by efron, worker - A3HEEJU34TVU1
+  para - venue of the efron article, worker - A32CIL5S21Y4MR
+  para - what articles were written by efron, worker - A4WSGXF5IARBH
+original - article whose publication date is publication date of multivariate data analysis
+  para - article published on date of multivariate data analysis, worker - A3HEEJU34TVU1
+  para - articles published on the same day as multivariate data analysis, worker - A2R085B34P2LYS
+  para - which article has a publication date the same as multivariate data analysis, worker - A4WSGXF5IARBH
+  para - what article was published on the same date as multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - articles published on the same date as multivariate data analysis, worker - A11GZNNVLEWRGF
+original - person that is not author of multivariate data analysis
+  para - person who has not published article in multivariate data analysis, worker - ALSHA3DAWJWRO
+  para - who is someone that has not authored an article about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - people who did not author multivariate data analysis, worker - A2A4LHPXF2E2GS
+  para - writers who didnt write multivariate data analysis, worker - A2R085B34P2LYS
+  para - name someone who is not the author of an article about multivariate data analysis, worker - A2RRYVYUDNK2GB
+  para - person who is not author of multivariate data analysis, worker - A1ULLPIT6EU99K
+  para - which author did not write  multivariate data analysis, worker - A3GNQDFPZALU92
+  para - what person is not the author of multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - who has not written a multivariate data analysis, worker - A27VCRNC0FEHGU
+original - article that cites article whose publication date is 2004
+  para - find an article making a citation of a 2004 published article, worker - A32CIL5S21Y4MR
+  para - articles that cite articles published in 2004, worker - A11GZNNVLEWRGF
+  para - what article cites another article with a publication date of 2004, worker - A4WSGXF5IARBH
+  para - articles citing articles published in 2004, worker - A2R085B34P2LYS
+  para - article that cite articles published in 2004, worker - AD5IKFAK8KN4P
+original - article whose publication date is at least publication date of multivariate data analysis
+  para - what article was published on or after multivariate data analysis was, worker - A32CIL5S21Y4MR
+  para - articles published on or after the publication date of multivariate data analysis, worker - A11GZNNVLEWRGF
+  para - what article has a publication date the same as the date of multivariate data analysis, worker - A4WSGXF5IARBH
+  para - articles published contemporaneous to or after the multivariate data analysis, worker - A2R085B34P2LYS
+  para - article that has the same publication date as the multivariate data analysis article, worker - A3PRT2O0B4B5E7
+original - article whose venue is annals of statistics and that cites multivariate data analysis
+  para - what article cites multivariate data analysis and is also its venue, worker - A4WSGXF5IARBH
+  para - article that cited multivariate data analysis in annals of statistics, worker - A3HEEJU34TVU1
+  para - what annals of statistics article cited multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - articles published in the annals of statistics citing multivariate data analysis, worker - A2R085B34P2LYS
+original - article that cites multivariate data analysis and that won an award
+  para - article that mentions award winning multivariate data analysis article, worker - A1ULLPIT6EU99K
+  para - article that won an award and cites multivariate data analysis, worker - AD5IKFAK8KN4P
+original - article that won an award and that multivariate data analysis cites
+  para - award winning article cited by multivariate data analysis, worker - A1ULLPIT6EU99K
+  para - what article cited by multivariate data analysis won an award, worker - AOCX8D08T8ZQB
+  para - awardwinning articles cited in articles using multivariate data analysis, worker - ANFWGSQ8BQRZ
+  para - what award winning article is cited by multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - articles that won awards cited by multivariate data analysis, worker - A2R085B34P2LYS
+  para - award winning articles cited by multivariate data analysis, worker - A2R085B34P2LYS
+original - person that is author of the least number of article
+  para - authors of multiple articles, worker - A3DTN2OMF6DUSI
+  para - who has authored the least articles, worker - A32CIL5S21Y4MR
+  para - who has written the fewest articles, worker - A11GZNNVLEWRGF
+  para - what author wrote the least number of articles, worker - A4WSGXF5IARBH
+  para - author with the least number of articles, worker - AD5IKFAK8KN4P
+original - 2004 or 2010
+  para - article with publication date as 2004 or 2010, worker - AD5IKFAK8KN4P
+original - venue that is venue of article whose publication date is 2004
+  para - what venue has articles published in 2004, worker - A32CIL5S21Y4MR
+  para - what is the venue of the article published in 2004, worker - A1ULLPIT6EU99K
+  para - what article has a publication date of 2004, worker - A4WSGXF5IARBH
+  para - publications that include articles published in 2004, worker - A11GZNNVLEWRGF
+  para - venues that published in 2004, worker - A2R085B34P2LYS
+original - person that is author of less than two article
+  para - author of only one article, worker - A2A4LHPXF2E2GS
+  para - author of only one article, worker - A1ULLPIT6EU99K
+  para - who is the author of less than two articles, worker - A32CIL5S21Y4MR
+  para - writers of fewer than two articles, worker - A2R085B34P2LYS
+  para - name a person who has authored fewer than two articles, worker - A2RRYVYUDNK2GB
+  para - who has authored fewer than two articiles, worker - A2RRYVYUDNK2GB
+  para - which author wrote under two articles, worker - A3GNQDFPZALU92
+  para - author of lees than two articles, worker - ALSHA3DAWJWRO
+  para - writer of fewer than two articles, worker - A2R085B34P2LYS
+original - article whose publication date is not 2004
+  para - articles not published in 2004, worker - A2R085B34P2LYS
+  para - what article wasnt published in 2004, worker - A32CIL5S21Y4MR
+  para - articles that were not published in 2004, worker - A11GZNNVLEWRGF
+  para - what article does not have a publication date of 2004, worker - A4WSGXF5IARBH
+  para - articles published except in 2004, worker - AD5IKFAK8KN4P
+original - article that cites article that cites multivariate data analysis
+  para - what article cites articles about multivariate data analysis, worker - A4WSGXF5IARBH
+  para - article citing an article citing multivariate data analysis, worker - A32CIL5S21Y4MR
+  para - author of article citing multivariate data analysis, worker - A3DTN2OMF6DUSI
+  para - articles that cite multivariate data analysis, worker - A11GZNNVLEWRGF
+original - article whose author is efron or lakoff
+  para - articles written by efron or lakoff, worker - A11GZNNVLEWRGF
+  para - articles written by efron or lakoff, worker - A3HEEJU34TVU1
+  para - article whose author is efron or lakoff, worker - A2J6N5HD2EBCM6
+  para - find an article by efron or lakoff, worker - A32CIL5S21Y4MR
+  para - articles written by efron or lakoff, worker - A2R085B34P2LYS
+  para - what are some articles written by efron or lakoff, worker - A4WSGXF5IARBH
+original - article that has two author
+  para - articles with two authors, worker - A11GZNNVLEWRGF
+  para - articles with two authors, worker - AD5IKFAK8KN4P
+  para - article with two authors, worker - A3HEEJU34TVU1
+  para - find an article with two authors, worker - A32CIL5S21Y4MR
+  para - what article has two authors, worker - A4WSGXF5IARBH

@@ -1,0 +1,1204 @@
+original - recipe whose posting date is at least posting date of rice pudding
+  para - recipes posted with or after posting rice pudding, worker - A2TUNPP2GOQ1N3
+  para - recipe whose posting date is at least rice puddings posting date, worker - A1ULLPIT6EU99K
+  para - what recipe was posted after or on the same day as rice pudding, worker - A32CIL5S21Y4MR
+  para - name a recipe which was posted on or later than the posting date of the rice pudding recipe, worker - A2RRYVYUDNK2GB
+  para - show recipes posted on the same date or later than rice pudding, worker - AD5IKFAK8KN4P
+  para - which recipes were posted when rice pudding was posted, worker - A2XRC7P3AORIPH
+  para - show me recipes posted the same day as rice pudding or after, worker - A11GZNNVLEWRGF
+  para - what recipes posting date is at least the same as rice pudding, worker - A4WSGXF5IARBH
+original - recipe that is for the least number of meal
+  para - a recipe for the fewest types of meals, worker - A2RRYVYUDNK2GB
+  para - which recipe has the least number of meals, worker - A2XRC7P3AORIPH
+  para - find a recipe for a small meal, worker - A2TEWO3WJ5YKGG
+  para - recipes for least number of meals, worker - A2TUNPP2GOQ1N3
+  para - show me recipe to do a meal for a single person, worker - AD5IKFAK8KN4P
+  para - show me recipes that work for more than one meal, worker - A3VOSFN1XRFF01
+  para - what recipe makes the fewest meals, worker - A32CIL5S21Y4MR
+  para - which recipe is intended for the least number of meals, worker - A11GZNNVLEWRGF
+  para - show me a recipe for the least number of meals, worker - A15EZJS1DROADE
+original - recipe that requires the most number of ingredient
+  para - what recipe calls for the most ingredients, worker - A32CIL5S21Y4MR
+  para - recipe of number of ingredients, worker - A1ULLPIT6EU99K
+  para - which recipe requires the most ingredients, worker - A2RRYVYUDNK2GB
+  para - what recipe requires highest number of ingredients, worker - A2TUNPP2GOQ1N3
+  para - show me the recipe that has the most number of requirements, worker - AD5IKFAK8KN4P
+  para - what recipe has the most ingredients, worker - A4WSGXF5IARBH
+  para - find recipe that needs the maximum number of food items, worker - A2TEWO3WJ5YKGG
+  para - what recipes need the most ingrediants, worker - AODM31DHYJG99
+  para - what recipes have the most ingredients, worker - A2XRC7P3AORIPH
+  para - which recipe has the longest ingredient list, worker - A11GZNNVLEWRGF
+original - recipe whose cooking time is at least preparation time of rice pudding
+  para - show me recipes with a cooking time greater or equal to the preparation time for rice pudding, worker - A2R085B34P2LYS
+  para - what recipes cooking time is at least the preparation time of rice pudding, worker - A4WSGXF5IARBH
+  para - what recipe requires a cooking time at least as long as rice pudding, worker - A2RRYVYUDNK2GB
+  para - recipe cooked in preparation time of rice pudding or more, worker - A2TUNPP2GOQ1N3
+  para - which recipe has a cooking time as that of rice pudding, worker - A2TEWO3WJ5YKGG
+  para - what recipe cooks in more or the same time as rice pudding takes to prep, worker - A32CIL5S21Y4MR
+  para - recipe with preparation time not less than that of rice pudding, worker - A1ULLPIT6EU99K
+  para - what recipes have a cooking time that is at least as long as rice puddings preparation time, worker - A11GZNNVLEWRGF
+  para - what is the minimum time required to prepare rice pudding, worker - AD5IKFAK8KN4P
+original - recipe whose preparation time is preparation time of rice pudding
+  para - show me recipes that have the same preparation time as rice pudding, worker - A11GZNNVLEWRGF
+  para - show me recipes that take the same time to prepare as rice pudding, worker - A2Q2IMR3GBBTU3
+  para - what recipes preparation time is the same as rice pudding, worker - A4WSGXF5IARBH
+  para - show me a recipe with the same prep time as rice pudding, worker - A2RRYVYUDNK2GB
+  para - find a recipe that takes the same time to cook as rice pudding, worker - AQVP5IH2S6WCB
+  para - recipe prepared in preparation time of rice pudding, worker - A2TUNPP2GOQ1N3
+  para - recipes that require same time to prepare than rice pudding, worker - AD5IKFAK8KN4P
+  para - which  recipe takes as much time to prepare as rice pudding, worker - A2TEWO3WJ5YKGG
+  para - what time can be prepped in the same time as rice pudding, worker - A32CIL5S21Y4MR
+original - ingredient that less than two recipe requires
+  para - what ingredient is required in only one recipe, worker - A2TUNPP2GOQ1N3
+  para - what is an ingredient found in fewer than two recipes, worker - A2RRYVYUDNK2GB
+  para - what ingredient is needed for fewer than two recipes, worker - A32CIL5S21Y4MR
+  para - which ingredient is needed in less than two recipes , worker - A2TEWO3WJ5YKGG
+  para - what ingredient is used by less than two recipes, worker - A11GZNNVLEWRGF
+  para - which ingredient is used for less than two recipes, worker - A2XRC7P3AORIPH
+  para - show me ingredients required for fewer than two recipes, worker - A2R085B34P2LYS
+  para - what ingredient is used only in a single recipe, worker - AD5IKFAK8KN4P
+  para - show me recipes that require less than two ingredients, worker - A15EZJS1DROADE
+original - ingredient that recipe whose posting date is 2004 requires
+  para - what are ingredients required by the recipe posted in 2004, worker - AD5IKFAK8KN4P
+  para - what ingredient is called for by a recipe posted in 2004, worker - A32CIL5S21Y4MR
+  para - show me ingredients required by recipes posted in 2004, worker - A2R085B34P2LYS
+  para - ingredient required by recipe whose posting date is 2004, worker - A1ULLPIT6EU99K
+  para - what ingredients do recipes posted in 2004 call for, worker - A11GZNNVLEWRGF
+  para - what recipes posting date is in 2004 and what ingredients does it require, worker - A4WSGXF5IARBH
+  para - what are the ingredients needed for recipes posted in 2004, worker - A2TEWO3WJ5YKGG
+  para - ingredients in recipe posted in 2004, worker - A2TUNPP2GOQ1N3
+  para - what does the recipe posted in 2004 require, worker - A2XRC7P3AORIPH
+  para - what is an ingredient found in a recipe that was posted in 2004, worker - A2RRYVYUDNK2GB
+original - posting date of rice pudding
+  para - when was the rice pudding recipe posted, worker - A32CIL5S21Y4MR
+  para - when was rice pudding recipe posted, worker - A2TEWO3WJ5YKGG
+  para - what is the posting date of rice pudding, worker - AD5IKFAK8KN4P
+  para - what day was rice pudding posted, worker - A1CY44CGMVAHKT
+  para - when was the recipe for rice pudding posted, worker - A2R085B34P2LYS
+  para - what is the posting date for rice pudding, worker - A4WSGXF5IARBH
+  para - when is rice pudding recipe posted, worker - A2TUNPP2GOQ1N3
+  para - when was the rice pudding recipe posted, worker - A2RRYVYUDNK2GB
+  para - when was rice pudding posted, worker - A2XRC7P3AORIPH
+  para - when was the rice pudding recipe posted, worker - A11GZNNVLEWRGF
+original - recipe that is for lunch and that is for lunch
+  para - find the recipes for lunch, worker - A2TUNPP2GOQ1N3
+  para - name the recipe that is prepared for lunch, worker - A19LTHK3TA57SF
+  para - find a recipe for lunch, worker - A2TEWO3WJ5YKGG
+  para - name lunch recipes, worker - A2RRYVYUDNK2GB
+  para - what recipes are for lunch, worker - A2XRC7P3AORIPH
+  para - what are the recipes for lunch, worker - AD5IKFAK8KN4P
+  para - show me recipes for lunch, worker - A2R085B34P2LYS
+  para - show me lunch recipes, worker - A11GZNNVLEWRGF
+  para - what is a lunch recipe, worker - A4WSGXF5IARBH
+  para - what recipe makes something for lunch, worker - A32CIL5S21Y4MR
+original - recipe whose posting date is 2004 and that is for lunch
+  para - show me lunch recipes that posted in 2004, worker - AODM31DHYJG99
+  para - show me lunch recipes posted in 2004, worker - A11GZNNVLEWRGF
+  para - what recipe posted in 2004 makes a lunch meal, worker - A32CIL5S21Y4MR
+  para - the lunch recipe  posting date is 2004, worker - A1KH62H92N4L13
+  para - find a lunch recipe from 2004, worker - AQVP5IH2S6WCB
+  para - find the lunch recipes posted in 2004, worker - A2TUNPP2GOQ1N3
+  para - what recipe has a posting date of 2004 and is lunch, worker - A4WSGXF5IARBH
+  para - find  lunch recipes posted in 2004, worker - A2TEWO3WJ5YKGG
+  para - what lunch recipe was posted in 2004, worker - A2RRYVYUDNK2GB
+  para - which recipe was posted in 2004 and is for lunch, worker - A2XRC7P3AORIPH
+original - recipe whose preparation time is larger than cooking time of rice pudding
+  para - show me recipes with preparation times longer than cooking time of rice pudding, worker - A2R085B34P2LYS
+  para - what recipe takes longer to prep than rice pudding takes to cook, worker - A32CIL5S21Y4MR
+  para - recipe with more preparation time than rice pudding, worker - A1ULLPIT6EU99K
+  para - recipe prepared in more time than cooking time of rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what recipes preparation time is greater than the cooking time for rice pudding, worker - A4WSGXF5IARBH
+  para - what recipes prep time is longer than the cook time for rice pudding, worker - A2RRYVYUDNK2GB
+  para - which recipe needs longer preparation time than that of rice pudding, worker - A2TEWO3WJ5YKGG
+  para - show me recipes that require longer time to cook than rice pudding, worker - AD5IKFAK8KN4P
+  para - show me recipes with a preparation time that is longer than rice puddings cooking time, worker - A11GZNNVLEWRGF
+  para - which recipes take longer to cook than rice pudding, worker - A2XRC7P3AORIPH
+original - average cooking time of recipe
+  para - what is the average cooking time across all recipes, worker - A11GZNNVLEWRGF
+  para - show me the average cooking time for all recipes, worker - A2R085B34P2LYS
+  para - what is the average cooking time of this recipe, worker - A2XRC7P3AORIPH
+  para - average cooking time, worker - A2TUNPP2GOQ1N3
+  para - what is the average cooking time of recipe, worker - ALSHA3DAWJWRO
+  para - what is the mean cooking time for the recipe, worker - AD5IKFAK8KN4P
+  para - on average how long does the recipe take to cook, worker - A32CIL5S21Y4MR
+  para - what is the average time needed for the preparation of the dish, worker - A2TEWO3WJ5YKGG
+  para - what is the average cooking time for that recipe, worker - A4WSGXF5IARBH
+  para - what is the average cooking time for that dish, worker - A2RRYVYUDNK2GB
+original - recipe whose preparation time is at least cooking time of rice pudding
+  para - show me recipes with preparation time equal to or longer than rice pudding, worker - A2A4LHPXF2E2GS
+  para - show me recipes with a preparation time equal to or greater than the cooking time of rice pudding, worker - A2R085B34P2LYS
+  para - show me recipes that have the same or longer preparation time as rice pudding, worker - A11GZNNVLEWRGF
+  para - what recipe can you prep in the same or more time as it takes to cook rice pudding, worker - A32CIL5S21Y4MR
+  para - what recipes preparation time is no lesser than the cooking time for rice pudding, worker - A4WSGXF5IARBH
+  para - recipes that requires the same or more time to prepare as rice pudding, worker - AD5IKFAK8KN4P
+  para - what recipe prepare in less or same time to cook rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what recipe has a prep time at least as long as the cooking time of rice pudding, worker - A2RRYVYUDNK2GB
+original - recipe whose posting date is not 2004
+  para - what recipes posting date is not in 2004, worker - A4WSGXF5IARBH
+  para - what recipe was not posted in 2004, worker - A32CIL5S21Y4MR
+  para - show me recipes not posted in 2004, worker - A2R085B34P2LYS
+  para - show me recipes that were not posted in 2004, worker - A11GZNNVLEWRGF
+  para - what is a recipe that was not posted in 2004, worker - A2RRYVYUDNK2GB
+  para - recipe not posted in 2004, worker - A2TUNPP2GOQ1N3
+  para - show recipes whose posting date is not 2004, worker - AD5IKFAK8KN4P
+  para - which recipe was not posted in 2004, worker - A2TEWO3WJ5YKGG
+  para - which recipes were not posted in 2004, worker - A2XRC7P3AORIPH
+  para - show me recipes not posted in 2004, worker - A2A4LHPXF2E2GS
+original - ingredient that recipe that is for lunch requires
+  para - show ingredients for lunch recipes, worker - A2TUNPP2GOQ1N3
+  para - what ingredients do lunch recipes need, worker - A2XRC7P3AORIPH
+  para - what ingredient is called for by a lunch recipe, worker - A32CIL5S21Y4MR
+  para - what is an ingredient found in a lunch recipe, worker - A2RRYVYUDNK2GB
+  para - what ingredients are used only for lunch, worker - AD5IKFAK8KN4P
+  para - what ingredients do lunch recipes call for, worker - A11GZNNVLEWRGF
+  para - what ingredients are needed for lunch recipes, worker - A2TEWO3WJ5YKGG
+  para - show me ingredients required by lunch recipes, worker - A2R085B34P2LYS
+  para - what recipes ingredient does this lunch require, worker - A4WSGXF5IARBH
+original - meal that rice pudding is for
+  para - what is a meal with rice pudding as a dish, worker - A2RRYVYUDNK2GB
+  para - show me meals including rice pudding, worker - A2A4LHPXF2E2GS
+  para - for what meal is rice pudding used for, worker - A2TEWO3WJ5YKGG
+  para - for which meal is rice pudding had, worker - AD5IKFAK8KN4P
+original - ingredient that recipe that requires milk requires
+  para - show me recipes requiring the ingredient milk, worker - A2A4LHPXF2E2GS
+  para - which recipe needs milk for  its preparation, worker - A2TEWO3WJ5YKGG
+  para - what recipe requires milk, worker - A4WSGXF5IARBH
+  para - a recipe with milk as an ingredient, worker - A2RRYVYUDNK2GB
+  para - what ingredient is called for in the same recipe as milk, worker - A32CIL5S21Y4MR
+  para - show me ingredients required by recipes that require milk, worker - A2R085B34P2LYS
+  para - which recipes require milk, worker - A2XRC7P3AORIPH
+  para - list recipes that require milk, worker - AGFV72C99E22E
+  para - what other ingredients do recipes that use milk require, worker - A11GZNNVLEWRGF
+original - recipe whose cooking time is larger than cooking time of rice pudding
+  para - show me recipes that require cooking time thats more than rice pudding, worker - A15EZJS1DROADE
+  para - what recipe is for a dish that takes longer to cook than does rice pudding, worker - A2RRYVYUDNK2GB
+  para - which recipe needs a longer preparation time than rice pudding, worker - A2TEWO3WJ5YKGG
+  para - what recipes takes more time to prepare than rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what recipes cooking time is greater than that of rice pudding, worker - A4WSGXF5IARBH
+  para - show me recipe that require longer time to cook than rice pudding, worker - AD5IKFAK8KN4P
+  para - what recipe takes longer to cook than rice pudding, worker - A32CIL5S21Y4MR
+  para - which recipe takes longer to cook than rice pudding, worker - A2XRC7P3AORIPH
+  para - show me recipes with cooking times greater than cooking time of rice pudding, worker - A2R085B34P2LYS
+original - recipe whose cooking time is at most preparation time of rice pudding
+  para - what recipe takes equal or less time to cook than rice pudding takes to prep, worker - A32CIL5S21Y4MR
+  para - show me recipes with cooking time equal to or less than the preparation time for rice pudding, worker - A2R085B34P2LYS
+  para - what recipes cooking time is at most that of rice puddings preparation time, worker - A4WSGXF5IARBH
+  para - what recipe requires no more cooking time than rice pudding, worker - A2RRYVYUDNK2GB
+  para - recipe cooked in preparation time of rice pudding or less, worker - A2TUNPP2GOQ1N3
+  para - show me recipes that take as long to cook as it takes to prepare rice pudding or quicker, worker - A11GZNNVLEWRGF
+  para - which recipes take as long as prepare rice pudding, worker - A2XRC7P3AORIPH
+  para - recipe with cooking time not more than that of rice pudding, worker - A1ULLPIT6EU99K
+  para - show recipes that require at the most time as rice pudding preparation, worker - AD5IKFAK8KN4P
+original - recipe that is for two meal
+  para - show me recipes that can be used for two meals, worker - AODM31DHYJG99
+  para - which recipe is for two meals, worker - A4WSGXF5IARBH
+  para - the receipe is for two meal, worker - A1KH62H92N4L13
+  para - show me recipes designed for two meals, worker - A11GZNNVLEWRGF
+  para - recipes for two meal, worker - A2TUNPP2GOQ1N3
+  para - which recipes can make two meals, worker - A2XRC7P3AORIPH
+  para - find a recipe thatll feed two people, worker - AQVP5IH2S6WCB
+  para - what recipe is found in two different meals, worker - A2RRYVYUDNK2GB
+original - recipe whose posting date is 2004 and whose posting date is 2004
+  para - show me all recipes from 2004, worker - AODM31DHYJG99
+  para - what recipes posting date is 2004, worker - A4WSGXF5IARBH
+  para - show me all recipes posted in 2004, worker - A2TUNPP2GOQ1N3
+  para - are there any recipes which were posted twice in 2004, worker - AQVP5IH2S6WCB
+  para - which recipe was posted in 2004, worker - A2XRC7P3AORIPH
+  para - the receipe posting date is 2004, worker - A1KH62H92N4L13
+  para - show me all the recipes posted in 2004, worker - A32CIL5S21Y4MR
+  para - find recipes posted in 2004, worker - A2TEWO3WJ5YKGG
+original - rice pudding or quiche
+  para - show me recipes for rice pudding or quiche, worker - A11GZNNVLEWRGF
+  para - quiche or rice pudding, worker - A2TEWO3WJ5YKGG
+  para - recipes for rice pudding or quice, worker - A2XRC7P3AORIPH
+  para - what is a recipe for rice pudding or quiche, worker - A2RRYVYUDNK2GB
+  para - what to prefer rice pudding or quiche, worker - ALSHA3DAWJWRO
+  para - is it the recipe for rice pudding or quiche, worker - AD5IKFAK8KN4P
+original - meal that at most two recipe is for
+  para - find two meal recipes, worker - A2TEWO3WJ5YKGG
+  para - what meal has two or less recipes, worker - A32CIL5S21Y4MR
+  para - what is a meal with no more than two recipes, worker - A2RRYVYUDNK2GB
+  para - what meal has maximum recipes, worker - A2TUNPP2GOQ1N3
+  para - what meal has two or fewer recipes designated for it, worker - A11GZNNVLEWRGF
+  para - what meals are at most two recipes for, worker - A2XRC7P3AORIPH
+  para - show me meals with two or fewer recipes, worker - A2R085B34P2LYS
+original - recipe that has the largest preparation time
+  para - show me the recipe that has the largest preperation time, worker - A15EZJS1DROADE
+  para - what recipe has the longest preparation time, worker - A2TUNPP2GOQ1N3
+  para - show me recipes with the most preparation time, worker - A2R085B34P2LYS
+  para - which recipe needs the longest preparation tome, worker - A2TEWO3WJ5YKGG
+  para - which recipe takes the longest to prepare, worker - A2XRC7P3AORIPH
+  para - what recipe takes the longest time to prep, worker - A32CIL5S21Y4MR
+  para - what recipe takes the longest to prepare, worker - A11GZNNVLEWRGF
+  para - what recipes preparation time is the greatest, worker - A4WSGXF5IARBH
+  para - show me recipes that requires the most time to prepare the dish, worker - AD5IKFAK8KN4P
+  para - what recipe takes the longest to prepare, worker - A2RRYVYUDNK2GB
+original - ingredient that the most number of recipe requires
+  para - show me ingredients required for the most recipes, worker - A2R085B34P2LYS
+  para - which is the most used ingredient in recipes, worker - AD5IKFAK8KN4P
+  para - name the ingredient in most recipes, worker - A2TUNPP2GOQ1N3
+  para - what is the most commonly used ingredient, worker - A11GZNNVLEWRGF
+  para - show me the most required ingredient in recipes, worker - A2A4LHPXF2E2GS
+  para - which ingredient is needed by many recipes, worker - A2TEWO3WJ5YKGG
+  para - what is an ingredient required by the most recipes, worker - A2RRYVYUDNK2GB
+  para - what ingredient is most used, worker - A2XRC7P3AORIPH
+  para - what ingredient is called for by the most recipes, worker - A32CIL5S21Y4MR
+  para - what is the most ingredient that this recipe requires, worker - A4WSGXF5IARBH
+original - recipe whose preparation time is at most preparation time of rice pudding
+  para - what recipes preparation time is no more than the preparation time of rice pudding, worker - A4WSGXF5IARBH
+  para - which recipe has a prep time no greater than the prep time for rice pudding, worker - A2RRYVYUDNK2GB
+  para - what recipe takes no longer to prepare than rice pudding, worker - AQVP5IH2S6WCB
+  para - what recipe can be prepped in equal or less time than rice pudding, worker - A32CIL5S21Y4MR
+  para - which recipes take less or as long to prepare as rice pudding, worker - A2XRC7P3AORIPH
+  para - what recipes have the same or less preparation time as rice pudding, worker - A11GZNNVLEWRGF
+  para - show me recipes that take as long to prepare as rice pudding, worker - A2Q2IMR3GBBTU3
+  para - what recipe takes same or less time to prepare rice pudding, worker - A2TUNPP2GOQ1N3
+  para - recipes that require less or same time than the time taken to prepare rice pudding, worker - AD5IKFAK8KN4P
+original - recipe that requires milk and that requires milk
+  para - find a recipe that needs milk for its preparation, worker - A2TEWO3WJ5YKGG
+  para - what recipes require milk, worker - A2XRC7P3AORIPH
+  para - show me recipes requiring milk, worker - A2R085B34P2LYS
+  para - what recipe has milk as an ingredient, worker - A2RRYVYUDNK2GB
+  para - show me recipes that need milk, worker - A2A4LHPXF2E2GS
+  para - show me all recipes require milk, worker - A2TUNPP2GOQ1N3
+  para - show recipes that has milk as its ingredient, worker - AD5IKFAK8KN4P
+original - recipe that has two cuisine
+  para - show me recipes with two cuisines, worker - A2R085B34P2LYS
+  para - what is a recipe of two different cuisines, worker - A2RRYVYUDNK2GB
+  para - what recipe has two cuisine, worker - A4WSGXF5IARBH
+  para - two cuisine recipe, worker - A2TUNPP2GOQ1N3
+  para - show me recipes that involve two cuisines, worker - AD5IKFAK8KN4P
+  para - which recipes have two cuisines, worker - A2XRC7P3AORIPH
+  para - show me recipes with two ingedients, worker - A2Q2IMR3GBBTU3
+  para - what recipe makes two types of cuisine, worker - A32CIL5S21Y4MR
+  para - what recipe falls under two cuisines, worker - A11GZNNVLEWRGF
+original - recipe that has the largest cooking time
+  para - which recipe takes the maximum preparation time, worker - A2TEWO3WJ5YKGG
+  para - what recipe takes the longest to cook, worker - A32CIL5S21Y4MR
+  para - what recipe takes most time to cook, worker - A2TUNPP2GOQ1N3
+  para - what recipe has the greatest cooking time, worker - A4WSGXF5IARBH
+  para - which recipe requires the longest cooking time, worker - A2RRYVYUDNK2GB
+  para - what recipe has the longest cooking time, worker - A11GZNNVLEWRGF
+  para - show me recipes with the longest cooking time, worker - A2A4LHPXF2E2GS
+  para - show me recipes with the most cooking time, worker - A2R085B34P2LYS
+  para - show the recipe that takes the longest time to cook, worker - AD5IKFAK8KN4P
+original - recipe whose cooking time is at most cooking time of rice pudding
+  para - what recipes take the same amount of time or less to cook as rice pudding, worker - A11GZNNVLEWRGF
+  para - what recipes cooking time is at the greatest the cooking time of rice pudding, worker - A4WSGXF5IARBH
+  para - recipe whose cooking time is not more than rice pudding, worker - A1ULLPIT6EU99K
+  para - which recipes take at most as long to cook as rice pudding, worker - A2XRC7P3AORIPH
+  para - recipes that have cooking time less than cooking time of rice pudding, worker - ALSHA3DAWJWRO
+  para - what recipe cooks for equal or less time than rice pudding, worker - A32CIL5S21Y4MR
+  para - what recipe is cooked in less time than rice pudding, worker - A2TUNPP2GOQ1N3
+  para - show me recipes that require a maximum cooking time as rice pudding, worker - AD5IKFAK8KN4P
+  para - what is a recipe that takes no more time to cook than rice pudding, worker - A2RRYVYUDNK2GB
+  para - which recipe has the cooking time of rice pudding, worker - A2TEWO3WJ5YKGG
+original - recipe that requires the least number of ingredient
+  para - a recipe requiring the fewest ingredients, worker - A2RRYVYUDNK2GB
+  para - which recipes require the least amount of ingredients, worker - A2XRC7P3AORIPH
+  para - show me recipes requiring fewest ingredients, worker - A2A4LHPXF2E2GS
+  para - what recipe has the fewest amount of ingredients, worker - A4WSGXF5IARBH
+  para - which recipe has the shortest ingredient list, worker - A11GZNNVLEWRGF
+  para - show me recipes requiring the fewest ingredients, worker - A2R085B34P2LYS
+  para - show me recipes that have the fewest ingredients, worker - AGFV72C99E22E
+  para - what recipe needs least ingredients, worker - A2TUNPP2GOQ1N3
+  para - what is the recipe that needs the minimum number of ingredients, worker - A2TEWO3WJ5YKGG
+  para - what recipe calls for the fewest ingredients, worker - A32CIL5S21Y4MR
+original - recipe that requires less than two ingredient
+  para - show me recipes requiring one ingredient, worker - A2A4LHPXF2E2GS
+  para - which recipes require only a single ingredient, worker - AD5IKFAK8KN4P
+  para - show me recipes with fewer than two ingredients, worker - A2R085B34P2LYS
+  para - recipe with only one ingredient, worker - A1ULLPIT6EU99K
+  para - a recipe requiring fewer than two ingredients, worker - A2RRYVYUDNK2GB
+  para - single ingredient recipe, worker - A2TUNPP2GOQ1N3
+  para - what recipe calls for fewer than two ingredients, worker - A32CIL5S21Y4MR
+  para - show me recipes that use less than two ingredients, worker - A11GZNNVLEWRGF
+  para - what recipe requires fewer than two ingredients, worker - A4WSGXF5IARBH
+  para - which recipe needs less than two food items for its preparation, worker - A2TEWO3WJ5YKGG
+original - meal that rice pudding or quiche is for
+  para - what meal is rice pudding or quiche made for, worker - A2RRYVYUDNK2GB
+  para - meal that rice pudding and quiche can be used, worker - AODM31DHYJG99
+  para - what meal is rice pudding or quiche in, worker - A32CIL5S21Y4MR
+  para - for what meal is rice pudding or quiche, worker - A2XRC7P3AORIPH
+  para - what meal has quiche and rice pudding, worker - A4WSGXF5IARBH
+  para - meal than has rice pudding or quiche, worker - A2TUNPP2GOQ1N3
+  para - for what meal is rice pudding or quiche used for, worker - A2TEWO3WJ5YKGG
+  para - what meal is rice pudding or quiche intended for, worker - A11GZNNVLEWRGF
+  para - for which meal is rice pudding or quiche had, worker - AD5IKFAK8KN4P
+original - recipe whose posting date is larger than 2004
+  para - which recipes were posted after 2004, worker - A2XRC7P3AORIPH
+  para - what is a recipe posted later than 2004, worker - A2RRYVYUDNK2GB
+  para - recipes posted after 2004, worker - A2TUNPP2GOQ1N3
+  para - what recipes posting date is greater than 2004, worker - A4WSGXF5IARBH
+  para - find recipes posted after 2004, worker - A2TEWO3WJ5YKGG
+  para - what recipe was posted after 2004, worker - A32CIL5S21Y4MR
+original - recipe that requires ingredient that rice pudding requires
+  para - what recipe requires the ingredients of rice pudding, worker - A2TEWO3WJ5YKGG
+  para - which recipes require the same ingredients as rice pudding, worker - A2XRC7P3AORIPH
+  para - what are ingredients of rice pudding, worker - AD5IKFAK8KN4P
+  para - show me recipes requiring an ingredient from rice pudding, worker - A2A4LHPXF2E2GS
+  para - what recipes have a common ingredient in rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what recipes require the same ingredients as rice pudding, worker - A11GZNNVLEWRGF
+  para - which recipe requires the same ingredient as rice pudding, worker - A19LTHK3TA57SF
+  para - what ingredient is found in rice pudding, worker - A2RRYVYUDNK2GB
+  para - what recipe calls for the same ingredients as rice pudding, worker - A32CIL5S21Y4MR
+original - recipe whose posting date is at most 2004
+  para - what is a recipe which was posted no later than 2004, worker - A2RRYVYUDNK2GB
+  para - show me recipes posted in or before 2004, worker - A11GZNNVLEWRGF
+  para - which recipes were posted up to 2004, worker - A2XRC7P3AORIPH
+  para - what recipe was posted during or before 2004, worker - A32CIL5S21Y4MR
+  para - show me recipes posted 2004 and earlier, worker - A2A4LHPXF2E2GS
+  para - show recipes whose posted date is on or before 2004, worker - AD5IKFAK8KN4P
+  para - recipes posted till 2004, worker - A2TUNPP2GOQ1N3
+  para - what recipes posting date is at the greatest in 2004, worker - A4WSGXF5IARBH
+  para - which recipe was posted during 2004, worker - A2TEWO3WJ5YKGG
+original - recipe whose cooking time is preparation time of rice pudding
+  para - what recipe takes the same time to cook as rice pudding takes to prep, worker - A32CIL5S21Y4MR
+  para - show me recipes that have a cooking time equal to the preparation time of rice pudding, worker - A11GZNNVLEWRGF
+  para - what recipes cooking time is the preparation time of rice pudding, worker - A4WSGXF5IARBH
+  para - what recipes are prepared in cooking time of rice pudding, worker - A2TUNPP2GOQ1N3
+  para - show me recipes with cooking time equal to preparation time for rice pudding, worker - A2A4LHPXF2E2GS
+  para - show me recipes with a cooking time equal to the preparation time for rice pudding, worker - A2R085B34P2LYS
+  para - what recipe has a cook time equal to the prep time of rice pudding, worker - A2RRYVYUDNK2GB
+  para - show recipes whose cooking time is same as that of rice pudding, worker - AD5IKFAK8KN4P
+original - meal that the least number of recipe is for
+  para - show me meals for one, worker - A2Q2IMR3GBBTU3
+  para - what meal has the least recipes available, worker - A2TUNPP2GOQ1N3
+  para - what meal has the least recipes, worker - A32CIL5S21Y4MR
+  para - which meal has the least number of recipes, worker - AD5IKFAK8KN4P
+  para - for what meal are there the fewest number of recipes, worker - A2RRYVYUDNK2GB
+  para - which meal has least number of recipes, worker - A2TEWO3WJ5YKGG
+  para - which meal has the least number of recipes, worker - A2XRC7P3AORIPH
+  para - show me meals with the least recipes, worker - A2R085B34P2LYS
+  para - which meal has the least recipes dedicated to it, worker - A11GZNNVLEWRGF
+original - recipe that has at most two cuisine
+  para - show recipes that at most have two cuisine, worker - ALSHA3DAWJWRO
+  para - what recipe has two or less types of cuisine, worker - A32CIL5S21Y4MR
+  para - show me recipes that follows one or two cuisines, worker - AD5IKFAK8KN4P
+  para - what recipe has at the most no more than two cuisines, worker - A4WSGXF5IARBH
+  para - what recipes comes under less than three cuisine, worker - A2TUNPP2GOQ1N3
+  para - what is a recipe from no more than two different cuisines, worker - A2RRYVYUDNK2GB
+  para - show me recipes that fall under two cuisines or less, worker - A11GZNNVLEWRGF
+  para - recipe of at most two cuisine, worker - A1ULLPIT6EU99K
+  para - which recipes have at most two cuisines, worker - A2XRC7P3AORIPH
+  para - which recipe belongs to two cuisines, worker - A2TEWO3WJ5YKGG
+original - total preparation time of recipe
+  para - how long does the recipe take to prep, worker - A32CIL5S21Y4MR
+  para - how much time it takes to prepare recipe, worker - A2TUNPP2GOQ1N3
+  para - what is the total prep time for the recipes, worker - AODM31DHYJG99
+  para - what is the total prep time of the recipe, worker - A2RRYVYUDNK2GB
+  para - what is the total time required for preparing the dish, worker - A2TEWO3WJ5YKGG
+  para - how long does the recipe take to prepare, worker - A2XRC7P3AORIPH
+  para - what is the total preparation time of all the recipes, worker - A11GZNNVLEWRGF
+  para - recipes total preparation time, worker - A1ULLPIT6EU99K
+  para - what is the preparation time for that recipe, worker - A4WSGXF5IARBH
+  para - what is the total time taken to prepare the dish, worker - AD5IKFAK8KN4P
+original - recipe that has at least two cuisine
+  para - show me recipe that has at least have two cuisine, worker - ALSHA3DAWJWRO
+  para - find the recipes of multiple cuisine, worker - A2TUNPP2GOQ1N3
+  para - what is a recipe found in two or more cuisines, worker - A2RRYVYUDNK2GB
+  para - what recipe has no fewer than two cuisines, worker - A4WSGXF5IARBH
+  para - which recipes have at least 2 cuisines, worker - A2XRC7P3AORIPH
+  para - show me recipes that follows two or more cuisines, worker - AD5IKFAK8KN4P
+  para - recipe of at least two cuisine, worker - A1ULLPIT6EU99K
+  para - what recipe has two or more types of cuisine, worker - A32CIL5S21Y4MR
+original - meal that recipe that is for lunch is for
+  para - what meal did that recipe i used for lunch go with, worker - AQVP5IH2S6WCB
+  para - which recipe is for a lunchtime meal, worker - A2RRYVYUDNK2GB
+  para - what meals are recipes for lunch for, worker - A2XRC7P3AORIPH
+  para - what recipe is a recipe for lunch, worker - A4WSGXF5IARBH
+  para - find meal recipes for lunch, worker - A2TEWO3WJ5YKGG
+original - recipe whose cuisine is cuisine of rice pudding
+  para - what is a recipe from the same cuisine as rice pudding, worker - A2RRYVYUDNK2GB
+  para - which recipe belongs to the cuisine of rice pudding, worker - A2TEWO3WJ5YKGG
+  para - find the recipes for same cuisine as rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what recipes share the cuisine of rice pudding, worker - A2XRC7P3AORIPH
+  para - what recipe has a cuisine including rice pudding, worker - A4WSGXF5IARBH
+  para - what recipe makes the same type of cuisine as rice pudding, worker - A32CIL5S21Y4MR
+  para - show me recipes that are the same cuisine as rice pudding, worker - AODM31DHYJG99
+  para - recipe of cuisine of rice pudding, worker - A1ULLPIT6EU99K
+  para - show me recipes from the same cuisine as rice pudding, worker - AD5IKFAK8KN4P
+  para - show me recipes that fall under the same cuisine as rice pudding, worker - A11GZNNVLEWRGF
+original - recipe that is for less than two meal
+  para - which recipes are for less than two meals, worker - A2XRC7P3AORIPH
+  para - recipe of less than two meal, worker - A1ULLPIT6EU99K
+  para - what recipes are for less than two meals, worker - A11GZNNVLEWRGF
+  para - recipe for only one meal, worker - A2TUNPP2GOQ1N3
+  para - what recipe can make fewer than two meals, worker - A32CIL5S21Y4MR
+  para - what is a recipe used for fewer than two meals, worker - A2RRYVYUDNK2GB
+  para - what is recipe for a meal, worker - AD5IKFAK8KN4P
+  para - show me recipes for fewer than two meals, worker - A2R085B34P2LYS
+  para - what recipe is for less than two people, worker - A4WSGXF5IARBH
+original - recipe that is for the most number of meal
+  para - which recipes can be used for most number of meals, worker - AD5IKFAK8KN4P
+  para - which recipes have the most number of meals, worker - A2XRC7P3AORIPH
+  para - show me recipes for the most meals, worker - A2R085B34P2LYS
+  para - recipe for the most number of meal, worker - A1ULLPIT6EU99K
+  para - what recipe is for most meals, worker - A2TUNPP2GOQ1N3
+  para - what recipe serves at the most three, worker - A4WSGXF5IARBH
+  para - what recipe is designed for the most number of meals, worker - A11GZNNVLEWRGF
+  para - which recipe is used for the most meals, worker - A2RRYVYUDNK2GB
+  para - find recipes for all kinds of meals, worker - A2TEWO3WJ5YKGG
+  para - what recipe can make the most meals, worker - A32CIL5S21Y4MR
+original - recipe whose posting date is larger than 2004 or 2010
+  para - show me recipes posted after 2004, worker - A2R085B34P2LYS
+  para - find recipes posted later than 2004 or 2010, worker - A2TEWO3WJ5YKGG
+  para - a recipe that posted after 2004 or 2010, worker - A2RRYVYUDNK2GB
+  para - find all recipes posted after 2004, worker - A2TUNPP2GOQ1N3
+  para - what recipes posting date is greater than 2004 or 2010, worker - A4WSGXF5IARBH
+  para - which recipes were posted after 2004 or 2010, worker - A2XRC7P3AORIPH
+  para - show me recipes posted after 2004, worker - A2A4LHPXF2E2GS
+  para - show me recipes posted after 2004 or after 2010, worker - A11GZNNVLEWRGF
+  para - show me all the recipes posted after 2010, worker - A32CIL5S21Y4MR
+original - recipe that is for lunch or dinner
+  para - which recipes are intended for lunch or dinner, worker - A11GZNNVLEWRGF
+  para - what is a recipe that is good for lunch or dinner, worker - A2RRYVYUDNK2GB
+  para - name a recipe for lunch or dinner, worker - A4WSGXF5IARBH
+  para - what recipe can be used for a lunch or dinner meal, worker - A32CIL5S21Y4MR
+  para - show recipes for lunch or dinner, worker - AD5IKFAK8KN4P
+  para - list the recipes for lunch or dinner, worker - A2TUNPP2GOQ1N3
+  para - which recipes are for lunch or dinner, worker - A2XRC7P3AORIPH
+  para - show me recipes for lunch or supper, worker - A2R085B34P2LYS
+  para - find a recipe that is good for lunch or dinner, worker - A2TEWO3WJ5YKGG
+original - recipe whose posting date is posting date of rice pudding
+  para - recipe posted on the same date of posting of rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what recipe was posted the same day as rice pudding, worker - A32CIL5S21Y4MR
+  para - which recipes were posted at the same time as rice pudding, worker - A2XRC7P3AORIPH
+  para - show recipes posted on the same date as rice pudding, worker - AD5IKFAK8KN4P
+  para - recipe with posting date same as rice pudding, worker - ALSHA3DAWJWRO
+  para - what recipe was posted the same date as the rice pudding recipe, worker - A2RRYVYUDNK2GB
+  para - which recipe was posted on the same date as that of rice pudding, worker - A2TEWO3WJ5YKGG
+  para - what recipes posting date is the same as rice pudding, worker - A4WSGXF5IARBH
+  para - show me recipes posted on the same day as rice pudding, worker - A11GZNNVLEWRGF
+  para - show me recipes posted on the same day as rice pudding, worker - A2R085B34P2LYS
+original - recipe that is for lunch and whose posting date is 2004
+  para - what recipe posted in 2004 can make a lunch meal, worker - A32CIL5S21Y4MR
+  para - show me recipes for lunch posted in 2004, worker - A2R085B34P2LYS
+  para - which recipes were posted in 2004 for lunch, worker - A2XRC7P3AORIPH
+  para - find a lunch recipe that was posted in 2004, worker - A2TEWO3WJ5YKGG
+  para - lunch recipes posted in 2004, worker - A2TUNPP2GOQ1N3
+  para - show me recipes for lunch posted in 2004, worker - AD5IKFAK8KN4P
+  para - a lunch recipe posted in 2004, worker - A2RRYVYUDNK2GB
+  para - what lunch recipes posting date is 2004, worker - A4WSGXF5IARBH
+original - recipe that has the smallest cooking time
+  para - show me recipes with the least cooking time, worker - A2A4LHPXF2E2GS
+  para - what recipe has the smallest cooking time, worker - A2XRC7P3AORIPH
+  para - show me the recipe that has the shortest cooking time, worker - A15EZJS1DROADE
+  para - which recipe requires the least cooking time, worker - A2RRYVYUDNK2GB
+  para - what recipe has the shortest cooking time, worker - A11GZNNVLEWRGF
+  para - what recipe takes the shortest time to cook, worker - A32CIL5S21Y4MR
+  para - show me the recipe that takes the least time to prepare, worker - AD5IKFAK8KN4P
+  para - what recipe requires the lowest cooking time, worker - A4WSGXF5IARBH
+  para - which recipe needs the shortest cooking time, worker - A2TEWO3WJ5YKGG
+  para - what recipe is fastest cooked, worker - A2TUNPP2GOQ1N3
+original - meal that recipe whose posting date is 2004 is for
+  para - what meal can be made by the recipe posted in 2004, worker - A32CIL5S21Y4MR
+  para - for which meal is that recipe with post date in 2004, worker - AD5IKFAK8KN4P
+  para - which meals are recipes posted in 2004 for, worker - A11GZNNVLEWRGF
+  para - what is the meal of a recipe posted in 2004, worker - A2XRC7P3AORIPH
+  para - show me recipes that were posted later than 2004, worker - A15EZJS1DROADE
+  para - what recipes posting date is in 2004, worker - A4WSGXF5IARBH
+  para - find a meal recipe posted in 2004, worker - A2TEWO3WJ5YKGG
+  para - what meal is the recipe posted in 2004, worker - A2TUNPP2GOQ1N3
+  para - what is a meal with a recipe posted in 2004, worker - A2RRYVYUDNK2GB
+original - recipe that requires at most two ingredient
+  para - what recipes require one or two ingredients, worker - AD5IKFAK8KN4P
+  para - what are the recipe that at most use two ingredients , worker - ALSHA3DAWJWRO
+  para - recipe requires less than three ingredients, worker - A2TUNPP2GOQ1N3
+  para - which recipes require at most two ingredients, worker - A2XRC7P3AORIPH
+  para - find recipes that need two ingredients, worker - A2TEWO3WJ5YKGG
+  para - show me recipes requiring two or fewer ingredients, worker - A2R085B34P2LYS
+  para - what recipes require no more than two ingredients, worker - A2RRYVYUDNK2GB
+  para - what recipe calls for two or less ingredients, worker - A32CIL5S21Y4MR
+  para - show me recipes that use two ingredients or less, worker - A11GZNNVLEWRGF
+original - recipe that is for more than two meal
+  para - find recipes that can be used for  more than two meals, worker - A2TEWO3WJ5YKGG
+  para - show recipes that could be used in any meal, worker - AD5IKFAK8KN4P
+  para - show me recipes for more than two meals, worker - A2R085B34P2LYS
+  para - what is a recipe that is for more than two different meals, worker - A2RRYVYUDNK2GB
+  para - what recipe is for more than two meals, worker - A4WSGXF5IARBH
+  para - recipe for more than two meals, worker - A1ULLPIT6EU99K
+  para - which recipes serve more than two meals, worker - A2XRC7P3AORIPH
+  para - what recipes are for for two or more meals, worker - A2TUNPP2GOQ1N3
+  para - what recipe is designed for more than two meals, worker - A11GZNNVLEWRGF
+original - recipe that has the largest posting date
+  para - which recipe was posted the latest, worker - A2RRYVYUDNK2GB
+  para - which recipe was posted most recently, worker - A11GZNNVLEWRGF
+  para - what recipe is most recent, worker - A32CIL5S21Y4MR
+  para - recipe with largest posting date, worker - A1ULLPIT6EU99K
+  para - what recipe was posted last, worker - AODM31DHYJG99
+  para - what recipe has the latest date posted, worker - A4WSGXF5IARBH
+  para - which is the recipe that was posted last, worker - A2TEWO3WJ5YKGG
+  para - which is the latest recipe posted, worker - AD5IKFAK8KN4P
+  para - what is the newest recipe, worker - A2XRC7P3AORIPH
+  para - which is the last posted recipe, worker - A2TUNPP2GOQ1N3
+original - meal that rice pudding not is for
+  para - meal than rice pudding is not taken, worker - A2TUNPP2GOQ1N3
+  para - what meal doesnt call for rice pudding, worker - A4WSGXF5IARBH
+  para - what is a meal other than rice pudding, worker - A2RRYVYUDNK2GB
+  para - in which meal rice pudding cannot be used as part , worker - AD5IKFAK8KN4P
+  para - which meals is rice pudding not intended for, worker - A11GZNNVLEWRGF
+  para - what meals does rice pudding not go with, worker - A2Q2IMR3GBBTU3
+  para - what meal is rice pudding not used for, worker - A2XRC7P3AORIPH
+  para - find a meal without rice pudding, worker - A2TEWO3WJ5YKGG
+original - meal that recipe that requires milk is for
+  para - which meal recipe requires milk for preparation, worker - A2TEWO3WJ5YKGG
+  para - what meal has a recipe requiring milk, worker - A32CIL5S21Y4MR
+  para - what meals have recipes that use milk, worker - A11GZNNVLEWRGF
+  para - meal with milk recipe, worker - A2TUNPP2GOQ1N3
+  para - for which meal is that recipe that has milk as one of its ingredients, worker - AD5IKFAK8KN4P
+  para - show me meals requiring milk, worker - A2R085B34P2LYS
+  para - what is a recipe requiring milk, worker - A2RRYVYUDNK2GB
+  para - what meal is a recipe that requires milk for, worker - A2XRC7P3AORIPH
+original - recipe whose preparation time is cooking time of rice pudding
+  para - show me recipes with a preparation time equal to the cooking time of rice pudding, worker - A2R085B34P2LYS
+  para - show recipes with the preparation time as the cooking time of rice pudding, worker - AD5IKFAK8KN4P
+  para - which recipes have a preparation time as long as the cooking time of rice pudding, worker - A2XRC7P3AORIPH
+  para - recipes prepared in rice puddings cooking time, worker - A2TUNPP2GOQ1N3
+  para - show me recipes that take the same amount of time to prepare as rice pudding does to cook, worker - A11GZNNVLEWRGF
+  para - what recipes preparation time is the same as rice puddings cooking time, worker - A4WSGXF5IARBH
+  para - which recipes prep time is the same as the cook time of rice pudding, worker - A2RRYVYUDNK2GB
+  para - what recipe can be prepped in the same time as rice pudding can be cooked, worker - A32CIL5S21Y4MR
+  para - which recipe has the same cooking time of rice pudding, worker - A2TEWO3WJ5YKGG
+  para - show me recipe which take as much time as rice pudding, worker - ALSHA3DAWJWRO
+original - cooking time of rice pudding
+  para - how long does rice pudding take to cook, worker - A32CIL5S21Y4MR
+  para - what is the cooking time for rice pudding, worker - A4WSGXF5IARBH
+  para - how much time it takes to cook rice pudding , worker - A2TUNPP2GOQ1N3
+  para - what is the cooking time of rice pudding, worker - A2XRC7P3AORIPH
+  para - what is the cooking time of rice pudding, worker - AD5IKFAK8KN4P
+  para - how long does it take to  make rice pudding, worker - A2TEWO3WJ5YKGG
+  para - show me cooking time of rice pudding, worker - A2A4LHPXF2E2GS
+  para - what is the cooking time of rice pudding, worker - A11GZNNVLEWRGF
+  para - what is the cooking time of rice pudding, worker - A15EZJS1DROADE
+  para - what is the cook time for rice pudding, worker - A2RRYVYUDNK2GB
+original - number of ingredient
+  para - how many ingredients are in this recipe, worker - A2XRC7P3AORIPH
+  para - how many total ingredients are used in all the recipes, worker - A11GZNNVLEWRGF
+  para - how many ingredients are there, worker - A2TUNPP2GOQ1N3
+  para - how many ingredients are needed, worker - A19LTHK3TA57SF
+  para - what is the number of ingredients in total, worker - AD5IKFAK8KN4P
+  para - how many ingredients, worker - A2TEWO3WJ5YKGG
+  para - what is the number of ingredients for that recipe, worker - A4WSGXF5IARBH
+  para - how many ingredients are used, worker - A2RRYVYUDNK2GB
+  para - how many ingredients does that require, worker - A32CIL5S21Y4MR
+original - milk or spinach
+  para - spinach or milk, worker - A2TEWO3WJ5YKGG
+  para - what recipes need milk or spinach, worker - A2XRC7P3AORIPH
+  para - what is a recipe using milk or spinach as an ingredient, worker - A2RRYVYUDNK2GB
+  para - which recipe requires milk or spinach, worker - A19LTHK3TA57SF
+  para - what is the used milk or spinach, worker - AD5IKFAK8KN4P
+original - recipe that not is for lunch
+  para - a recipe for a meal other than lunch, worker - A2RRYVYUDNK2GB
+  para - show me recipes not for lunch, worker - A2R085B34P2LYS
+  para - which are non lunch recipes, worker - A2TUNPP2GOQ1N3
+  para - find a recipe that is not suitable for lunch, worker - A2TEWO3WJ5YKGG
+  para - which recipes are not for lunch, worker - A2XRC7P3AORIPH
+  para - what recipe is not lunch, worker - A4WSGXF5IARBH
+  para - show me recipes not for lunch, worker - A2A4LHPXF2E2GS
+  para - what recipe makes a non lunch meal, worker - A32CIL5S21Y4MR
+  para - show me recipes that cannot be taken for lunch, worker - AD5IKFAK8KN4P
+  para - show me recipes that are not lunch recipes, worker - A11GZNNVLEWRGF
+original - recipe whose preparation time is smaller than preparation time of rice pudding
+  para - show me recipes with preparation time less than rice pudding, worker - A2A4LHPXF2E2GS
+  para - what recipe requires less prep time than rice pudding, worker - A2RRYVYUDNK2GB
+  para - what recipe takes less time to prep than rice pudding, worker - A32CIL5S21Y4MR
+  para - which recipe has a lesser preparation time than that of rice pudding, worker - A19LTHK3TA57SF
+  para - what recipes  are prepared in less time tan rice pudding, worker - A2TUNPP2GOQ1N3
+  para - show recipes that requires lesser preparation than rice pudding, worker - AD5IKFAK8KN4P
+  para - show me recipes that have a shorter preparation time than rice pudding, worker - A11GZNNVLEWRGF
+  para - find recipes that can be prepared sooner than rice pudding, worker - A2TEWO3WJ5YKGG
+  para - which recipes take less time to prepare than rice pudding, worker - A2XRC7P3AORIPH
+original - recipe whose posting date is smaller than 2004
+  para - recipes posted before 2004, worker - A2TUNPP2GOQ1N3
+  para - which recipes were posted before 2004, worker - A2XRC7P3AORIPH
+  para - a recipe which posted before 2004, worker - A2RRYVYUDNK2GB
+  para - what recipe was posted before 2004, worker - A32CIL5S21Y4MR
+  para - find recipes posted before 2004, worker - A2TEWO3WJ5YKGG
+  para - what recipe was posted before 2004, worker - A4WSGXF5IARBH
+  para - what recipes were posted before 2004, worker - AGFV72C99E22E
+original - ingredient that more than two recipe requires
+  para - what is an ingredient used in more than two recipes, worker - A2RRYVYUDNK2GB
+  para - name an ingredient required in more than two recipes, worker - A19LTHK3TA57SF
+  para - what ingredient is needed for more than two recipes, worker - A2XRC7P3AORIPH
+  para - which ingredients are used in more than two recipes, worker - A11GZNNVLEWRGF
+  para - show me ingredients required by more than two recipes, worker - A2R085B34P2LYS
+  para - name ingredients that is required in  three or more recipes, worker - AD5IKFAK8KN4P
+  para - what ingredient is in than two recipes, worker - A2TUNPP2GOQ1N3
+  para - which food item is needed in  two recipes or more, worker - A2TEWO3WJ5YKGG
+  para - what ingredient is in over two recipes, worker - A32CIL5S21Y4MR
+original - recipe that has the smallest posting date
+  para - what recipe has the least posting date, worker - A4WSGXF5IARBH
+  para - which recipe was posted first, worker - A2TEWO3WJ5YKGG
+  para - which recipe was posted the earliest, worker - A2XRC7P3AORIPH
+  para - show me the oldest recipe, worker - A2R085B34P2LYS
+  para - what recipe was posted the earliest, worker - A2RRYVYUDNK2GB
+  para - what recipe is the oldest, worker - A32CIL5S21Y4MR
+  para - recipe that first posted, worker - A2TUNPP2GOQ1N3
+  para - show the first recipe posted, worker - AD5IKFAK8KN4P
+  para - which recipe was posted first, worker - AOCX8D08T8ZQB
+  para - which recipe was posted the earliest, worker - A11GZNNVLEWRGF
+original - recipe whose cooking time is at least cooking time of rice pudding
+  para - what recipes cooking time is at lowest that of rice pudding, worker - A4WSGXF5IARBH
+  para - show me recipes that take the same amount of time or more to cook as rice pudding, worker - A11GZNNVLEWRGF
+  para - name the recipe with a cooking time with at least the cooking time of rice pudding, worker - A19LTHK3TA57SF
+  para - what recipes require the same time or than rice pudding, worker - AD5IKFAK8KN4P
+  para - a recipe which takes at least as long to cook as rice pudding, worker - A2RRYVYUDNK2GB
+  para - which recipe has less cooking time like rice pudding, worker - A2TEWO3WJ5YKGG
+  para - what recipe cooks in less time than rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what recipe takes equal or more time to cook than rice pudding, worker - A32CIL5S21Y4MR
+  para - show me recipes with cooking time equal to or greater than cooking time for rice pudding, worker - A2R085B34P2LYS
+original - number of meal
+  para - how many meals do we have everyday, worker - A19LTHK3TA57SF
+  para - how many meals are there, worker - A32CIL5S21Y4MR
+  para - how many meals does this make, worker - A2XRC7P3AORIPH
+  para - show me total number of meals, worker - A2A4LHPXF2E2GS
+  para - how many total meals are there, worker - A11GZNNVLEWRGF
+  para - how many meals are there, worker - A2RRYVYUDNK2GB
+  para - how many total meals are there, worker - A2TUNPP2GOQ1N3
+original - ingredient that rice pudding or quiche requires
+  para - what ingredients are used in rice pudding or quiche, worker - A11GZNNVLEWRGF
+  para - show me ingredients for rice pudding or quiche, worker - A2R085B34P2LYS
+  para - which ingredient is needed by rice pudding or quiche, worker - A2TEWO3WJ5YKGG
+  para - what is an ingredient found in a recipe for rice pudding or quiche, worker - A2RRYVYUDNK2GB
+  para - what ingredients does quiche or rice pudding require, worker - A4WSGXF5IARBH
+  para - what ingredients does rice pudding or quiche need, worker - A2XRC7P3AORIPH
+  para - what are the ingredients of rice pudding or quiche, worker - AD5IKFAK8KN4P
+  para - show me ingredients needed for rice pudding and quiche, worker - A2Q2IMR3GBBTU3
+  para - what ingredient is required in either rice pudding or quiche, worker - A32CIL5S21Y4MR
+  para - ingredient in rice pudding and quiche, worker - A2TUNPP2GOQ1N3
+original - meal that the most number of recipe is for
+  para - which meal has the most number of recipes, worker - AD5IKFAK8KN4P
+  para - which meal has the most recipes for it, worker - A11GZNNVLEWRGF
+  para - what is a meal with the most number of recipes, worker - A2RRYVYUDNK2GB
+  para - what meal has the most number of recipes, worker - A2XRC7P3AORIPH
+  para - which meal has the most number of recipes, worker - A19LTHK3TA57SF
+  para - what meal has the most number of recipes, worker - A4WSGXF5IARBH
+  para - for what meal can maximum recipes be found, worker - A2TEWO3WJ5YKGG
+  para - what meal most recipes made for, worker - A2TUNPP2GOQ1N3
+  para - show me meals with the most recipes, worker - A2R085B34P2LYS
+  para - what meal has the most recipes for it, worker - A32CIL5S21Y4MR
+original - meal that rice pudding is for and that rice pudding is for
+  para - for what meal is rice pudding, worker - A2XRC7P3AORIPH
+  para - for which meal is the dish rice pudding used, worker - AD5IKFAK8KN4P
+  para - what is a meal that incorporates rice pudding, worker - A2RRYVYUDNK2GB
+  para - for what meal is rice pudding used, worker - A2TEWO3WJ5YKGG
+  para - what is the meal that rice pudding goes with, worker - A4WSGXF5IARBH
+original - recipe that requires milk and whose posting date is 2004
+  para - which recipe posted in 2004 needs milk for preparation, worker - A2TEWO3WJ5YKGG
+  para - show me recipes that need milk and were posted in 2004, worker - A15EZJS1DROADE
+  para - show me recipe requiring milk posted in 2004, worker - A2A4LHPXF2E2GS
+  para - what recipes posted in 2004 require milk, worker - A11GZNNVLEWRGF
+  para - what recipe posted in 2004 calls for milk, worker - A32CIL5S21Y4MR
+  para - which recipes posted in 2004 require milk, worker - A2RRYVYUDNK2GB
+  para - what recipes posting date is in 2004 and requires milk, worker - A4WSGXF5IARBH
+  para - what recipes need milk and is posted in 2004, worker - A2XRC7P3AORIPH
+  para - show recipes posted in 2004 and has milk as one of its ingredients, worker - AD5IKFAK8KN4P
+  para - recipes posted in 2004 that require milk, worker - A2TUNPP2GOQ1N3
+original - recipe that has less than two cuisine
+  para - show me recipes that fall under at least two cuisines, worker - A11GZNNVLEWRGF
+  para - which recipes have less than two cuisines, worker - A2XRC7P3AORIPH
+  para - recipe of one cuisine, worker - A1ULLPIT6EU99K
+  para - what is a recipe from fewer than two cuisines, worker - A2RRYVYUDNK2GB
+  para - show me recipes with fewer than two cuisines, worker - A2R085B34P2LYS
+  para - which recipe is found in only one cuisine, worker - A2TEWO3WJ5YKGG
+  para - which recipe follows one cuisine, worker - AD5IKFAK8KN4P
+  para - what recipe can make fewer than two types of cuisine, worker - A32CIL5S21Y4MR
+  para - what recipe has one cuisine, worker - A2TUNPP2GOQ1N3
+  para - what recipe has less than two cuisines, worker - A4WSGXF5IARBH
+original - recipe whose posting date is smaller than posting date of rice pudding
+  para - show me recipes posted before any posting for rice pudding, worker - A2A4LHPXF2E2GS
+  para - show me recipes posted before rice pudding, worker - A2R085B34P2LYS
+  para - show me recipes posted before rice pudding, worker - A11GZNNVLEWRGF
+  para - what recipe was posted before rice puddings recipe, worker - A32CIL5S21Y4MR
+  para - what recipes posting date is lesser than that of rice pudding, worker - A4WSGXF5IARBH
+  para - find recipes that were posted before the recipe for rice pudding, worker - A2TEWO3WJ5YKGG
+  para - recipes posted before rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what recipe was posted before rice pudding, worker - A2RRYVYUDNK2GB
+  para - show recipes posted before rice pudding, worker - AD5IKFAK8KN4P
+  para - which recipes were posted before rice pudding, worker - A2XRC7P3AORIPH
+original - meal that more than two recipe is for
+  para - which meal had two recipes or more, worker - A2TEWO3WJ5YKGG
+  para - show me meals with more than two recipes, worker - A2R085B34P2LYS
+  para - for what meals share two or more recipes, worker - A2XRC7P3AORIPH
+  para - what is a meal for which you can find more than two recipes, worker - A2RRYVYUDNK2GB
+  para - meal with more than two recipes, worker - A2TUNPP2GOQ1N3
+  para - what meal has over two recipes, worker - A32CIL5S21Y4MR
+  para - what meal has more than two recipes, worker - A4WSGXF5IARBH
+  para - show me a meal that has more than two recipes, worker - A1CY44CGMVAHKT
+  para - what meal has more than two recipes for it, worker - A11GZNNVLEWRGF
+original - recipe that requires at least two ingredient
+  para - find me the recipes need more than one ingredients, worker - A2TUNPP2GOQ1N3
+  para - which recipe requires at least two ingredients, worker - A19LTHK3TA57SF
+  para - a recipe that uses two or more ingredients, worker - A2RRYVYUDNK2GB
+  para - show me recipes that involve two or more ingredients, worker - AD5IKFAK8KN4P
+  para - show me recipes that required two or more ingredients, worker - A2R085B34P2LYS
+  para - which recipe needs a minimum of two ingredients, worker - A2TEWO3WJ5YKGG
+  para - what recipe requires two or more ingredients, worker - A32CIL5S21Y4MR
+  para - what recipe requires at the least two ingredients, worker - A4WSGXF5IARBH
+  para - what recipes require at leas two ingredients, worker - A11GZNNVLEWRGF
+  para - which recipes require at least two ingredients, worker - A2XRC7P3AORIPH
+original - recipe whose cooking time is smaller than preparation time of rice pudding
+  para - show me recipes that take less time to prepare than rice pudding, worker - A2Q2IMR3GBBTU3
+  para - which recipes take less time to cook than to prepare rice pudding, worker - A2XRC7P3AORIPH
+  para - recipe cooked in less time than rice pudding preparation, worker - A2TUNPP2GOQ1N3
+  para - which recipe requires less cooking time than rice pudding preparation, worker - A2TEWO3WJ5YKGG
+  para - show me recipes with cooking time less than the preparation time for rice pudding, worker - A2R085B34P2LYS
+  para - what recipes cooking time is lower than the preparation time of rice pudding, worker - A4WSGXF5IARBH
+  para - show me recipes that require lesser cooking time than rice pudding, worker - AD5IKFAK8KN4P
+  para - show me recipes that take less time to cook than it takes to prepare rice pudding, worker - A11GZNNVLEWRGF
+  para - what recipe takes less time to cook than rice pudding does to prepare, worker - A2RRYVYUDNK2GB
+  para - what recipe cooks for less time than rice pudding takes to prep, worker - A32CIL5S21Y4MR
+original - recipe that has the most number of cuisine
+  para - what is a recipe with the most ingredients, worker - AOCX8D08T8ZQB
+  para - show recipes with the maximum number of cuisines, worker - AD5IKFAK8KN4P
+  para - which recipe is found in many cuisines, worker - A2TEWO3WJ5YKGG
+  para - what recipe has the most cuisine, worker - A4WSGXF5IARBH
+  para - what recipe is used in the greatest number of cuisines, worker - A2RRYVYUDNK2GB
+  para - what recipe has the most types of cuisine, worker - A32CIL5S21Y4MR
+  para - show me recipes for the most cuisines, worker - A2R085B34P2LYS
+  para - which recipe falls under the most kinds of cuisine, worker - A11GZNNVLEWRGF
+  para - which recipe has the most number of cuisine, worker - A2XRC7P3AORIPH
+  para - recipe with most cuisine, worker - A2TUNPP2GOQ1N3
+original - ingredient that the least number of recipe requires
+  para - ingredient required by least number of recipes, worker - A1ULLPIT6EU99K
+  para - what ingredient is used for the least amount of recipes, worker - A2XRC7P3AORIPH
+  para - what recipe requires the least ingredients, worker - A4WSGXF5IARBH
+  para - what ingredient is there in less recipes, worker - A2TUNPP2GOQ1N3
+  para - which ingredient is needed in the least number of recipes, worker - A2TEWO3WJ5YKGG
+  para - what is an ingredient found in the fewest recipes, worker - A2RRYVYUDNK2GB
+  para - what ingredient is required by the least recipes, worker - A32CIL5S21Y4MR
+  para - what ingrediant is used in the fewest recipes, worker - AODM31DHYJG99
+  para - what ingredients are used least in recipes, worker - AD5IKFAK8KN4P
+  para - what ingredient is used by the least number of recipes, worker - A11GZNNVLEWRGF
+original - recipe that is for lunch and that requires milk
+  para - name the recipe used for lunch prepared with milk, worker - A19LTHK3TA57SF
+  para - which lunch recipe requires milk for its preparation, worker - A2TEWO3WJ5YKGG
+  para - what recipes require milk and are for lunch, worker - A2XRC7P3AORIPH
+  para - what recipe requiring milk makes a lunch meal, worker - A32CIL5S21Y4MR
+  para - show me lunch recipes that require milk, worker - A11GZNNVLEWRGF
+  para - what lunch recipe uses milk as an ingredient, worker - A2RRYVYUDNK2GB
+  para - list the lunch recipes contains milk, worker - A2TUNPP2GOQ1N3
+  para - tell recipes with milk for lunch, worker - AD5IKFAK8KN4P
+original - number of recipe
+  para - show me the total number of recipes, worker - A2A4LHPXF2E2GS
+  para - how many total recipes are there, worker - A2RRYVYUDNK2GB
+  para - how many recipes are there, worker - A2R085B34P2LYS
+  para - how many recipes are there, worker - A2XRC7P3AORIPH
+  para - how many total recipes are there, worker - A2TUNPP2GOQ1N3
+  para - how many total recipes are listed, worker - A11GZNNVLEWRGF
+  para - how many recipes are there, worker - A32CIL5S21Y4MR
+  para - what is the total number of recipes, worker - AD5IKFAK8KN4P
+  para - how many recipes, worker - A2TEWO3WJ5YKGG
+  para - what is the number of recipes, worker - A4WSGXF5IARBH
+original - recipe that requires more than two ingredient
+  para - which recipes require more than two ingredients, worker - A2XRC7P3AORIPH
+  para - what recipe calls for over two ingredients, worker - A32CIL5S21Y4MR
+  para - show me recipes that need at least three ingrediants, worker - AODM31DHYJG99
+  para - show me recipes that call for more than two ingredients, worker - A11GZNNVLEWRGF
+  para - which recipe needs more than two ingredients, worker - A2TEWO3WJ5YKGG
+  para - how many recipes use more than two ingredients, worker - AQVP5IH2S6WCB
+  para - what recipes need three or more ingredients, worker - A2TUNPP2GOQ1N3
+  para - this receipe requires more than two ingredient, worker - A1KH62H92N4L13
+  para - what recipe requires three or more ingredients, worker - A2RRYVYUDNK2GB
+original - recipe whose posting date is at least 2004 or 2010
+  para - show me recipes posted after 2004, worker - A2R085B34P2LYS
+  para - show me recipes posted in or after 2004 or in or after 2010, worker - A11GZNNVLEWRGF
+  para - show me recipes with posting dates from 2004 or later, worker - A2A4LHPXF2E2GS
+  para - a recipe which posted no sooner than 2004 or 2010, worker - A2RRYVYUDNK2GB
+  para - what are the recipes posted in2004 or 2010, worker - A2TEWO3WJ5YKGG
+  para - recipes posted after 2003, worker - A2TUNPP2GOQ1N3
+original - recipe that not requires milk
+  para - what recipe doesnt require milk, worker - A4WSGXF5IARBH
+  para - which recipe does not need milk, worker - A2TEWO3WJ5YKGG
+  para - show me milkfree recipes, worker - A2Q2IMR3GBBTU3
+  para - show me recipes without milk, worker - A2R085B34P2LYS
+  para - what is a recipe that does not use milk as an ingredient, worker - A2RRYVYUDNK2GB
+  para - recipes without milk, worker - A2TUNPP2GOQ1N3
+  para - what recipe does not need milk, worker - A32CIL5S21Y4MR
+  para - show recipes that does not have milk as one of its ingredients, worker - AD5IKFAK8KN4P
+  para - which recipes dont need milk, worker - A2XRC7P3AORIPH
+  para - what recipes dont call for milk, worker - A11GZNNVLEWRGF
+original - ingredient that at most two recipe requires
+  para - show me ingredients required for two recipes at most, worker - A2R085B34P2LYS
+  para - ingredients required in less than three recipes, worker - A2TUNPP2GOQ1N3
+  para - tell me recipethat at most require two ingredients, worker - ALSHA3DAWJWRO
+  para - what recipes are required by two recipes or less, worker - A11GZNNVLEWRGF
+  para - what is an ingredient found in no more than two recipes, worker - A2RRYVYUDNK2GB
+  para - name ingredients used only in one or two recipes, worker - AD5IKFAK8KN4P
+  para - what ingredient is in two or less recipes, worker - A32CIL5S21Y4MR
+  para - which ingredient is used for at most two recipes, worker - A2XRC7P3AORIPH
+original - cuisine of rice pudding
+  para - what is the cuisine of rice pudding, worker - A2XRC7P3AORIPH
+  para - what is the cuisine of rice pudding, worker - A4WSGXF5IARBH
+  para - to which cuisine does rice pudding belong, worker - A2TEWO3WJ5YKGG
+  para - what kind of cuisine is rice pudding, worker - A11GZNNVLEWRGF
+  para - what type of cuisine is rice pudding, worker - A3VOSFN1XRFF01
+  para - what type of cuisine is rice pudding, worker - A32CIL5S21Y4MR
+  para - what is cuisine for rice pudding, worker - AD5IKFAK8KN4P
+  para - what cuisine is rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what is a cuisine of rice pudding, worker - A15EZJS1DROADE
+  para - a recipe for rice pudding, worker - A2RRYVYUDNK2GB
+original - recipe whose posting date is 2004 and that requires milk
+  para - show me recipes posted in 2004 requiring milk, worker - A2R085B34P2LYS
+  para - what recipes posting date is 2004 and requires milk, worker - A4WSGXF5IARBH
+  para - which recipe  that uses milk for its preparation was posted in 2004, worker - A2TEWO3WJ5YKGG
+  para - a recipe with milk posted in 2004, worker - AOCX8D08T8ZQB
+  para - what recipe posted in 2004 requires milk as an ingredient, worker - A2RRYVYUDNK2GB
+  para - show me recipes posted in 2004 that use milk, worker - A11GZNNVLEWRGF
+  para - which recipe posted in 2004 requires milk, worker - A2TUNPP2GOQ1N3
+  para - what recipe was posted in 2004 and needs milk, worker - A2XRC7P3AORIPH
+  para - show recipes with milk as an ingredient and is posted in 2004, worker - AD5IKFAK8KN4P
+  para - what recipe calling for milk was posted in 2004, worker - A32CIL5S21Y4MR
+original - recipe that has the smallest preparation time
+  para - which recipe has the least preparation time, worker - AD5IKFAK8KN4P
+  para - recipe that with smallest preparation time, worker - A1ULLPIT6EU99K
+  para - what recipe is fastest prepared , worker - A2TUNPP2GOQ1N3
+  para - which recipe has the shortest preparation time, worker - A11GZNNVLEWRGF
+  para - which recipe takes the least amount of time to prepare, worker - A2XRC7P3AORIPH
+  para - which recipe can be prepared at the earliest, worker - A2TEWO3WJ5YKGG
+  para - which recipe has the least amount of prep time, worker - A2RRYVYUDNK2GB
+  para - what recipe has the smallest preparation time, worker - A4WSGXF5IARBH
+  para - show the recipes with smallest preparation time, worker - ALSHA3DAWJWRO
+  para - what recipe has the least prep time, worker - A32CIL5S21Y4MR
+original - ingredient that rice pudding not requires
+  para - what ingredients are not in the rice pudding recipe, worker - A11GZNNVLEWRGF
+  para - which food item is not needed in rice pudding, worker - A2TEWO3WJ5YKGG
+  para - name ingredients that is not required for rice pudding, worker - AD5IKFAK8KN4P
+  para - show me ingredients not required for rice pudding, worker - A2R085B34P2LYS
+  para - what is an ingredient not found in rice pudding, worker - A2RRYVYUDNK2GB
+  para - what ingredients does rice pudding not need, worker - A2XRC7P3AORIPH
+  para - ingredients not required to prepare rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what ingredient is not required to make rice pudding, worker - A32CIL5S21Y4MR
+  para - name the ingredient not required in rice pudding, worker - A19LTHK3TA57SF
+original - recipe whose cooking time is cooking time of rice pudding
+  para - show me recipes with cooking times equal to cooking time of rice pudding, worker - A2R085B34P2LYS
+  para - what recipe has the same cooking time as rice pudding, worker - A32CIL5S21Y4MR
+  para - what is a recipe whose cooking time is the same as rice pudding, worker - A2RRYVYUDNK2GB
+  para - what recipes have the same cooking time as rice pudding, worker - A11GZNNVLEWRGF
+  para - show me recipes with cooking time equal to rice pudding, worker - A2A4LHPXF2E2GS
+  para - show me recipes that require the cooking time of rice pudding, worker - AD5IKFAK8KN4P
+  para - what recipes are cooked in same time as rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what recipes cooking time is the same as rice pudding, worker - A4WSGXF5IARBH
+original - recipe that requires milk or spinach
+  para - show me recipes that require milk or spinach, worker - AD5IKFAK8KN4P
+  para - find me all recipes requires milk or spinach, worker - A2TUNPP2GOQ1N3
+  para - what recipe requires milk or spinach, worker - A4WSGXF5IARBH
+  para - what recipe calls for either milk or spinach, worker - A32CIL5S21Y4MR
+  para - which recipes require milk or spinach, worker - A2XRC7P3AORIPH
+  para - show me recipes requiring milk or spinach, worker - A2R085B34P2LYS
+  para - what recipe uses milk or spinach as an ingredient, worker - A2RRYVYUDNK2GB
+  para - what recipe needs spinach or milk for its preparation, worker - A2TEWO3WJ5YKGG
+  para - show me recipes that require milk or spinach, worker - A15EZJS1DROADE
+original - recipe whose posting date is at least 2004
+  para - show me recipes posted in 2004 or later, worker - A11GZNNVLEWRGF
+  para - show me a recipe that has a posting date of at least 2004, worker - A15EZJS1DROADE
+  para - what recipes posting date is at least in 2004, worker - A4WSGXF5IARBH
+  para - show me recipes posted in 2004 or later, worker - AD5IKFAK8KN4P
+  para - recipes posted in 2004 and later, worker - A2TUNPP2GOQ1N3
+  para - a recipe which posted in 2004 or later, worker - A2RRYVYUDNK2GB
+  para - show me recipes posted no earlier than 2004, worker - A3VOSFN1XRFF01
+  para - find a recipe that was posted  by 2004, worker - A2TEWO3WJ5YKGG
+  para - which recipes were posted by 2004, worker - A2XRC7P3AORIPH
+original - recipe whose posting date is 2004 or 2010
+  para - what recipe was posted in either 2004 or 2010, worker - A32CIL5S21Y4MR
+  para - what recipes posting date is in 2004 or 2010, worker - A4WSGXF5IARBH
+  para - find recipes posted in 2004 or 2010, worker - A2TEWO3WJ5YKGG
+  para - show me recipes posted in 2004 and 2010, worker - A2TUNPP2GOQ1N3
+  para - show me recipes posted during 2004 and 2010, worker - AD5IKFAK8KN4P
+  para - show me recipes posted in 2004 or in 2010, worker - A11GZNNVLEWRGF
+  para - a recipe which posted either in 2004 or 2010, worker - A2RRYVYUDNK2GB
+original - recipe that requires two ingredient
+  para - recipes with just two ingredients, worker - AD5IKFAK8KN4P
+  para - show me recipes that require two ingredients, worker - A11GZNNVLEWRGF
+  para - which recipe requires two ingredients, worker - A2RRYVYUDNK2GB
+  para - what recipe calls for two ingredients, worker - A32CIL5S21Y4MR
+  para - show me recipes with two ingredients, worker - A2Q2IMR3GBBTU3
+  para - what recipe requires two ingredients, worker - A4WSGXF5IARBH
+  para - find recipes that are made with two ingredients, worker - A2TEWO3WJ5YKGG
+  para - which recipes need two ingredients, worker - A2XRC7P3AORIPH
+  para - recipe need two ingredients, worker - A2TUNPP2GOQ1N3
+  para - show me a recipe that requires only two ingredients, worker - AQVP5IH2S6WCB
+original - meal that two recipe is for
+  para - show me two recipes for a meal, worker - A2A4LHPXF2E2GS
+  para - find a meal with two recipes, worker - A2TEWO3WJ5YKGG
+  para - show me meals with two recipes, worker - A2R085B34P2LYS
+  para - which meal has two recipes designated for it, worker - A11GZNNVLEWRGF
+  para - what meals have two recipes, worker - A2XRC7P3AORIPH
+  para - what meal can be made by two recipes, worker - A32CIL5S21Y4MR
+original - recipe whose posting date is 2004
+  para - show me recipes posted in 2004, worker - A11GZNNVLEWRGF
+  para - show me recipes posted in 2004, worker - A2A4LHPXF2E2GS
+  para - find recipes posted in 2005, worker - A2TEWO3WJ5YKGG
+  para - recipe posted in 2004, worker - A2TUNPP2GOQ1N3
+  para - what recipe was posted in 2004, worker - A4WSGXF5IARBH
+  para - recipe with posting date 2004, worker - A1ULLPIT6EU99K
+  para - a recipe which posted after 2004, worker - A2RRYVYUDNK2GB
+  para - which recipe has its posting date as 2004, worker - AD5IKFAK8KN4P
+  para - show me recipes posted in 2004, worker - A2R085B34P2LYS
+  para - what recipe was posted during 2004, worker - A32CIL5S21Y4MR
+original - recipe whose preparation time is at least preparation time of rice pudding
+  para - show recipes that take at least the preparation time of rice pudding to be done, worker - AD5IKFAK8KN4P
+  para - what is a recipe that takes at least as long to make as rice pudding, worker - AOCX8D08T8ZQB
+  para - what recipes have the same or longer preparation time as rice pudding, worker - A11GZNNVLEWRGF
+  para - what recipes preparation time is at least that of rice pudding, worker - A4WSGXF5IARBH
+  para - which recipe is prepared using the same amount of time as that of rice pudding, worker - A2TEWO3WJ5YKGG
+  para - show me recipes with a preparation time equal to or greater than rice pudding, worker - A2R085B34P2LYS
+  para - what recipe can you prep in the same or longer amount of time as rice pudding, worker - A32CIL5S21Y4MR
+  para - what recipe takes at least as long to prepare as rice pudding, worker - A2RRYVYUDNK2GB
+  para - what recipe is prepared in preparation time of rice pudding or earlier, worker - A2TUNPP2GOQ1N3
+original - recipe that is for lunch
+  para - what recipe is not for a lunch meal, worker - A32CIL5S21Y4MR
+  para - recipe for lunch, worker - A1ULLPIT6EU99K
+  para - a recipe for a lunch meal, worker - A2RRYVYUDNK2GB
+  para - find some lunch recipes, worker - A2TEWO3WJ5YKGG
+original - ingredient that two recipe requires
+  para - what ingredient is used by two recipes, worker - A11GZNNVLEWRGF
+  para - what ingredients are required in two recipes, worker - A2TUNPP2GOQ1N3
+  para - what recipes share ingredients, worker - A2XRC7P3AORIPH
+  para - ingredient of two recipes, worker - A1ULLPIT6EU99K
+  para - name an ingredient required by two different recipes, worker - A2RRYVYUDNK2GB
+  para - what two ingredients does that recipe require, worker - A4WSGXF5IARBH
+  para - show me ingredients that two recipes require, worker - A2R085B34P2LYS
+  para - what ingredient is called for in two recipes, worker - A32CIL5S21Y4MR
+  para - which is the food item that is needed in two recipes, worker - A2TEWO3WJ5YKGG
+  para - name ingredients used in more than one recipe, worker - AD5IKFAK8KN4P
+original - recipe whose preparation time is larger than preparation time of rice pudding
+  para - show me recipes with longer preparation times than rice pudding, worker - A11GZNNVLEWRGF
+  para - recipes with more preparation time than rice pudding, worker - A2TUNPP2GOQ1N3
+  para - which recipe needs more time than rice pudding preparation, worker - A2TEWO3WJ5YKGG
+  para - show me recipes with a preparation time greater than rice pudding, worker - A2R085B34P2LYS
+  para - which recipe takes longer to prepare rice pudding, worker - A2XRC7P3AORIPH
+  para - recipes that require greater time to prepare than rice pudding, worker - AD5IKFAK8KN4P
+  para - show me recipes that take longer to cook than rice pudding, worker - A15EZJS1DROADE
+  para - what recipe requires more prep time than rice pudding, worker - A2RRYVYUDNK2GB
+  para - what recipes preparation time is greater than that of rice pudding, worker - A4WSGXF5IARBH
+  para - what recipe takes longer to prep than rice pudding, worker - A32CIL5S21Y4MR
+original - recipe that requires milk
+  para - find me all recipes that require milk, worker - A2TUNPP2GOQ1N3
+  para - show me recipes that has milk as one of its ingredients, worker - AD5IKFAK8KN4P
+  para - what recipes need milk, worker - A2XRC7P3AORIPH
+  para - which recipe uses milk as an ingredient, worker - A2RRYVYUDNK2GB
+  para - recipe that needs milk, worker - A1ULLPIT6EU99K
+  para - what are the recipes that are made with milk, worker - A2TEWO3WJ5YKGG
+  para - show me recipes that require milk, worker - AODM31DHYJG99
+original - recipe whose preparation time is at most cooking time of rice pudding
+  para - what recipe can you prepare in the same or less time than it takes to cook rice pudding, worker - A32CIL5S21Y4MR
+  para - preparation time of recipe  not more than that of rice pudding, worker - A1ULLPIT6EU99K
+  para - name a recipe with a prep time no longer than the cook time for rice pudding, worker - A2RRYVYUDNK2GB
+  para - recipes prepare in same or less time for cooking rice pudding, worker - A2TUNPP2GOQ1N3
+  para - show me recipes with preparation time equal to or less than cooking time for rice pudding, worker - A2R085B34P2LYS
+  para - what recipes preparation time is no more than the cooking time of rice pudding, worker - A4WSGXF5IARBH
+  para - which recipe  s cooking time is equal to that of rice pudding, worker - A2TEWO3WJ5YKGG
+  para - what recipes takes as long to cook as rice pudding, worker - A2XRC7P3AORIPH
+  para - show recipes that requires at most the preparation time of rice pudding, worker - AD5IKFAK8KN4P
+  para - show me recipes whose preparation time is a most the cooking time of rice pudding, worker - A11GZNNVLEWRGF
+original - recipe that is for at least two meal
+  para - what recipe can be used for at least two meals, worker - A2RRYVYUDNK2GB
+  para - show me recipes for at least two meals, worker - A2R085B34P2LYS
+  para - recipe for three or more meals, worker - A2TUNPP2GOQ1N3
+  para - recipe for at least two meal, worker - A1ULLPIT6EU99K
+  para - which recipes make at least 2 meals, worker - A2XRC7P3AORIPH
+  para - what recipe can make two or more meals, worker - A32CIL5S21Y4MR
+  para - show me recipes good for at least two meals, worker - A11GZNNVLEWRGF
+  para - what recipe is for two meals, worker - A4WSGXF5IARBH
+  para - which recipe can be used for two or more meals, worker - AD5IKFAK8KN4P
+original - recipe whose posting date is larger than posting date of rice pudding
+  para - which recipe is posted after the posting date of rice pudding, worker - A2TEWO3WJ5YKGG
+  para - what recipe was posted later than rice pudding, worker - A2RRYVYUDNK2GB
+  para - what recipe was posted after rice puddings recipe, worker - A32CIL5S21Y4MR
+  para - what recipe was posted after the date  rice pudding, worker - AD5IKFAK8KN4P
+  para - what recipes posting date is greater than that of rice pudding, worker - A4WSGXF5IARBH
+  para - recipe whose posting date is after that of rice pudding, worker - A1ULLPIT6EU99K
+  para - what recipes were posted after rice pudding, worker - A2XRC7P3AORIPH
+  para - recipes posted after posting rice pudding recipe, worker - A2TUNPP2GOQ1N3
+original - recipe whose posting date is at most posting date of rice pudding
+  para - show me recipes that posted no later than the rice pudding recipe, worker - AODM31DHYJG99
+  para - what recipe was posted no later than the rice pudding recipe, worker - A2RRYVYUDNK2GB
+  para - recipe with posting date not after posting date of rice pudding, worker - A1ULLPIT6EU99K
+  para - what recipe was posted before or on the same day as rice pudding, worker - A32CIL5S21Y4MR
+  para - what recipes were posted at or before rice pudding, worker - A2XRC7P3AORIPH
+  para - what recipes posting date is no greater than that of rice pudding, worker - A4WSGXF5IARBH
+  para - show me recipes posted the same day as rice pudding or before, worker - A11GZNNVLEWRGF
+  para - show me recipes posted at the same date as rice pudding, worker - AD5IKFAK8KN4P
+  para - recipes posted till rice pudding is posted, worker - A2TUNPP2GOQ1N3
+  para - which recipe was posted at the posting date of rice pudding, worker - A2TEWO3WJ5YKGG
+original - recipe that is for at most two meal
+  para - what recipe is for two, worker - A4WSGXF5IARBH
+  para - show me recipes for two meals at most, worker - A2R085B34P2LYS
+  para - show me recipes designed for two meals or less, worker - A11GZNNVLEWRGF
+  para - recipes for less than three meals, worker - A2TUNPP2GOQ1N3
+  para - what recipe is for no more than two meals, worker - A2RRYVYUDNK2GB
+  para - find recipe for two meals, worker - A2TEWO3WJ5YKGG
+  para - which recipes are for two meals at most, worker - A2XRC7P3AORIPH
+  para - show me recipes that could be used for one or two meals, worker - AD5IKFAK8KN4P
+  para - what recipe is for two or fewer meals, worker - A32CIL5S21Y4MR
+  para - show me recipes for meals for two, worker - A2Q2IMR3GBBTU3
+original - recipe that has more than two cuisine
+  para - show recipes that follow more than two cuisines, worker - AD5IKFAK8KN4P
+  para - which recipes fall under more than two cuisines, worker - A11GZNNVLEWRGF
+  para - show me recipes for more than two cuisines, worker - A2R085B34P2LYS
+  para - what recipe has over two types of cuisine, worker - A32CIL5S21Y4MR
+  para - what is a recipe from more than two cuisines, worker - A2RRYVYUDNK2GB
+  para - recipe having more than two cuisine, worker - A1ULLPIT6EU99K
+  para - which recipe belongs to more than two cuisines, worker - A2TEWO3WJ5YKGG
+  para - which recipes have three or more cuisine, worker - A2TUNPP2GOQ1N3
+  para - which recipes has more than two cuisines, worker - A2XRC7P3AORIPH
+  para - what recipe has no greater than two cuisines, worker - A4WSGXF5IARBH
+original - meal that at least two recipe is for
+  para - show me meals with at least two recipes, worker - A2R085B34P2LYS
+  para - what meal has two or more recipes, worker - A32CIL5S21Y4MR
+  para - what meals have at least two recipes, worker - A2XRC7P3AORIPH
+  para - what recipe is for a meal for two, worker - A4WSGXF5IARBH
+  para - what meal has at least two recipes for it, worker - A11GZNNVLEWRGF
+  para - which meal has two or more recipes, worker - AD5IKFAK8KN4P
+  para - what meal has two or more recipes, worker - A2TUNPP2GOQ1N3
+  para - what meal can you find at least two recipes for, worker - A2RRYVYUDNK2GB
+original - ingredient that rice pudding requires and that rice pudding requires
+  para - what are ingredients in rice pudding, worker - AD5IKFAK8KN4P
+  para - ingredients in rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what ingredients does rice pudding need, worker - A32CIL5S21Y4MR
+  para - what ingredients go in rice pudding, worker - A4WSGXF5IARBH
+  para - tell me ingredients of rice pudding, worker - ALSHA3DAWJWRO
+  para - what ingredients are in rice pudding, worker - A11GZNNVLEWRGF
+original - preparation time of rice pudding
+  para - how much time it takes to prepare rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what is the preparation of rice pudding, worker - AD5IKFAK8KN4P
+  para - how long does rice pudding take to prepare, worker - A2XRC7P3AORIPH
+  para - how long does rice pudding take to prep, worker - A32CIL5S21Y4MR
+  para - how long does rice pudding take to prepare, worker - A11GZNNVLEWRGF
+  para - what is the preparation time of rice pudding, worker - A19LTHK3TA57SF
+  para - show me preparation time for rice pudding, worker - A2R085B34P2LYS
+  para - how long does it take to prepare rice pudding, worker - A2TEWO3WJ5YKGG
+  para - what is the prep time for rice pudding, worker - A2RRYVYUDNK2GB
+  para - what is the preparation time of rice pudding, worker - A4WSGXF5IARBH
+original - meal that less than two recipe is for
+  para - which meal has less than two recipes, worker - AD5IKFAK8KN4P
+  para - for what meals require less than two recipes, worker - A2XRC7P3AORIPH
+  para - what meal has less than two recipes for it, worker - A11GZNNVLEWRGF
+  para - show me meals with fewer than two recipes, worker - A2R085B34P2LYS
+  para - what meal is for only one recipe, worker - A2TUNPP2GOQ1N3
+  para - what meal has fewer than two recipes to make it, worker - A32CIL5S21Y4MR
+  para - show me meal with less than two recipe, worker - ALSHA3DAWJWRO
+  para - what is a meal for which there are fewer than two recipes, worker - A2RRYVYUDNK2GB
+original - recipe whose preparation time is smaller than cooking time of rice pudding
+  para - which recipe needs less time to cook than rice pudding, worker - A2TEWO3WJ5YKGG
+  para - what recipe can be prepped in less time than rice pudding can be cooked, worker - A32CIL5S21Y4MR
+  para - which recipes take less time to prepare than to cook rice pudding, worker - A2XRC7P3AORIPH
+  para - show me recipes that have a preparation time less than the cooking time of rice pudding, worker - A15EZJS1DROADE
+  para - show me recipes that whose preparation time is shorter than rice puddings cooking time, worker - A11GZNNVLEWRGF
+  para - show me recipes with preparation time less than cooking time for rice pudding, worker - A2R085B34P2LYS
+  para - what is a recipe with a prep time less than the cooking time of rice pudding, worker - A2RRYVYUDNK2GB
+  para - what recipes preparation time is lesser than the cooking time of rice pudding, worker - A4WSGXF5IARBH
+  para - what recipes can be prepared faster than rice pudding, worker - A2TUNPP2GOQ1N3
+  para - recipes that require lesser time to prepare than rice pudding, worker - AD5IKFAK8KN4P
+original - recipe whose posting date is at most 2004 or 2010
+  para - show me recipes posted before 2010, worker - A2R085B34P2LYS
+  para - which recipes were posted up to 2004 or 2010, worker - A2XRC7P3AORIPH
+  para - show me recipes posted in or before 2004 or in or before 2010, worker - A11GZNNVLEWRGF
+  para - what recipe was posted no later than 2004 or 2010, worker - A2RRYVYUDNK2GB
+  para - what recipes posting date is at most 2004 or 2010, worker - A4WSGXF5IARBH
+  para - what recipe was posted during or before 2010, worker - A32CIL5S21Y4MR
+  para - which recipe was posted in 2004 or 2010, worker - A2TEWO3WJ5YKGG
+original - recipe whose cooking time is larger than preparation time of rice pudding
+  para - find a recipe which has a longer cooking time than rice pudding, worker - A2TEWO3WJ5YKGG
+  para - which recipes take longer to cook than to prepare rice pudding, worker - A2XRC7P3AORIPH
+  para - which recipe has a larger cooking time than the preparation time needed for rice pudding, worker - A19LTHK3TA57SF
+  para - what recipe takes more time to prepare than rice pudding, worker - A2TUNPP2GOQ1N3
+  para - what recipes cooking time is longer than that of rice pudding, worker - A4WSGXF5IARBH
+  para - what recipes take more time to prepare than rice pudding, worker - AD5IKFAK8KN4P
+  para - show me recipes with cooking time greater than preparation time for rice pudding, worker - A2R085B34P2LYS
+  para - what recipe takes longer to cook than rice pudding takes to prep, worker - A32CIL5S21Y4MR
+  para - a recipe which takes longer to cook than the preparation time for rice pudding, worker - A2RRYVYUDNK2GB
+  para - which recipes take longer to cook than rice pudding does to prepare, worker - A11GZNNVLEWRGF
+original - recipe whose posting date is smaller than 2004 or 2010
+  para - show recipes posted on dates between 2004 and 2010, worker - AD5IKFAK8KN4P
+  para - which recipes were posted before 2004 or 2010, worker - A2XRC7P3AORIPH
+  para - show me recipes with posting date before 2010, worker - A2A4LHPXF2E2GS
+  para - find recipes that were posted before 2004 or 2010, worker - A2TEWO3WJ5YKGG
+  para - what recipe posted before 2004 or 2010, worker - A2RRYVYUDNK2GB
+  para - what recipe was posted before 2010, worker - A32CIL5S21Y4MR
+  para - show me recipes posted before 2004 or before 2010, worker - A11GZNNVLEWRGF
+  para - which recipe has a posting date smaller than 2004 or 2010, worker - A19LTHK3TA57SF
+original - lunch or dinner
+  para - show me recipes for lunch or dinner, worker - A2A4LHPXF2E2GS
+  para - either lunch or dinner, worker - A1ULLPIT6EU99K
+  para - recipes for lunch or dinner menus, worker - A2RRYVYUDNK2GB
+  para - is the recipe for lunch or dinner, worker - AD5IKFAK8KN4P
+original - recipe that requires milk and that is for lunch
+  para - what recipe calling for milk makes something for lunch, worker - A32CIL5S21Y4MR
+  para - what lunch recipes contain milk, worker - A2TUNPP2GOQ1N3
+  para - what lunch recipe requires milk, worker - A4WSGXF5IARBH
+  para - find a lunch recipe that is prepared with milk, worker - A2TEWO3WJ5YKGG
+  para - what recipe needs milk and is for lunch, worker - A2XRC7P3AORIPH
+  para - show me lunch recipes that need milk, worker - A2A4LHPXF2E2GS
+  para - which recipe has milk as its ingredient for lunch, worker - AD5IKFAK8KN4P
+  para - show me lunch recipes that use milk, worker - A11GZNNVLEWRGF
+original - ingredient that at least two recipe requires
+  para - which ingredient is needed in more than one recipes, worker - A2TUNPP2GOQ1N3
+  para - what recipes share at least two ingredients, worker - A2XRC7P3AORIPH
+  para - which recipes require two or more ingredients, worker - AD5IKFAK8KN4P
+  para - show me ingredients required by at least two recipes, worker - A2R085B34P2LYS
+  para - what ingredients does both recipes share, worker - A4WSGXF5IARBH
+  para - an ingredient required by at least two recipes, worker - A2RRYVYUDNK2GB
+  para - what ingredient is required in two or more recipes, worker - A32CIL5S21Y4MR
+  para - name the ingredient required by at least two recipes, worker - A19LTHK3TA57SF
+  para - what ingredients are used by at least two recipes, worker - A11GZNNVLEWRGF
+original - recipe that is for meal that rice pudding is for
+  para - what meal is the rice pudding recipe, worker - A2XRC7P3AORIPH
+  para - show me meal recipes including rice pudding, worker - A2A4LHPXF2E2GS
+  para - what meal is the recipe rice pudding for, worker - A4WSGXF5IARBH
+  para - what is a recipe for a meal with rice pudding, worker - A2RRYVYUDNK2GB
+  para - show recipes for the meal as the same for rice pudding, worker - AD5IKFAK8KN4P
+  para - show me recipes for rice pudding meals, worker - A2R085B34P2LYS
+  para - what recipes are for the same meal as rice pudding, worker - A11GZNNVLEWRGF
+  para - recipe for meal same as rice pudding, worker - A2TUNPP2GOQ1N3
+original - recipe whose cooking time is smaller than cooking time of rice pudding
+  para - what recipes take less time to cook than rice pudding, worker - A11GZNNVLEWRGF
+  para - what recipe do you cook for less time than rice pudding, worker - A32CIL5S21Y4MR
+  para - which recipes take less time to cook than rice pudding, worker - A2XRC7P3AORIPH
+  para - show me recipes with cooking times shorter than cooking time of rice pudding, worker - A2R085B34P2LYS
+  para - which recipe takes less time to prepare than rice pudding, worker - A2TEWO3WJ5YKGG
+  para - what recipe has a cooking time lower than that of rice pudding, worker - A4WSGXF5IARBH
+  para - show me recipes that have shorter cooking times than rice pudding, worker - A1CY44CGMVAHKT
+  para - what recipe has a cook time less than the cook time of rice pudding, worker - A2RRYVYUDNK2GB
+  para - what recipe is cooked faster than rice pudding, worker - A2TUNPP2GOQ1N3
+original - recipe that has the least number of cuisine
+  para - show me recipes for the fewest cuisines, worker - A2R085B34P2LYS
+  para - show recipes with one cuisine, worker - AD5IKFAK8KN4P
+  para - what is a recipe from the fewest cuisines, worker - A2RRYVYUDNK2GB
+  para - which recipe falls under the least kinds of cuisine, worker - A11GZNNVLEWRGF
+  para - what recipe has the fewest number of cuisine, worker - A4WSGXF5IARBH
+  para - which recipe has the least number of cuisines, worker - A2XRC7P3AORIPH
+  para - which recipe belongs to less number of cuisines, worker - A2TEWO3WJ5YKGG
+  para - recipe in least cuisines, worker - A2TUNPP2GOQ1N3
+  para - show me recipes with the cuisine least represented, worker - A2A4LHPXF2E2GS
+  para - what recipe makes the fewest types of cuisine, worker - A32CIL5S21Y4MR
+original - ingredient that rice pudding requires
+  para - what food items are needed to make rice pudding, worker - A2TEWO3WJ5YKGG
+  para - show me the ingredients for rice pudding, worker - A2A4LHPXF2E2GS
+  para - what is an ingredient found in rice pudding, worker - A2RRYVYUDNK2GB
+  para - list  the ingredients of rice pudding, worker - A2TUNPP2GOQ1N3
+original - 2004 or 2010
+  para - either 2004 or 2010, worker - A1ULLPIT6EU99K
+original - average preparation time of recipe
+  para - what is the average prep time for the recipe, worker - A2RRYVYUDNK2GB
+  para - on average how long is the prep time of the recipe, worker - A32CIL5S21Y4MR
+  para - what is the usual time required to finish the recipe, worker - AD5IKFAK8KN4P
+  para - what is the average preparation time for a recipe, worker - A2XRC7P3AORIPH
+  para - what is the average preparation time across all recipes, worker - A11GZNNVLEWRGF
+  para - whats the average preparation time of a recipe, worker - A15EZJS1DROADE
+  para - how long is the average preparation time for the recipe, worker - A3VOSFN1XRFF01
+  para - how long does it take to prepare the recipe, worker - A2TEWO3WJ5YKGG
+  para - what is the average preparation time of that recipe, worker - A4WSGXF5IARBH
+original - total cooking time of recipe
+  para - how much time is needed to cook this dish, worker - A2TEWO3WJ5YKGG
+  para - how long does this recipe take to cook, worker - A2XRC7P3AORIPH
+  para - what is the total cooking time of the recipe, worker - A4WSGXF5IARBH
+  para - recipes cooking time, worker - A1ULLPIT6EU99K
+  para - cooking time of recipe, worker - A2TUNPP2GOQ1N3
+  para - what is the cooking time for this recipe, worker - A2R085B34P2LYS
+  para - what is the cooking time of recipe, worker - AD5IKFAK8KN4P
+  para - how long does the recipe take to cook, worker - A32CIL5S21Y4MR
+  para - what is the total cooking time summed across all recipes, worker - A11GZNNVLEWRGF
+  para - what is the total cooking time of the recipe, worker - A2RRYVYUDNK2GB

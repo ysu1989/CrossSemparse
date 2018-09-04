@@ -1,0 +1,1288 @@
+(example
+  (utterance "what article has the most number of articles cited")
+  (original "article that the most number of article cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "person who has not published article in multivariate data analysis")
+  (original "person that is not author of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string !=) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "what person is not the author of multivariate data analysis")
+  (original "person that is not author of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string !=) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "article cited by two articles")
+  (original "article that two article cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "articles that do not cite multivariate data analysis")
+  (original "article that not cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string !=) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "articles published in the annals of statistics citing multivariate data analysis")
+  (original "article whose venue is annals of statistics and that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) en.venue.annals_of_statistics) (string cites) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "article that has the smallest publication date")
+  (original "article that has the smallest publication date")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string min) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string publication_date))))
+
+  )
+)
+(example
+  (utterance "article that has at most two author")
+  (original "article that has at most two author")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string <=) (number 2)))
+
+  )
+)
+(example
+  (utterance "article citing an article citing multivariate data analysis")
+  (original "article that cites article that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "what venue has fewer than two articles")
+  (original "venue that is venue of less than two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string <) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "publisher of article citing multivariate data analysis")
+  (original "venue that is venue of article that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "article written by efron that won an award")
+  (original "article that won an award and whose author is efron")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string won_award)) (string author) (string =) en.person.efron))
+
+  )
+)
+(example
+  (utterance "writers who didnt write multivariate data analysis")
+  (original "person that is not author of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string !=) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "article that cites the most number of article")
+  (original "article that cites the most number of article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string max) (string cites) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "articles that cite articles published in annals of statistics")
+  (original "article that cites article whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) en.venue.annals_of_statistics)))
+
+  )
+)
+(example
+  (utterance "what article is cited by an efron article")
+  (original "article that article whose author is efron cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron)))
+
+  )
+)
+(example
+  (utterance "what article cites another article with a publication date of 2004")
+  (original "article that cites article whose publication date is 2004")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string publication_date) (string =) (date 2004 -1 -1))))
+
+  )
+)
+(example
+  (utterance "article with more than two venues")
+  (original "article that has more than two venue")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string >) (number 2)))
+
+  )
+)
+(example
+  (utterance "publications containing articles that cite multivariate data analysis")
+  (original "venue that is venue of article that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "articles that cite awardwinning articles")
+  (original "article that cites article that won an award")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string won_award))))
+
+  )
+)
+(example
+  (utterance "what article is in annals of statistics and is cited by multivariate data analysis")
+  (original "article whose venue is annals of statistics and that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) en.venue.annals_of_statistics) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "efron articles published in 2004")
+  (original "article whose publication date is 2004 and whose author is efron")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string publication_date) (string =) (date 2004 -1 -1)) (string author) (string =) en.person.efron))
+
+  )
+)
+(example
+  (utterance "articles published in the most venues")
+  (original "article that has the most number of venue")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string max) (string venue)))
+
+  )
+)
+(example
+  (utterance "find an article by efron or lakoff")
+  (original "article whose author is efron or lakoff")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.person.efron en.person.lakoff)))
+
+  )
+)
+(example
+  (utterance "articles found in annals of statistics")
+  (original "article whose venue is annals of statistics and whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) en.venue.annals_of_statistics) (string venue) (string =) en.venue.annals_of_statistics))
+
+  )
+)
+(example
+  (utterance "article that cites multivariate data analysis")
+  (original "article that article that cites multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "which venue is of less than two article")
+  (original "venue that is venue of less than two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string <) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "number of publications")
+  (original "number of venue")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type))))
+
+  )
+)
+(example
+  (utterance "articles published on the same day as multivariate data analysis")
+  (original "article whose publication date is publication date of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string publication_date) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.article.multivariate_data_analysis (string publication_date))))
+
+  )
+)
+(example
+  (utterance "articles published before multivariate data analysis")
+  (original "article whose publication date is smaller than publication date of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string publication_date)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.article.multivariate_data_analysis (string publication_date)))))
+
+  )
+)
+(example
+  (utterance "venue of at most two article")
+  (original "venue that is venue of at most two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string <=) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "what article was published before 2010")
+  (original "article whose publication date is smaller than 2004 or 2010")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string publication_date)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2004 -1 -1) (date 2010 -1 -1)))))
+
+  )
+)
+(example
+  (utterance "articles published most recently")
+  (original "article that has the largest publication date")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string publication_date))))
+
+  )
+)
+(example
+  (utterance "what article citing multivariate data analysis was in annals of statistics")
+  (original "article that cites multivariate data analysis and whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis) (string venue) (string =) en.venue.annals_of_statistics))
+
+  )
+)
+(example
+  (utterance "what article is about a venue of annals of statistics or computational linguistics")
+  (original "article whose venue is annals of statistics or computational linguistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.venue.annals_of_statistics en.venue.computational_linguistics)))
+
+  )
+)
+(example
+  (utterance "articles by efron")
+  (original "article whose author is efron")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron))
+
+  )
+)
+(example
+  (utterance "awarded articles")
+  (original "article that cites article that won an award")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string won_award))))
+
+  )
+)
+(example
+  (utterance "what article written by efron won an award")
+  (original "article that won an award and whose author is efron")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string won_award)) (string author) (string =) en.person.efron))
+
+  )
+)
+(example
+  (utterance "person who is not author of multivariate data analysis")
+  (original "person that is not author of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string !=) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "articles written by the most writers")
+  (original "article that has the most number of author")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string max) (string author)))
+
+  )
+)
+(example
+  (utterance "name a venue of no more than two articles")
+  (original "venue that is venue of at most two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string <=) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "which is the article that cites multivariate data analysis that was published in the annals of statistics")
+  (original "article that cites multivariate data analysis and whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis) (string venue) (string =) en.venue.annals_of_statistics))
+
+  )
+)
+(example
+  (utterance "articles that do not appear in the same publications as multivariate data analysis")
+  (original "article whose venue is venue that is venue of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "articles published on or after the publication date of multivariate data analysis")
+  (original "article whose publication date is at least publication date of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string publication_date)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.article.multivariate_data_analysis (string publication_date)))))
+
+  )
+)
+(example
+  (utterance "find an article not in annals of statistics")
+  (original "article whose venue is not annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string !=) en.venue.annals_of_statistics))
+
+  )
+)
+(example
+  (utterance "what is the venue that is mentioned in more than two articles")
+  (original "venue that is venue of more than two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string >) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "name an article about multivariate data analysis")
+  (original "article that article that cites multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "writer of multivariate data analysis")
+  (original "person that is author of multivariate data analysis and that is author of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) en.article.multivariate_data_analysis) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "author citing multivariate data analysis in article")
+  (original "person that is author of article that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "what article cites articles about multivariate data analysis")
+  (original "article that cites article that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "find an article published in 2004 or later")
+  (original "article whose publication date is at least 2004 or 2010")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string publication_date)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2004 -1 -1) (date 2010 -1 -1)))))
+
+  )
+)
+(example
+  (utterance "article that cites the multivariate data analysis article")
+  (original "article that cites multivariate data analysis and that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis) (string cites) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "what article written by efron has a publication date of 2004")
+  (original "article whose publication date is 2004 and whose author is efron")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string publication_date) (string =) (date 2004 -1 -1)) (string author) (string =) en.person.efron))
+
+  )
+)
+(example
+  (utterance "find an article that cites multivariate data analysis")
+  (original "article that cites multivariate data analysis and that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis) (string cites) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "articles about a citys annals of statistics")
+  (original "article that cites multivariate data analysis and whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis) (string venue) (string =) en.venue.annals_of_statistics))
+
+  )
+)
+(example
+  (utterance "who has not written a multivariate data analysis")
+  (original "person that is not author of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string !=) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "find an article with two authors")
+  (original "article that has two author")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) (number 2)))
+
+  )
+)
+(example
+  (utterance "what article cited by multivariate data analysis won an award")
+  (original "article that won an award and that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string won_award)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "which authors cite multivariate data analysis in their articles")
+  (original "person that is author of article that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "article that cites multivariate data analysis and whose publication date is 2004")
+  (original "article that multivariate data analysis cites and whose publication date is 2004")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis) (string publication_date) (string =) (date 2004 -1 -1)))
+
+  )
+)
+(example
+  (utterance "what are some articles with publications dates between 2004 and 2010")
+  (original "article whose publication date is 2004 or 2010")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string publication_date) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2004 -1 -1) (date 2010 -1 -1))))
+
+  )
+)
+(example
+  (utterance "articles written by efron")
+  (original "article whose author is efron and whose author is efron")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron) (string author) (string =) en.person.efron))
+
+  )
+)
+(example
+  (utterance "what article has less than two citations")
+  (original "article that cites less than two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string <) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "name an article about multivariate data analysis in the annals of statistics")
+  (original "article that multivariate data analysis cites and whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis) (string venue) (string =) en.venue.annals_of_statistics))
+
+  )
+)
+(example
+  (utterance "what article discusses the multivariate data analysis of cities")
+  (original "article that cites multivariate data analysis and that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "author with the least number of articles")
+  (original "person that is author of the least number of article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (string min) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "venues of articles cited by multivariate data analysis")
+  (original "venue that is venue of article that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "articles published in multiple places")
+  (original "article that has two venue")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) (number 2)))
+
+  )
+)
+(example
+  (utterance "what article published in 2004 cited multivariate data analysis")
+  (original "article that cites multivariate data analysis and whose publication date is 2004")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis) (string publication_date) (string =) (date 2004 -1 -1)))
+
+  )
+)
+(example
+  (utterance "articles published in annals of statistics or computational linguistics")
+  (original "article whose venue is annals of statistics or computational linguistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.venue.annals_of_statistics en.venue.computational_linguistics)))
+
+  )
+)
+(example
+  (utterance "the article cites that the author is efron")
+  (original "article that article whose author is efron cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron)))
+
+  )
+)
+(example
+  (utterance "name an author whose publication date is 2004")
+  (original "person that is author of article whose publication date is 2004")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string publication_date) (string =) (date 2004 -1 -1))))
+
+  )
+)
+(example
+  (utterance "what author has written the most articles")
+  (original "person that is author of the most number of article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "articles cited by two or more articles")
+  (original "article that at least two article cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string >=) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "name an author of an article about multivariate data analysis")
+  (original "person that is author of article that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "what venue is about an article that won an award")
+  (original "venue that is venue of article that won an award")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string won_award))))
+
+  )
+)
+(example
+  (utterance "author of the article that cites multivariate data analysis")
+  (original "person that is author of article that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "article by three or more authors")
+  (original "article that has more than two author")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string >) (number 2)))
+
+  )
+)
+(example
+  (utterance "what article cites an article that cites multivariate data analysis")
+  (original "article that cites article that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "find an article published in 2004 in annals of statistics")
+  (original "article whose publication date is 2004 and whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string publication_date) (string =) (date 2004 -1 -1)) (string venue) (string =) en.venue.annals_of_statistics))
+
+  )
+)
+(example
+  (utterance "article published by efron in 2004")
+  (original "article whose author is efron and whose publication date is 2004")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron) (string publication_date) (string =) (date 2004 -1 -1)))
+
+  )
+)
+(example
+  (utterance "who has authored fewer than two articiles")
+  (original "person that is author of less than two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string <) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "what article does not have a publication date of 2004")
+  (original "article whose publication date is not 2004")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string publication_date) (string !=) (date 2004 -1 -1)))
+
+  )
+)
+(example
+  (utterance "article that references the most number of articles")
+  (original "article that cites the most number of article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string max) (string cites) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "articles published 2004 or more recent")
+  (original "article whose publication date is at least 2004")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string publication_date)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (date 2004 -1 -1))))
+
+  )
+)
+(example
+  (utterance "what article has over two venues")
+  (original "article that has more than two venue")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string >) (number 2)))
+
+  )
+)
+(example
+  (utterance "what article has the fewest authors")
+  (original "article that has the most number of author")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string max) (string author)))
+
+  )
+)
+(example
+  (utterance "article whose publication date is at most 2004")
+  (original "article whose publication date is at most 2004")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string publication_date)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (date 2004 -1 -1))))
+
+  )
+)
+(example
+  (utterance "articles published in 2004 cited in multivariate data analysis")
+  (original "article whose publication date is 2004 and that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string publication_date) (string =) (date 2004 -1 -1)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "what article by efron cites multivariate data analysis")
+  (original "article that multivariate data analysis cites and whose author is efron")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis) (string author) (string =) en.person.efron))
+
+  )
+)
+(example
+  (utterance "what article has over two venues")
+  (original "article that has more than two venue")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string >) (number 2)))
+
+  )
+)
+(example
+  (utterance "writer of multivariate data analysis")
+  (original "person that is author of multivariate data analysis and that is author of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) en.article.multivariate_data_analysis) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "articles about cities published after 2004")
+  (original "article that article whose publication date is 2004 cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string publication_date) (string =) (date 2004 -1 -1))))
+
+  )
+)
+(example
+  (utterance "author of only one article")
+  (original "person that is author of less than two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string <) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "what article won an award and whose venue is annals and statistics")
+  (original "article whose venue is annals of statistics and that won an award")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) en.venue.annals_of_statistics) (string won_award)))
+
+  )
+)
+(example
+  (utterance "what are some articles about annals of statistics")
+  (original "article whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) en.venue.annals_of_statistics))
+
+  )
+)
+(example
+  (utterance "articles written by efron or lakoff")
+  (original "article whose author is efron or lakoff")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.person.efron en.person.lakoff)))
+
+  )
+)
+(example
+  (utterance "which author has published at least two articles")
+  (original "person that is author of at least two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string >=) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "who is the author of an article citing multivariate data analysis")
+  (original "person that is author of article that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "articles published in 2004 or 2010")
+  (original "article whose publication date is 2004 or 2010")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string publication_date) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2004 -1 -1) (date 2010 -1 -1))))
+
+  )
+)
+(example
+  (utterance "articles citing multivariate data analysis and cited by multivariate data analysis")
+  (original "article that cites multivariate data analysis and that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "name an article by the author efron")
+  (original "article that article whose author is efron cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron)))
+
+  )
+)
+(example
+  (utterance "article with minimum two venue")
+  (original "article that has at least two venue")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string >=) (number 2)))
+
+  )
+)
+(example
+  (utterance "what publications contain multivariate data analysis")
+  (original "venue that is venue of multivariate data analysis and that is venue of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) en.article.multivariate_data_analysis) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "awardwinning articles by efron")
+  (original "article whose author is efron and that won an award")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron) (string won_award)))
+
+  )
+)
+(example
+  (utterance "what efron article was cited by multivariate data analysis")
+  (original "article whose author is efron and that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "what article has the least number of venues")
+  (original "article that has the least number of venue")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string min) (string venue)))
+
+  )
+)
+(example
+  (utterance "author of lees than two articles")
+  (original "person that is author of less than two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string <) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "find the article with the fewest citations")
+  (original "article that cites the least number of article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string min) (string cites) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "article cited by article written by efron")
+  (original "article that article whose author is efron cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron)))
+
+  )
+)
+(example
+  (utterance "award winning article that cites multivariate data analysis")
+  (original "article that won an award and that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string won_award)) (string cites) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "articles that has the minimum number of venues stated")
+  (original "article that has the least number of venue")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string min) (string venue)))
+
+  )
+)
+(example
+  (utterance "authors of articles published in annals of statistics")
+  (original "person that is author of article whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) en.venue.annals_of_statistics)))
+
+  )
+)
+(example
+  (utterance "which article cites the most articles")
+  (original "article that cites the most number of article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string max) (string cites) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "author who have written two or more articles")
+  (original "person that is author of at least two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string >=) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "articles with the least number of authors")
+  (original "article that has the least number of author")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string min) (string author)))
+
+  )
+)
+(example
+  (utterance "find an article with two or more authors")
+  (original "article that has at least two author")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string >=) (number 2)))
+
+  )
+)
+(example
+  (utterance "articles that cities articles by efron")
+  (original "article that cites article whose author is efron")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron)))
+
+  )
+)
+(example
+  (utterance "what articles are written by efron")
+  (original "person that is author of article whose author is efron")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron)))
+
+  )
+)
+(example
+  (utterance "name a publication containing an article about multivariate data analysis")
+  (original "venue that is venue of article that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "who is the author of multivariate data analysis article")
+  (original "person that is author of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "publication that two articles are published in")
+  (original "venue that is venue of two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "what is a venue that is not multivariate data analysis related")
+  (original "venue that is not venue of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string !=) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "what articles publication date is in 2004 and cites multivariate data analysis")
+  (original "article whose publication date is 2004 and that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string publication_date) (string =) (date 2004 -1 -1)) (string cites) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "articles published after multivariate data analysis")
+  (original "article whose publication date is larger than publication date of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string publication_date)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.article.multivariate_data_analysis (string publication_date)))))
+
+  )
+)
+(example
+  (utterance "article cited by multivariate data analysis and published in 2004")
+  (original "article that multivariate data analysis cites and whose publication date is 2004")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis) (string publication_date) (string =) (date 2004 -1 -1)))
+
+  )
+)
+(example
+  (utterance "article that cites article whose author is efron")
+  (original "article that cites article whose author is efron")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron)))
+
+  )
+)
+(example
+  (utterance "efron articles citing multivariate data analysis")
+  (original "article whose author is efron and that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron) (string cites) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "find an article in either annals of statistics or computational linguistics")
+  (original "article whose venue is annals of statistics or computational linguistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.venue.annals_of_statistics en.venue.computational_linguistics)))
+
+  )
+)
+(example
+  (utterance "venue that won an award based on the article")
+  (original "venue that is venue of article that won an award")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string won_award))))
+
+  )
+)
+(example
+  (utterance "what article has at least two authors")
+  (original "article that has at least two author")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string >=) (number 2)))
+
+  )
+)
+(example
+  (utterance "list articles on annals of statistics or computational linguistics")
+  (original "annals of statistics or computational linguistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.venue.annals_of_statistics en.venue.computational_linguistics))
+
+  )
+)
+(example
+  (utterance "article that has maximum two venues")
+  (original "article that has at most two venue")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string <=) (number 2)))
+
+  )
+)
+(example
+  (utterance "what venue is of more than two articles")
+  (original "venue that is venue of more than two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string >) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "venue of article that cites multivariate data analysis")
+  (original "venue that is venue of article that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "which articles cite two articles")
+  (original "article that cites two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "articles in the annals of statistics that cite multivariate data analysis")
+  (original "article that cites multivariate data analysis and whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis) (string venue) (string =) en.venue.annals_of_statistics))
+
+  )
+)
+(example
+  (utterance "publication that has included the most articles")
+  (original "venue that is venue of the most number of article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "what article has two authors")
+  (original "article that has two author")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) (number 2)))
+
+  )
+)
+(example
+  (utterance "what efron article is cited in multivariate data analysis")
+  (original "article that multivariate data analysis cites and whose author is efron")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis) (string author) (string =) en.person.efron))
+
+  )
+)
+(example
+  (utterance "what is the venue of at least two articles")
+  (original "venue that is venue of at most two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string <=) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "what author has written more than two articles")
+  (original "person that is author of more than two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string >) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "article cited bymultivariate data analysis")
+  (original "article that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "articles by efron cited in multivariate data analysis")
+  (original "article whose author is efron and that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string =) en.person.efron) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "article cited by less than two articles")
+  (original "article that less than two article cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string <) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "articles that city multivariate data analysis articles")
+  (original "article that cites article that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "articles on multivariate data analysis that won an award")
+  (original "article that multivariate data analysis cites and that won an award")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis) (string won_award)))
+
+  )
+)
+(example
+  (utterance "what annals of statistics article cites multivariate data analysis")
+  (original "article that cites multivariate data analysis and whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis) (string venue) (string =) en.venue.annals_of_statistics))
+
+  )
+)
+(example
+  (utterance "what venue contains the article about city multivariate data analysis")
+  (original "venue that is venue of article that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "articles published after 2004 or after 2010")
+  (original "article whose publication date is at least 2004 or 2010")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string publication_date)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2004 -1 -1) (date 2010 -1 -1)))))
+
+  )
+)
+(example
+  (utterance "writer of fewer than two articles")
+  (original "person that is author of less than two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string <) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "what article was in two venues")
+  (original "article that has two venue")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string =) (number 2)))
+
+  )
+)
+(example
+  (utterance "articles about more than two venues")
+  (original "article that has more than two venue")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string venue) (string >) (number 2)))
+
+  )
+)
+(example
+  (utterance "what is the number of the article")
+  (original "number of article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "writer of multivariate data analysis")
+  (original "person that is author of multivariate data analysis and that is author of multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) en.article.multivariate_data_analysis) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) en.article.multivariate_data_analysis))
+
+  )
+)
+(example
+  (utterance "what is a venue of two articles")
+  (original "venue that is venue of two article")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.venue) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string venue)) (string =) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type))))
+
+  )
+)
+(example
+  (utterance "who is the author of an article cited by multivariate data analysis")
+  (original "person that is author of article that multivariate data analysis cites")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string author)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string cites)) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)
+(example
+  (utterance "which article won an award and has its venue as annals of statistics")
+  (original "article that won an award and whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string won_award)) (string venue) (string =) en.venue.annals_of_statistics))
+
+  )
+)
+(example
+  (utterance "name an article about multivariate data analysis from the annals of statistics")
+  (original "article that cites multivariate data analysis and whose venue is annals of statistics")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis) (string venue) (string =) en.venue.annals_of_statistics))
+
+  )
+)
+(example
+  (utterance "articles with two or more authors")
+  (original "article that has at least two author")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string author) (string >=) (number 2)))
+
+  )
+)
+(example
+  (utterance "articles that cite multivariate data analysis")
+  (original "article that cites article that cites multivariate data analysis")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.article) (string !type)) (string cites) (string =) en.article.multivariate_data_analysis)))
+
+  )
+)

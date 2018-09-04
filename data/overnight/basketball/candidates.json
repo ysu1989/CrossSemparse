@@ -1,0 +1,3432 @@
+[
+    {
+        "canonical_utterance": "number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 2 turnover"
+        ]
+    },
+    {
+        "canonical_utterance": "number of fouls -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers",
+        "denotation": [
+            "number 0 foul",
+            "number 1 foul",
+            "number 3 foul",
+            "number 5 foul",
+            "number 6 foul",
+            "number 7 foul",
+            "number 8 foul",
+            "number 9 foul"
+        ]
+    },
+    {
+        "canonical_utterance": "number of steals -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 steal",
+            "number 4 steal",
+            "number 5 steal",
+            "number 6 steal",
+            "number 7 steal"
+        ]
+    },
+    {
+        "canonical_utterance": "number of points -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 point",
+            "number 4 point",
+            "number 5 point"
+        ]
+    },
+    {
+        "canonical_utterance": "number of fouls -lrb- over a season -rrb- of player kobe bryant whose position is point guard",
+        "denotation": [
+            "number 0 foul",
+            "number 1 foul",
+            "number 2 foul",
+            "number 4 foul",
+            "number 6 foul",
+            "number 7 foul",
+            "number 8 foul",
+            "number 9 foul"
+        ]
+    },
+    {
+        "canonical_utterance": "number of rebounds -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "number 0 rebound",
+            "number 1 rebound",
+            "number 2 rebound",
+            "number 3 rebound",
+            "number 4 rebound",
+            "number 5 rebound",
+            "number 6 rebound",
+            "number 7 rebound",
+            "number 8 rebound",
+            "number 9 rebound"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of assists -lrb- over a season -rrb- is not 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "season of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "date 2006 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 block",
+            "number 3 block",
+            "number 9 block"
+        ]
+    },
+    {
+        "canonical_utterance": "team of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.team.cavaliers"
+        ]
+    },
+    {
+        "canonical_utterance": "number of assists -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers",
+        "denotation": [
+            "number 0 assist",
+            "number 2 assist",
+            "number 3 assist",
+            "number 4 assist",
+            "number 5 assist",
+            "number 6 assist",
+            "number 7 assist",
+            "number 8 assist"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has less than two position",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of blocks -lrb- over a season -rrb- is at most number of blocks -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 2 block",
+            "number 4 block",
+            "number 5 block",
+            "number 6 block",
+            "number 9 block"
+        ]
+    },
+    {
+        "canonical_utterance": "number of assists -lrb- over a season -rrb- of player kobe bryant whose position is point guard",
+        "denotation": [
+            "number 2 assist",
+            "number 3 assist",
+            "number 4 assist",
+            "number 5 assist",
+            "number 7 assist",
+            "number 8 assist",
+            "number 9 assist"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of turnovers -lrb- over a season -rrb- is number of turnovers -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of steals -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 steal",
+            "number 2 steal",
+            "number 4 steal",
+            "number 5 steal",
+            "number 6 steal"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of rebounds -lrb- over a season -rrb- is smaller than number of rebounds -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the smallest number of rebounds -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 6 foul",
+            "number 7 foul",
+            "number 9 foul"
+        ]
+    },
+    {
+        "canonical_utterance": "number of assists -lrb- over a season -rrb- of player kobe bryant whose season is 2004",
+        "denotation": [
+            "number 5 assist",
+            "number 6 assist"
+        ]
+    },
+    {
+        "canonical_utterance": "number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 foul",
+            "number 6 foul",
+            "number 8 foul",
+            "number 9 foul"
+        ]
+    },
+    {
+        "canonical_utterance": "season of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "date 2002 -1 -1",
+            "date 2004 -1 -1",
+            "date 2008 -1 -1",
+            "date 2009 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "number of steals -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 steal",
+            "number 1 steal"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose team is los angeles lakers or cleveland cavaliers",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of steals -lrb- over a season -rrb- of player kobe bryant whose season is 2004",
+        "denotation": [
+            "number 0 steal",
+            "number 2 steal",
+            "number 3 steal",
+            "number 5 steal"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of played games -lrb- over a season -rrb- is smaller than 3",
+        "denotation": [
+            "name en.player.23",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 foul",
+            "number 4 foul",
+            "number 7 foul",
+            "number 8 foul"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the smallest number of played games -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose position is not point guard",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.27",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of fouls -lrb- over a season -rrb- is number of fouls -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the largest number of fouls -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.25",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of rebounds -lrb- over a season -rrb- is at most 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.3",
+            "name en.player.4",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the least number of position",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "position of player kobe bryant whose team is los angeles lakers",
+        "denotation": [
+            "name en.position.forward",
+            "name en.position.point_guard"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of points -lrb- over a season -rrb- is not 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the least number of team",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of blocks -lrb- over a season -rrb- of player kobe bryant whose position is point guard",
+        "denotation": [
+            "number 1 block",
+            "number 2 block",
+            "number 3 block",
+            "number 4 block",
+            "number 5 block",
+            "number 6 block",
+            "number 7 block",
+            "number 8 block",
+            "number 9 block"
+        ]
+    },
+    {
+        "canonical_utterance": "number of steals -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 steal",
+            "number 2 steal",
+            "number 5 steal",
+            "number 9 steal"
+        ]
+    },
+    {
+        "canonical_utterance": "number of points -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 point",
+            "number 5 point",
+            "number 6 point",
+            "number 8 point"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of points -lrb- over a season -rrb- is at most number of points -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of assists -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 assist",
+            "number 2 assist",
+            "number 3 assist",
+            "number 9 assist"
+        ]
+    },
+    {
+        "canonical_utterance": "number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 rebound",
+            "number 2 rebound",
+            "number 6 rebound",
+            "number 9 rebound"
+        ]
+    },
+    {
+        "canonical_utterance": "number of rebounds -lrb- over a season -rrb- of player kobe bryant whose season is 2004",
+        "denotation": [
+            "number 1 rebound",
+            "number 2 rebound",
+            "number 7 rebound",
+            "number 8 rebound"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of assists -lrb- over a season -rrb- is larger than 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.3",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "position of player kobe bryant whose season is 2004",
+        "denotation": [
+            "name en.position.forward",
+            "name en.position.point_guard"
+        ]
+    },
+    {
+        "canonical_utterance": "number of played games -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 game"
+        ]
+    },
+    {
+        "canonical_utterance": "number of steals -lrb- over a season -rrb- of player kobe bryant whose position is point guard",
+        "denotation": [
+            "number 0 steal",
+            "number 2 steal",
+            "number 3 steal",
+            "number 4 steal",
+            "number 5 steal",
+            "number 6 steal",
+            "number 7 steal",
+            "number 9 steal"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of fouls -lrb- over a season -rrb- is smaller than number of fouls -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of steals -lrb- over a season -rrb- is smaller than 3",
+        "denotation": [
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.32",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.51",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 rebound",
+            "number 2 rebound",
+            "number 5 rebound",
+            "number 9 rebound"
+        ]
+    },
+    {
+        "canonical_utterance": "team of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.team.cavaliers",
+            "name en.team.lakers"
+        ]
+    },
+    {
+        "canonical_utterance": "team of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.team.cavaliers",
+            "name en.team.lakers"
+        ]
+    },
+    {
+        "canonical_utterance": "season of player kobe bryant whose number of points -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "date 2001 -1 -1",
+            "date 2006 -1 -1",
+            "date 2008 -1 -1",
+            "date 2009 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of assists -lrb- over a season -rrb- is number of assists -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of fouls -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "number 0 foul",
+            "number 1 foul",
+            "number 2 foul",
+            "number 3 foul",
+            "number 4 foul",
+            "number 5 foul",
+            "number 6 foul",
+            "number 7 foul",
+            "number 8 foul",
+            "number 9 foul"
+        ]
+    },
+    {
+        "canonical_utterance": "number of player",
+        "denotation": [
+            "number 60 count"
+        ]
+    },
+    {
+        "canonical_utterance": "number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 rebound",
+            "number 1 rebound",
+            "number 2 rebound",
+            "number 7 rebound",
+            "number 9 rebound"
+        ]
+    },
+    {
+        "canonical_utterance": "position of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.position.forward",
+            "name en.position.point_guard"
+        ]
+    },
+    {
+        "canonical_utterance": "season of player kobe bryant",
+        "denotation": [
+            "date 2000 -1 -1",
+            "date 2001 -1 -1",
+            "date 2002 -1 -1",
+            "date 2003 -1 -1",
+            "date 2004 -1 -1",
+            "date 2005 -1 -1",
+            "date 2006 -1 -1",
+            "date 2008 -1 -1",
+            "date 2009 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 block"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of steals -lrb- over a season -rrb- is at least 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.49",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of played games -lrb- over a season -rrb- is not 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of steals -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 steal"
+        ]
+    },
+    {
+        "canonical_utterance": "number of assists -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 assist",
+            "number 5 assist",
+            "number 7 assist",
+            "number 8 assist"
+        ]
+    },
+    {
+        "canonical_utterance": "position of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.position.forward",
+            "name en.position.point_guard"
+        ]
+    },
+    {
+        "canonical_utterance": "number of points -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 point"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the largest number of rebounds -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "2004 or 2010",
+        "denotation": [
+            "date 2004 -1 -1",
+            "date 2010 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of points -lrb- over a season -rrb- is at least 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "kobe bryant or lebron james",
+        "denotation": [
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the largest number of steals -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.19",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose season is season of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the smallest number of turnovers -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.23",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.7"
+        ]
+    },
+    {
+        "canonical_utterance": "number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 foul",
+            "number 4 foul",
+            "number 6 foul",
+            "number 8 foul"
+        ]
+    },
+    {
+        "canonical_utterance": "number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 rebound",
+            "number 2 rebound"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of rebounds -lrb- over a season -rrb- is larger than 3",
+        "denotation": [
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of fouls -lrb- over a season -rrb- is larger than number of fouls -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "position of player kobe bryant whose position is point guard",
+        "denotation": [
+            "name en.position.point_guard"
+        ]
+    },
+    {
+        "canonical_utterance": "number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 turnover"
+        ]
+    },
+    {
+        "canonical_utterance": "number of assists -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 assist",
+            "number 4 assist",
+            "number 5 assist",
+            "number 7 assist",
+            "number 9 assist"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of blocks -lrb- over a season -rrb- is smaller than number of blocks -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of blocks -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers",
+        "denotation": [
+            "number 0 block",
+            "number 1 block",
+            "number 3 block",
+            "number 4 block",
+            "number 5 block",
+            "number 7 block",
+            "number 8 block",
+            "number 9 block"
+        ]
+    },
+    {
+        "canonical_utterance": "point guard or forward",
+        "denotation": [
+            "name en.position.forward",
+            "name en.position.point_guard"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of rebounds -lrb- over a season -rrb- is smaller than 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.3",
+            "name en.player.4",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 foul",
+            "number 6 foul",
+            "number 8 foul"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of fouls -lrb- over a season -rrb- is smaller than 3",
+        "denotation": [
+            "name en.player.27",
+            "name en.player.34",
+            "name en.player.48",
+            "name en.player.51",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "position of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.position.forward",
+            "name en.position.point_guard"
+        ]
+    },
+    {
+        "canonical_utterance": "team of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.team.lakers"
+        ]
+    },
+    {
+        "canonical_utterance": "number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 block",
+            "number 3 block",
+            "number 5 block",
+            "number 7 block"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the largest number of assists -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.48",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of points -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 point",
+            "number 4 point",
+            "number 7 point"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of turnovers -lrb- over a season -rrb- is not 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of played games -lrb- over a season -rrb- is larger than 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of assists -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 assist",
+            "number 6 assist",
+            "number 8 assist"
+        ]
+    },
+    {
+        "canonical_utterance": "number of played games -lrb- over a season -rrb- of player kobe bryant whose position is point guard",
+        "denotation": [
+            "number 1 game",
+            "number 2 game",
+            "number 3 game",
+            "number 4 game",
+            "number 5 game",
+            "number 6 game",
+            "number 7 game",
+            "number 8 game",
+            "number 9 game"
+        ]
+    },
+    {
+        "canonical_utterance": "number of turnovers -lrb- over a season -rrb- of player kobe bryant whose position is point guard",
+        "denotation": [
+            "number 1 turnover",
+            "number 3 turnover",
+            "number 4 turnover",
+            "number 5 turnover",
+            "number 6 turnover",
+            "number 7 turnover",
+            "number 8 turnover"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of turnovers -lrb- over a season -rrb- is larger than 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.38",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of assists -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 6 assist",
+            "number 8 assist"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has at most two team",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of points -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "number 0 point",
+            "number 1 point",
+            "number 3 point",
+            "number 4 point",
+            "number 5 point",
+            "number 6 point",
+            "number 7 point",
+            "number 8 point",
+            "number 9 point"
+        ]
+    },
+    {
+        "canonical_utterance": "number of turnovers -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "number 1 turnover",
+            "number 2 turnover",
+            "number 3 turnover",
+            "number 4 turnover",
+            "number 5 turnover",
+            "number 6 turnover",
+            "number 7 turnover",
+            "number 8 turnover",
+            "number 9 turnover"
+        ]
+    },
+    {
+        "canonical_utterance": "season of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "date 2000 -1 -1",
+            "date 2002 -1 -1",
+            "date 2003 -1 -1",
+            "date 2006 -1 -1",
+            "date 2009 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of blocks -lrb- over a season -rrb- is smaller than 3",
+        "denotation": [
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.4",
+            "name en.player.49",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 rebound",
+            "number 1 rebound",
+            "number 5 rebound",
+            "number 6 rebound",
+            "number 9 rebound"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of blocks -lrb- over a season -rrb- is at least 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 turnover",
+            "number 5 turnover",
+            "number 7 turnover"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of steals -lrb- over a season -rrb- is not 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of points -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 8 point"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of points -lrb- over a season -rrb- is larger than number of points -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose position is position of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "position of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.position.forward"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the largest number of turnovers -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.32",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of steals -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 steal"
+        ]
+    },
+    {
+        "canonical_utterance": "number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 4 turnover",
+            "number 8 turnover"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the smallest number of fouls -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.27",
+            "name en.player.48",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of assists -lrb- over a season -rrb- is at most 3",
+        "denotation": [
+            "name en.player.19",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose season is 2004 or 2010",
+        "denotation": [
+            "name en.player.23",
+            "name en.player.38",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of fouls -lrb- over a season -rrb- of player kobe bryant whose season is 2004",
+        "denotation": [
+            "number 0 foul",
+            "number 1 foul",
+            "number 3 foul",
+            "number 4 foul"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of points -lrb- over a season -rrb- is at most 3",
+        "denotation": [
+            "name en.player.19",
+            "name en.player.29",
+            "name en.player.38",
+            "name en.player.45",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 block"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has at most two position",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of played games -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "number 0 game",
+            "number 1 game",
+            "number 2 game",
+            "number 3 game",
+            "number 4 game",
+            "number 5 game",
+            "number 6 game",
+            "number 7 game",
+            "number 8 game",
+            "number 9 game"
+        ]
+    },
+    {
+        "canonical_utterance": "number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 6 block",
+            "number 7 block",
+            "number 8 block",
+            "number 9 block"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the smallest number of steals -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.32",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.51",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 foul"
+        ]
+    },
+    {
+        "canonical_utterance": "number of steals -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 2 steal",
+            "number 3 steal",
+            "number 5 steal",
+            "number 9 steal"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of turnovers -lrb- over a season -rrb- is at least number of turnovers -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of fouls -lrb- over a season -rrb- is not 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of blocks -lrb- over a season -rrb- is larger than number of blocks -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.25",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of rebounds -lrb- over a season -rrb- is number of rebounds -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 turnover",
+            "number 3 turnover",
+            "number 4 turnover",
+            "number 6 turnover",
+            "number 8 turnover"
+        ]
+    },
+    {
+        "canonical_utterance": "number of assists -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 assist"
+        ]
+    },
+    {
+        "canonical_utterance": "number of blocks -lrb- over a season -rrb- of player kobe bryant whose season is 2004",
+        "denotation": [
+            "number 3 block",
+            "number 5 block",
+            "number 7 block",
+            "number 8 block"
+        ]
+    },
+    {
+        "canonical_utterance": "number of points -lrb- over a season -rrb- of player kobe bryant whose season is 2004",
+        "denotation": [
+            "number 4 point",
+            "number 6 point",
+            "number 8 point"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the smallest number of points -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.29",
+            "name en.player.38",
+            "name en.player.54",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of assists -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 8 assist"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of assists -lrb- over a season -rrb- is smaller than number of assists -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose season is not 2004",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of assists -lrb- over a season -rrb- is at most number of assists -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of turnovers -lrb- over a season -rrb- is at most number of turnovers -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of points -lrb- over a season -rrb- of player kobe bryant whose position is point guard",
+        "denotation": [
+            "number 0 point",
+            "number 1 point",
+            "number 3 point",
+            "number 4 point",
+            "number 6 point",
+            "number 8 point",
+            "number 9 point"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of steals -lrb- over a season -rrb- is at least number of steals -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of steals -lrb- over a season -rrb- is larger than 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.49",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of turnovers -lrb- over a season -rrb- is at least 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.38",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of points -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers",
+        "denotation": [
+            "number 0 point",
+            "number 3 point",
+            "number 4 point",
+            "number 5 point",
+            "number 6 point",
+            "number 8 point",
+            "number 9 point"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the largest number of blocks -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.19",
+            "name en.player.32",
+            "name en.player.38",
+            "name en.player.45",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of played games -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 5 game",
+            "number 6 game",
+            "number 7 game"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of assists -lrb- over a season -rrb- is at least number of assists -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of blocks -lrb- over a season -rrb- is at least number of blocks -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of played games -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 game",
+            "number 3 game",
+            "number 6 game",
+            "number 8 game"
+        ]
+    },
+    {
+        "canonical_utterance": "season of player kobe bryant whose season is 2004",
+        "denotation": [
+            "date 2004 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "season of player kobe bryant whose team is los angeles lakers",
+        "denotation": [
+            "date 2001 -1 -1",
+            "date 2002 -1 -1",
+            "date 2003 -1 -1",
+            "date 2004 -1 -1",
+            "date 2005 -1 -1",
+            "date 2006 -1 -1",
+            "date 2008 -1 -1",
+            "date 2009 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of steals -lrb- over a season -rrb- is smaller than number of steals -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of steals -lrb- over a season -rrb- is larger than number of steals -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of rebounds -lrb- over a season -rrb- is at least number of rebounds -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of points -lrb- over a season -rrb- is larger than 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of assists -lrb- over a season -rrb- is larger than number of assists -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose position is point guard or forward",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "team of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.team.cavaliers",
+            "name en.team.lakers"
+        ]
+    },
+    {
+        "canonical_utterance": "number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 4 block",
+            "number 8 block"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of points -lrb- over a season -rrb- is smaller than number of points -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "position of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.position.forward",
+            "name en.position.point_guard"
+        ]
+    },
+    {
+        "canonical_utterance": "number of played games -lrb- over a season -rrb- of player kobe bryant whose season is 2004",
+        "denotation": [
+            "number 0 game",
+            "number 1 game",
+            "number 7 game",
+            "number 8 game"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of steals -lrb- over a season -rrb- is at most 3",
+        "denotation": [
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.32",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of points -lrb- over a season -rrb- is at least number of points -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of played games -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 2 game",
+            "number 7 game"
+        ]
+    },
+    {
+        "canonical_utterance": "number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 turnover",
+            "number 6 turnover",
+            "number 7 turnover",
+            "number 9 turnover"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of turnovers -lrb- over a season -rrb- is smaller than 3",
+        "denotation": [
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of team",
+        "denotation": [
+            "number 2 count"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of fouls -lrb- over a season -rrb- is larger than 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 rebound"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of points -lrb- over a season -rrb- is smaller than 3",
+        "denotation": [
+            "name en.player.29",
+            "name en.player.38",
+            "name en.player.45",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of fouls -lrb- over a season -rrb- is at most number of fouls -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "position of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.position.forward"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of fouls -lrb- over a season -rrb- is at least number of fouls -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of rebounds -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers",
+        "denotation": [
+            "number 0 rebound",
+            "number 1 rebound",
+            "number 2 rebound",
+            "number 5 rebound",
+            "number 6 rebound",
+            "number 8 rebound",
+            "number 9 rebound"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of points -lrb- over a season -rrb- is number of points -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of played games -lrb- over a season -rrb- is at least 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of played games -lrb- over a season -rrb- is smaller than number of played games -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of steals -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "number 0 steal",
+            "number 1 steal",
+            "number 2 steal",
+            "number 3 steal",
+            "number 4 steal",
+            "number 5 steal",
+            "number 6 steal",
+            "number 7 steal",
+            "number 9 steal"
+        ]
+    },
+    {
+        "canonical_utterance": "position of player kobe bryant",
+        "denotation": [
+            "name en.position.forward",
+            "name en.position.point_guard"
+        ]
+    },
+    {
+        "canonical_utterance": "number of steals -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 4 steal",
+            "number 5 steal",
+            "number 7 steal"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of played games -lrb- over a season -rrb- is at most number of played games -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of assists -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 4 assist",
+            "number 6 assist",
+            "number 8 assist",
+            "number 9 assist"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of played games -lrb- over a season -rrb- is number of played games -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 2 rebound",
+            "number 5 rebound",
+            "number 6 rebound",
+            "number 8 rebound",
+            "number 9 rebound"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of fouls -lrb- over a season -rrb- is at least 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has less than two team",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "team of player kobe bryant whose number of points -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.team.cavaliers",
+            "name en.team.lakers"
+        ]
+    },
+    {
+        "canonical_utterance": "number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 turnover",
+            "number 4 turnover",
+            "number 5 turnover",
+            "number 6 turnover",
+            "number 7 turnover"
+        ]
+    },
+    {
+        "canonical_utterance": "number of position",
+        "denotation": [
+            "number 2 count"
+        ]
+    },
+    {
+        "canonical_utterance": "number of played games -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 game",
+            "number 1 game",
+            "number 2 game",
+            "number 4 game"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of played games -lrb- over a season -rrb- is larger than number of played games -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the smallest number of assists -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.29",
+            "name en.player.34",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "team of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.team.cavaliers",
+            "name en.team.lakers"
+        ]
+    },
+    {
+        "canonical_utterance": "number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 5 block",
+            "number 9 block"
+        ]
+    },
+    {
+        "canonical_utterance": "number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 9 foul"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of assists -lrb- over a season -rrb- is at least 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.3",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of rebounds -lrb- over a season -rrb- of player kobe bryant whose position is point guard",
+        "denotation": [
+            "number 0 rebound",
+            "number 1 rebound",
+            "number 2 rebound",
+            "number 4 rebound",
+            "number 5 rebound",
+            "number 6 rebound",
+            "number 8 rebound",
+            "number 9 rebound"
+        ]
+    },
+    {
+        "canonical_utterance": "number of assists -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "number 0 assist",
+            "number 1 assist",
+            "number 2 assist",
+            "number 3 assist",
+            "number 4 assist",
+            "number 5 assist",
+            "number 6 assist",
+            "number 7 assist",
+            "number 8 assist",
+            "number 9 assist"
+        ]
+    },
+    {
+        "canonical_utterance": "number of steals -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers",
+        "denotation": [
+            "number 0 steal",
+            "number 1 steal",
+            "number 2 steal",
+            "number 3 steal",
+            "number 4 steal",
+            "number 5 steal",
+            "number 7 steal",
+            "number 9 steal"
+        ]
+    },
+    {
+        "canonical_utterance": "season of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "date 2001 -1 -1",
+            "date 2003 -1 -1",
+            "date 2008 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "number of points -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 point",
+            "number 3 point",
+            "number 9 point"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of turnovers -lrb- over a season -rrb- is larger than number of turnovers -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "team of player kobe bryant",
+        "denotation": [
+            "name en.team.cavaliers",
+            "name en.team.lakers"
+        ]
+    },
+    {
+        "canonical_utterance": "number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 foul",
+            "number 4 foul",
+            "number 6 foul",
+            "number 7 foul"
+        ]
+    },
+    {
+        "canonical_utterance": "number of played games -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 5 game"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of steals -lrb- over a season -rrb- is at most number of steals -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose team is not los angeles lakers",
+        "denotation": [
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.32",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose team is team of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "team of player kobe bryant whose season is 2004",
+        "denotation": [
+            "name en.team.cavaliers",
+            "name en.team.lakers"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the largest number of played games -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.25",
+            "name en.player.4",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "team of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.team.cavaliers",
+            "name en.team.lakers"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of fouls -lrb- over a season -rrb- is at most 3",
+        "denotation": [
+            "name en.player.27",
+            "name en.player.34",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the largest number of points -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.23",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of played games -lrb- over a season -rrb- is at least number of played games -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of played games -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 game",
+            "number 5 game",
+            "number 6 game",
+            "number 8 game"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of blocks -lrb- over a season -rrb- is larger than 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "season of player kobe bryant whose position is point guard",
+        "denotation": [
+            "date 2000 -1 -1",
+            "date 2002 -1 -1",
+            "date 2003 -1 -1",
+            "date 2004 -1 -1",
+            "date 2005 -1 -1",
+            "date 2006 -1 -1",
+            "date 2008 -1 -1",
+            "date 2009 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of assists -lrb- over a season -rrb- is smaller than 3",
+        "denotation": [
+            "name en.player.19",
+            "name en.player.29",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.38",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of turnovers -lrb- over a season -rrb- is smaller than number of turnovers -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of blocks -lrb- over a season -rrb- is number of blocks -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "los angeles lakers or cleveland cavaliers",
+        "denotation": [
+            "name en.team.cavaliers",
+            "name en.team.lakers"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of rebounds -lrb- over a season -rrb- is larger than number of rebounds -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the most number of team",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of rebounds -lrb- over a season -rrb- is at least 3",
+        "denotation": [
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of points -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 0 point",
+            "number 3 point",
+            "number 4 point",
+            "number 9 point"
+        ]
+    },
+    {
+        "canonical_utterance": "team of player kobe bryant whose position is point guard",
+        "denotation": [
+            "name en.team.cavaliers",
+            "name en.team.lakers"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of steals -lrb- over a season -rrb- is number of steals -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the most number of position",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of played games -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers",
+        "denotation": [
+            "number 1 game",
+            "number 2 game",
+            "number 3 game",
+            "number 4 game",
+            "number 5 game",
+            "number 6 game",
+            "number 7 game",
+            "number 8 game"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of blocks -lrb- over a season -rrb- is at most 3",
+        "denotation": [
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of turnovers -lrb- over a season -rrb- is at most 3",
+        "denotation": [
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "number of turnovers -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers",
+        "denotation": [
+            "number 1 turnover",
+            "number 2 turnover",
+            "number 3 turnover",
+            "number 4 turnover",
+            "number 6 turnover",
+            "number 7 turnover",
+            "number 8 turnover"
+        ]
+    },
+    {
+        "canonical_utterance": "season of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "date 2002 -1 -1",
+            "date 2004 -1 -1",
+            "date 2006 -1 -1",
+            "date 2009 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "position of player kobe bryant whose number of points -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.position.forward",
+            "name en.position.point_guard"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of blocks -lrb- over a season -rrb- is not 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 rebound",
+            "number 8 rebound"
+        ]
+    },
+    {
+        "canonical_utterance": "number of points -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 6 point",
+            "number 8 point"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of rebounds -lrb- over a season -rrb- is not 3",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "number of blocks -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "number 0 block",
+            "number 1 block",
+            "number 2 block",
+            "number 3 block",
+            "number 4 block",
+            "number 5 block",
+            "number 6 block",
+            "number 7 block",
+            "number 8 block",
+            "number 9 block"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of played games -lrb- over a season -rrb- is at most 3",
+        "denotation": [
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "team of player kobe bryant whose team is los angeles lakers",
+        "denotation": [
+            "name en.team.lakers"
+        ]
+    },
+    {
+        "canonical_utterance": "position of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "name en.position.forward",
+            "name en.position.point_guard"
+        ]
+    },
+    {
+        "canonical_utterance": "player whose number of rebounds -lrb- over a season -rrb- is at most number of rebounds -lrb- over a season -rrb- of player kobe bryant",
+        "denotation": [
+            "name en.player.18",
+            "name en.player.19",
+            "name en.player.23",
+            "name en.player.25",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.32",
+            "name en.player.34",
+            "name en.player.37",
+            "name en.player.38",
+            "name en.player.4",
+            "name en.player.45",
+            "name en.player.48",
+            "name en.player.49",
+            "name en.player.51",
+            "name en.player.54",
+            "name en.player.7",
+            "name en.player.kobe_bryant",
+            "name en.player.lebron_james"
+        ]
+    },
+    {
+        "canonical_utterance": "season of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "date 2000 -1 -1",
+            "date 2001 -1 -1",
+            "date 2003 -1 -1",
+            "date 2006 -1 -1",
+            "date 2009 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "player that has the smallest number of blocks -lrb- over a season -rrb-",
+        "denotation": [
+            "name en.player.23",
+            "name en.player.27",
+            "name en.player.29",
+            "name en.player.3",
+            "name en.player.kobe_bryant"
+        ]
+    },
+    {
+        "canonical_utterance": "season of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "date 2003 -1 -1",
+            "date 2004 -1 -1"
+        ]
+    },
+    {
+        "canonical_utterance": "number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 1 turnover",
+            "number 4 turnover",
+            "number 7 turnover",
+            "number 9 turnover"
+        ]
+    },
+    {
+        "canonical_utterance": "number of turnovers -lrb- over a season -rrb- of player kobe bryant whose season is 2004",
+        "denotation": [
+            "number 5 turnover",
+            "number 6 turnover",
+            "number 8 turnover",
+            "number 9 turnover"
+        ]
+    },
+    {
+        "canonical_utterance": "number of played games -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3",
+        "denotation": [
+            "number 3 game",
+            "number 5 game",
+            "number 6 game",
+            "number 7 game"
+        ]
+    }
+]

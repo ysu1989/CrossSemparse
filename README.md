@@ -1,2 +1,2 @@
-# CrossSemparse
-The code for the paper: "Cross-domain Semantic Parsing via Paraphrasing" 
+# cross_domain_semparse
+Cross Domain Semantic Parsing

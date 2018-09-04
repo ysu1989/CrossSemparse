@@ -1,0 +1,1344 @@
+(example
+  (utterance "which meetings end later than 10 in the morning or 3 in the afternoon")
+  (original "meeting whose end time is larger than 10am or 3pm")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (time 10 0) (time 15 0)))))
+
+  )
+)
+(example
+  (utterance "important meeting with three hour duration")
+  (original "meeting that is important and whose length is three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string is_important)) (string length) (string =) (number 3 en.hour)))
+
+  )
+)
+(example
+  (utterance "meeting that has duration of lesser than three hour")
+  (original "meeting whose length is smaller than three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string length)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (number 3 en.hour))))
+
+  )
+)
+(example
+  (utterance "meetings that start earlier than or at the same time as the weekly standup meeting")
+  (original "meeting whose start time is at most end time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string end_time)))))
+
+  )
+)
+(example
+  (utterance "show me the meetings that are scheduled for longest length of time")
+  (original "meeting that has the largest length")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string length))))
+
+  )
+)
+(example
+  (utterance "what meeting is alice not attending")
+  (original "meeting whose attendee is not alice")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string !=) en.person.alice))
+
+  )
+)
+(example
+  (utterance "which january 2nd meeting is three hours long")
+  (original "meeting whose date is jan 2 and whose length is three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string length) (string =) (number 3 en.hour)))
+
+  )
+)
+(example
+  (utterance "who has attended the most meetings")
+  (original "person that is attendee of the most number of meeting")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string attendee)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type))))
+
+  )
+)
+(example
+  (utterance "meeting is no later than january 2nd or 3rd")
+  (original "meeting whose date is at least jan 2 or jan 3")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2015 1 2) (date 2015 1 3)))))
+
+  )
+)
+(example
+  (utterance "show me all three hour meetings that begin at 10am")
+  (original "meeting whose length is three hours and whose start time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string length) (string =) (number 3 en.hour)) (string start_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "meetings in greenberg cafe that start at 10am")
+  (original "meeting whose start time is 10am and whose location is greenberg cafe")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (time 10 0)) (string location) (string =) en.location.greenberg_cafe))
+
+  )
+)
+(example
+  (utterance "show me meetings on jan 2")
+  (original "meeting whose date is jan 2 and whose date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "show me all meetings scheduled to be longer than the weekly standup meeting")
+  (original "meeting whose length is larger than length of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string length)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string length)))))
+
+  )
+)
+(example
+  (utterance "meetings after january 2 or after january 3")
+  (original "meeting whose date is larger than jan 2 or jan 3")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2015 1 2) (date 2015 1 3)))))
+
+  )
+)
+(example
+  (utterance "meeting which is on jan 3 or before")
+  (original "meeting whose date is at most jan 2 or jan 3")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2015 1 2) (date 2015 1 3)))))
+
+  )
+)
+(example
+  (utterance "show me meetings shorter than three hours")
+  (original "meeting whose length is at most three hours or one hour")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string length)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 3 en.hour) (number 1 en.hour)))))
+
+  )
+)
+(example
+  (utterance "what meeting ends at 10am or earlier")
+  (original "meeting whose end time is at most 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "show me all meetings marked important beginning at 10 am")
+  (original "meeting that is important and whose start time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string is_important)) (string start_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "what is the longest meeting")
+  (original "meeting that has the largest length")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string length))))
+
+  )
+)
+(example
+  (utterance "meetings that end at or before 10am or at or before 3pm")
+  (original "meeting whose end time is at most 10am or 3pm")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (time 10 0) (time 15 0)))))
+
+  )
+)
+(example
+  (utterance "meetings that start at the same time or after the weekly standup meeting ends")
+  (original "meeting whose start time is at least end time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string end_time)))))
+
+  )
+)
+(example
+  (utterance "what is the location of the weekly standup")
+  (original "location that is location of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.location) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string location)) (string =) en.meeting.weekly_standup))
+
+  )
+)
+(example
+  (utterance "people that attend the weekly standup meeting or the annual review meeting")
+  (original "person that is attendee of weekly standup or annual review")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string attendee)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.meeting.weekly_standup en.meeting.annual_review)))
+
+  )
+)
+(example
+  (utterance "what meeting has the longest length")
+  (original "meeting that has the largest length")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string length))))
+
+  )
+)
+(example
+  (utterance "what meetings are located at greenberg cafe")
+  (original "meeting whose location is greenberg cafe and whose location is greenberg cafe")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) en.location.greenberg_cafe) (string location) (string =) en.location.greenberg_cafe))
+
+  )
+)
+(example
+  (utterance "meeting that starts when the weekly standup meeting ends")
+  (original "meeting whose start time is end time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string end_time))))
+
+  )
+)
+(example
+  (utterance "meetings in greenberg cafe that end at 10am")
+  (original "meeting whose location is greenberg cafe and whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) en.location.greenberg_cafe) (string end_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "show me all meetings happening on january 2nd")
+  (original "meeting whose date is jan 2 and whose date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "what meeting doesnt end at 10am")
+  (original "meeting whose end time is not 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string end_time) (string !=) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "show me all meeting that will end by 10am")
+  (original "meeting whose end time is at most 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "meetings that start before 10am")
+  (original "meeting whose start time is smaller than 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "meeting starts before end time of weekly standup")
+  (original "meeting whose start time is smaller than end time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string end_time)))))
+
+  )
+)
+(example
+  (utterance "three hour meeting on january 2nd")
+  (original "meeting whose length is three hours and whose date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string length) (string =) (number 3 en.hour)) (string date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "which people are attending meetings on january 2")
+  (original "person that is attendee of meeting whose date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string attendee)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2))))
+
+  )
+)
+(example
+  (utterance "meetings that start at or after 10am")
+  (original "meeting whose start time is at least 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "location of more than two meetings")
+  (original "location that is location of more than two meeting")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.location) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string location)) (string >) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type))))
+
+  )
+)
+(example
+  (utterance "show me all meetings in greenberg cafe on jan 2")
+  (original "meeting whose date is jan 2 and whose location is greenberg cafe")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string location) (string =) en.location.greenberg_cafe))
+
+  )
+)
+(example
+  (utterance "show me any meetings labeled as important which are also three hours long")
+  (original "meeting that is important and whose length is three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string is_important)) (string length) (string =) (number 3 en.hour)))
+
+  )
+)
+(example
+  (utterance "show me all locations which have meetings ending at 10 am")
+  (original "location that is location of meeting whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.location) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string location)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string end_time) (string =) (time 10 0))))
+
+  )
+)
+(example
+  (utterance "show me the meeting that has the latest end time")
+  (original "meeting that has the largest end time")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time))))
+
+  )
+)
+(example
+  (utterance "who is attending the 10sm meeting")
+  (original "person that is attendee of meeting whose start time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string attendee)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (time 10 0))))
+
+  )
+)
+(example
+  (utterance "show me meetings ending after 10am")
+  (original "meeting whose end time is larger than 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "show me all meetings attended by alice beginning at 10 am")
+  (original "meeting whose attendee is alice and whose start time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice) (string start_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "what meeting has and end time the same as weekly startup")
+  (original "meeting whose end time is end time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string end_time) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string end_time))))
+
+  )
+)
+(example
+  (utterance "show me meetings that take three hours in greenberg cafe")
+  (original "meeting whose length is three hours and whose location is greenberg cafe")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string length) (string =) (number 3 en.hour)) (string location) (string =) en.location.greenberg_cafe))
+
+  )
+)
+(example
+  (utterance "which meeting has the fewest attendees")
+  (original "meeting that has the least number of attendee")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string min) (string attendee)))
+
+  )
+)
+(example
+  (utterance "meeting ends before 10am or 3pm")
+  (original "meeting whose end time is smaller than 10am or 3pm")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (time 10 0) (time 15 0)))))
+
+  )
+)
+(example
+  (utterance "meeting which starts at 1000 am or 300 pm")
+  (original "meeting whose start time is 10am or 3pm")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (time 10 0) (time 15 0))))
+
+  )
+)
+(example
+  (utterance "meetings attended by alice in greenberg cafe")
+  (original "meeting whose location is greenberg cafe and whose attendee is alice")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) en.location.greenberg_cafe) (string attendee) (string =) en.person.alice))
+
+  )
+)
+(example
+  (utterance "show me meetings shorter than 3 hours")
+  (original "meeting whose length is at most three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string length)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (number 3 en.hour))))
+
+  )
+)
+(example
+  (utterance "what location is the three hour meeting")
+  (original "location that is location of meeting whose length is three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.location) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string location)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string length) (string =) (number 3 en.hour))))
+
+  )
+)
+(example
+  (utterance "which january 2nd meetings is alice attenting")
+  (original "meeting whose date is jan 2 and whose attendee is alice")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee) (string =) en.person.alice))
+
+  )
+)
+(example
+  (utterance "show me all meetings that begin at 10am")
+  (original "meeting whose start time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "find the meeting with alice at greenberg cafe")
+  (original "meeting whose attendee is alice and whose location is greenberg cafe")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice) (string location) (string =) en.location.greenberg_cafe))
+
+  )
+)
+(example
+  (utterance "what meeting has a date of jan 2 or jan 3")
+  (original "meeting whose date is at least jan 2 or jan 3")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2015 1 2) (date 2015 1 3)))))
+
+  )
+)
+(example
+  (utterance "meeting ends at 10 am or 3 pm")
+  (original "meeting whose end time is 10am or 3pm")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string end_time) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (time 10 0) (time 15 0))))
+
+  )
+)
+(example
+  (utterance "show me all meetings marked important which are also attended by alice")
+  (original "meeting that is important and whose attendee is alice")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string is_important)) (string attendee) (string =) en.person.alice))
+
+  )
+)
+(example
+  (utterance "show me important meetings at greenberg cafe")
+  (original "meeting whose location is greenberg cafe and that is important")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) en.location.greenberg_cafe) (string is_important)))
+
+  )
+)
+(example
+  (utterance "what is the end time of weekly standup")
+  (original "end time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string end_time)))
+
+  )
+)
+(example
+  (utterance "meeting with no more than 2 locations")
+  (original "meeting that has at most two location")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string <=) (number 2)))
+
+  )
+)
+(example
+  (utterance "meeting which starts at or before 10 am")
+  (original "meeting whose start time is at most 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "show me all meetings at greenberg cafe ending at 10 am")
+  (original "meeting whose location is greenberg cafe and whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) en.location.greenberg_cafe) (string end_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "what meeting is at greenberg cafe")
+  (original "location that is location of meeting whose location is greenberg cafe")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.location) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string location)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) en.location.greenberg_cafe)))
+
+  )
+)
+(example
+  (utterance "location is same as the location of meeting on jan 2")
+  (original "location that is location of meeting whose date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.location) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string location)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2))))
+
+  )
+)
+(example
+  (utterance "what meetings are scheduled to run for three hours on jan 2")
+  (original "meeting whose date is jan 2 and whose length is three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string length) (string =) (number 3 en.hour)))
+
+  )
+)
+(example
+  (utterance "show me all important meetings on jan 2")
+  (original "meeting whose date is jan 2 and that is important")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string is_important)))
+
+  )
+)
+(example
+  (utterance "show me all meetings alice has attended at the greenberg cafe")
+  (original "meeting whose attendee is alice and whose location is greenberg cafe")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice) (string location) (string =) en.location.greenberg_cafe))
+
+  )
+)
+(example
+  (utterance "show me all meetings after january 2nd")
+  (original "meeting whose date is larger than jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (date 2015 1 2))))
+
+  )
+)
+(example
+  (utterance "person attending least number of meetings")
+  (original "person that is attendee of the least number of meeting")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (string min) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string attendee)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type))))
+
+  )
+)
+(example
+  (utterance "what meeting has the earliest date")
+  (original "meeting that has the smallest date")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string min) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date))))
+
+  )
+)
+(example
+  (utterance "what meeting ends no earlier than 10am")
+  (original "meeting whose end time is smaller than 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "what meetings occur on the same day as weekly standup")
+  (original "meeting whose date is date of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string date))))
+
+  )
+)
+(example
+  (utterance "what meetings take place in greenbug cafe")
+  (original "meeting whose location is greenberg cafe and whose location is greenberg cafe")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) en.location.greenberg_cafe) (string location) (string =) en.location.greenberg_cafe))
+
+  )
+)
+(example
+  (utterance "what meeting has a length smaller than three hours")
+  (original "meeting whose length is smaller than three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string length)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (number 3 en.hour))))
+
+  )
+)
+(example
+  (utterance "show me the meetings with the most attendees")
+  (original "meeting that has the most number of attendee")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string max) (string attendee)))
+
+  )
+)
+(example
+  (utterance "what meeting is starting the same time as weekly standup")
+  (original "meeting whose start time is start time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string start_time))))
+
+  )
+)
+(example
+  (utterance "show me meetings starting at 10am that take 3 horus")
+  (original "meeting whose start time is 10am and whose length is three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (time 10 0)) (string length) (string =) (number 3 en.hour)))
+
+  )
+)
+(example
+  (utterance "location same as weekly meeting or annual review")
+  (original "location that is location of weekly standup or annual review")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.location) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string location)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.meeting.weekly_standup en.meeting.annual_review)))
+
+  )
+)
+(example
+  (utterance "meeting in which alice is attending and ends at 10 am")
+  (original "meeting whose end time is 10am and whose attendee is alice")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string end_time) (string =) (time 10 0)) (string attendee) (string =) en.person.alice))
+
+  )
+)
+(example
+  (utterance "what meeting start time is later than 10am")
+  (original "meeting whose start time is larger than 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "meetings that are not attended by alice")
+  (original "meeting whose attendee is not alice")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string !=) en.person.alice))
+
+  )
+)
+(example
+  (utterance "what meeting has the fewest locations")
+  (original "meeting that has the least number of location")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string min) (string location)))
+
+  )
+)
+(example
+  (utterance "show me all meetings ending after the weekly standup ends")
+  (original "meeting whose start time is larger than end time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string end_time)))))
+
+  )
+)
+(example
+  (utterance "what meeting is at greenberg cafe and ends at 10am")
+  (original "meeting whose location is greenberg cafe and whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) en.location.greenberg_cafe) (string end_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "meeting is not at greenberg cafe")
+  (original "meeting whose location is not greenberg cafe")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string !=) en.location.greenberg_cafe))
+
+  )
+)
+(example
+  (utterance "what meetings have a length of three hours and alice is attending")
+  (original "meeting whose length is three hours and whose attendee is alice")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string length) (string =) (number 3 en.hour)) (string attendee) (string =) en.person.alice))
+
+  )
+)
+(example
+  (utterance "what meetings are scheduled for a date no earlier than jan 2")
+  (original "meeting whose date is at least jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (date 2015 1 2))))
+
+  )
+)
+(example
+  (utterance "locations of meetings that end at 10am")
+  (original "location that is location of meeting whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.location) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string location)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string end_time) (string =) (time 10 0))))
+
+  )
+)
+(example
+  (utterance "what meetings end no later then the weekly standup meeting ends")
+  (original "meeting whose end time is at least end time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string end_time)))))
+
+  )
+)
+(example
+  (utterance "what meeting is in either greenberg cage or central office")
+  (original "meeting whose location is greenberg cafe or central office")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.location.greenberg_cafe en.location.central_office)))
+
+  )
+)
+(example
+  (utterance "show me all meetings happening at greenberg cafe or central office")
+  (original "greenberg cafe or central office")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.location.greenberg_cafe en.location.central_office))
+
+  )
+)
+(example
+  (utterance "what is the average length of all meetings")
+  (original "average length of meeting")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.aggregate (string avg) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string length))))
+
+  )
+)
+(example
+  (utterance "who is attending the three hour meeting")
+  (original "person that is attendee of meeting whose length is three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string attendee)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string length) (string =) (number 3 en.hour))))
+
+  )
+)
+(example
+  (utterance "what are some important meetings")
+  (original "meeting that is important")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string is_important)))
+
+  )
+)
+(example
+  (utterance "show me all meetings which start at the same time or later than the weekly standup")
+  (original "meeting whose start time is at least start time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string start_time)))))
+
+  )
+)
+(example
+  (utterance "meeting on jan 2 which ends at 10 am")
+  (original "meeting whose date is jan 2 and whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string end_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "what meeting starts earlier than 10am or 3pm")
+  (original "meeting whose start time is smaller than 10am or 3pm")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (time 10 0) (time 15 0)))))
+
+  )
+)
+(example
+  (utterance "show me all meetings that end at 10am in greenberg cafe")
+  (original "meeting whose location is greenberg cafe and whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) en.location.greenberg_cafe) (string end_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "tell me the all meetings begins after 10am or 3pm")
+  (original "meeting whose start time is at least 10am or 3pm")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (time 10 0) (time 15 0)))))
+
+  )
+)
+(example
+  (utterance "people that attend important meetings")
+  (original "person that is attendee of meeting that is important")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string attendee)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string is_important))))
+
+  )
+)
+(example
+  (utterance "how many locations house meetings")
+  (original "number of location")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.location) (string !type))))
+
+  )
+)
+(example
+  (utterance "show me all meetings happening before january 2nd")
+  (original "meeting whose date is smaller than jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (date 2015 1 2))))
+
+  )
+)
+(example
+  (utterance "what is the date of weekly standup")
+  (original "date of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string date)))
+
+  )
+)
+(example
+  (utterance "create a meeting for jan 2nd until 10am")
+  (original "meeting whose date is jan 2 and whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string end_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "what meeting is on jan 2")
+  (original "meeting whose date is jan 2 and whose date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "show me important meetings at greenberg cafe")
+  (original "meeting that is important and whose location is greenberg cafe")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string is_important)) (string location) (string =) en.location.greenberg_cafe))
+
+  )
+)
+(example
+  (utterance "meeting starting at time of weekly standup")
+  (original "meeting whose start time is start time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string start_time))))
+
+  )
+)
+(example
+  (utterance "meetings held in the same location as the weekly standup meeting")
+  (original "meeting whose location is location of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string location))))
+
+  )
+)
+(example
+  (utterance "show me all meetings which are either shorter or longer than three hours")
+  (original "meeting whose length is not three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string length) (string !=) (number 3 en.hour)))
+
+  )
+)
+(example
+  (utterance "what meeting lasts from one to three hours")
+  (original "meeting whose length is three hours or one hour")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string length) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 3 en.hour) (number 1 en.hour))))
+
+  )
+)
+(example
+  (utterance "what meeting has alice attending on jan 2")
+  (original "meeting whose attendee is alice and whose date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice) (string date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "show me all meetings alice has attended marked as important")
+  (original "meeting whose attendee is alice and that is important")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice) (string is_important)))
+
+  )
+)
+(example
+  (utterance "meetings that are longer than the weekly startup meeting")
+  (original "meeting whose length is larger than length of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string length)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string length)))))
+
+  )
+)
+(example
+  (utterance "show me the important meetings that last three hours")
+  (original "meeting that is important and whose length is three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string is_important)) (string length) (string =) (number 3 en.hour)))
+
+  )
+)
+(example
+  (utterance "what meeting begins latest")
+  (original "meeting that has the largest start time")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.superlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string max) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time))))
+
+  )
+)
+(example
+  (utterance "show me all meetings marked important ending at 10 am")
+  (original "meeting that is important and whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string is_important)) (string end_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "what meeting ends at the same time as weekly standup or later")
+  (original "meeting whose end time is at least end time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string end_time)))))
+
+  )
+)
+(example
+  (utterance "show me all meetings that alice is attending on jan 2")
+  (original "meeting whose attendee is alice and whose date is jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice) (string date) (string =) (date 2015 1 2)))
+
+  )
+)
+(example
+  (utterance "what meeting ends at the start time of weekly standup")
+  (original "meeting whose end time is start time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string end_time) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string start_time))))
+
+  )
+)
+(example
+  (utterance "meetings held in less than two locations")
+  (original "meeting that has less than two location")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string <) (number 2)))
+
+  )
+)
+(example
+  (utterance "what important meeting has an end time of 10am")
+  (original "meeting whose end time is 10am and that is important")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string end_time) (string =) (time 10 0)) (string is_important)))
+
+  )
+)
+(example
+  (utterance "meetings that are on or before january 3")
+  (original "meeting whose date is at least jan 2 or jan 3")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2015 1 2) (date 2015 1 3)))))
+
+  )
+)
+(example
+  (utterance "what meeting has the same end time as that of weekly standup")
+  (original "meeting whose end time is at most end time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string end_time)))))
+
+  )
+)
+(example
+  (utterance "show me meetings before 10am")
+  (original "meeting whose end time is smaller than 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "what meeting has the most attendees")
+  (original "meeting that has the most number of attendee")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string max) (string attendee)))
+
+  )
+)
+(example
+  (utterance "show me all meetings that run either three hours or one hour")
+  (original "meeting whose length is three hours or one hour")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string length) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 3 en.hour) (number 1 en.hour))))
+
+  )
+)
+(example
+  (utterance "show me the meeting that starts and ends at 10 am")
+  (original "meeting whose start time is 10am and whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (time 10 0)) (string end_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "show me all meetings that end earlier than the week standup meeting ends")
+  (original "meeting whose end time is smaller than end time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string end_time)))))
+
+  )
+)
+(example
+  (utterance "which meeting has the most people scheduled to attend")
+  (original "meeting that has the most number of attendee")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string max) (string attendee)))
+
+  )
+)
+(example
+  (utterance "what person is attending a meeting that ends at 10am")
+  (original "person that is attendee of meeting whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string attendee)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string end_time) (string =) (time 10 0))))
+
+  )
+)
+(example
+  (utterance "meetings on january 2 or january 3")
+  (original "meeting whose date is jan 2 or jan 3")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2015 1 2) (date 2015 1 3))))
+
+  )
+)
+(example
+  (utterance "show me meetings that take 3 hours and start at 10am")
+  (original "meeting whose length is three hours and whose start time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string length) (string =) (number 3 en.hour)) (string start_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "alice or bob is an attendee at the meeting")
+  (original "meeting whose attendee is alice or bob")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat en.person.alice en.person.bob)))
+
+  )
+)
+(example
+  (utterance "show me all meetings which are scheduled no later than january 3")
+  (original "meeting whose date is at most jan 2 or jan 3")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (date 2015 1 2) (date 2015 1 3)))))
+
+  )
+)
+(example
+  (utterance "who attends the weekly standup meeting")
+  (original "attendee of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string attendee)))
+
+  )
+)
+(example
+  (utterance "show me all meetings starting at 10 am or after")
+  (original "meeting whose start time is at least 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "meetings that end later than 10am")
+  (original "meeting whose end time is larger than 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "show me all meetings which have only one location")
+  (original "meeting that has less than two location")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string <) (number 2)))
+
+  )
+)
+(example
+  (utterance "who has attended the weekly standup meeting")
+  (original "attendee of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string attendee)))
+
+  )
+)
+(example
+  (utterance "who are the people attending at least two different meetings")
+  (original "person that is attendee of at least two meeting")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string attendee)) (string >=) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type))))
+
+  )
+)
+(example
+  (utterance "what meeting who starts right right after weekly standup")
+  (original "meeting whose start time is at least end time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string start_time)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string end_time)))))
+
+  )
+)
+(example
+  (utterance "show me all meetings that have two or fewer attendees")
+  (original "meeting that has at most two attendee")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string <=) (number 2)))
+
+  )
+)
+(example
+  (utterance "what meeting ends before 3pm or 10am")
+  (original "meeting whose end time is smaller than 10am or 3pm")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (time 10 0) (time 15 0)))))
+
+  )
+)
+(example
+  (utterance "what meetings have no more than two different locations")
+  (original "meeting that has at most two location")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string <=) (number 2)))
+
+  )
+)
+(example
+  (utterance "meetings that are longer than three hours or longer than an hour")
+  (original "meeting whose length is larger than three hours or one hour")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string length)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 3 en.hour) (number 1 en.hour)))))
+
+  )
+)
+(example
+  (utterance "show me all the meetings that have two or more participants")
+  (original "meeting that has at least two attendee")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string >=) (number 2)))
+
+  )
+)
+(example
+  (utterance "show me all meetings beginning at 10 am which are three hours long")
+  (original "meeting whose start time is 10am and whose length is three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (time 10 0)) (string length) (string =) (number 3 en.hour)))
+
+  )
+)
+(example
+  (utterance "meeting with fewest locations")
+  (original "meeting that has the least number of location")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countSuperlative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string min) (string location)))
+
+  )
+)
+(example
+  (utterance "what three hour meeting is at greenberg cafe")
+  (original "meeting whose location is greenberg cafe and whose length is three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) en.location.greenberg_cafe) (string length) (string =) (number 3 en.hour)))
+
+  )
+)
+(example
+  (utterance "show me all attendees of the weekly standup meeting")
+  (original "person that is attendee of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string attendee)) (string =) en.meeting.weekly_standup))
+
+  )
+)
+(example
+  (utterance "show me all meetings on january 2nd which are three hours long")
+  (original "meeting whose date is jan 2 and whose length is three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string length) (string =) (number 3 en.hour)))
+
+  )
+)
+(example
+  (utterance "which important meeting starts at 10 in the morning")
+  (original "meeting whose start time is 10am and that is important")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (time 10 0)) (string is_important)))
+
+  )
+)
+(example
+  (utterance "show me all meetings which end at the same time or later than the weekly standup meeting begins")
+  (original "meeting whose end time is at least start time of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string start_time)))))
+
+  )
+)
+(example
+  (utterance "show me meeting happening after the day of weekly standup")
+  (original "meeting whose date is larger than date of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string >) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string date)))))
+
+  )
+)
+(example
+  (utterance "find me a meeting that ends 10am or later")
+  (original "meeting whose end time is at least 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "what meeting starts at 10am and ends at 10am q")
+  (original "meeting whose start time is 10am and whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (time 10 0)) (string end_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "what meeting was on or before jan 2")
+  (original "meeting whose date is at most jan 2")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string <=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (date 2015 1 2))))
+
+  )
+)
+(example
+  (utterance "who is the person attending  more than two meetings")
+  (original "person that is attendee of more than two meeting")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.person) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string attendee)) (string >) (number 2) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type))))
+
+  )
+)
+(example
+  (utterance "meeting at greenberg cafe ends at 1000 am")
+  (original "meeting whose location is greenberg cafe and whose end time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) en.location.greenberg_cafe) (string end_time) (string =) (time 10 0)))
+
+  )
+)
+(example
+  (utterance "show me all meetings ending at or after 10 am")
+  (original "meeting whose end time is at least 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string end_time)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (time 10 0))))
+
+  )
+)
+(example
+  (utterance "what important meeting has a start time at 10am")
+  (original "meeting whose start time is 10am and that is important")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (time 10 0)) (string is_important)))
+
+  )
+)
+(example
+  (utterance "show me all meetings with alice")
+  (original "meeting whose attendee is alice")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice))
+
+  )
+)
+(example
+  (utterance "show me meetings after the weekly standup day")
+  (original "meeting whose date is at least date of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string >=) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string date)))))
+
+  )
+)
+(example
+  (utterance "location of meetings that start at 10am")
+  (original "location that is location of meeting whose start time is 10am")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.location) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.reverse (string location)) (string =) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (time 10 0))))
+
+  )
+)
+(example
+  (utterance "what meeting has length shorter than one to three hours")
+  (original "meeting whose length is smaller than three hours or one hour")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string length)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.concat (number 3 en.hour) (number 1 en.hour)))))
+
+  )
+)
+(example
+  (utterance "what meeting has less than two locations")
+  (original "meeting that has less than two location")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.countComparative (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string <) (number 2)))
+
+  )
+)
+(example
+  (utterance "what meeting has a date earlier than weekly startup")
+  (original "meeting whose date is smaller than date of weekly standup")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericProperty (string date)) (string <) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.ensureNumericEntity (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty en.meeting.weekly_standup (string date)))))
+
+  )
+)
+(example
+  (utterance "show me all three hour meetings that alice is attending")
+  (original "meeting whose attendee is alice and whose length is three hours")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.SimpleWorld.listValue (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.filter (call edu.stanford.nlp.sempre.overnight.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.overnight.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice) (string length) (string =) (number 3 en.hour)))
+
+  )
+)

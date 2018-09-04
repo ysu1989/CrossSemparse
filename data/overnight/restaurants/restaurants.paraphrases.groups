@@ -1,0 +1,1995 @@
+original - restaurant that has waiter service and that serves lunch
+  para - a restaurant with waiter service for lunch, worker - A11B84S796PPW5
+  para - what restaurant has waiter service and serves lunch, worker - A24TG1B5IY8YZ5
+  para - restaurants that serve lunch and have waiter service, worker - A1U207UYSR92X5
+  para - what restaurant has lunch and waiter service, worker - A32CIL5S21Y4MR
+original - restaurant whose price rating is 2 dollar signs and whose neighborhood is midtown west
+  para - restaurants with 2 dollar sign rating in midtown west, worker - A1U207UYSR92X5
+  para - restaurant whose price rating is 2 dollar signs and whose neighborhood is midtown west, worker - A3URW8DWGJVYFX
+  para - restaurants with price rating of 2 in midtown west, worker - A16ANYLVNPKCVG
+  para - which restaurants in midtown west have a 2dollarsigns price rating, worker - A1N8SWL57W43PV
+  para - what 2 dollar signs restaurants are in the neighbor of midtown west, worker - A1Y3EFWUYKN0UP
+original - number of cuisine
+  para - how many different kind of cuisines are there, worker - A1Y3EFWUYKN0UP
+  para - how many different cuisines are there to chose from, worker - A11GZNNVLEWRGF
+  para - number of cuisine, worker - A3URW8DWGJVYFX
+original - restaurant that has outdoor seating and whose star rating is 3 stars
+  para - which threestar rated restaurant has outdoor seating, worker - A2RRYVYUDNK2GB
+  para - 3 star restaurants that have outdoor seating, worker - A1A3TGZ7DKJWRW
+  para - which 3 star restaurants have outdoor seating, worker - A1NGGAVIGC9O7V
+  para - which 3 star restaurants have outdoor dining areas, worker - A11GZNNVLEWRGF
+original - restaurant that takes credit cards and that takes reservations
+  para - what restaurant can i make reservations at that takes credit cards, worker - A32CIL5S21Y4MR
+  para - restaurants that take credit cards and reservations, worker - A16ANYLVNPKCVG
+  para - restaurants that accept credit cards and reservations, worker - A1U207UYSR92X5
+  para - restaurant that takes credit cards and that takes reservations, worker - A2J6N5HD2EBCM6
+  para - what restaurant takes reservations and accepts credit cards, worker - A1Y3EFWUYKN0UP
+original - thai or italian
+  para - italian or thai, worker - A2TEWO3WJ5YKGG
+  para - restaurants serving thai or italian food, worker - A11GZNNVLEWRGF
+  para - list all restaurants that are either thai or italian, worker - A1Y3EFWUYKN0UP
+original - meal that restaurant that has take-out serves
+  para - what is a meal served by a restaurant that has takeout service, worker - A2RRYVYUDNK2GB
+  para - restaurant with takeout, worker - AMXQ53C1WOPZ8
+  para - restaurants that offer takeout, worker - A1A1A9UHNQCI9Y
+  para - what kind of meals does takeout restaurants serve, worker - A1Y3EFWUYKN0UP
+  para - what meal can you get for take out at the restaurant, worker - A32CIL5S21Y4MR
+original - restaurant whose price rating is 2 dollar signs and whose price rating is 2 dollar signs
+  para - hotel that has a price rating of 2 dollar signs, worker - A2TEWO3WJ5YKGG
+  para - restaurants with 2 price rating, worker - A1T9IKE8GV4LR4
+  para - what restaurant has a price rating of 2 dollar signs, worker - A1Y3EFWUYKN0UP
+  para - which restaurants have a price rating of two dollar signs, worker - A2RRYVYUDNK2GB
+  para - restaurants with 2 dollar sign rating, worker - A1U207UYSR92X5
+original - neighborhood that is neighborhood of thai cafe
+  para - a neighborhood similar to thai cafes, worker - A11B84S796PPW5
+  para - what neighborhood is the thai cafe in, worker - A32CIL5S21Y4MR
+  para - neighborhood that is neighborhood of thai cafe, worker - A3URW8DWGJVYFX
+original - restaurant whose cuisine is thai and whose neighborhood is midtown west
+  para - a thai restaurant in the midtown neighborhood, worker - A11B84S796PPW5
+  para - the restaurant that is midtown serves thai food, worker - AZZRIXMY4HN25
+  para - which restaurants in midtown west have thai cuisine, worker - A2RRYVYUDNK2GB
+  para - thai restaurants in the midtown west neighborhood, worker - A1NGGAVIGC9O7V
+  para - list all thai restaurants in midtown west, worker - A1Y3EFWUYKN0UP
+original - restaurant whose cuisine is thai and that has take-out
+  para - thai restaurants that offer takeout, worker - A1NGGAVIGC9O7V
+  para - thai restaurants that have takeout, worker - A16ANYLVNPKCVG
+  para - thai restaurants with takeout, worker - A1U207UYSR92X5
+  para - thai restaurants that have takeout, worker - AODM31DHYJG99
+  para - what thai restaurant offers takeout, worker - A1Y3EFWUYKN0UP
+  para - restaurant whose cuisine is thai and that has takeout, worker - A3URW8DWGJVYFX
+original - restaurant that takes credit cards and that takes credit cards
+  para - which restaurant accepts credit cards, worker - A2TEWO3WJ5YKGG
+  para - which restaurants take credit cards, worker - A1NGGAVIGC9O7V
+original - meal that restaurant whose price rating is 2 dollar signs serves
+  para - name a meal served in a restaurant with a price rating of two dollar signs, worker - A2RRYVYUDNK2GB
+  para - what kind of meals do 2 dollar signs rated restaurants serve, worker - A1Y3EFWUYKN0UP
+  para - what meal does the restaurant with a 2 dollar price rating serve, worker - A32CIL5S21Y4MR
+original - restaurant that has outdoor seating and that serves lunch
+  para - hotel that offers lunch and has outdoor seating facilities, worker - A2TEWO3WJ5YKGG
+  para - restaurant that has outdoor seating and that serves lunch, worker - A3URW8DWGJVYFX
+  para - which restaurants serve lunch and have an outdoor dining area, worker - A11GZNNVLEWRGF
+  para - restaurants that have outdoor seating and serve lunch, worker - A16ANYLVNPKCVG
+  para - what restaurant can you eat lunch outside at, worker - A32CIL5S21Y4MR
+  para - what restaurant is open for lunch and contains outdoor seating, worker - A1Y3EFWUYKN0UP
+original - restaurant that has take-out and whose star rating is 3 stars
+  para - the three star restaurant has takeout food, worker - AZZRIXMY4HN25
+  para - 3 stars restaurant which offers takeout, worker - A2TUNPP2GOQ1N3
+  para - what 3 star restaurant has takeout, worker - A32CIL5S21Y4MR
+  para - 3 star restaurants that offer takeout, worker - A1NGGAVIGC9O7V
+  para - what 3 star restaurant offers take out, worker - A1Y3EFWUYKN0UP
+original - restaurant that has the most number of cuisine
+  para - which restaurant offers the most variety of cuisine, worker - A11GZNNVLEWRGF
+  para - what restaurant has the more cuisine then any other, worker - A32CIL5S21Y4MR
+  para - restaurant that has the most number of cuisine, worker - A3URW8DWGJVYFX
+  para - this restaurant has the most amount of cuisines, worker - AZZRIXMY4HN25
+  para - what restaurant contains the most number of cuisines, worker - A1Y3EFWUYKN0UP
+  para - restaurants with multiple cuisines, worker - A34HA6251RR0LH
+original - number of restaurant
+  para - what is the number of restaurants, worker - A1N8SWL57W43PV
+  para - what is the restaurants number, worker - A1U207UYSR92X5
+  para - what is the phone number of the restaurant, worker - A11GZNNVLEWRGF
+  para - how many restaurants are there total, worker - A1Y3EFWUYKN0UP
+  para - number of restaurant, worker - A3URW8DWGJVYFX
+original - restaurant that is good for groups and that is good for groups
+  para - what restaurant is good for groups, worker - A1Y3EFWUYKN0UP
+  para - a restaurant that is group friendly, worker - A11B84S796PPW5
+  para - which restaurants are good for groups, worker - A11GZNNVLEWRGF
+  para - restaurants for groups, worker - A1U207UYSR92X5
+original - neighborhood that is neighborhood of restaurant whose neighborhood is midtown west
+  para - what restaurants are located in midtown west, worker - A1T9IKE8GV4LR4
+  para - restaurants that are in the neighborhood of midtown west, worker - A1KF05U5IO9AFG
+  para - what neighborhood are the restaurants that are in midtown west, worker - A1Y3EFWUYKN0UP
+original - restaurant whose cuisine is thai and that has outdoor seating
+  para - what thai restaurant has outdoor seating, worker - A32CIL5S21Y4MR
+  para - thai restaurant that has outdoor seating facilities, worker - A2TEWO3WJ5YKGG
+  para - thai restaurants with optional outdoor seating, worker - AKY7ZFPCHAXMJ
+  para - thai restaurants that have outdoor dining areas, worker - A11GZNNVLEWRGF
+  para - restaurant whose cuisine is thai and that has outdoor seating, worker - A3URW8DWGJVYFX
+original - restaurant that serves lunch and that has outdoor seating
+  para - what restaurant offers lunch and an outdoor seating, worker - A1Y3EFWUYKN0UP
+  para - what restaurant can i eat lunch outdoors at, worker - A32CIL5S21Y4MR
+  para - restaurant with outdoor dining area that serves lunch, worker - A11GZNNVLEWRGF
+  para - a restaurant for lunch that has outdoor seating, worker - A1U207UYSR92X5
+  para - restaurants with lunch and outdoor seating, worker - A8VBDRZPXTP8F
+original - star rating of thai cafe
+  para - whats the star rating of thai cafe, worker - ADUJUZANFOWKW
+  para - what is the star rating of the thai cafe, worker - A32CIL5S21Y4MR
+  para - what is the star rating of thai cafe, worker - A1T9IKE8GV4LR4
+  para - what is the star rating of thai cafe, worker - A1Y3EFWUYKN0UP
+  para - what is the star rating of the thai cafe, worker - A2RRYVYUDNK2GB
+original - restaurant that is good for kids and whose cuisine is thai
+  para - thai restaurants that are kid friendly, worker - AODM31DHYJG99
+  para - restaurant that is good for kids and whose cuisine is thai, worker - A3URW8DWGJVYFX
+  para - thai restaurants that kids enjoy, worker - A2TEWO3WJ5YKGG
+  para - what good kids restaurants serve thai cuisine, worker - A32CIL5S21Y4MR
+original - restaurant that has delivery and that has waiter service
+  para - restaurants that deliver and have waiter service, worker - A1U207UYSR92X5
+  para - what restaurant offers delivery and waiter service, worker - A1Y3EFWUYKN0UP
+  para - what restaurant delivers and has waiter service, worker - A32CIL5S21Y4MR
+  para - a delivering restaurant with waiters, worker - A11B84S796PPW5
+  para - what restaurants have waiter service and delivery, worker - A24TG1B5IY8YZ5
+original - meal that restaurant whose star rating is 3 stars serves
+  para - what is a meal served at a threestar rated restaurant, worker - A2RRYVYUDNK2GB
+  para - threestar restaurant meals, worker - AMXQ53C1WOPZ8
+  para - what meal does the 3 star restaurant serve, worker - A32CIL5S21Y4MR
+  para - what kind of meal do 3 star restaurants serve, worker - A1Y3EFWUYKN0UP
+original - restaurant that is good for groups and that serves lunch
+  para - what restaurant is good with groups and serves lunch, worker - A4WSGXF5IARBH
+  para - which restaurant is good for a group of people and also serves lunch, worker - A2RRYVYUDNK2GB
+  para - what restaurant offers lunch and is good for groups, worker - A1Y3EFWUYKN0UP
+  para - restaurants that serve lunch that are good for large parties, worker - A16ANYLVNPKCVG
+  para - restaurant that is good for groups and that serves lunch, worker - A3URW8DWGJVYFX
+  para - hotel that offers lunch and best for group dining, worker - A2TEWO3WJ5YKGG
+original - restaurant that has at least two cuisine
+  para - what restaurant serves multiple cuisines, worker - A32CIL5S21Y4MR
+  para - restaurants that serves more than two cuisines, worker - A1CVM8I2566ILI
+  para - what restaurant has more than two cuisines, worker - A1Y3EFWUYKN0UP
+  para - what restaurants serve at least two cuisines, worker - A1A1A9UHNQCI9Y
+  para - what restaurant serves at least two cuisines, worker - A2RRYVYUDNK2GB
+original - restaurant that has waiter service and that has outdoor seating
+  para - which hotel offers waiter service and outdoor seating facilities, worker - A2TEWO3WJ5YKGG
+  para - restaurants with waiter service and outdoor seating, worker - A1U207UYSR92X5
+  para - restaurants with waiters and outdoor dining areas, worker - A11GZNNVLEWRGF
+  para - restaurant that has waiter service and that has outdoor seating, worker - A3URW8DWGJVYFX
+  para - what restaurant offers waiter service and outdoor seating, worker - A1Y3EFWUYKN0UP
+original - meal that more than two restaurant serves
+  para - meal that more than two restaurant serves, worker - A3URW8DWGJVYFX
+  para - what meals are served by more than two restaurants, worker - A8VBDRZPXTP8F
+original - cuisine that is cuisine of the most number of restaurant
+  para - what is the cuisine of most restaurants, worker - A1KF05U5IO9AFG
+  para - what cuisine has the most restaurants, worker - A1T9IKE8GV4LR4
+  para - what is the cuisine of the most restaurants, worker - A32CIL5S21Y4MR
+  para - what kind of cuisine has the most restaurants, worker - A1Y3EFWUYKN0UP
+original - restaurant whose price rating is 2 dollar signs and that has outdoor seating
+  para - what 2 dollar signs rated restaurant has outdoor seating, worker - A1Y3EFWUYKN0UP
+  para - what restaurant has outdoor seating and a 2 dollar price rating, worker - A32CIL5S21Y4MR
+  para - affordable restaurant with outdoor seating, worker - AMXQ53C1WOPZ8
+  para - what 2 dollar signs restaurant has outdoor seating, worker - A1Y3EFWUYKN0UP
+  para - moderately priced restaurants that have outdoor seating, worker - A1A1A9UHNQCI9Y
+  para - what restaurant has a 2 dollar price rating and outdoor seating, worker - A32CIL5S21Y4MR
+  para - which restaurant has a price rating of two dollar signs and has outdoor seating, worker - A2RRYVYUDNK2GB
+  para - name a restaurant with a price rating of two dollars signs that has outdoor seating, worker - A2RRYVYUDNK2GB
+original - restaurant that serves the most number of meal
+  para - what restaurant serves the most meals, worker - A11GZNNVLEWRGF
+  para - restaurants with the most options, worker - A1U207UYSR92X5
+  para - what restaurant has the largest menu, worker - A1Y3EFWUYKN0UP
+  para - a restaurant with alot of meals, worker - A11B84S796PPW5
+  para - which hotel offers the most number of meals, worker - A2TEWO3WJ5YKGG
+original - restaurant whose neighborhood is midtown west and whose cuisine is thai
+  para - restaurants in midtown west that serve thai food, worker - A16ANYLVNPKCVG
+  para - thai restaurant in mid town west, worker - A2TEWO3WJ5YKGG
+  para - find a thai restaurant in the midtown west area, worker - A32CIL5S21Y4MR
+  para - list all of the thai restaurant in midtown west, worker - A1Y3EFWUYKN0UP
+  para - what are some thai restaurants in midtown west, worker - A11GZNNVLEWRGF
+  para - restaurant whose neighborhood is midtown west and whose cuisine is thai, worker - A3URW8DWGJVYFX
+original - restaurant that takes credit cards and that has outdoor seating
+  para - what resturants take credit cards and have outdoor seating, worker - ADUJUZANFOWKW
+  para - restaurants that accept credit cards and serve outdoors, worker - A1T9IKE8GV4LR4
+  para - what restaurants have outdoor seating that take credit cards, worker - A1Y3EFWUYKN0UP
+  para - hotel that has outdoor seating  facilities and accepts credit cards, worker - A2TEWO3WJ5YKGG
+  para - find a restaurant with outdoor seating that takes credit cards, worker - A32CIL5S21Y4MR
+original - restaurant that serves the least number of meal
+  para - which resturants serve the least number of meals, worker - ADUJUZANFOWKW
+  para - restaurants that are better for takeout, worker - AODM31DHYJG99
+  para - what restaurant has the smallest menu, worker - A1Y3EFWUYKN0UP
+  para - restaurant that serves the least number of meal, worker - A3URW8DWGJVYFX
+  para - which restaurants serve the least number of meals, worker - A1NGGAVIGC9O7V
+  para - hotel that serves the minimum number of meals, worker - A2TEWO3WJ5YKGG
+original - restaurant that serves lunch and that takes credit cards
+  para - the restaurant takes credit cards and serves lunch, worker - AZZRIXMY4HN25
+  para - what restaurant takes credit cards and has lunch, worker - A32CIL5S21Y4MR
+  para - restaurant which serves lunch and accepts credit cards, worker - A2TUNPP2GOQ1N3
+  para - what restaurant takes credit card and is open for lunch, worker - A1Y3EFWUYKN0UP
+  para - restaurants that serve lunch and accept credit cards, worker - A1NGGAVIGC9O7V
+original - cuisine that is cuisine of restaurant whose star rating is 3 stars
+  para - cuisine that is cuisine of restaurant whose star rating is 3 stars, worker - A3URW8DWGJVYFX
+  para - which restaurant s cuisine has 3 star rating, worker - A2TEWO3WJ5YKGG
+  para - what cuisines are offered by 3 star restaurants, worker - A11GZNNVLEWRGF
+  para - what restaurant has a 3 star rating, worker - A4WSGXF5IARBH
+  para - what is the cuisine of the restaurants with three star ratings, worker - A2RRYVYUDNK2GB
+  para - what are the cuisines of all the 3 star rating restaurants, worker - A1Y3EFWUYKN0UP
+original - restaurant that serves lunch and that takes reservations
+  para - restaurants with lunch and takes reservations, worker - A8VBDRZPXTP8F
+  para - which restaurants serve lunch and accept reservations, worker - A2RRYVYUDNK2GB
+  para - restaurant that serves lunch and takes reservations, worker - AAAG7IZP1V712
+  para - what restaurant offers reservations and serves lunch, worker - A1Y3EFWUYKN0UP
+  para - restaurants accepting reservations and serving lunch, worker - A11GZNNVLEWRGF
+  para - restaurant that serves lunch and that takes reservations, worker - A3URW8DWGJVYFX
+original - cuisine that is cuisine of thai cafe and that is cuisine of thai cafe
+  para - what kind of cuisine is thai cafe, worker - A1Y3EFWUYKN0UP
+  para - which cuisines match that of the thai cafe, worker - ADUJUZANFOWKW
+  para - cuisine that is cuisine of thai cafe and that is cuisine of thai cafe, worker - A3URW8DWGJVYFX
+  para - what type of dishes does the thai cafe offer, worker - A2A4LHPXF2E2GS
+original - 3 stars or 5 stars
+  para - what is better a 3 or a 5 star rating, worker - A1Y3EFWUYKN0UP
+  para - restaurants rated 35 stars, worker - A1U207UYSR92X5
+  para - restaurants rated with 3 to 5 stars, worker - A1NGGAVIGC9O7V
+  para - find 3 star or 5 star restaurant, worker - A32CIL5S21Y4MR
+  para - 5 stars or 3 stars, worker - A2TEWO3WJ5YKGG
+original - restaurant that has delivery and whose neighborhood is midtown west
+  para - which restaurants in midtown west have delivery service, worker - A2RRYVYUDNK2GB
+  para - restaurant that has delivery and whose neighborhood is midtown west, worker - A3URW8DWGJVYFX
+  para - restaurant in the  area around midtown west that offers delivery services, worker - A2TEWO3WJ5YKGG
+  para - restaurants in midtown west that deliver, worker - A1T9IKE8GV4LR4
+original - restaurant that is good for groups and that takes reservations
+  para - restaurants that take reservations and are good for groups, worker - A11GZNNVLEWRGF
+  para - what restaurant takes group reservations, worker - A1Y3EFWUYKN0UP
+  para - restaurant that is good for groups and that takes reservations, worker - A3URW8DWGJVYFX
+  para - what good group restaurant takes reservations, worker - A32CIL5S21Y4MR
+  para - restaurants that are good for group dining and that can be booked in advance, worker - A2TEWO3WJ5YKGG
+  para - what restaurants are good for groups and accept reservations, worker - AODM31DHYJG99
+original - neighborhood that is neighborhood of restaurant that takes reservations
+  para - what neighborhoods have restaurants that accept reservations, worker - A11GZNNVLEWRGF
+  para - what neighborhoods have restaurants which take reservations, worker - A2WU1MO8J4CQ9K
+  para - what neighborhood contains the most restaurants that offer reservations, worker - A1Y3EFWUYKN0UP
+  para - what are the neighborhoods of restaurants that take reservations, worker - A1NGGAVIGC9O7V
+  para - neighborhood that is neighborhood of restaurant that takes reservations, worker - A3URW8DWGJVYFX
+  para - what is the neigborhood of the restaurant that accepts reservations, worker - AODM31DHYJG99
+original - neighborhood that is neighborhood of thai cafe or pizzeria juno
+  para - what is the neighborhood of thai cafe or pizzeria juno, worker - A11GZNNVLEWRGF
+  para - what neighborhood is thai cafe or pizzeria juno in, worker - A1Y3EFWUYKN0UP
+  para - what neighborhood has a thai cafe or pizzeria juno, worker - A4WSGXF5IARBH
+  para - restaurants in the same neighborhood as thai cafe, worker - A1U207UYSR92X5
+  para - neighborhood that is neighborhood of thai cafe or pizzeria juno, worker - A3URW8DWGJVYFX
+  para - the neighborhood that thai cafe or pizzeria juno is in, worker - A11B84S796PPW5
+original - cuisine that is cuisine of at most two restaurant
+  para - what cuisine is served at no more than two restaurants, worker - A2RRYVYUDNK2GB
+  para - restaurants that have the same meal, worker - A1CVM8I2566ILI
+  para - what cuisine is shown in only two restaurants, worker - A1Y3EFWUYKN0UP
+  para - what cuisine is served at two or less restaurants, worker - A32CIL5S21Y4MR
+original - restaurant that has two cuisine
+  para - what restaurant serves two cuisines, worker - A2ZJ282IMK4033
+  para - restaurant that has two cuisine, worker - A1D2E3QRL7O43T
+  para - what restaurant serves two different types of cuisines, worker - A2RRYVYUDNK2GB
+  para - restaurant with two cuisines, worker - AMXQ53C1WOPZ8
+  para - restaurants that has more than one cuisine, worker - A1CVM8I2566ILI
+original - restaurant whose neighborhood is midtown west
+  para - list all restaurants in the neighborhood of midtown west, worker - A1Y3EFWUYKN0UP
+  para - restaurant in the midtown west area, worker - A32CIL5S21Y4MR
+  para - restaurants located in midtown west, worker - A1T9IKE8GV4LR4
+  para - which restaurant is located in midtown west, worker - A1N8SWL57W43PV
+  para - whats a resturant in midtown west, worker - ADUJUZANFOWKW
+original - cuisine that is cuisine of the least number of restaurant
+  para - what kind of cuisine has the smallest amount of restaurants, worker - A1Y3EFWUYKN0UP
+  para - which type of cuisine is least popular, worker - A16ANYLVNPKCVG
+  para - what cuisine has the least amount of restaurants, worker - A1T9IKE8GV4LR4
+  para - cuisine that is cuisine of the least number of restaurant, worker - A3URW8DWGJVYFX
+  para - what cuisine is served by the fewest restaurants, worker - A11GZNNVLEWRGF
+original - restaurant whose neighborhood is midtown west and that takes credit cards
+  para - a restaurant in midtown west that takes credit cards, worker - A11B84S796PPW5
+  para - restaurant in midtown west that takes credit cards, worker - A32CIL5S21Y4MR
+  para - name a restaurant in mid town that accepts credit cards, worker - A2TEWO3WJ5YKGG
+  para - what midtown west restaurant takes credit cards, worker - A1Y3EFWUYKN0UP
+  para - restaurant whose neighborhood is midtown west and that takes credit cards, worker - A3URW8DWGJVYFX
+original - restaurant whose price rating is larger than price rating of thai cafe
+  para - restaurant whose price rating is larger than price rating of thai cafe, worker - A3URW8DWGJVYFX
+  para - restaurants that are more expensive than thai cafe, worker - A16ANYLVNPKCVG
+  para - restaurants that has a larger price rating than thai cafe, worker - A2TUNPP2GOQ1N3
+  para - what restaurant has a higher price rating than the thai cafe, worker - A32CIL5S21Y4MR
+  para - restaurants pricier than thai cafe, worker - A3GJNGD3VR7ZKA
+  para - restaurants with a price rating larger than thai cafe, worker - A1U207UYSR92X5
+original - restaurant that has take-out and that has outdoor seating
+  para - which restaurant has both takeout and outdoor seating, worker - A2RRYVYUDNK2GB
+  para - what restaurant offers outdoor seating and takeout, worker - A1Y3EFWUYKN0UP
+  para - restaurant that has takeout and that has outdoor seating, worker - A3URW8DWGJVYFX
+  para - restaurants that have outdoor seating and that offer takeout, worker - A1NGGAVIGC9O7V
+  para - what restaurants have both outdoor seating and takeout, worker - A2A4LHPXF2E2GS
+original - restaurant that has outdoor seating and that has waiter service
+  para - restaurants that serve outdoors with waiters, worker - A1T9IKE8GV4LR4
+  para - restaurants that have waiters and you can sit outside, worker - A16ANYLVNPKCVG
+  para - what restaurant has outdoor seating and offers waiter service service, worker - A1Y3EFWUYKN0UP
+  para - restaurants that have waiters and outdoor dining areas, worker - A11GZNNVLEWRGF
+  para - restaurant that has outdoor seating and that has waiter service, worker - A3URW8DWGJVYFX
+original - restaurant that serves lunch and that has delivery
+  para - what restaurant offers lunch and delivery, worker - A1Y3EFWUYKN0UP
+  para - restaurant that can deliver and is open for lunch, worker - ARI39GBFPAGLT
+  para - a restaurant that offers lunch and delivery services, worker - A2TEWO3WJ5YKGG
+  para - restaurants that deliver and are open for lunch, worker - A11GZNNVLEWRGF
+  para - restaurant that serves lunch and that has delivery, worker - A3URW8DWGJVYFX
+  para - which restaurant not only serves lunch but has delivery, worker - A2RRYVYUDNK2GB
+original - lunch or dinner
+  para - a restaurant for lunch or dinner, worker - A1U207UYSR92X5
+  para - what restaurants serve lunch or dinner, worker - A1Y3EFWUYKN0UP
+  para - what restaurant has lunch or dinner, worker - A32CIL5S21Y4MR
+original - restaurant whose star rating is 3 stars and that has take-out
+  para - find a 3 star restaurant with takeout, worker - A32CIL5S21Y4MR
+  para - restaurant whose star rating is 3 stars and that has takeout, worker - A3URW8DWGJVYFX
+  para - which 3star restaurant has takeout service, worker - A1N8SWL57W43PV
+  para - what 3 star restaurant offers takeout, worker - A1Y3EFWUYKN0UP
+  para - which 3 star resturants have takeout, worker - ADUJUZANFOWKW
+original - meal that at least two restaurant serves
+  para - meal served by two or more different restaurants, worker - AKY7ZFPCHAXMJ
+  para - what meals do 2 restaurants serve, worker - A8VBDRZPXTP8F
+  para - what meal is served in at least 2 restaurants, worker - A1Y3EFWUYKN0UP
+  para - what is meal served in at least two restaurants, worker - A11GZNNVLEWRGF
+  para - what meal do two or more restaurants serve, worker - A32CIL5S21Y4MR
+original - restaurant whose star rating is not 3 stars
+  para - restaurant whose star rating is not 3 stars, worker - A3URW8DWGJVYFX
+  para - what restaurants have less than a 3 star rating, worker - AODM31DHYJG99
+  para - what restaurant does not have a 3 star rating, worker - A1Y3EFWUYKN0UP
+  para - which resturants arent a 3 star rating, worker - ADUJUZANFOWKW
+  para - restaurants with a star rating of 4 or higher, worker - A1NGGAVIGC9O7V
+  para - restaurant that does not have a three star rating, worker - A2TEWO3WJ5YKGG
+original - cuisine that is cuisine of restaurant that has delivery
+  para - which restaurant has a cuisine that offers delivery services, worker - A2TEWO3WJ5YKGG
+  para - what kind of restaurants offer delivery, worker - A1Y3EFWUYKN0UP
+  para - what is the cuisine of restaurants that have delivery, worker - A1NGGAVIGC9O7V
+original - cuisine of thai cafe
+  para - what kind of cuisine is thai cafe, worker - A1Y3EFWUYKN0UP
+  para - restaurants with similar food to thai cafe, worker - A1U207UYSR92X5
+  para - what is the cuisine of thai cafe, worker - A1NGGAVIGC9O7V
+  para - what is the nature of the cuisine of thai cafe, worker - A2TEWO3WJ5YKGG
+original - restaurant whose neighborhood is midtown west and that has outdoor seating
+  para - restaurants in midtown west with an outdoor dining area, worker - A11GZNNVLEWRGF
+  para - restaurants in the midtown west neighborhood with outdoor seating, worker - A1NGGAVIGC9O7V
+  para - restaurants that are in the neighborhood of midtown west and have outdoor seating, worker - A1KF05U5IO9AFG
+  para - restaurants in midtown west with outdoor seating, worker - A16ANYLVNPKCVG
+  para - restaurant whose neighborhood is midtown west and that has outdoor seating, worker - A2J6N5HD2EBCM6
+  para - what midtown west restaurant offers outdoor seating, worker - A1Y3EFWUYKN0UP
+  para - restaurant whose neighborhood is midtown west and that has outdoor seating, worker - A3URW8DWGJVYFX
+original - restaurant whose neighborhood is midtown west and whose star rating is 3 stars
+  para - restaurant whose neighborhood is midtown west and whose star rating is 3 stars, worker - A3URW8DWGJVYFX
+  para - restaurants rated 3 stars in midtown west, worker - A1U207UYSR92X5
+  para - midtown west neighborhood restaurant with 3 star ratings, worker - ARI39GBFPAGLT
+  para - which hotel in midtown west has a 3 star stating, worker - A2TEWO3WJ5YKGG
+  para - what are some 3 star rated restaurants in midtown west, worker - A11GZNNVLEWRGF
+original - restaurant that has outdoor seating and whose cuisine is thai
+  para - which thai restaurants have outdoor seating, worker - A2RRYVYUDNK2GB
+  para - thai restaurants with outdoor seating, worker - A1U207UYSR92X5
+  para - thai restaurant which provides outdoor seating facilities, worker - A2TEWO3WJ5YKGG
+  para - find a thai restaurant with outdoor seating, worker - A32CIL5S21Y4MR
+original - restaurant that has more than two neighborhood
+  para - restaurants location, worker - A1CVM8I2566ILI
+  para - what restaurant is in over two neighborhoods, worker - A32CIL5S21Y4MR
+original - neighborhood that is neighborhood of restaurant whose price rating is 2 dollar signs
+  para - restaurant in the area that has a 2 dollar sign price rating, worker - ARI39GBFPAGLT
+  para - neighborhood that is neighborhood of restaurant whose price rating is 2 dollar signs, worker - A3URW8DWGJVYFX
+  para - which neighborhoods have restaurants with a 2 dollar sign price rating, worker - A11GZNNVLEWRGF
+  para - what is the neighborhood of the restaurant that has a price rating of 2 dollar signs, worker - A1Y3EFWUYKN0UP
+original - meal that two restaurant serves
+  para - what is a meal served by two different restaurants, worker - A2RRYVYUDNK2GB
+  para - restaurant that serves two meal, worker - A1D2E3QRL7O43T
+  para - what restaurant serves two meals, worker - A2ZJ282IMK4033
+  para - restaurants that has a common meal, worker - A1CVM8I2566ILI
+original - restaurant that serves lunch
+  para - a restaurant that is open for lunch, worker - ARI39GBFPAGLT
+  para - restaurants open for lunch, worker - A11GZNNVLEWRGF
+  para - which restaurant offers lunch, worker - A2TEWO3WJ5YKGG
+  para - restaurant that serves lunch, worker - A3URW8DWGJVYFX
+  para - what restaurant offers lunch, worker - A1Y3EFWUYKN0UP
+original - cuisine that is cuisine of restaurant whose neighborhood is midtown west
+  para - what cuisine does the midtown west restaurant have, worker - A32CIL5S21Y4MR
+  para - what are the types of cuisine available in the midtown west neighborhood, worker - A1NGGAVIGC9O7V
+  para - what are the cuisines of all the midtown west restaurants, worker - A1Y3EFWUYKN0UP
+  para - cuisine that is cuisine of restaurant whose neighborhood is midtown west, worker - A2J6N5HD2EBCM6
+  para - restaurants similar to restaurants in midtown west, worker - A1U207UYSR92X5
+original - restaurant that has delivery and that is good for groups
+  para - a restaurant with delivery for a large group, worker - A1U207UYSR92X5
+  para - which restaurants are good for groups and also deliver, worker - A1NGGAVIGC9O7V
+  para - restaurants that are good for groups and deliver, worker - AODM31DHYJG99
+  para - restaurants that deliver and are good for large parties, worker - A16ANYLVNPKCVG
+  para - restaurant that has delivery and that is good for groups, worker - A3URW8DWGJVYFX
+original - restaurant that takes reservations and that is good for kids
+  para - what restaurant takes reservations and is good for kids, worker - A1Y3EFWUYKN0UP
+  para - a reservation restaurant that is kid friendly, worker - A11B84S796PPW5
+  para - what restaurant takes reservations and is kid friendly, worker - A4WSGXF5IARBH
+  para - restaurants that take reservations and are good for children, worker - A1NGGAVIGC9O7V
+  para - kidfriendly restaurants that accept reservations, worker - A11GZNNVLEWRGF
+  para - restaurant that takes reservations and that is good for kids, worker - A3URW8DWGJVYFX
+original - restaurant that takes reservations and that has take-out
+  para - what restaurants offer reservations and also have carryout, worker - A1T9IKE8GV4LR4
+  para - what restaurant offers takeout and has reservations, worker - A1Y3EFWUYKN0UP
+  para - what restaurant takes reservations and has takeout, worker - A4WSGXF5IARBH
+  para - what restaurants take reservations and offer takeout, worker - A2RRYVYUDNK2GB
+  para - restaurants that offer takeout and accept reservations, worker - A11GZNNVLEWRGF
+  para - restaurant that takes reservations and that has takeout, worker - A3URW8DWGJVYFX
+original - restaurant that takes credit cards and whose neighborhood is midtown west
+  para - what restaurant takes credit cards in midtown west area, worker - A4WSGXF5IARBH
+  para - which restaurants in midtown west accept credit cards, worker - A11GZNNVLEWRGF
+  para - restaurants in midtown west that take credit cards, worker - A2WU1MO8J4CQ9K
+  para - what midtown west restaurants takes credit cards, worker - A1Y3EFWUYKN0UP
+  para - restaurant that takes credit cards and whose neighborhood is midtown west, worker - A3URW8DWGJVYFX
+original - restaurant whose price rating is 2 dollar signs and that takes reservations
+  para - restaurants which take reservations and are rated 2 dollar signs, worker - A1U207UYSR92X5
+  para - restaurants with a price rating of 2 dollar signs that also take reservations, worker - A1NGGAVIGC9O7V
+  para - a reservation restaurant with meduim, worker - A11B84S796PPW5
+  para - hotel that can be booked in advance and which has a price rating of 2 dollar signs, worker - A2TEWO3WJ5YKGG
+original - restaurant whose price rating is smaller than 2 dollar signs or 3 dollar signs
+  para - restaurant whose price rating is smaller than 2 dollar signs or 3 dollar signs, worker - A3URW8DWGJVYFX
+  para - hotel which has a price rating of less than 2 dollar signs or 3 dollar signs, worker - A2TEWO3WJ5YKGG
+  para - list all restaurants that are cheaper than 2 dollar signs or 3 star dollar signs, worker - A1Y3EFWUYKN0UP
+  para - what are some restaurants rated at most 3 dollar signs, worker - A11GZNNVLEWRGF
+  para - restaurant with 1 dollar sign, worker - ARI39GBFPAGLT
+  para - restaurants with price ratings less than 2 dollar signs, worker - A1U207UYSR92X5
+original - restaurant whose price rating is 2 dollar signs and that is good for kids
+  para - restaurants that are good for children and also have a price rating of 2 dollar signs, worker - A1NGGAVIGC9O7V
+  para - restaurants that are kid friendly and inexpensive, worker - AODM31DHYJG99
+  para - a restaurant with a 2 dollar sign rating for kids, worker - A1U207UYSR92X5
+  para - restaurant whose price rating is 2 dollar signs and that is good for kids, worker - A3URW8DWGJVYFX
+  para - what 2 dollar signs restaurant is good for kids, worker - A1Y3EFWUYKN0UP
+  para - family friendly restaurants with price rating of two, worker - A16ANYLVNPKCVG
+original - restaurant that takes reservations and that has waiter service
+  para - restaurant that takes reservations and that has waiter service, worker - A3URW8DWGJVYFX
+  para - which resturant takes reservations and has waiter service, worker - ADUJUZANFOWKW
+  para - what restaurants offers resversations and waiter service, worker - A1Y3EFWUYKN0UP
+  para - restaurants that take reservations and have waiters, worker - A16ANYLVNPKCVG
+  para - restaurant with waiter service and reservations, worker - A32CIL5S21Y4MR
+original - restaurant that serves lunch and that has waiter service
+  para - what restaurant can i get lunch at that has waiter service, worker - A32CIL5S21Y4MR
+  para - restaurant that serves lunch and that has waiter service, worker - A3URW8DWGJVYFX
+  para - restaurants that have wait service and serve lunch, worker - A34HA6251RR0LH
+  para - which resturants serve lunch and have waiter service, worker - ADUJUZANFOWKW
+original - restaurant whose price rating is larger than 2 dollar signs
+  para - restaurant whose price rating is larger than 2 dollar signs, worker - A3URW8DWGJVYFX
+  para - list all restaurants that are more expensive than 2 dollar signs, worker - A1Y3EFWUYKN0UP
+  para - hotel that has a price rating or more than 2 dollars, worker - A2TEWO3WJ5YKGG
+  para - restaurants with 3 and higher price rating, worker - A1T9IKE8GV4LR4
+original - restaurant whose price rating is 2 dollar signs and that has waiter service
+  para - what restaurants with 2 price rating also have waiter service, worker - A1T9IKE8GV4LR4
+  para - restaurant whose price rating is 2 dollar signs and that has waiter service, worker - A3URW8DWGJVYFX
+  para - restaurants with waiters that have a price rating of 2, worker - A16ANYLVNPKCVG
+  para - what 2 dollar signs restaurant offers waiter service, worker - A1Y3EFWUYKN0UP
+  para - restaurants that have waiters and have 2 dollar sign price rating, worker - A11GZNNVLEWRGF
+  para - which restaurant has a price rating of two dollar signs and has waiters, worker - A2RRYVYUDNK2GB
+original - neighborhood that is neighborhood of less than two restaurant
+  para - restaurants that are near a neighborhoood, worker - A1CVM8I2566ILI
+  para - what neighborhood has at most one restaurant, worker - A32CIL5S21Y4MR
+  para - what neighborhood has less than two restaurants, worker - A1Y3EFWUYKN0UP
+  para - what neighborhood has fewer than two restaurants, worker - A2RRYVYUDNK2GB
+original - meal that thai cafe serves
+  para - what meal can you get at the thai cafe, worker - A32CIL5S21Y4MR
+  para - what kind of meals does thai cafe serve, worker - A1Y3EFWUYKN0UP
+  para - which meal does a thai cafe serve, worker - A1CVM8I2566ILI
+  para - what entrees does thai cafe offer, worker - A1A1A9UHNQCI9Y
+  para - what is a meal served by the thai cafe, worker - A2RRYVYUDNK2GB
+original - meal that restaurant that has waiter service serves
+  para - what kind of meals do restaurants with waiter service serve, worker - A1Y3EFWUYKN0UP
+  para - meals at restaurants that have waiters, worker - AMXQ53C1WOPZ8
+  para - what meal does the waiter serve at the restaurant, worker - A32CIL5S21Y4MR
+  para - what is a meal served at a restaurant that has waiters, worker - A2RRYVYUDNK2GB
+  para - restaurants that has waiters, worker - A1CVM8I2566ILI
+original - restaurant that has the least number of cuisine
+  para - which restaurant offers the fewest types of cuisine, worker - A2RRYVYUDNK2GB
+  para - what restaurant has the smallest number of cuisines, worker - A1Y3EFWUYKN0UP
+  para - what restaurants serve a single type of cuisine, worker - A2A4LHPXF2E2GS
+  para - restaurant that has the least number of cuisine, worker - A3URW8DWGJVYFX
+  para - which restaurants offer the least types of cuisines, worker - A1NGGAVIGC9O7V
+original - restaurant whose neighborhood is not midtown west
+  para - what restaurants are not located in midtown west, worker - A1T9IKE8GV4LR4
+  para - what restaurants are not in midtown west, worker - A1Y3EFWUYKN0UP
+  para - what resturant is not in midtown west, worker - ADUJUZANFOWKW
+  para - restaurant not in the midtown west area, worker - A32CIL5S21Y4MR
+  para - which restaurant is not located in midtown west, worker - A1N8SWL57W43PV
+original - cuisine that is cuisine of two restaurant
+  para - what kind of cuisine has at least two restaurants, worker - A1Y3EFWUYKN0UP
+  para - what is a type of cuisine of two restaurants, worker - A2RRYVYUDNK2GB
+  para - which restaurant serves this cuisine, worker - A1CVM8I2566ILI
+  para - what cuisine is served in two restaurants, worker - A32CIL5S21Y4MR
+original - restaurant that has waiter service
+  para - restaurant which has waiters, worker - A2TUNPP2GOQ1N3
+  para - what restaurants offer waiter service, worker - A1Y3EFWUYKN0UP
+  para - find a restaurant with waiter service, worker - A32CIL5S21Y4MR
+original - cuisine that is cuisine of less than two restaurant
+  para - what cuisine is served by fewer than two restaurants, worker - A2RRYVYUDNK2GB
+  para - what is the two cuisine restaurant, worker - A1D2E3QRL7O43T
+  para - restaurants that serve the same cuisine, worker - A1CVM8I2566ILI
+original - thai cafe or pizzeria juno
+  para - thai cafe or pizzeria juno, worker - A1U207UYSR92X5
+  para - restaurants called thai cafe or pizzeria juno, worker - A3DTN2OMF6DUSI
+  para - where is the thai cafe and the pizzeria juno, worker - A2RRYVYUDNK2GB
+original - restaurant that serves at least two meal
+  para - restaurant that serves at least two meal, worker - A3URW8DWGJVYFX
+  para - which restaurants serve at least two meals, worker - A11GZNNVLEWRGF
+  para - what restaurants serve at least two meals, worker - A1T9IKE8GV4LR4
+  para - restaurants open for at least two meals per day, worker - A16ANYLVNPKCVG
+  para - open for two meals, worker - ARI39GBFPAGLT
+  para - what restaurants has more than two meals on the menu, worker - A1Y3EFWUYKN0UP
+original - restaurant that takes reservations and whose star rating is 3 stars
+  para - restaurants rated 3 stars that accept reservations, worker - A11GZNNVLEWRGF
+  para - restaurant that takes reservations and whose star rating is 3 stars, worker - A3URW8DWGJVYFX
+  para - which restaurant has a three star rating and also takes reservations, worker - A2RRYVYUDNK2GB
+  para - three star restaurants that take reservations, worker - A16ANYLVNPKCVG
+  para - restaurants with 3stars that take reservations, worker - A1T9IKE8GV4LR4
+original - restaurant whose star rating is 3 stars and that has delivery
+  para - a restaurant rated at least 3 stars that delivers, worker - A1U207UYSR92X5
+  para - three star restaurants that deliver, worker - A16ANYLVNPKCVG
+  para - restaurant whose star rating is 3 stars and that has delivery, worker - A3URW8DWGJVYFX
+  para - what 3 star restaurants deliver, worker - A1T9IKE8GV4LR4
+original - restaurant that has at most two cuisine
+  para - restaurants with no more than two cuisines, worker - A34HA6251RR0LH
+  para - restaurant that has at most two cuisine, worker - A3URW8DWGJVYFX
+  para - which resturants have at most two cuisines, worker - ADUJUZANFOWKW
+  para - what restaurant has two different cuisines, worker - A1Y3EFWUYKN0UP
+  para - restaurant with no more than two cuisines, worker - A32CIL5S21Y4MR
+original - meal that the least number of restaurant serves
+  para - what restaurant serves the least amount of meals, worker - A4WSGXF5IARBH
+  para - meals that few restaurants serve, worker - A1U207UYSR92X5
+  para - what kind of meal has the smallest number of restaurants that serve it, worker - A1Y3EFWUYKN0UP
+  para - what is the least served meal at restaurants, worker - A1T9IKE8GV4LR4
+  para - meal that the least number of restaurant serves, worker - A3URW8DWGJVYFX
+original - restaurant that has take-out and that has delivery
+  para - restaurants with takeout and delivery, worker - A16ANYLVNPKCVG
+  para - which restaurants offer delivery and takeout, worker - A11GZNNVLEWRGF
+  para - offers take out and delievers, worker - ARI39GBFPAGLT
+  para - which restaurants have takeout and delivery, worker - A1NGGAVIGC9O7V
+  para - list all restaurants that have takeout and delivery, worker - A1Y3EFWUYKN0UP
+  para - restaurant that has takeout and that has delivery, worker - A3URW8DWGJVYFX
+original - restaurant that takes credit cards and that has waiter service
+  para - find restaurant with waiter service that takes credit cards, worker - A32CIL5S21Y4MR
+  para - what restaurants offer waiter service and takes credit cards, worker - A1Y3EFWUYKN0UP
+  para - restaurants that take credit cards and have waiter service, worker - A1U207UYSR92X5
+  para - restaurants that take credit cards and have waiters, worker - A16ANYLVNPKCVG
+  para - restaurant that takes credit cards and that has waiter service, worker - A3URW8DWGJVYFX
+original - restaurant whose price rating is 2 dollar signs and that has delivery
+  para - what restaurant delivers and has a price rating of 2 dollar signs, worker - A1Y3EFWUYKN0UP
+  para - restaurants with delivery rated 2 dollar signs, worker - A1U207UYSR92X5
+  para - a delivery restaurant with medium pricing, worker - A11B84S796PPW5
+  para - hotel which has a price rating of 2 dollar signs and offers delivery services, worker - A2TEWO3WJ5YKGG
+original - restaurant that takes credit cards and that has delivery
+  para - restaurant that takes credit cards and that has delivery, worker - A3URW8DWGJVYFX
+  para - what restaurants take credit cards and deliver, worker - A1T9IKE8GV4LR4
+  para - what restaurant offers delivery and takes credit card, worker - A1Y3EFWUYKN0UP
+  para - what restaurants makes deliveries and accepts credit cards, worker - A2RRYVYUDNK2GB
+  para - what restaurant takes credit cards and delivers, worker - A4WSGXF5IARBH
+  para - restaurants that deliver and accept credit cards, worker - A11GZNNVLEWRGF
+original - restaurant that has waiter service and whose cuisine is thai
+  para - thai restaurant that offers waiter services, worker - A2TEWO3WJ5YKGG
+  para - what thai restaurants offer a waiter service, worker - A1Y3EFWUYKN0UP
+  para - what thai restaurants have waiters, worker - A1T9IKE8GV4LR4
+  para - what thia resturants have waiter service, worker - ADUJUZANFOWKW
+original - restaurant that has outdoor seating and that has delivery
+  para - what restaurant offers delivery and an outdoor seating, worker - A1Y3EFWUYKN0UP
+  para - restaurants that have outdoor seating and that deliver, worker - A1NGGAVIGC9O7V
+  para - which restaurant has outdoor seats as well as delivery, worker - A2RRYVYUDNK2GB
+  para - what restaurant has outdoor seating and delivery, worker - A4WSGXF5IARBH
+original - meal that thai cafe or pizzeria juno serves
+  para - what meal can you get at either the thai cafe or at pizzeria juno, worker - A32CIL5S21Y4MR
+  para - what is a meal that the thai cafe or pizzeria juno serves, worker - A2RRYVYUDNK2GB
+  para - what kind fo meals do thai cafe and pizzeria juno serve, worker - A1Y3EFWUYKN0UP
+  para - thai cafe thats erves pizzeria, worker - A1CVM8I2566ILI
+original - restaurant that takes credit cards and that is good for kids
+  para - which kid friendly restaurants accept credit cards, worker - A11GZNNVLEWRGF
+  para - what restaurant takes credit cards and is kid friendly, worker - A4WSGXF5IARBH
+  para - restaurant that takes credit cards and that is good for kids, worker - A3URW8DWGJVYFX
+  para - restaurants that take credit cards and are childfriendly, worker - A2WU1MO8J4CQ9K
+  para - what kidfriendly restaurants accept credit cards, worker - A1T9IKE8GV4LR4
+original - restaurant that has take-out and that serves lunch
+  para - which restaurants have takeout and serve lunch, worker - A1NGGAVIGC9O7V
+  para - restaurant that has takeout and that serves lunch, worker - A3URW8DWGJVYFX
+  para - what restaurant offers lunch and takeout, worker - A1Y3EFWUYKN0UP
+  para - what restaurants serve lunch and offer takeout, worker - A11GZNNVLEWRGF
+  para - what restaurant has takeout and serves lunch, worker - A4WSGXF5IARBH
+  para - a lunch serving restaurant with take out, worker - A11B84S796PPW5
+original - restaurant that takes reservations and that takes credit cards
+  para - restaurant that takes reservations and that takes credit cards, worker - A3URW8DWGJVYFX
+  para - what restaurant offers reservations and takes credit cards, worker - A1Y3EFWUYKN0UP
+  para - what restaurants accept credit cards and reservations, worker - A1T9IKE8GV4LR4
+  para - which restaurants take reservations and accept credit cards, worker - A2RRYVYUDNK2GB
+  para - restaurants that can be booked in advance and accepts credit cards, worker - A2TEWO3WJ5YKGG
+original - neighborhood that is neighborhood of restaurant that has waiter service
+  para - neighborhood that is neighborhood of restaurant that has waiter service, worker - A3URW8DWGJVYFX
+  para - which neighborhoods have restaurants with waiters, worker - A11GZNNVLEWRGF
+  para - which neighborhood restaurants have waiters, worker - A2RRYVYUDNK2GB
+  para - what neighborhood contain the most restaurants that have waiter service, worker - A1Y3EFWUYKN0UP
+  para - restaurant in the neighbourhood that provides waiter service, worker - A2TEWO3WJ5YKGG
+  para - restaurants with waiter service in the neighborhood, worker - A1U207UYSR92X5
+original - restaurant whose star rating is 3 stars and that serves lunch
+  para - restaurant open for lunch and has a 3 star raing, worker - ARI39GBFPAGLT
+  para - restaurant which offer lunch and has a three star rating, worker - A2TEWO3WJ5YKGG
+  para - what are some 3 star restaurants that serve lunch, worker - A11GZNNVLEWRGF
+  para - what restaurant has 3 stars and serves lunch, worker - A4WSGXF5IARBH
+  para - what 3 star restaurant offers lunch, worker - A1Y3EFWUYKN0UP
+original - restaurant that has waiter service and that is good for kids
+  para - restaurants that are good for children and have waiters, worker - A1NGGAVIGC9O7V
+  para - family friendly restaurants that have waiters, worker - A16ANYLVNPKCVG
+  para - restaurant that has waiter service and that is good for kids, worker - A2J6N5HD2EBCM6
+  para - restaurants that are kid friendly and have waiters, worker - A11GZNNVLEWRGF
+  para - restaurants that have waiters and are good for kids, worker - A1KF05U5IO9AFG
+  para - restaurant that has waiter service and that is good for kids, worker - A3URW8DWGJVYFX
+original - meal that restaurant that takes credit cards serves
+  para - what meals do credit card taking restaurants serve, worker - A1Y3EFWUYKN0UP
+  para - what restaurant serves meals and accepts credit cards, worker - A2ZJ282IMK4033
+  para - what is a meal served by a restaurant that accepts credit cards, worker - A2RRYVYUDNK2GB
+  para - what meal can you pay for with credit cards, worker - A32CIL5S21Y4MR
+original - restaurant that serves lunch and that has take-out
+  para - restaurants that serve lunch and takeout, worker - A34HA6251RR0LH
+  para - what restaurant serves lunch and offers takeout, worker - A1Y3EFWUYKN0UP
+  para - which resturants serve lunch and have takeout, worker - ADUJUZANFOWKW
+  para - what restaurant has takeout and a lunch menu, worker - A32CIL5S21Y4MR
+  para - restaurant that serves lunch and that has takeout, worker - A3URW8DWGJVYFX
+original - restaurant that takes reservations
+  para - which resturants take reservations, worker - ADUJUZANFOWKW
+  para - what restaurant offers reservations, worker - A1Y3EFWUYKN0UP
+  para - restaurants accepting reservations, worker - A11GZNNVLEWRGF
+  para - what restaurant takes reservations, worker - A4WSGXF5IARBH
+original - meal that at most two restaurant serves
+  para - what is a meal served by no more than two restaurants, worker - A2RRYVYUDNK2GB
+  para - restaurants that serves meal, worker - A1CVM8I2566ILI
+  para - what is a meal that 2 or less restaurants serve, worker - A389F6DFXS6S1I
+original - restaurant that has waiter service and whose neighborhood is midtown west
+  para - restaurant that has waiter service and whose neighborhood is midtown west, worker - A3URW8DWGJVYFX
+  para - which resturant in midtown west has waiter service, worker - ADUJUZANFOWKW
+  para - restaurants in the midtown west neighborhood that have waiters, worker - A1NGGAVIGC9O7V
+  para - what retaurant in midtown west have waiter services, worker - A1Y3EFWUYKN0UP
+original - restaurant whose star rating is star rating of thai cafe
+  para - a restaurant as good as thai cafe, worker - A11B84S796PPW5
+  para - restaurant whose star rating is star rating of thai cafe, worker - A3URW8DWGJVYFX
+  para - which restaurants have the same star rating as thai cafe, worker - A11GZNNVLEWRGF
+  para - which restaurants have the same star rating as thai cafe, worker - A1NGGAVIGC9O7V
+  para - what thai restaurant has a good star rating, worker - A4WSGXF5IARBH
+original - restaurant that takes reservations and that is good for groups
+  para - restaurant that takes reservations and that is good for groups, worker - A3URW8DWGJVYFX
+  para - which restaurant takes reservations and is suitable for groups, worker - A2RRYVYUDNK2GB
+  para - what restaurant is good for groups and takes reservations, worker - A1Y3EFWUYKN0UP
+  para - groupfriendly restaurants that accept reservations, worker - A11GZNNVLEWRGF
+  para - restaurants that can be booked in advance and good for group dining, worker - A2TEWO3WJ5YKGG
+  para - great place for groups and takes reservations, worker - ARI39GBFPAGLT
+original - restaurant that has less than two cuisine
+  para - which restaurants focus on one cuisine, worker - A1NGGAVIGC9O7V
+  para - restaurant that has less than two cuisine, worker - A3URW8DWGJVYFX
+  para - what restaurant offers only one cuisine, worker - A1Y3EFWUYKN0UP
+  para - which restaurant offers fewer than two types of cuisine, worker - A2RRYVYUDNK2GB
+original - neighborhood that is neighborhood of thai cafe and that is neighborhood of thai cafe
+  para - a thai cafe in the neighborhood, worker - ARI39GBFPAGLT
+  para - neighborhood that is neighborhood of thai cafe and that is neighborhood of thai cafe, worker - A3URW8DWGJVYFX
+  para - in which neighborhood is thai cafe, worker - A16ANYLVNPKCVG
+original - restaurant that has outdoor seating and that is good for kids
+  para - what restaurant is good for kids and offers outdoor seating, worker - A1Y3EFWUYKN0UP
+  para - which restaurant welcomes children and has outdoor seats, worker - A2RRYVYUDNK2GB
+  para - what good kids restaurant has outdoor seating, worker - A32CIL5S21Y4MR
+  para - what resturant has outdoor seating and is good for kids, worker - ADUJUZANFOWKW
+  para - what is a kid friendly restaurant with an outdoor dining area, worker - A11GZNNVLEWRGF
+original - restaurant whose cuisine is thai and that takes credit cards
+  para - the thai restaurant takes credit cards, worker - AZZRIXMY4HN25
+  para - which thai restaurants take credit cards, worker - A2RRYVYUDNK2GB
+  para - which thai restaurants accept credit cards, worker - A1NGGAVIGC9O7V
+  para - a thai restaurant that takes credit cards, worker - A11B84S796PPW5
+original - meal that restaurant whose neighborhood is midtown west serves
+  para - restaurants that are in midtown west, worker - A1A1A9UHNQCI9Y
+  para - what is a meal served by a restaurant in midtown west, worker - A2RRYVYUDNK2GB
+  para - what meal does the midtown west restaurant serve, worker - A32CIL5S21Y4MR
+  para - restaurants in midtown west neighborhood, worker - AMXQ53C1WOPZ8
+  para - what kind of meals are served in the restaurants in midtown west, worker - A1Y3EFWUYKN0UP
+original - restaurant whose neighborhood is midtown west and that takes reservations
+  para - restaurants that take reservations in midtown west, worker - AODM31DHYJG99
+  para - restaurant whose neighborhood is midtown west and that takes reservations, worker - A3URW8DWGJVYFX
+  para - what midtown west restaurant takes reservations, worker - A1Y3EFWUYKN0UP
+  para - restaurants in the midtown west neighborhood that take reservations, worker - A1NGGAVIGC9O7V
+original - restaurant whose price rating is smaller than price rating of thai cafe
+  para - restaurants that cheaper than thai cafe, worker - A1V5OMRC87TDXW
+  para - what restaurant has a lower price rating than the thai cafe, worker - A32CIL5S21Y4MR
+  para - restaurant that is cheaper than thai cafe, worker - AMXQ53C1WOPZ8
+  para - what restaurant has a lower price rating than thai cafe, worker - A1Y3EFWUYKN0UP
+  para - name a restaurant with a lower price rating than the thai cafe, worker - A2RRYVYUDNK2GB
+original - restaurant that serves two meal
+  para - what restaurant has two meals, worker - A4WSGXF5IARBH
+  para - a restaurant that serves multiple meals, worker - A11B84S796PPW5
+  para - what restaurants have at least 2 meals on the menu, worker - A1Y3EFWUYKN0UP
+  para - which restaurants serve two meals, worker - A11GZNNVLEWRGF
+  para - restaurants for two, worker - A1U207UYSR92X5
+original - restaurant that has take-out and whose cuisine is thai
+  para - which thai restaurants have takeout, worker - A2A4LHPXF2E2GS
+  para - which thai restaurants offer takeout, worker - A11GZNNVLEWRGF
+  para - restaurant that has takeout and whose cuisine is thai, worker - A3URW8DWGJVYFX
+  para - list all thai restaurants that offer takeout, worker - A1Y3EFWUYKN0UP
+  para - which thai resturants have takeout, worker - ADUJUZANFOWKW
+original - restaurant that serves less than two meal
+  para - which restaurants serve less than two meals, worker - A1NGGAVIGC9O7V
+  para - restaurants serving fewer than two meals, worker - A11GZNNVLEWRGF
+  para - what restaurant serves less than two meals, worker - A4WSGXF5IARBH
+  para - list all restaurants that serves less than two meals, worker - A1Y3EFWUYKN0UP
+  para - which resturants serve less than two meals, worker - ADUJUZANFOWKW
+original - restaurant whose cuisine is thai and that has waiter service
+  para - what thai restaurant offers waiter service, worker - A1Y3EFWUYKN0UP
+  para - thai restaurant with waiters, worker - A3DTN2OMF6DUSI
+  para - which thai restaurants have waiters, worker - A2RRYVYUDNK2GB
+  para - thai restaurants with waiter service, worker - A1U207UYSR92X5
+original - restaurant whose star rating is 3 stars and that has outdoor seating
+  para - what 3 star restaurant has outdoor seating, worker - A32CIL5S21Y4MR
+  para - restaurants rated with 3 stars and have outdoor seating, worker - AODM31DHYJG99
+  para - which restaurants has outdoor seating and a 3star rating, worker - A1N8SWL57W43PV
+  para - restaurants rated 3 stars with outdoor seating, worker - A1U207UYSR92X5
+original - restaurant that takes reservations and that has delivery
+  para - what restaurants offers delivery and takes reservations, worker - A1Y3EFWUYKN0UP
+  para - restaurants that can be reserved in advance and that offers delivery services, worker - A2TEWO3WJ5YKGG
+  para - what restaurant can i get delivery and reservations, worker - A32CIL5S21Y4MR
+  para - restaurant that takes reservations and that has delivery, worker - A3URW8DWGJVYFX
+  para - restaurant with delivery service that accepts reservations, worker - AKY7ZFPCHAXMJ
+original - number of neighborhood
+  para - how many neighborhoods are there, worker - A1NGGAVIGC9O7V
+  para - how many neighboords are there that have restaurants, worker - A1Y3EFWUYKN0UP
+original - restaurant that takes credit cards and whose star rating is 3 stars
+  para - what are some 3 star restaurants that accept credit cards, worker - A11GZNNVLEWRGF
+  para - what 3 star rated restaurant takes credit cards, worker - A1Y3EFWUYKN0UP
+  para - three star restaurants that take credit cards, worker - A16ANYLVNPKCVG
+  para - restaurants rated 3 stars that take credit cards, worker - A1U207UYSR92X5
+  para - restaurant that takes credit cards and whose star rating is 3 stars, worker - A3URW8DWGJVYFX
+original - restaurant whose neighborhood is midtown west and whose neighborhood is midtown west
+  para - what restaurants are in midtown west, worker - A1T9IKE8GV4LR4
+  para - restaurant in the midtown west neighborhood, worker - A32CIL5S21Y4MR
+  para - what resturants are in midtown west, worker - ADUJUZANFOWKW
+  para - list all restaurants in midtown west , worker - A1Y3EFWUYKN0UP
+original - cuisine that is cuisine of restaurant that takes credit cards
+  para - cuisine that is cuisine of restaurant that takes credit cards, worker - A3URW8DWGJVYFX
+  para - what restaurant serves cuisine and takes credit cards, worker - A4WSGXF5IARBH
+  para - what cuisine takes credit cards, worker - A1Y3EFWUYKN0UP
+original - restaurant that has delivery and that serves lunch
+  para - restaurant that has delivery and that serves lunch, worker - A3URW8DWGJVYFX
+  para - restaurants with delivery for lunch, worker - A1U207UYSR92X5
+  para - what restaurants offer delivery and serves lunch, worker - A1Y3EFWUYKN0UP
+  para - restaurants that deliver and serve lunch, worker - A16ANYLVNPKCVG
+  para - restaurant serving lunch that can deliver, worker - A32CIL5S21Y4MR
+  para - which resturants serve lunch and have delivery, worker - ADUJUZANFOWKW
+original - meal that restaurant that is good for groups serves
+  para - what is a meal served by a restaurant that accommodates groups, worker - A2RRYVYUDNK2GB
+  para - restaurant that serves group meals, worker - AMXQ53C1WOPZ8
+  para - restaurants that serve meal for groups, worker - A1CVM8I2566ILI
+  para - what meal is good to be served for groups, worker - A1Y3EFWUYKN0UP
+  para - what meal is good for groups, worker - A32CIL5S21Y4MR
+original - restaurant that is good for kids and that has waiter service
+  para - restaurants good for kids and has waiters, worker - A8VBDRZPXTP8F
+  para - what is a restaurant that is kidfriendly and has waiters, worker - A11GZNNVLEWRGF
+  para - kidfriendly restaurant with waiter service, worker - AKY7ZFPCHAXMJ
+  para - find a good kids restaurant with waiter service, worker - A32CIL5S21Y4MR
+original - neighborhood that is neighborhood of at most two restaurant
+  para - what neighborhood has no more than two restaurants, worker - A2RRYVYUDNK2GB
+  para - what neighborhood has two or less restaurants, worker - A32CIL5S21Y4MR
+  para - restaurants that are near two neighborhoods, worker - A1CVM8I2566ILI
+  para - what neighborhood only has one or two restaurants, worker - A1Y3EFWUYKN0UP
+original - restaurant whose price rating is 2 dollar signs and that has take-out
+  para - restaurants that offer takeout and are price rated 2 dollar signs, worker - A11GZNNVLEWRGF
+  para - which restaurant has a 2dollarsigns price rating and takeout service, worker - A1N8SWL57W43PV
+  para - which resturants have takeout and a price rating of 2 dollar signs, worker - ADUJUZANFOWKW
+  para - what 2 dollar sign restaurant offers takeout, worker - A1Y3EFWUYKN0UP
+  para - restaurant whose price rating is 2 dollar signs and that has takeout, worker - A3URW8DWGJVYFX
+  para - what restaurant has takeout and a 2 dollar price rating, worker - A32CIL5S21Y4MR
+original - meal that restaurant whose cuisine is thai serves
+  para - what kind fo meals do thai restaurants serve, worker - A1Y3EFWUYKN0UP
+  para - thai restaurant cuisine, worker - AMXQ53C1WOPZ8
+  para - restaurant that serves thai meal, worker - A1CVM8I2566ILI
+  para - what is a meal served in a thai restaurant, worker - A2RRYVYUDNK2GB
+  para - what meal does the thai restaurant serve, worker - A32CIL5S21Y4MR
+original - restaurant that is good for kids and that has take-out
+  para - restaurant that has take out facilities and that which kids can enjoy, worker - A2TEWO3WJ5YKGG
+  para - restaurant that is good for kids and that has takeout, worker - A3URW8DWGJVYFX
+  para - family friendly restaurants with takeout, worker - A16ANYLVNPKCVG
+  para - what restaurant offers takeout and is good for kids, worker - A1Y3EFWUYKN0UP
+  para - which restaurant accepts kids and offers takeout, worker - A2RRYVYUDNK2GB
+  para - what restaurant is kid friendly and has takeout, worker - A4WSGXF5IARBH
+original - restaurant whose price rating is 2 dollar signs and that takes credit cards
+  para - what 2 dollar sign restaurant takes credit card, worker - A1Y3EFWUYKN0UP
+  para - restaurants in the 2 dollar sign price category that accept credit cards, worker - A11GZNNVLEWRGF
+  para - restaurants with 2 price rating that accept credit cards, worker - A1T9IKE8GV4LR4
+  para - restaurant whose price rating is 2 dollar signs and that takes credit cards, worker - A3URW8DWGJVYFX
+  para - what restaurants have a price rating of two dollar signs and also accept credit cards, worker - A2RRYVYUDNK2GB
+  para - what restaurant has 2 menu items and takes credit cards, worker - A4WSGXF5IARBH
+original - restaurant that has the largest price rating
+  para - most expensive restaurants, worker - A34HA6251RR0LH
+  para - this restaurant had the largest rating in price, worker - AZZRIXMY4HN25
+  para - which restaurant is rated the most expensive, worker - A11GZNNVLEWRGF
+  para - what restaurant has the highest price rating, worker - A32CIL5S21Y4MR
+  para - what is the most expensive restaurant, worker - A1Y3EFWUYKN0UP
+  para - restaurant that has the largest price rating, worker - A3URW8DWGJVYFX
+original - restaurant that has waiter service and that takes credit cards
+  para - which restaurants that have waiters take credit cards, worker - A2RRYVYUDNK2GB
+  para - restaurants that have waiters and take credit cards, worker - A1A3TGZ7DKJWRW
+  para - what restaurants take credit cards and offers waiter service, worker - A1Y3EFWUYKN0UP
+  para - restaurants that accept credit cards and have waiters, worker - A1NGGAVIGC9O7V
+original - restaurant that has delivery
+  para - which restaurants deliver, worker - A11GZNNVLEWRGF
+  para - restaurant that has delivery, worker - A3URW8DWGJVYFX
+  para - a delivering restaurant, worker - A11B84S796PPW5
+  para - delivery is avaiable, worker - ARI39GBFPAGLT
+original - restaurant that is good for groups and whose price rating is 2 dollar signs
+  para - restaurant with a 2dollarsigns rating that welcomes groups, worker - A1N8SWL57W43PV
+  para - restaurant that is good for groups and whose price rating is 2 dollar signs, worker - A3URW8DWGJVYFX
+  para - what restaurant with a price rating of two dollar signs is a good place for a group, worker - A2RRYVYUDNK2GB
+  para - restaurants with 2 price rating that is groupfriendly, worker - A1T9IKE8GV4LR4
+  para - what 2 dollar signs restaurant is good for groups, worker - A1Y3EFWUYKN0UP
+original - number of meal
+  para - how many meals are served, worker - A2TEWO3WJ5YKGG
+  para - what is the number of this meal, worker - A32CIL5S21Y4MR
+original - restaurant whose cuisine is thai and that takes reservations
+  para - a reservation thai restaurant, worker - A11B84S796PPW5
+  para - thai restaurant that takes reservations, worker - A1U207UYSR92X5
+  para - what thai restaurants takes reservations, worker - A1Y3EFWUYKN0UP
+  para - what thai restaurants take reservations, worker - A2A4LHPXF2E2GS
+original - restaurant that has outdoor seating and whose neighborhood is midtown west
+  para - which restaurant in midtown west has outdoor seating available, worker - A2RRYVYUDNK2GB
+  para - restaurants in midtown west with outdoor dining areas, worker - A11GZNNVLEWRGF
+  para - hotel in the midtown west area which has outdoor seating facilities, worker - A2TEWO3WJ5YKGG
+  para - restaurants with outdoor seating in midtown west, worker - A1U207UYSR92X5
+  para - what restaurant in midtown west contains outdoor seating, worker - A1Y3EFWUYKN0UP
+  para - restaurant that has outdoor seating and whose neighborhood is midtown west, worker - A3URW8DWGJVYFX
+original - restaurant whose cuisine is cuisine that is cuisine of thai cafe
+  para - restaurant whose cuisine is cuisine that is cuisine of thai cafe, worker - A3URW8DWGJVYFX
+  para - what is the type of cuisine of thai cafe, worker - A1NGGAVIGC9O7V
+  para - restaurants that serve the same type of food as thai cafe, worker - A16ANYLVNPKCVG
+  para - what restaurants serve the same cuisine as thai cafe, worker - A11GZNNVLEWRGF
+original - restaurant whose star rating is larger than 3 stars
+  para - what are some restaurants who are 4 stars or better, worker - A4WSGXF5IARBH
+  para - hotel that has more than a three star rating, worker - A2TEWO3WJ5YKGG
+  para - a restaurant that has a 4 star or higher rating, worker - ARI39GBFPAGLT
+  para - what are some restaurants rated higher than 3 stars, worker - A11GZNNVLEWRGF
+original - restaurant that is good for groups and whose cuisine is thai
+  para - groupfriendly thai restaurants, worker - A11GZNNVLEWRGF
+  para - find a thai restaurant that is good for groups, worker - A32CIL5S21Y4MR
+  para - restaurant that is good for groups and whose cuisine is thai, worker - A3URW8DWGJVYFX
+  para - name some thai restaurants meant for group dining, worker - A2TEWO3WJ5YKGG
+  para - a group friendly thai restaurant, worker - A11B84S796PPW5
+original - restaurant that has waiter service and that takes reservations
+  para - what restaurants offer reservations and waiter service, worker - A1Y3EFWUYKN0UP
+  para - which restaurants have waiters and accept reservations, worker - A11GZNNVLEWRGF
+  para - restaurant that has waiter service and that takes reservations, worker - A3URW8DWGJVYFX
+  para - restaurants that have waiters and take reservations, worker - A16ANYLVNPKCVG
+  para - which restaurant has waiter service and takes reservations, worker - A1N8SWL57W43PV
+original - restaurant that has more than two cuisine
+  para - restaurant that has two cuisines, worker - AMXQ53C1WOPZ8
+  para - what restaurants have more than two kinds of cuisine, worker - A1Y3EFWUYKN0UP
+  para - restaurants that have at least two cuisines, worker - A1V5OMRC87TDXW
+  para - what restaurant has over two cuisines, worker - A32CIL5S21Y4MR
+  para - name a restaurant serving more than two types of cuisine, worker - A2RRYVYUDNK2GB
+original - restaurant whose neighborhood is midtown west and that is good for kids
+  para - find a good kids restaurant in midtown west, worker - A32CIL5S21Y4MR
+  para - a restaurant for kids in midtown west, worker - A1U207UYSR92X5
+  para - restaurants in midtown west and is kid friendly, worker - A8VBDRZPXTP8F
+  para - which restaurants in midtown west are kid friendly, worker - A11GZNNVLEWRGF
+original - restaurant whose neighborhood is midtown west and that is good for groups
+  para - restaurant in midtown west  which is good for groups, worker - A2TUNPP2GOQ1N3
+  para - what restaurant in midtown west is good for groups, worker - A1Y3EFWUYKN0UP
+  para - what is the best restaurant for big groups in midtown west, worker - AODM31DHYJG99
+  para - restaurant in the area of midtown west that is good for group dining, worker - A2TEWO3WJ5YKGG
+  para - midtown west restaurant for many people, worker - A1U207UYSR92X5
+original - restaurant whose cuisine is thai and whose price rating is 2 dollar signs
+  para - thai cuisine restaurant that has a  price rating, worker - A2TUNPP2GOQ1N3
+  para - a fairly inexpensive thai cuisine can be purchased at this restaurant, worker - AZZRIXMY4HN25
+  para - thai restaurants with a price rating of 2 dollar signs, worker - A1NGGAVIGC9O7V
+  para - find a thai restaurant with a 2 dollar price rating, worker - A32CIL5S21Y4MR
+original - restaurant that has outdoor seating and whose price rating is 2 dollar signs
+  para - what restaurant has outdoor seating and has a price rating of the 2 dollar sign, worker - A4WSGXF5IARBH
+  para - what restaurants with 2 price rating serve outdoors, worker - A1T9IKE8GV4LR4
+  para - which restaurants have a 2 dollar sign price rating and outdoor seating, worker - A11GZNNVLEWRGF
+  para - what2 dollar sign restaurant has outdoor seating, worker - A1Y3EFWUYKN0UP
+  para - restaurants with outdoor seating and a  price rating, worker - A2WU1MO8J4CQ9K
+  para - restaurant that has outdoor seating and whose price rating is 2 dollar signs, worker - A3URW8DWGJVYFX
+original - cuisine that is not cuisine of thai cafe
+  para - list all restaurants that are not similar to thai cafe, worker - A1Y3EFWUYKN0UP
+  para - what cuisine does the thai cafe not have, worker - A32CIL5S21Y4MR
+  para - restaurants with food not like thai cafe, worker - A1U207UYSR92X5
+  para - cuisine unlike thai cafe, worker - A11B84S796PPW5
+  para - what places serve food that is not thai, worker - A24TG1B5IY8YZ5
+original - restaurant that is good for kids and that has outdoor seating
+  para - restaurant that is kidfriendly and has an outdoor dining area, worker - A11GZNNVLEWRGF
+  para - a kid friendly restaurant with outdoor seating, worker - A11B84S796PPW5
+  para - estaurant that is good for kids and that has outdoor seating, worker - A3URW8DWGJVYFX
+  para - what restaurants have outdoor dining and are childfriendly, worker - A2A4LHPXF2E2GS
+  para - restaurants that are good for children and have outdoor seating, worker - A1NGGAVIGC9O7V
+  para - family friendly restaurants where you can sit outside, worker - A16ANYLVNPKCVG
+original - restaurant that takes credit cards and whose price rating is 2 dollar signs
+  para - restaurants that take credit cards with a price rating of 2, worker - A16ANYLVNPKCVG
+  para - restaurant that takes credit cards and whose price rating is 2 dollar signs, worker - A3URW8DWGJVYFX
+  para - restaurants with a 2 dollar sign rating that take credit cards, worker - A1U207UYSR92X5
+  para - restaurant whose price rating is 2 dollar signs and also accept credit cards, worker - A2TUNPP2GOQ1N3
+  para - what 2 dollar price rating restaurant takes credit cards, worker - A32CIL5S21Y4MR
+  para - which restaurants accept credit cards and has a rating of 2 dollar signs, worker - A3GJNGD3VR7ZKA
+original - restaurant that is good for kids and that is good for groups
+  para - hotel that suits the tastes of kids and which is best for group dining, worker - A2TEWO3WJ5YKGG
+  para - what restaurant is good for kids and groups, worker - A32CIL5S21Y4MR
+  para - what resturant is good for kids and groups, worker - ADUJUZANFOWKW
+  para - what restaurants are good for groups and kids, worker - A1Y3EFWUYKN0UP
+  para - what restaurants are both good for groups and kids, worker - A1T9IKE8GV4LR4
+original - restaurant that has delivery and that has outdoor seating
+  para - restaurant that has delivery and that has outdoor seating, worker - A3URW8DWGJVYFX
+  para - restaurant that delivers and offers outside seating, worker - ARI39GBFPAGLT
+  para - restaurants with delivery and outdoor seating, worker - A1U207UYSR92X5
+  para - restaurant that delivers and has an outdoor seating area, worker - A11GZNNVLEWRGF
+  para - which hotel has outdoor seating facilities and offers delivery services, worker - A2TEWO3WJ5YKGG
+  para - what restaurant offers outdoor seating and delivery, worker - A1Y3EFWUYKN0UP
+original - restaurant that serves lunch or dinner
+  para - what restaurant is good for lunch or dinner, worker - A1Y3EFWUYKN0UP
+  para - restaurants that serve lunch or dinner, worker - A1T9IKE8GV4LR4
+  para - restaurant that serves lunch or dinner, worker - A3URW8DWGJVYFX
+  para - which restaurants serve lunch or dinner, worker - A11GZNNVLEWRGF
+  para - restaurant that is open for lunch and dinner, worker - ARI39GBFPAGLT
+  para - restaurants that serve lunch or dinner, worker - A16ANYLVNPKCVG
+original - neighborhood that is neighborhood of the most number of restaurant
+  para - what neighborhood is home to the most restaurants, worker - A11GZNNVLEWRGF
+  para - what neighborhood has the most restaurants, worker - A16ANYLVNPKCVG
+  para - what neighborhood with the most restaurants, worker - ARI39GBFPAGLT
+  para - neighborhood that is neighborhood of the most number of restaurant, worker - A3URW8DWGJVYFX
+  para - what neighborhood has the largest number of restaurants, worker - A1Y3EFWUYKN0UP
+  para - which neighborhood has the most restaurants, worker - A1NGGAVIGC9O7V
+original - restaurant that has take-out and that is good for groups
+  para - restaurants with takeout that are group friendly, worker - A11GZNNVLEWRGF
+  para - restaurants that have takeout that are good for large parties, worker - A16ANYLVNPKCVG
+  para - restaurant that has takeout and that is good for groups, worker - A3URW8DWGJVYFX
+  para - what restaurant is good for groups and offers takeout, worker - A1Y3EFWUYKN0UP
+  para - restaurants that are good for groups and offer takeout, worker - A1NGGAVIGC9O7V
+  para - restaurant that has takeout and that is good for groups, worker - A2J6N5HD2EBCM6
+  para - restaurants that have takeout and are good for groups, worker - A1KF05U5IO9AFG
+original - restaurant that has take-out and that takes reservations
+  para - restaurants that have takeout and take reservations, worker - A1NGGAVIGC9O7V
+  para - what restaurant has reservations and takeout, worker - A4WSGXF5IARBH
+  para - restaurants that accept reservations and offer takeout, worker - A11GZNNVLEWRGF
+  para - what restaurant takes reservations and offers takeout, worker - A1Y3EFWUYKN0UP
+  para - restaurant that has takeout and that takes reservations, worker - A3URW8DWGJVYFX
+  para - which resturants with takeout take reservations, worker - ADUJUZANFOWKW
+original - total price rating of restaurant
+  para - total price rating of restaurant, worker - A3URW8DWGJVYFX
+  para - what is the price rating of the hotel, worker - A2TEWO3WJ5YKGG
+  para - what is the total price rating of all the restaurants, worker - A1Y3EFWUYKN0UP
+  para - what is the price rating, worker - ARI39GBFPAGLT
+original - meal that the most number of restaurant serves
+  para - what meal is served in the most restaurants, worker - A1Y3EFWUYKN0UP
+  para - meal that the most number of restaurant serves, worker - A3URW8DWGJVYFX
+  para - the most common restaurant meal, worker - A11B84S796PPW5
+  para - what cuisine type is most common, worker - A16ANYLVNPKCVG
+  para - what same meals do all the other restaurants serve, worker - A8VBDRZPXTP8F
+original - restaurant that has delivery and that is good for kids
+  para - what good kids restaurant has delivery, worker - A32CIL5S21Y4MR
+  para - which restaurant is friendly to children and has delivery, worker - A2RRYVYUDNK2GB
+  para - what restaurant delivers and is good for kids, worker - A1Y3EFWUYKN0UP
+  para - restaurant that delivers and is kid friendly, worker - A11GZNNVLEWRGF
+  para - what resturant is good for kids and has delivery, worker - ADUJUZANFOWKW
+original - restaurant that has delivery and whose star rating is 3 stars
+  para - 3star restaurants that deliver, worker - A1T9IKE8GV4LR4
+  para - what 3 star restaurant offers delivery, worker - A1Y3EFWUYKN0UP
+  para - what 3 star restaurant has delivery, worker - A32CIL5S21Y4MR
+  para - three star rated restaurants that deliver, worker - A16ANYLVNPKCVG
+  para - restaurant that has delivery and whose star rating is 3 stars, worker - A3URW8DWGJVYFX
+original - meal that less than two restaurant serves
+  para - restaurant that serves unique meals, worker - AMXQ53C1WOPZ8
+  para - what meal is served by fewer than two restaurants, worker - A2RRYVYUDNK2GB
+  para - restaurants that serve less than one meal, worker - A2ZJ282IMK4033
+  para - restaurants with a common meal, worker - A1CVM8I2566ILI
+original - restaurant whose cuisine is thai and that is good for groups
+  para - thai restaurants for groups, worker - A1U207UYSR92X5
+  para - thai restaurant that is good for group dining, worker - A2TEWO3WJ5YKGG
+  para - thai restaurant that is good for groups, worker - A11GZNNVLEWRGF
+  para - a good thai resturant with room for groups, worker - ARI39GBFPAGLT
+  para - restaurant whose cuisine is thai and that is good for groups, worker - A3URW8DWGJVYFX
+original - restaurant that has take-out and that has waiter service
+  para - restaurant that has takeout and that has waiter service, worker - A3URW8DWGJVYFX
+  para - which restaurants have waiters and offer takeout, worker - A11GZNNVLEWRGF
+  para - what restaurants offer waiter service and takeout, worker - A1Y3EFWUYKN0UP
+  para - restaurants with takeout and waiter service, worker - A1U207UYSR92X5
+  para - which restaurant has waiter and takeout service, worker - A1N8SWL57W43PV
+  para - restaurants with takeout that have waiters, worker - A16ANYLVNPKCVG
+original - cuisine that is cuisine of restaurant that has take-out
+  para - what cuisine offers takeout, worker - A1Y3EFWUYKN0UP
+  para - cuisine that is cuisine of restaurant that has takeout, worker - A3URW8DWGJVYFX
+  para - what cuisines are offered by restaurants that offer takeout, worker - A11GZNNVLEWRGF
+  para - list the types of cuisine for restaurants that offer takeout, worker - A2A4LHPXF2E2GS
+original - meal that thai cafe serves and that thai cafe serves
+  para - what is a meal served at the thai cafe, worker - A2RRYVYUDNK2GB
+  para - what meals do the thai cafe serve, worker - A2ZJ282IMK4033
+  para - what meals does thai cafe serve, worker - A1Y3EFWUYKN0UP
+  para - what meals do the thai cafe serve, worker - A32CIL5S21Y4MR
+original - neighborhood that is neighborhood of restaurant whose star rating is 3 stars
+  para - neighborhood that is neighborhood of restaurant whose star rating is 3 stars, worker - A3URW8DWGJVYFX
+  para - what is the neighborhood of the 3 star rated restaurant, worker - AODM31DHYJG99
+  para - which neighborhood resturant has a 3 star rating, worker - ADUJUZANFOWKW
+  para - which neighborhoods have 3 star restaurants, worker - A11GZNNVLEWRGF
+  para - list 3 star restaurants by neighborhood, worker - A1NGGAVIGC9O7V
+  para - what neighborhoods have the most 3 star rated restaurants, worker - A1Y3EFWUYKN0UP
+original - restaurant that is good for groups and that has delivery
+  para - restaurants for groups with delivery, worker - A1U207UYSR92X5
+  para - restaurant that delivers and is good for groups, worker - A11GZNNVLEWRGF
+  para - what good group restaurant has delivery, worker - A32CIL5S21Y4MR
+  para - restaurant that is good for groups and that has delivery, worker - A3URW8DWGJVYFX
+  para - restaurants that are deliver and are good for large parties, worker - A16ANYLVNPKCVG
+original - cuisine that is cuisine of at least two restaurant
+  para - what cuisine is at at least two restaurants, worker - A32CIL5S21Y4MR
+  para - what kind of cuisines have at least two restaurants, worker - A1Y3EFWUYKN0UP
+  para - restaurant with food of two cultures, worker - A1U207UYSR92X5
+  para - what cuisines are offered by more than one restaurant, worker - A11GZNNVLEWRGF
+  para - cuisine that is cuisine of at least two restaurant, worker - A3URW8DWGJVYFX
+  para - which restaurant has two cuisines, worker - A2TEWO3WJ5YKGG
+original - restaurant whose cuisine is cuisine of thai cafe
+  para - name athai restaurant or cafe, worker - A2TEWO3WJ5YKGG
+  para - list all restaurants similar to the cuisine of thai cafe, worker - A1Y3EFWUYKN0UP
+  para - which restaurant has thai cuisine, worker - A2RRYVYUDNK2GB
+  para - where is a thai cafe, worker - ARI39GBFPAGLT
+  para - restaurant whose cuisine is cuisine of thai cafe, worker - A3URW8DWGJVYFX
+  para - restaurants serving the same cuisine as thai cafe, worker - A11GZNNVLEWRGF
+original - restaurant whose star rating is 3 stars and that is good for kids
+  para - a three star kid friendly restaurant, worker - A11B84S796PPW5
+  para - kidfriendly restaurants that are rated 3 stars, worker - A11GZNNVLEWRGF
+  para - 3 star rated restaurants for kids, worker - A1U207UYSR92X5
+  para - a 3 star restaurant that is good for kids, worker - ARI39GBFPAGLT
+  para - what 3 star restaurant is good for kids, worker - A1Y3EFWUYKN0UP
+  para - restaurant whose star rating is 3 stars and that is good for kids, worker - A3URW8DWGJVYFX
+original - cuisine that is cuisine of more than two restaurant
+  para - what are some cuisines offered by more than two restaurants, worker - A11GZNNVLEWRGF
+  para - what cuisine is present at more than two restaurants, worker - A32CIL5S21Y4MR
+  para - cuisine in at least 2 restaurants, worker - A8VBDRZPXTP8F
+  para - what restaurants offer more than two cuisines, worker - A1Y3EFWUYKN0UP
+  para - a restaurant with varied cuisine, worker - A1U207UYSR92X5
+original - neighborhood that is neighborhood of at least two restaurant
+  para - what neighborhoods have at least two restaurants, worker - A8VBDRZPXTP8F
+  para - neighborhood that is neighborhood of at least two restaurant, worker - A3URW8DWGJVYFX
+  para - what neighborhoods have at least two restaurants, worker - A2WU1MO8J4CQ9K
+  para - a neighborhood with two restaurants, worker - A11B84S796PPW5
+  para - what neighborhood contains at least two restaurants, worker - A1Y3EFWUYKN0UP
+original - restaurant whose star rating is 3 stars or 5 stars
+  para - restaurants with a 3 or 5 star rating, worker - A1T9IKE8GV4LR4
+  para - restaurant with 5 stars or 3 stars rating, worker - A2TUNPP2GOQ1N3
+  para - restaurant whose star rating is 3 stars or 5 stars, worker - A3URW8DWGJVYFX
+  para - restaurants with star ratings of 3 or 5, worker - A16ANYLVNPKCVG
+  para - which restaurants are rated 3 or 5 stars, worker - A11GZNNVLEWRGF
+  para - list all restaurants that have at least 3 star or 5 star ratings, worker - A1Y3EFWUYKN0UP
+original - restaurant that has outdoor seating and that has outdoor seating
+  para - what restaurant offers outdoor seating, worker - A1Y3EFWUYKN0UP
+  para - restaurant that has outdoor seating and that has outdoor seating, worker - A3URW8DWGJVYFX
+  para - restaurants with outdoor dining areas, worker - A11GZNNVLEWRGF
+  para - restaurant has seating outside, worker - ARI39GBFPAGLT
+  para - restaurants with outdoor seating, worker - A1U207UYSR92X5
+original - restaurant whose neighborhood is midtown west or chelsea
+  para - a restaurant in west midtown or chelsea, worker - A11B84S796PPW5
+  para - what are the hotels found in midtown west or chelsea, worker - A2TEWO3WJ5YKGG
+  para - restaurant whose neighborhood is midtown west or chelsea, worker - A3URW8DWGJVYFX
+  para - list all restaurants in midtown west or chelsea, worker - A1Y3EFWUYKN0UP
+original - restaurant that has take-out
+  para - a take out restaurant, worker - A11B84S796PPW5
+  para - list all restaurants offering takeout, worker - A1Y3EFWUYKN0UP
+  para - which restaurants offer takeout, worker - A1NGGAVIGC9O7V
+  para - what restaurants have takeout, worker - A2A4LHPXF2E2GS
+original - restaurant whose star rating is 3 stars and whose star rating is 3 stars
+  para - restaurant whose star rating is 3 stars and whose star rating is 3 stars, worker - A3URW8DWGJVYFX
+  para - list all 3 star restaurants, worker - A1Y3EFWUYKN0UP
+  para - restaurant that has 3 stars rating, worker - A2TUNPP2GOQ1N3
+original - restaurant that has delivery and whose price rating is 2 dollar signs
+  para - what 2 dollar signs restaurant offers delivery, worker - A1Y3EFWUYKN0UP
+  para - hotel that offers delivery services and has a price rating of 2 dollar signs, worker - A2TEWO3WJ5YKGG
+  para - find a 2 dollar price rating restaurant with delivery, worker - A32CIL5S21Y4MR
+  para - restaurant that has delivery and whose price rating is 2 dollar signs, worker - A3URW8DWGJVYFX
+  para - restaurant with delivery that has a 2 dollar sign rating, worker - A1U207UYSR92X5
+original - restaurant that has waiter service and whose star rating is 3 stars
+  para - which restaurant has waiters and a star rating of three stars, worker - A2RRYVYUDNK2GB
+  para - find a 3 star restaurant with waiter service, worker - A32CIL5S21Y4MR
+  para - which resturant has waiter service and a 3 star rating, worker - ADUJUZANFOWKW
+  para - what 3 star restaurant has waiter service, worker - A1Y3EFWUYKN0UP
+  para - what is a 3 star restaurant that is kid friendly, worker - A11GZNNVLEWRGF
+original - restaurant that is good for groups
+  para - which resturants are good for groups, worker - ADUJUZANFOWKW
+  para - what restaurants accommodate groups, worker - A2A4LHPXF2E2GS
+  para - restaurant that is good for groups, worker - A3URW8DWGJVYFX
+  para - restaurants that are group friendly, worker - A11GZNNVLEWRGF
+  para - groupfriendly restaurants, worker - A1U207UYSR92X5
+original - restaurant whose neighborhood is neighborhood of thai cafe
+  para - restaurants in the neighborhood of thai cafe, worker - A1U207UYSR92X5
+  para - restaurant that is near to thai cafe, worker - A2TEWO3WJ5YKGG
+  para - list restaurants in the neighborhood of thai cafe, worker - A1Y3EFWUYKN0UP
+  para - restaurant who shares a neighborhood with the thai cafe, worker - A32CIL5S21Y4MR
+original - restaurant that takes credit cards and that has take-out
+  para - restaurants that offer credit cards and takeout, worker - A1T9IKE8GV4LR4
+  para - restaurant with takeout service that accepts credit cards, worker - A1N8SWL57W43PV
+  para - which restaurants accept credit cards for payment and also have takeout service, worker - A2RRYVYUDNK2GB
+  para - restaurant that takes credit cards and that has takeout, worker - A3URW8DWGJVYFX
+original - average price rating of restaurant
+  para - what is the average price rating of a hotel, worker - A2TEWO3WJ5YKGG
+  para - what is the average price rating of a restaurant, worker - A32CIL5S21Y4MR
+  para - what is the average price rating of a restaurant, worker - A1U207UYSR92X5
+  para - what is the average price rating of all restaurants, worker - A1Y3EFWUYKN0UP
+  para - what is the average price ratings of restaurants, worker - A2RRYVYUDNK2GB
+original - restaurant whose cuisine is thai and that is good for kids
+  para - restaurant whose cuisine is thai and that is good for kids, worker - A3URW8DWGJVYFX
+  para - what thai restaurants are kid friendly, worker - A1T9IKE8GV4LR4
+  para - family friendly thai restaurants, worker - A16ANYLVNPKCVG
+  para - a thai restaurant for kids, worker - A1U207UYSR92X5
+original - cuisine that is cuisine of restaurant that is good for kids
+  para - what cuisine options are there among the kidfriendly restaurants, worker - A11GZNNVLEWRGF
+  para - restaurants with a cuisine that is child friendly, worker - A2WU1MO8J4CQ9K
+  para - what cuisine has restaurants that are best for kids, worker - A1Y3EFWUYKN0UP
+  para - cuisine that is cuisine of restaurant that is good for kids, worker - A3URW8DWGJVYFX
+  para - what is the cuisine of restaurants that are good for children, worker - A1NGGAVIGC9O7V
+  para - what is cuisine of the kid friendly restaurant, worker - AODM31DHYJG99
+original - neighborhood that is neighborhood of two restaurant
+  para - what neighborhood contains two restaurants, worker - A2RRYVYUDNK2GB
+  para - restaurant near a neighborhood, worker - A1CVM8I2566ILI
+  para - what neighborhood has at least two restaurants, worker - A2ZJ282IMK4033
+  para - which neighborhood has two restaurants, worker - A389F6DFXS6S1I
+original - restaurant that has outdoor seating
+  para - what restaurants have outdoor dining, worker - A2A4LHPXF2E2GS
+  para - which restaurants have outdoor seating, worker - A1NGGAVIGC9O7V
+  para - restaurants where you can sit outside, worker - A16ANYLVNPKCVG
+  para - restaurants with outdoor dining area, worker - A11GZNNVLEWRGF
+original - restaurant that has waiter service and that has take-out
+  para - what restaurant has takeout and waiter service, worker - A1Y3EFWUYKN0UP
+  para - restaurant that has waiter service and that has takeout, worker - A3URW8DWGJVYFX
+  para - restaurants with waiter service and takeout, worker - A1U207UYSR92X5
+  para - hotel that has waiter service  and take out facilities, worker - A2TEWO3WJ5YKGG
+  para - restaurants with waiters that offer takeout, worker - A11GZNNVLEWRGF
+  para - which restaurant has waiters and also offers takeout, worker - A2RRYVYUDNK2GB
+original - restaurant whose neighborhood is midtown west and that has waiter service
+  para - what restaurant in midtown west has waiter service, worker - A32CIL5S21Y4MR
+  para - restaurant whose neighborhood is midtown west and that has waiter service, worker - A3URW8DWGJVYFX
+  para - restaurants in midtown west with waiter service, worker - A1U207UYSR92X5
+  para - what midtown west restaurant offers waiter service, worker - A1Y3EFWUYKN0UP
+original - restaurant whose price rating is 2 dollar signs and whose cuisine is thai
+  para - thai restaurants that are inexpensive, worker - AODM31DHYJG99
+  para - which thai restaurant has a 2dollarsign rating, worker - A1N8SWL57W43PV
+  para - thai restaurants rated 2 dollar signs, worker - A1U207UYSR92X5
+original - restaurant that has outdoor seating and that is good for groups
+  para - restaurants that have outdoor seating and is good for groups, worker - A2WU1MO8J4CQ9K
+  para - what restaurant is good for groups and offers outdoor seating, worker - A1Y3EFWUYKN0UP
+  para - a group friendly restaurant with outdoor seating, worker - A11B84S796PPW5
+  para - restaurants that have outdoor seating and are good for large parties, worker - A16ANYLVNPKCVG
+  para - restaurants with outdoor seating and is good for groups, worker - A8VBDRZPXTP8F
+  para - restaurant that has outdoor seating and that is good for groups, worker - A3URW8DWGJVYFX
+original - cuisine that is cuisine of thai cafe
+  para - what cuisine does the thai cafe have, worker - A32CIL5S21Y4MR
+  para - list all restaurants that are similar to thai cafe, worker - A1Y3EFWUYKN0UP
+  para - cuisine like that of thai cafe, worker - A11B84S796PPW5
+original - restaurant whose star rating is 3 stars and that has waiter service
+  para - restaurants with 3star ratings that have waiters, worker - A16ANYLVNPKCVG
+  para - restaurant whose star rating is 3 stars and that has waiter service, worker - A3URW8DWGJVYFX
+  para - what 3 star rated restaurant offers waiter service, worker - A1Y3EFWUYKN0UP
+  para - which 3 star restaurants have waiters, worker - A11GZNNVLEWRGF
+  para - 3 star restaurants which have waiters, worker - A2TUNPP2GOQ1N3
+  para - what 3star restaurants also have waiters, worker - A1T9IKE8GV4LR4
+original - restaurant that serves at most two meal
+  para - restaurant which serves at maximum two meals, worker - A2TUNPP2GOQ1N3
+  para - restaurants only open for 2 meals per day, worker - A16ANYLVNPKCVG
+  para - what restaurant only serves two or less meals, worker - A32CIL5S21Y4MR
+  para - restaurants that serve two at most at a time, worker - A1U207UYSR92X5
+  para - restaurant that is open for two meals, worker - A3GJNGD3VR7ZKA
+  para - restaurant that serves at most two meal, worker - A3URW8DWGJVYFX
+original - restaurant whose cuisine is thai and whose star rating is 3 stars
+  para - restaurant whose cuisine is thai and whose star rating is 3 stars, worker - A3URW8DWGJVYFX
+  para - what are some 3 star thai restaurants, worker - A11GZNNVLEWRGF
+  para - what thai restaurant has a star rating of 3 star, worker - A1Y3EFWUYKN0UP
+  para - thai restaurants with 3star ratings, worker - A16ANYLVNPKCVG
+  para - thai cuisine restaurant with 3 star rating, worker - A2TUNPP2GOQ1N3
+original - restaurant whose cuisine is thai and whose cuisine is thai
+  para - what restaurant has thai cuisine, worker - A4WSGXF5IARBH
+  para - a restaurant with thai cuisine, worker - A11B84S796PPW5
+  para - restaurant whose cuisine is thai and whose cuisine is thai, worker - A3URW8DWGJVYFX
+original - midtown west or chelsea
+  para - restaurants in midtown west or chelsea, worker - A1U207UYSR92X5
+  para - list all restaurants in the neighborhood of midtown west or chelsea, worker - A1Y3EFWUYKN0UP
+  para - chelsea or midtown west, worker - A2TEWO3WJ5YKGG
+original - restaurant that takes credit cards
+  para - what restaurants accept credit cards, worker - A1T9IKE8GV4LR4
+  para - restaurants that accept credit cards, worker - A1U207UYSR92X5
+  para - find a restaurant that takes credit cards, worker - A32CIL5S21Y4MR
+  para - restaurant that takes credit cards, worker - A3URW8DWGJVYFX
+  para - restaurants that take credit cards, worker - A16ANYLVNPKCVG
+original - restaurant that is good for kids and whose neighborhood is midtown west
+  para - restaurant that is good for kids and whose neighborhood is midtown west, worker - A2J6N5HD2EBCM6
+  para - restaurant in midtown west for kids, worker - A1U207UYSR92X5
+  para - which restaurants in the midtown west neighborhood are good for children, worker - A1NGGAVIGC9O7V
+  para - family friendly restaurants in midtown west, worker - A16ANYLVNPKCVG
+  para - what good kids restaurant is in the midtown west area, worker - A32CIL5S21Y4MR
+original - neighborhood that is neighborhood of more than two restaurant
+  para - what neighborhood has more than two restaurants, worker - A1Y3EFWUYKN0UP
+  para - which neighborhoods have more than two restaurants, worker - A11GZNNVLEWRGF
+  para - neighborhood that is neighborhood of more than two restaurant, worker - A3URW8DWGJVYFX
+  para - more that three restaurant in neighborhood, worker - A2TUNPP2GOQ1N3
+  para - neighborhoods with more than 2 restauraunts, worker - A8VBDRZPXTP8F
+original - restaurant that takes credit cards and whose cuisine is thai
+  para - thai restaurants that accept credit cards, worker - AODM31DHYJG99
+  para - which thai restaurant takes credit cards, worker - A1N8SWL57W43PV
+  para - thai restaurants that take credit cards, worker - A1U207UYSR92X5
+  para - what thai restaurant takes credit cards, worker - A1Y3EFWUYKN0UP
+original - neighborhood that is neighborhood of restaurant that serves lunch
+  para - what neighborhood has restaurants that serve lunch, worker - A1T9IKE8GV4LR4
+  para - neighborhood that is neighborhood of restaurant that serves lunch, worker - A3URW8DWGJVYFX
+  para - which neighborhoods have restaurants that serve lunch, worker - A2RRYVYUDNK2GB
+  para - what neighborhood contains restaurants that offer lunch, worker - A1Y3EFWUYKN0UP
+  para - neighborhood with restaurants that serve lunch, worker - A1N8SWL57W43PV
+original - neighborhood that is neighborhood of restaurant that has outdoor seating
+  para - what neighborhood has a restaurant that contains outdoor seating, worker - A1Y3EFWUYKN0UP
+  para - neighbourhood restaurant that offers outdoor seating facilities, worker - A2TEWO3WJ5YKGG
+  para - which neighborhood has restaurants that offer outdoor seating, worker - A2RRYVYUDNK2GB
+  para - what neighborhoods have restaurants that serve outdoors, worker - A1T9IKE8GV4LR4
+  para - restaurants in the neighborhood with outdoor seating, worker - A1U207UYSR92X5
+original - restaurant that has at most two neighborhood
+  para - what restaurant can be found in only two neighborhoods, worker - A1Y3EFWUYKN0UP
+  para - restaurant with two locations, worker - AODM31DHYJG99
+  para - restaurants with no more than 2 locations, worker - A1U207UYSR92X5
+  para - hotel that is found in a maximum of two areas, worker - A2TEWO3WJ5YKGG
+original - neighborhood that is neighborhood of restaurant that has take-out
+  para - neighborhood that is neighborhood of restaurant that has takeout, worker - A3URW8DWGJVYFX
+  para - what is the eighborhood  of the takeout restaurant, worker - AODM31DHYJG99
+  para - restaurant in the neighbourhood that has takeout facilities, worker - A2TEWO3WJ5YKGG
+  para - which neighborhood resturants have takeout, worker - ADUJUZANFOWKW
+  para - what neighborhood contains restaurants that have takeout, worker - A1Y3EFWUYKN0UP
+  para - which neighborhoods have restaurants that offer takeout, worker - A1NGGAVIGC9O7V
+original - restaurant whose star rating is 3 stars and that takes reservations
+  para - what 3 star restaurants accept reservations, worker - A11GZNNVLEWRGF
+  para - restaurants whose ratings are 3 stars and that take reservations, worker - A1KF05U5IO9AFG
+  para - restaurant whose star rating is 3 stars and that takes reservations, worker - A3URW8DWGJVYFX
+  para - which restaurants with 3 stars takes reservations, worker - A2A4LHPXF2E2GS
+  para - 3 star rated restaurant that accepts reservations, worker - ARI39GBFPAGLT
+original - restaurant that has waiter service and that is good for groups
+  para - whats a resturant with waiter service thats good for groups, worker - ADUJUZANFOWKW
+  para - restaurants with waiters that are good for groups, worker - A1NGGAVIGC9O7V
+  para - restaurants that have waiters and are good for groups, worker - AODM31DHYJG99
+  para - what restaurant is good for groups and has waiter service, worker - A1Y3EFWUYKN0UP
+  para - which restaurants are group friendly and have waiters, worker - A11GZNNVLEWRGF
+  para - restaurant that has waiter service and that is good for groups, worker - A3URW8DWGJVYFX
+original - restaurant that is good for kids and that takes credit cards
+  para - restaurant that is good for kids and that takes credit cards, worker - A3URW8DWGJVYFX
+  para - what restaurant is kid friendly and takes credit cards, worker - A4WSGXF5IARBH
+  para - which restaurants accept credit cards and are good places to go with kids, worker - A2RRYVYUDNK2GB
+  para - what are some kidfriendly restaurants that accept credit cards, worker - A11GZNNVLEWRGF
+  para - which hotel appeals to kids and accepts credit cards, worker - A2TEWO3WJ5YKGG
+  para - what restaurant is good for kids and takes credit cards, worker - A1Y3EFWUYKN0UP
+original - restaurant whose star rating is at least star rating of thai cafe
+  para - what restaurant has a star rating the same as thai cafe, worker - A4WSGXF5IARBH
+  para - restaurant whose star rating is at least star rating of thai cafe, worker - A3URW8DWGJVYFX
+  para - which restaurants are rated the same or better than thai cafe, worker - A11GZNNVLEWRGF
+  para - restaurants which have the same star rating or better of thai cafe, worker - A2WU1MO8J4CQ9K
+  para - restaurants with the same or higher star rating as thai cafe, worker - A1T9IKE8GV4LR4
+original - restaurant that serves lunch and whose cuisine is thai
+  para - what thai restaurant has lunch, worker - A32CIL5S21Y4MR
+  para - what thai restaurant offers lunch, worker - A1Y3EFWUYKN0UP
+  para - restaurant that serves lunch and whose cuisine is thai, worker - A3URW8DWGJVYFX
+  para - which thai resturants serve lunch, worker - ADUJUZANFOWKW
+original - restaurant that takes reservations and whose cuisine is thai
+  para - which thai restaurants take reservations, worker - A2RRYVYUDNK2GB
+  para - what thai restaurant takes reservations, worker - A1Y3EFWUYKN0UP
+  para - thai restaurant that can be booked in advance, worker - A2TEWO3WJ5YKGG
+  para - thai restaurants that accept reservations, worker - A1T9IKE8GV4LR4
+original - restaurant that has the smallest star rating
+  para - restaurants with the lowest star rating, worker - A8VBDRZPXTP8F
+  para - what restaurant has the lowest star rating, worker - A1Y3EFWUYKN0UP
+  para - restaurant with smaller star rating, worker - A2TUNPP2GOQ1N3
+  para - which restaurant has the lowest star rating, worker - A11GZNNVLEWRGF
+  para - restaurant that has the smallest star rating, worker - A3URW8DWGJVYFX
+  para - hotel that has the minimum star rating, worker - A2TEWO3WJ5YKGG
+original - meal that restaurant that is good for kids serves
+  para - restaurant that serves good meals for kids, worker - AMXQ53C1WOPZ8
+  para - restaurant that serves food for kids, worker - A1CVM8I2566ILI
+  para - restaurants that serve good meals for kids, worker - A2ZJ282IMK4033
+  para - what is a good meal served by a restaurant that accommodates children, worker - A2RRYVYUDNK2GB
+  para - what is a meal from a restaurant that is good for kids, worker - A389F6DFXS6S1I
+original - cuisine that is cuisine of restaurant that has outdoor seating
+  para - what restaurant serves cuisine at an outdoor setting, worker - A4WSGXF5IARBH
+  para - what types of cuisine are there at resturants with outdoor seating, worker - ADUJUZANFOWKW
+  para - what kind of restaurant offers outdoor seating, worker - A1Y3EFWUYKN0UP
+  para - cuisine that is cuisine of restaurant that has outdoor seating, worker - A3URW8DWGJVYFX
+  para - what is the cuisine of restaurants that have outdoor seating, worker - A1NGGAVIGC9O7V
+  para - what cuisines are offered by restaurants that have outdoor seating, worker - A11GZNNVLEWRGF
+original - restaurant that has delivery and that has delivery
+  para - what restaurant has delivery, worker - A4WSGXF5IARBH
+  para - restaurant that has delivery and that has delivery, worker - A3URW8DWGJVYFX
+  para - which hotel offers delivery services, worker - A2TEWO3WJ5YKGG
+  para - restaurants that deliver, worker - A1T9IKE8GV4LR4
+original - restaurant that has the largest star rating
+  para - a restaurant that has the highest star rating, worker - A11B84S796PPW5
+  para - what is the highest rated restaurant, worker - A1Y3EFWUYKN0UP
+  para - which restaurant is the most highly rated, worker - A11GZNNVLEWRGF
+  para - which hotel has the highest star rating, worker - A2TEWO3WJ5YKGG
+  para - restaurant that has the largest star rating, worker - A3URW8DWGJVYFX
+  para - highest star rated restaurants, worker - A1U207UYSR92X5
+original - restaurant whose star rating is smaller than 3 stars
+  para - list all restaurants that have ratings lower than 3 stars, worker - A1Y3EFWUYKN0UP
+  para - restaurants rated less than 3 stars, worker - A1U207UYSR92X5
+  para - restaurant whose star rating is smaller than 3 stars, worker - A3URW8DWGJVYFX
+  para - restaurants with 2 stars or less, worker - A16ANYLVNPKCVG
+  para - find a restaurant with less than 3 stars, worker - A32CIL5S21Y4MR
+  para - which resturants have a star rating smaller than 3 stars, worker - ADUJUZANFOWKW
+original - restaurant that has the least number of neighborhood
+  para - retaurant with less number of neighbourhood, worker - AAAG7IZP1V712
+  para - restaurant that has the least number of neighborhood, worker - A3URW8DWGJVYFX
+  para - which neighborhoods have the fewest restaurants, worker - A2RRYVYUDNK2GB
+  para - what restaurant is in the least number of neighborhoods, worker - A1Y3EFWUYKN0UP
+  para - restaurants that is in the least numbers of neighborhoods, worker - A8VBDRZPXTP8F
+  para - which restaurant chain is found in the fewest neighborhoods, worker - A11GZNNVLEWRGF
+original - restaurant whose neighborhood is midtown west and that has delivery
+  para - midtown west neighborhood that also deliveries, worker - ARI39GBFPAGLT
+  para - restaurant whose neighborhood is midtown west and that has delivery, worker - A3URW8DWGJVYFX
+  para - restaurant in mid town west that deliver, worker - A2TUNPP2GOQ1N3
+  para - which restaurants in midtown west deliver, worker - A11GZNNVLEWRGF
+  para - restaurants with delivery in midtown west, worker - A1U207UYSR92X5
+original - restaurant that has less than two neighborhood
+  para - restaurants found in less than two neighborhoods, worker - A11GZNNVLEWRGF
+  para - restaurant that has less than two neighborhood, worker - A3URW8DWGJVYFX
+  para - what restaurant is available in less than two neighborhoods, worker - A1Y3EFWUYKN0UP
+  para - find a restaurant in a neighborhood, worker - A32CIL5S21Y4MR
+original - restaurant whose cuisine is thai
+  para - what are some thai restaurants, worker - A11GZNNVLEWRGF
+  para - find a thai restaurant, worker - A32CIL5S21Y4MR
+  para - thai restaurants, worker - A1U207UYSR92X5
+  para - a thai restaurant, worker - A11B84S796PPW5
+original - restaurant that takes reservations and that serves lunch
+  para - what restaurant offers lunch and takes reservations, worker - A1Y3EFWUYKN0UP
+  para - restaurants serving lunch that accept reservations, worker - A11GZNNVLEWRGF
+  para - restaurants with reservations and serves lunch, worker - A8VBDRZPXTP8F
+  para - hotels that can be booked in advance and offers lunch, worker - A2TEWO3WJ5YKGG
+  para - restaurant that takes reservations and that serves lunch, worker - A3URW8DWGJVYFX
+  para - restaurant that offers reservation facility and serves lunch, worker - A2TUNPP2GOQ1N3
+original - meal that thai cafe not serves
+  para - what meals dont the thai cafe serve, worker - A32CIL5S21Y4MR
+  para - meal not served by thai cafe, worker - AMXQ53C1WOPZ8
+  para - what kind of meal does thai cafe not serve, worker - A1Y3EFWUYKN0UP
+  para - what is a meal that the thai cafe does not serve, worker - A2RRYVYUDNK2GB
+  para - which meal does a thai cafe not serve, worker - A1CVM8I2566ILI
+original - restaurant whose price rating is 2 dollar signs and whose star rating is 3 stars
+  para - hotel that has a price rating of 2 dollar signs and a 3 star rating, worker - A2TEWO3WJ5YKGG
+  para - restaurant whose price rating is 2 dollar signs and whose star rating is 3 stars, worker - A3URW8DWGJVYFX
+  para - restaurants with 3 stars and 2 price rating, worker - A1T9IKE8GV4LR4
+  para - which restaurants have price ratings of two dollar signs and star ratings of three stars, worker - A2RRYVYUDNK2GB
+  para - what 3 star restaurants have a price rating of 2 dollar signs, worker - A1Y3EFWUYKN0UP
+original - restaurant whose star rating is 3 stars and whose price rating is 2 dollar signs
+  para - restaurant whose star rating is 3 stars and whose price rating is 2 dollar signs, worker - A3URW8DWGJVYFX
+  para - what 3 star rated restaurant has a price rating of 2 dollar signs, worker - A1Y3EFWUYKN0UP
+  para - a three star restaurant thats mid priced, worker - A11B84S796PPW5
+  para - what restaurant has 3 stars and has a 2 menu, worker - A4WSGXF5IARBH
+  para - restaurants rated 3 stars with a 2 dollar sign price rating, worker - A11GZNNVLEWRGF
+  para - which restaurants have a 3 star rating and 2 dollar price rating, worker - A1NGGAVIGC9O7V
+original - restaurant whose price rating is at most 2 dollar signs or 3 dollar signs
+  para - restaurants that are at most 2 or 3 dollar price ratings, worker - A8VBDRZPXTP8F
+  para - restaurants with 3 or lower price rating, worker - A1T9IKE8GV4LR4
+  para - which resturants have a price rating of at most two or three dollar signs, worker - ADUJUZANFOWKW
+  para - what restaurant has 3 or 2 menu items, worker - A4WSGXF5IARBH
+  para - list restaurants that are at or less than 2 or 3 dollar signs, worker - A1Y3EFWUYKN0UP
+original - restaurant that is good for groups and that is good for kids
+  para - a place that is good for groups and for kids, worker - ARI39GBFPAGLT
+  para - restaurants good for groups and kids, worker - A1U207UYSR92X5
+  para - restaurant that is good for groups and that is good for kids, worker - A3URW8DWGJVYFX
+  para - what restaurants are kid and group friendly, worker - A11GZNNVLEWRGF
+  para - which restaurant appeals to kids and is good for group dining, worker - A2TEWO3WJ5YKGG
+  para - what restaurant is good for groups and kids, worker - A1Y3EFWUYKN0UP
+original - restaurant that has two neighborhood
+  para - what restaurant is in two neighborhoods, worker - A1Y3EFWUYKN0UP
+  para - what restaurant has two neighborhoods, worker - A32CIL5S21Y4MR
+  para - restaurants with two neighborhood locations, worker - A1A1A9UHNQCI9Y
+  para - restaurants situated between neighborhoods, worker - A1CVM8I2566ILI
+  para - what restaurant is found in two neighborhoods, worker - A2RRYVYUDNK2GB
+original - restaurant that serves lunch and whose star rating is 3 stars
+  para - restaurant that serves lunch and whose star rating is 3 stars, worker - A3URW8DWGJVYFX
+  para - three star restaurants that serve lunch, worker - A16ANYLVNPKCVG
+  para - restaurants with 3 star ratings and that serve lunch, worker - A1NGGAVIGC9O7V
+  para - a three star restaurant that serves lunch, worker - A11B84S796PPW5
+  para - what restaurants received 3 stars and serve lunch, worker - A2A4LHPXF2E2GS
+  para - what is a 3 star restaurant that serves lunch, worker - A11GZNNVLEWRGF
+original - restaurant that has outdoor seating and that takes credit cards
+  para - restaurant with outdoor seating that accepts credit cards, worker - A1U207UYSR92X5
+  para - which restaurants have outdoor seating and accept credit cards, worker - A1NGGAVIGC9O7V
+  para - what restaurants have outdoor seating and accept credit cards, worker - A2A4LHPXF2E2GS
+  para - an outdoor setting restaurant that takes credit cards, worker - A11B84S796PPW5
+  para - what restaurants take credit cards and have outdoor settings, worker - A1Y3EFWUYKN0UP
+original - restaurant whose star rating is smaller than star rating of thai cafe
+  para - what restaurants have lower ratings that thai cafe, worker - A1Y3EFWUYKN0UP
+  para - restaurants with a smaller star rating than thai cafe, worker - A1T9IKE8GV4LR4
+  para - which restaurants have star ratings lower than the thai cafe, worker - A2RRYVYUDNK2GB
+  para - find a restaurant with less stars than the thai cafe, worker - A32CIL5S21Y4MR
+  para - which resturant has a smaller star rating than thia cafe, worker - ADUJUZANFOWKW
+original - restaurant that has delivery and that takes credit cards
+  para - what restaurant offers delivery and accepts credit cards, worker - A1Y3EFWUYKN0UP
+  para - restaurants that have delivery and take credit cards, worker - A1NGGAVIGC9O7V
+  para - restaurant that delivers and accepts credit cards, worker - A11GZNNVLEWRGF
+  para - restaurants that take credit and deliver, worker - AODM31DHYJG99
+  para - restaurants which have delivery and take credit cards, worker - A2WU1MO8J4CQ9K
+  para - restaurant that has delivery and that takes credit cards, worker - A3URW8DWGJVYFX
+original - restaurant whose price rating is 2 dollar signs or 3 dollar signs
+  para - hotel which has a price rating of 2 dollar signs or 3 dollar signs, worker - A2TEWO3WJ5YKGG
+  para - restaurants in the 2 or 3 dollar sign price range, worker - A11GZNNVLEWRGF
+  para - restaurants with 2 or 3 price rating, worker - A1T9IKE8GV4LR4
+  para - restaurant whose price rating is 2 dollar signs or 3 dollar signs, worker - A3URW8DWGJVYFX
+  para - restaurant with a 2 or 3 dollar price rating, worker - ARI39GBFPAGLT
+  para - list all restaurants that have a price rating of 2 dollar signs or 3 dollar signs, worker - A1Y3EFWUYKN0UP
+original - restaurant whose price rating is not 2 dollar signs
+  para - what restaurant doesnt have a 2 dollar sign, worker - A4WSGXF5IARBH
+  para - list all restaurants that have ratings above 2 , worker - A1Y3EFWUYKN0UP
+  para - which restaurants have price ratings above or below two dollar signs, worker - A2RRYVYUDNK2GB
+  para - restaurants who have a price rating lower than 2 dollar signs, worker - A1NGGAVIGC9O7V
+  para - hotel that does not have a, worker - A2TEWO3WJ5YKGG
+original - restaurant whose price rating is larger than 2 dollar signs or 3 dollar signs
+  para - restaurants with a price rating higher than 3 dollar signs, worker - A11GZNNVLEWRGF
+  para - which restaurants have price ratings higher than two or three dollar signs, worker - A2RRYVYUDNK2GB
+  para - restaurant whose price rating is larger than 2 dollar signs or 3 dollar signs, worker - A3URW8DWGJVYFX
+  para - what restaurant has at least a 2 or 3 dollar sign rating, worker - A1Y3EFWUYKN0UP
+  para - restaurants with price rating above 3 dollar signs, worker - A1U207UYSR92X5
+  para - hotel which has a price rating of more than 2dollar or 3 dollar signs, worker - A2TEWO3WJ5YKGG
+original - cuisine that is cuisine of restaurant that takes reservations
+  para - restaurants that can be booked in advance, worker - A2TEWO3WJ5YKGG
+  para - cuisine that is cuisine of restaurant that takes reservations, worker - A3URW8DWGJVYFX
+  para - find the type of food of all restaurants that take reservations, worker - A16ANYLVNPKCVG
+  para - what cuisines are offered by restaurants accepting reservations, worker - A11GZNNVLEWRGF
+  para - what restaurants take reservations, worker - A1Y3EFWUYKN0UP
+  para - what cuisine does the restaurant with reservations have, worker - A32CIL5S21Y4MR
+original - cuisine that is cuisine of restaurant whose cuisine is thai
+  para - find all thai restaurants, worker - A16ANYLVNPKCVG
+  para - thai cuisine restaurant, worker - A2TUNPP2GOQ1N3
+  para - cuisine that is cuisine of restaurant whose cuisine is thai, worker - A3URW8DWGJVYFX
+original - restaurant that has the smallest price rating
+  para - restaurants rated least expensive, worker - AODM31DHYJG99
+  para - restaurant whose price rating is smallest, worker - A2TUNPP2GOQ1N3
+  para - which hotel has the least price rating, worker - A2TEWO3WJ5YKGG
+  para - what restaurant has the lower price rating, worker - A1Y3EFWUYKN0UP
+  para - cheapest restaurants, worker - A1U207UYSR92X5
+original - restaurant that has delivery and whose cuisine is thai
+  para - which thai restaurant has delivery, worker - A2A4LHPXF2E2GS
+  para - what thai restaurant offers delivery, worker - A1Y3EFWUYKN0UP
+  para - thai restaurant that delievers, worker - ARI39GBFPAGLT
+  para - restaurants whose cuisine is thai and that deliver, worker - A1KF05U5IO9AFG
+  para - restaurant that has delivery and whose cuisine is thai, worker - A3URW8DWGJVYFX
+original - restaurant whose neighborhood is midtown west and that has take-out
+  para - restaurant whose neighborhood is midtown west and that has takeout, worker - A3URW8DWGJVYFX
+  para - restaurants in midtown west that have takeout, worker - A16ANYLVNPKCVG
+  para - restaurants in midtown west that have takeout, worker - A1T9IKE8GV4LR4
+  para - restaurants in midtown west that offer takeout, worker - A11GZNNVLEWRGF
+original - restaurant whose price rating is 2 dollar signs and that is good for groups
+  para - find a restaurant good for groups that has a 2 dollar price rating, worker - A32CIL5S21Y4MR
+  para - restaurant whose price rating is 2 dollar signs and that is good for groups, worker - A3URW8DWGJVYFX
+  para - what are some 2 dollar rated restaurants good for groups, worker - A1Y3EFWUYKN0UP
+  para - a group friendly restaurant that is medium priced, worker - A11B84S796PPW5
+  para - which hotel has a price rating of 2 dollar signs and is good for group dining, worker - A2TEWO3WJ5YKGG
+original - restaurant whose star rating is at most 3 stars or 5 stars
+  para - list all restaurants that have lower stars than 3 star or 5 star, worker - A1Y3EFWUYKN0UP
+  para - restaurants has rating below 3 stars, worker - A2TUNPP2GOQ1N3
+  para - restaurant whose star rating is at most 3 stars or 5 stars, worker - A3URW8DWGJVYFX
+  para - restaurants with 5 star and lower price ratings, worker - A1T9IKE8GV4LR4
+  para - which restaurants are rated under 3 stars, worker - A11GZNNVLEWRGF
+original - average star rating of restaurant
+  para - what is the average star rating, worker - A1U207UYSR92X5
+  para - what is the average star rating of all restaurants, worker - A1Y3EFWUYKN0UP
+  para - average star rating of restaurant, worker - A3URW8DWGJVYFX
+  para - what is the average restaurant star rating, worker - A32CIL5S21Y4MR
+  para - what is the average star rating of all restaurants, worker - A11GZNNVLEWRGF
+original - restaurant that serves lunch and that serves lunch
+  para - restaurants that serves lunch, worker - A8VBDRZPXTP8F
+  para - which resturants serve lunch, worker - ADUJUZANFOWKW
+  para - what restaurants offer lunch, worker - A1Y3EFWUYKN0UP
+original - restaurant that is good for groups and whose star rating is 3 stars
+  para - the 3 star restaurant is good for groups, worker - AZZRIXMY4HN25
+  para - group friendly restaurants rated 3 stars, worker - A11GZNNVLEWRGF
+  para - find a 3 star restaurant that is good for groups, worker - A32CIL5S21Y4MR
+  para - 3 star restaurants that take groups, worker - A34HA6251RR0LH
+  para - restaurant that is good for groups and whose star rating is 3 stars, worker - A3URW8DWGJVYFX
+original - restaurant that has waiter service and that has delivery
+  para - find a restaurant that has delivery as well as waiter service, worker - A32CIL5S21Y4MR
+  para - which resturants with waiter service have delivery, worker - ADUJUZANFOWKW
+  para - what restaurant offers delivery and has waiter service, worker - A1Y3EFWUYKN0UP
+  para - restaurant that has waiter service and that has delivery, worker - A3URW8DWGJVYFX
+  para - which restaurant has waiter and delivery service, worker - A1N8SWL57W43PV
+  para - which restaurants deliver and have waiters, worker - A11GZNNVLEWRGF
+original - restaurant that serves lunch and whose price rating is 2 dollar signs
+  para - which restaurants serve lunch and have a 2 dollar sign price rating, worker - A11GZNNVLEWRGF
+  para - what 2 dollar signs restaurant offers lunch, worker - A1Y3EFWUYKN0UP
+  para - find restaurant with 2 dollar price rating that serves lunch, worker - A32CIL5S21Y4MR
+  para - restaurant that serves lunch and whose price rating is 2 dollar signs, worker - A3URW8DWGJVYFX
+  para - restaurants that serve lunch with a price rating of 2, worker - A16ANYLVNPKCVG
+  para - restaurant for lunch rated 2 dollar signs, worker - A1U207UYSR92X5
+original - meal that restaurant that has outdoor seating serves
+  para - restaurants that have outdoor seating, worker - A2ZJ282IMK4033
+  para - restaurant that has outdoor seating, worker - AMXQ53C1WOPZ8
+  para - restaurants that has outdoor seating, worker - A1CVM8I2566ILI
+  para - what meal is served at a restaurant with outdoor seating, worker - A2RRYVYUDNK2GB
+  para - what is a meal from a restaurant with outdoor seating, worker - A389F6DFXS6S1I
+original - restaurant whose price rating is at most 2 dollar signs
+  para - restaurants with 2 and lower price rating, worker - A1T9IKE8GV4LR4
+  para - list all restaurants that is cheaper than 2 dollar signs, worker - A1Y3EFWUYKN0UP
+  para - restaurants price rated 2 dollar signs or less, worker - A11GZNNVLEWRGF
+  para - restaurant which had a maximum of 2dollar sign price rating, worker - A2TEWO3WJ5YKGG
+  para - restaurant whose price rating is at most 2 dollar signs, worker - A3URW8DWGJVYFX
+  para - restaurant with a price rating of 2 or under, worker - ARI39GBFPAGLT
+original - restaurant that is good for groups and whose neighborhood is midtown west
+  para - restaurant in midtown west that is good for groups, worker - A2TUNPP2GOQ1N3
+  para - what midtown west west restaurant is good for groups, worker - A1Y3EFWUYKN0UP
+  para - groupfriendly restaurants in midtown west, worker - A11GZNNVLEWRGF
+  para - restaurants for groups and is in midtown west, worker - A8VBDRZPXTP8F
+  para - restaurant in the area of midtown west which is good for group dining, worker - A2TEWO3WJ5YKGG
+  para - restaurant that is good for groups and whose neighborhood is midtown west, worker - A3URW8DWGJVYFX
+original - restaurant that has take-out and whose price rating is 2 dollar signs
+  para - a restaurant that has at least a two star rating and does takeout, worker - A11B84S796PPW5
+  para - which restaurants with a 2 dollar price rating offer takeout, worker - A1NGGAVIGC9O7V
+  para - the restaurant with take out food is fairly inexpensive, worker - AZZRIXMY4HN25
+  para - what 2 dollar sign restaurant contains takeout, worker - A1Y3EFWUYKN0UP
+  para - which two dollar sign rated restaurants have takeout, worker - A2RRYVYUDNK2GB
+original - restaurant that takes reservations and whose price rating is 2 dollar signs
+  para - restaurants rated 2 dollar signs that take reservations, worker - A1U207UYSR92X5
+  para - hotel that can be booked in advance which has a price rating of 2 dollar signs, worker - A2TEWO3WJ5YKGG
+  para - what 2 dollar signs restaurant takes reservations, worker - A1Y3EFWUYKN0UP
+  para - which restaurant that takes reservations have a price rating of two dollar signs, worker - A2RRYVYUDNK2GB
+  para - find a restaurant i can get reservations at that has a 2 dollar price rating, worker - A32CIL5S21Y4MR
+original - 2 dollar signs or 3 dollar signs
+  para - 2 dollar signs or 3 dollar signs, worker - A3URW8DWGJVYFX
+  para - restaurants with a 2 or 3 dollar sign price rating, worker - A11GZNNVLEWRGF
+  para - has a 2 or 3 dollar sign rating, worker - ARI39GBFPAGLT
+  para - list all restaurants that have a price rating of 2 dollar signs or 3 star dollar signs, worker - A1Y3EFWUYKN0UP
+  para - restaurants rated 2 or 3 dollar signs, worker - A1U207UYSR92X5
+original - restaurant that has take-out and that is good for kids
+  para - what restaurants have takeout and are kidfriendly, worker - A2A4LHPXF2E2GS
+  para - what restauarants are kid friendly and have takeout, worker - A1Y3EFWUYKN0UP
+  para - restaurants with takeout that are kidfriendly, worker - A1U207UYSR92X5
+  para - restaurants that are good for children and offer takeout, worker - A1NGGAVIGC9O7V
+  para - a kid friendly take out restaurant, worker - A11B84S796PPW5
+original - restaurant whose cuisine is not thai
+  para - a restaurant that does not serve thai, worker - ARI39GBFPAGLT
+  para - list all restaurants that is not thai, worker - A1Y3EFWUYKN0UP
+  para - name a restaurant that does not offer  thai food, worker - A2TEWO3WJ5YKGG
+  para - what are some restaurants that doesnt serve thai, worker - A4WSGXF5IARBH
+  para - what are some restaurants serving any cuisine except thai, worker - A11GZNNVLEWRGF
+original - restaurant that is good for kids
+  para - what is a good kids restaurant, worker - A32CIL5S21Y4MR
+  para - where is a good restaurant to take kids, worker - A2RRYVYUDNK2GB
+  para - which hotel is entertaining for kids, worker - A2TEWO3WJ5YKGG
+original - restaurant whose price rating is at least 2 dollar signs
+  para - list all restaurants that are at least 2 dollar signs, worker - A1Y3EFWUYKN0UP
+  para - restaurants at least with a 2 dollar price rating, worker - A8VBDRZPXTP8F
+  para - what are some restaurants rated 2 dollar signs or more, worker - A11GZNNVLEWRGF
+  para - restaurant with at least a 2 dollar price rating, worker - AKY7ZFPCHAXMJ
+  para - what restaurant has 2 or greater dollar signs as its price rating, worker - A32CIL5S21Y4MR
+original - neighborhood that is neighborhood of the least number of restaurant
+  para - area that has the minimum number of restaurants, worker - A2TEWO3WJ5YKGG
+  para - which neighboorhodd has the least number of resturants, worker - ADUJUZANFOWKW
+  para - neighborhood with the least number of restaurants, worker - A1T9IKE8GV4LR4
+  para - what neighborhood has the least amount of restaurants, worker - A1Y3EFWUYKN0UP
+  para - what neighborhood has the least restaurants, worker - A32CIL5S21Y4MR
+original - restaurant whose star rating is at most 3 stars
+  para - list all restaurants that are at least 3 stars, worker - A1Y3EFWUYKN0UP
+  para - what are some restaurants rated 3 dollar signs or less, worker - A11GZNNVLEWRGF
+  para - restaurants with at least 3 stars rating, worker - A8VBDRZPXTP8F
+  para - 3 star restraunts and under, worker - AKY7ZFPCHAXMJ
+  para - find a 3 or fewer star restaurant, worker - A32CIL5S21Y4MR
+original - neighborhood that is neighborhood of restaurant that is good for groups
+  para - neighborhood that is neighborhood of restaurant that is good for groups, worker - A3URW8DWGJVYFX
+  para - which neighborhood restaurant is good for a group of people, worker - A2RRYVYUDNK2GB
+  para - what neighborhood has the most restaurants that are good for groups, worker - A1Y3EFWUYKN0UP
+  para - what neighborhoods have restaurants that are good for large parties, worker - A16ANYLVNPKCVG
+  para - what restaurants in this neighborhood is group friendly, worker - A4WSGXF5IARBH
+original - restaurant that takes credit cards and that is good for groups
+  para - what restaurant is good for groups and takes credit cards, worker - A1Y3EFWUYKN0UP
+  para - which restaurants take credit and can accommodate a group, worker - A2RRYVYUDNK2GB
+  para - what restaurants serve groups and accept credit cards, worker - A1T9IKE8GV4LR4
+  para - what resturant takes credit cards and is good for groups, worker - ADUJUZANFOWKW
+  para - what group restaurant takes credit cards, worker - A32CIL5S21Y4MR
+original - restaurant that serves more than two meal
+  para - which resturants serve more than two meals, worker - ADUJUZANFOWKW
+  para - restaurants with more than two meals, worker - A8VBDRZPXTP8F
+  para - what restaurant serves more than two meals, worker - A4WSGXF5IARBH
+  para - what restaurants serves more than just one meal, worker - A1Y3EFWUYKN0UP
+  para - restaurants that serve multiple meals, worker - A1T9IKE8GV4LR4
+original - restaurant whose price rating is at least 2 dollar signs or 3 dollar signs
+  para - what restaurants have price ratings of 2 or 3 dollar signs, worker - A1Y3EFWUYKN0UP
+  para - restaurants with price ratings between 2 and 3, worker - AODM31DHYJG99
+  para - hotels that have a minimum  price rating of 2 dollar signs, worker - A2TEWO3WJ5YKGG
+  para - which resturants have a price rating of at least two or three dollar signs, worker - ADUJUZANFOWKW
+  para - which restaurants have a price rating of 2 to3 dollar signs, worker - A1NGGAVIGC9O7V
+  para - restaurant whose price rating is at least 2 dollar signs or 3 dollar signs, worker - A3URW8DWGJVYFX
+original - restaurant whose price rating is 2 dollar signs
+  para - list all 2 dollar signs restaurants, worker - A1Y3EFWUYKN0UP
+  para - restaurant with 2 dollar price rating sign, worker - AAAG7IZP1V712
+  para - restaurant whose price rating is 2 dollar signs, worker - A3URW8DWGJVYFX
+  para - which restaurants are in the price rating level of two dollar signs, worker - A2RRYVYUDNK2GB
+  para - restaurants with a 2 dollar price rating, worker - A8VBDRZPXTP8F
+  para - restaurants with a 2 dollar sign price rating, worker - A11GZNNVLEWRGF
+original - cuisine that is cuisine of restaurant whose price rating is 2 dollar signs
+  para - what restaurants have a rating of 2 dollar signs, worker - A1Y3EFWUYKN0UP
+  para - a thai restaurant with medium pricing, worker - A11B84S796PPW5
+  para - which restaurant s cuisine has a price rating of 2 dollar signs, worker - A2TEWO3WJ5YKGG
+  para - what cuisine does a 2 dollar sign price rating restaurant have, worker - A32CIL5S21Y4MR
+  para - cuisine that is cuisine of restaurant whose price rating is 2 dollar signs, worker - A3URW8DWGJVYFX
+original - restaurant whose price rating is at least price rating of thai cafe
+  para - what restaurant a price rating greater than or equal to the thai cafe, worker - A32CIL5S21Y4MR
+  para - what restaurants have the same price rating or better than thai cafe, worker - A1T9IKE8GV4LR4
+  para - restaurants whose price rating is similar to that of thai cafe, worker - A1KF05U5IO9AFG
+  para - list all restaurants that have the same or better price rating than thai cafe, worker - A1Y3EFWUYKN0UP
+  para - thai cafe with least price rating, worker - A2TUNPP2GOQ1N3
+original - restaurant whose neighborhood is neighborhood that is neighborhood of thai cafe
+  para - find a restaurant in the same neighborhood as the thai cafe, worker - A32CIL5S21Y4MR
+  para - restaurant whose neighborhood is neighborhood that is neighborhood of thai cafe, worker - A3URW8DWGJVYFX
+  para - restaurants in the neighborhoods that contain thai cafe, worker - A1Y3EFWUYKN0UP
+  para - name a restaurant in the neighbourhood of thai cafe, worker - A2TEWO3WJ5YKGG
+original - restaurant whose star rating is 3 stars and whose neighborhood is midtown west
+  para - what 3star restaurants are located in midtown west, worker - A1T9IKE8GV4LR4
+  para - restaurants in midtown west rated 3 stars, worker - A11GZNNVLEWRGF
+  para - three star restaurants in midtown west, worker - A16ANYLVNPKCVG
+  para - what midtown west restaurant has a 3 star rating, worker - A1Y3EFWUYKN0UP
+  para - restaurant whose star rating is 3 stars and whose neighborhood is midtown west, worker - A3URW8DWGJVYFX
+  para - which restaurant in midtown west has a 3star rating, worker - A2RRYVYUDNK2GB
+original - restaurant that takes reservations and that has outdoor seating
+  para - restaurants with outdoor seating that takes reservations, worker - A1U207UYSR92X5
+  para - what restaurant has outdoor seating and takes reservations, worker - A32CIL5S21Y4MR
+  para - restaurant that takes reservations and that has outdoor seating, worker - A3URW8DWGJVYFX
+  para - restaurants that take reservations with outdoor seating, worker - A16ANYLVNPKCVG
+  para - what restaurants offer outdoor seating and takes reservations, worker - A1Y3EFWUYKN0UP
+  para - which restaurants accept reservation and have outdoor seating, worker - A11GZNNVLEWRGF
+original - restaurant that takes reservations and whose neighborhood is midtown west
+  para - hotel in midtown west that can be booked in advance, worker - A2TEWO3WJ5YKGG
+  para - what midtown west restaurant offers reservations, worker - A1Y3EFWUYKN0UP
+  para - restaurant in midtown west that accepts reservations, worker - A11GZNNVLEWRGF
+  para - a midtown west resturant that takes reservations, worker - ARI39GBFPAGLT
+  para - restaurant that takes reservations and whose neighborhood is midtown west, worker - A3URW8DWGJVYFX
+original - restaurant that not serves lunch
+  para - what restaurant does not offer lunch, worker - A1Y3EFWUYKN0UP
+  para - restaurants that are not open for lunch, worker - A11GZNNVLEWRGF
+  para - what is the restaurant that does not serve lunch, worker - A2TEWO3WJ5YKGG
+  para - no lunch restaurant, worker - A11B84S796PPW5
+  para - restaurant that not serves lunch, worker - A3URW8DWGJVYFX
+original - neighborhood that is not neighborhood of thai cafe
+  para - what are the neighborhoods without thai cafes, worker - A1Y3EFWUYKN0UP
+  para - what is a neighborhood that doesnt have a thai cafe, worker - A4WSGXF5IARBH
+  para - which neighborhood is not where that cafe is located, worker - A2RRYVYUDNK2GB
+  para - which neighborhoods is thai cafe not in, worker - A1NGGAVIGC9O7V
+original - restaurant whose neighborhood is midtown west and that serves lunch
+  para - restaurants located in midtown west that also serve lunch, worker - A1T9IKE8GV4LR4
+  para - restaurants in midtown west serving lunch, worker - A11GZNNVLEWRGF
+  para - restaurant whose neighborhood is midtown west and that serves lunch, worker - A3URW8DWGJVYFX
+  para - midtown west restaurant that is open for lunch, worker - ARI39GBFPAGLT
+  para - restaurant that is around mid town west that offers lunch, worker - A2TEWO3WJ5YKGG
+original - neighborhood that is neighborhood of restaurant whose cuisine is thai
+  para - what is the neighborhood of the thai restaurant, worker - A1U207UYSR92X5
+  para - what neighborhood has the most thai restaurants, worker - A1Y3EFWUYKN0UP
+  para - which neighborhoods have thai restaurants, worker - A11GZNNVLEWRGF
+  para - which is the thai restaurant in this neighbourhood, worker - A2TEWO3WJ5YKGG
+  para - neighborhood that is neighborhood of restaurant whose cuisine is thai, worker - A3URW8DWGJVYFX
+  para - what neighborhood is the thai restaurant in, worker - A32CIL5S21Y4MR
+original - restaurant that has the most number of neighborhood
+  para - what restaurant is in the most number of neighborhoods, worker - A1Y3EFWUYKN0UP
+  para - restaurant that has the most number of neighborhood, worker - A3URW8DWGJVYFX
+  para - which restaurant chain is found in the most neighborhoods, worker - A11GZNNVLEWRGF
+  para - a restaurant around alot of neighborhoods, worker - A11B84S796PPW5
+  para - restaurants with the most locations in the area, worker - A1U207UYSR92X5
+original - restaurant that is good for kids and that has delivery
+  para - restaurants with delivery for kids, worker - A1U207UYSR92X5
+  para - hotel that suits the taste of kids and offers delivery services, worker - A2TEWO3WJ5YKGG
+  para - what restaurant is amenable to children and has delivery, worker - A2RRYVYUDNK2GB
+  para - what restaurants deliver that serve food good for kids, worker - A1T9IKE8GV4LR4
+  para - what restaurant has delivery and is good for kids, worker - A1Y3EFWUYKN0UP
+original - cuisine that is cuisine of thai cafe or pizzeria juno
+  para - cuisine that is like thai cafe or pizzeria juno, worker - A2TEWO3WJ5YKGG
+  para - cuisine like thai cafe pizzeria juno, worker - A11B84S796PPW5
+  para - restaurants with similar food to thai cafe or pizzeria juno, worker - A1U207UYSR92X5
+  para - what kind of restaurants are thai cafe or pizzeria juno, worker - A1Y3EFWUYKN0UP
+original - restaurant whose star rating is at least 3 stars
+  para - restaurant that has at least 3 star rating, worker - A2TUNPP2GOQ1N3
+  para - at least 3 star restaurants, worker - A1U207UYSR92X5
+  para - restaurants rated 3 stars or higher, worker - AODM31DHYJG99
+  para - hotel which has a minimum of 3 star rating, worker - A2TEWO3WJ5YKGG
+original - neighborhood that is neighborhood of restaurant that has delivery
+  para - what neighborhoods have restaurants that deliver, worker - A4WSGXF5IARBH
+  para - which neighborhoods have restaurants that deliver, worker - A11GZNNVLEWRGF
+  para - which neighborhood has restaurants that offer delivery, worker - A2RRYVYUDNK2GB
+  para - what neighborhoods have restaurants that offer delivery, worker - A1T9IKE8GV4LR4
+  para - neighborhood that is neighborhood of restaurant that has delivery, worker - A3URW8DWGJVYFX
+  para - what neighborhood contains restaurants that offer delivery, worker - A1Y3EFWUYKN0UP
+original - meal that restaurant that takes reservations serves
+  para - what meals do the restaurant with reservations serve, worker - A32CIL5S21Y4MR
+  para - restaurants that accepts reservations, worker - A1CVM8I2566ILI
+  para - what kind of meals are served by restaurants that take reservations, worker - A1Y3EFWUYKN0UP
+  para - what is a meal served by a restaurant that accepts reservations, worker - A2RRYVYUDNK2GB
+original - restaurant whose price rating is at most price rating of thai cafe
+  para - which resturants have a price less than or equal to thai cafe, worker - ADUJUZANFOWKW
+  para - which restaurant has a price rating no higher than thai cafe, worker - A1N8SWL57W43PV
+  para - find a restaurant with a price rating equal or less than the thai cafe, worker - A32CIL5S21Y4MR
+  para - restaurants with the same or lower price rating as thai cafe, worker - A1T9IKE8GV4LR4
+original - restaurant whose cuisine is thai and that has delivery
+  para - the thai restaurant has delivery, worker - AZZRIXMY4HN25
+  para - what thai restaurant has delivery, worker - A32CIL5S21Y4MR
+  para - restaurant whose cuisine is thai and that has delivery, worker - A3URW8DWGJVYFX
+  para - what thai restaurant has delivery, worker - A1Y3EFWUYKN0UP
+  para - thai restaurants that deliver, worker - A34HA6251RR0LH
+original - restaurant whose cuisine is thai or italian
+  para - a thai or italian restaurant, worker - A11B84S796PPW5
+  para - thai or italian restaurants, worker - A1U207UYSR92X5
+  para - hotel with a thai or italian restaurant, worker - A2TEWO3WJ5YKGG
+  para - list all thai or italian restaurants, worker - A1Y3EFWUYKN0UP
+  para - find a thai or italian restaurant, worker - A32CIL5S21Y4MR
+original - restaurant that has at least two neighborhood
+  para - restaurants that are in two neighborhoods at least, worker - A1V5OMRC87TDXW
+  para - name a restaurant found in at least two neighborhoods, worker - A2RRYVYUDNK2GB
+  para - what restaurant is in multiple neighborhoods, worker - A32CIL5S21Y4MR
+original - restaurant that has outdoor seating and that has take-out
+  para - what restaurant offers an outdoot and takeout, worker - A1Y3EFWUYKN0UP
+  para - which restaurants have outdoor seating and offer takeout, worker - A1NGGAVIGC9O7V
+  para - what takeout restaurant has outdoor seating, worker - A32CIL5S21Y4MR
+  para - restaurant that has the  take out facility and has outdoor seating, worker - A2TEWO3WJ5YKGG
+  para - restaurants with outdoor seating and takeout, worker - A1U207UYSR92X5
+original - restaurant that has delivery and that takes reservations
+  para - restaurant that does delivery and reservations, worker - AKY7ZFPCHAXMJ
+  para - restaurants that can be booked in advance and that offers delivery services, worker - A2TEWO3WJ5YKGG
+  para - restaurant that has delivery and that takes reservations, worker - A3URW8DWGJVYFX
+  para - what restaurant can i get reservations and get delivery from, worker - A32CIL5S21Y4MR
+  para - what restaurant offers delivery and takes reservations, worker - A1Y3EFWUYKN0UP
+original - restaurant whose star rating is 3 stars and whose cuisine is thai
+  para - thai restaurant which has a 3 star rating, worker - A2TEWO3WJ5YKGG
+  para - thai restaurants rated 3 stars, worker - A1U207UYSR92X5
+  para - what thai restaurant has a 3 star rating, worker - A4WSGXF5IARBH
+  para - restaurant whose star rating is 3 stars and whose cuisine is thai, worker - A3URW8DWGJVYFX
+  para - list all 3 star rated thai restaurants, worker - A1Y3EFWUYKN0UP
+original - restaurant whose star rating is at most star rating of thai cafe
+  para - which restaurants are rated the same or below thai cafe, worker - A11GZNNVLEWRGF
+  para - what thai restaurant has the highest star rating, worker - A1Y3EFWUYKN0UP
+  para - restaurant with the same or less stars as the thai cafe, worker - A32CIL5S21Y4MR
+  para - restaurants with star ratings better or equal to thai cafe, worker - A16ANYLVNPKCVG
+  para - restaurant whose star rating is at most star rating of thai cafe, worker - A3URW8DWGJVYFX
+  para - hotel  that that has the star rating of thai cafe, worker - A2TEWO3WJ5YKGG
+original - restaurant that is good for kids and whose star rating is 3 stars
+  para - which 3 star restaurants are good for children, worker - A1NGGAVIGC9O7V
+  para - restaurant that is at least 3 stars and kid friendly, worker - A11B84S796PPW5
+  para - which threestar rated restaurants are amenable to kids, worker - A2RRYVYUDNK2GB
+  para - the 3 star restaurant is good for kids, worker - AZZRIXMY4HN25
+  para - what 3 star restaurant is good for kids, worker - A1Y3EFWUYKN0UP
+original - neighborhood that is neighborhood of restaurant that takes credit cards
+  para - neighborhood that is neighborhood of restaurant that takes credit cards, worker - A3URW8DWGJVYFX
+  para - which neighborhoods have restaurants that take credit cards, worker - A2RRYVYUDNK2GB
+  para - what neighborhood has restaurants that accept credit cards, worker - A1T9IKE8GV4LR4
+  para - what neighborhood contains restaurants that accept credit cards, worker - A1Y3EFWUYKN0UP
+  para - which neighborhood restaurant takes credit cards, worker - A1N8SWL57W43PV
+original - cuisine that is cuisine of restaurant that serves lunch
+  para - what kind of cuisine is found at the restaurants that serve lunch, worker - A2RRYVYUDNK2GB
+  para - what kind of cuisine offers lunch, worker - A1Y3EFWUYKN0UP
+  para - list by type of cuisine the restaurants that serve lunch, worker - A2A4LHPXF2E2GS
+  para - cuisine that is cuisine of restaurant that serves lunch, worker - A3URW8DWGJVYFX
+  para - what is the cuisine of restaurants that serve lunch, worker - A1NGGAVIGC9O7V
+original - restaurant that takes reservations and that takes reservations
+  para - accepts reservations, worker - ARI39GBFPAGLT
+  para - which restaurant can be booked in advance, worker - A2TEWO3WJ5YKGG
+  para - what restaurant takes resverations, worker - A1Y3EFWUYKN0UP
+  para - restaurant that takes reservations and that takes reservations, worker - A3URW8DWGJVYFX
+  para - which restaurants accept reservations, worker - A11GZNNVLEWRGF
+  para - restaurant that takes reservations, worker - A1U207UYSR92X5
+original - meal that restaurant that serves lunch serves
+  para - restaurant with lunch menu, worker - AMXQ53C1WOPZ8
+  para - what is a meal that a restaurant that is open for lunch serves, worker - A2RRYVYUDNK2GB
+  para - what meals does this restaurant serve for lunch, worker - A2ZJ282IMK4033
+  para - what meals do lunch serving restaurants serve, worker - A1Y3EFWUYKN0UP
+  para - what meal does the restaurant serve for lunch, worker - A32CIL5S21Y4MR
+original - restaurant that serves meal that thai cafe serves
+  para - what restaurant serves a meal similar to that found at the thai cafe, worker - A2RRYVYUDNK2GB
+  para - what restaurants are similar to thai cafe, worker - A1A1A9UHNQCI9Y
+  para - restaurants that serve same meals as thai cafe, worker - AMXQ53C1WOPZ8
+  para - what kind of restaurant serves the same food as thai cafe, worker - A1Y3EFWUYKN0UP
+  para - what restaurant serves the same food as the thai cafe, worker - A32CIL5S21Y4MR
+original - restaurant whose price rating is price rating of thai cafe
+  para - restaurant with a price rating equal to thai cafe, worker - A1U207UYSR92X5
+  para - which resturants have a price rating the same as the thai cafe, worker - ADUJUZANFOWKW
+  para - restaurant whose price rating is price rating of thai cafe, worker - A3URW8DWGJVYFX
+  para - restaurants with the same price rating as thai cafe, worker - A11GZNNVLEWRGF
+  para - what is the price range for the thai restaurant, worker - A2A4LHPXF2E2GS
+original - restaurant that is good for kids and that takes reservations
+  para - family friendly restaurants that take reservations, worker - A16ANYLVNPKCVG
+  para - what restaurant is kid friendly and takes reservations, worker - A4WSGXF5IARBH
+  para - which restaurant is friendly towards children and takes reservations, worker - A2RRYVYUDNK2GB
+  para - what restaurant offers reservations and is good for kids, worker - A1Y3EFWUYKN0UP
+  para - restaurants that can be booked in advance ant which de, worker - A2TEWO3WJ5YKGG
+  para - restaurant that is good for kids and that takes reservations, worker - A3URW8DWGJVYFX
+original - restaurant that has waiter service and whose price rating is 2 dollar signs
+  para - which hotel has a price rating of 2 dollar signs and  waiter service facilities, worker - A2TEWO3WJ5YKGG
+  para - what restaurant has waiter service and a 2 dollar sign rating, worker - A4WSGXF5IARBH
+  para - restaurants with waiters that have a price rating of 2 dollar signs, worker - A11GZNNVLEWRGF
+  para - restaurant that has waiter service and whose price rating is 2 dollar signs, worker - A3URW8DWGJVYFX
+  para - which restaurants have waiters and a price rating of two dollar signs, worker - A2RRYVYUDNK2GB
+original - restaurant that has take-out and that has take-out
+  para - find a takeout restaurant, worker - A32CIL5S21Y4MR
+  para - what restaurant offers takeout, worker - A1Y3EFWUYKN0UP
+  para - which restaurant has takeout service, worker - A1N8SWL57W43PV
+original - neighborhood that is neighborhood of restaurant that is good for kids
+  para - what neighborhood has good a good kids restaurant, worker - A32CIL5S21Y4MR
+  para - what neighborhoods have kidfriendly restaurants, worker - A11GZNNVLEWRGF
+  para - what is the neighborhood with the most restaurants that are good for kids, worker - A1Y3EFWUYKN0UP
+  para - a restaurant in a kid friendly neighborhood, worker - A11B84S796PPW5
+original - restaurant that has outdoor seating and that takes reservations
+  para - what restaurant offers outdoor seating and takes reservations, worker - A1Y3EFWUYKN0UP
+  para - which restaurant both has outdoor seating and takes reservations, worker - A2RRYVYUDNK2GB
+  para - restaurant that has outdoor seating and that takes reservations, worker - A3URW8DWGJVYFX
+  para - which restaurants with outdoor dining areas accept reservations, worker - A11GZNNVLEWRGF
+  para - restaurant that can be booked in advance and has outdoor seating facilities, worker - A2TEWO3WJ5YKGG
+  para - what restaurant takes reservations and has outdoor seating, worker - A4WSGXF5IARBH
+original - cuisine that is cuisine of restaurant that has waiter service
+  para - what is the cuisine of the restaurant with waiter service, worker - A32CIL5S21Y4MR
+  para - what is the cuisine of restaurants that have waiters, worker - A1NGGAVIGC9O7V
+  para - hotel that has the facility of waiter service, worker - A2TEWO3WJ5YKGG
+  para - restaurants with waiter service, worker - A1U207UYSR92X5
+  para - what restaurants offer waiter serivce, worker - A1Y3EFWUYKN0UP
+original - restaurant that has waiter service and that has waiter service
+  para - what restaurants use waiters, worker - A2A4LHPXF2E2GS
+  para - a restaurant with waiter service, worker - A11B84S796PPW5
+  para - restaurant that has waiter service and that has waiter service, worker - A3URW8DWGJVYFX
+original - restaurant whose star rating is 3 stars and that takes credit cards
+  para - what 3 star restaurant takes credit cards, worker - A1Y3EFWUYKN0UP
+  para - 3 star restaurants that accept credit cards, worker - AKY7ZFPCHAXMJ
+  para - hotel that has a 3 star rating and which accepts credit catds, worker - A2TEWO3WJ5YKGG
+  para - three star restaurants that accept credit cards, worker - A11GZNNVLEWRGF
+  para - restaurant whose star rating is 3 stars and that takes credit cards, worker - A3URW8DWGJVYFX
+original - cuisine that is cuisine of restaurant that is good for groups
+  para - what kind of restaurant is good for groups, worker - A1Y3EFWUYKN0UP
+  para - what cuisine options are there among group friendly restaurants, worker - A11GZNNVLEWRGF
+  para - cuisine that is cuisine of restaurant that is good for groups, worker - A3URW8DWGJVYFX
+  para - which restaurant is good for group dining, worker - A2TEWO3WJ5YKGG
+  para - what cuisine is good for groups at a restaurant, worker - A32CIL5S21Y4MR
+  para - what is the cuisine of the restaurant that has group dining, worker - AODM31DHYJG99
+original - price rating of thai cafe
+  para - price rating of thai cafe, worker - A3URW8DWGJVYFX
+  para - what is the price rating of the thai cafe, worker - A1T9IKE8GV4LR4
+  para - what is the priuce rating of thai cafe, worker - A1Y3EFWUYKN0UP
+  para - what is the price rating of thai cafe, worker - A1U207UYSR92X5
+  para - what is the price rating of the thai cafe, worker - A32CIL5S21Y4MR
+  para - what is the price rating of thai cafe, worker - A16ANYLVNPKCVG
+original - restaurant that is good for groups and that has outdoor seating
+  para - which restaurants are good places for groups and offer outdoor seating, worker - A2RRYVYUDNK2GB
+  para - which restaurants have outdoor seating and are group friendly, worker - A11GZNNVLEWRGF
+  para - restaurants that accomodate groups and have outdoor seating, worker - A1A3TGZ7DKJWRW
+  para - which restaurants are good for groups and have outdoor seating, worker - A1NGGAVIGC9O7V
+original - restaurant whose star rating is larger than star rating of thai cafe
+  para - a restaurant with a better star rating than thai cafe, worker - A11B84S796PPW5
+  para - what restaurant has better star ratings than thai cafe, worker - A1Y3EFWUYKN0UP
+  para - restaurants rated higher than thai cafe, worker - A1U207UYSR92X5
+  para - hotel which has a higher star rating than thai cafe, worker - A2TEWO3WJ5YKGG
+  para - restaurant whose star rating is larger than star rating of thai cafe, worker - A3URW8DWGJVYFX
+  para - restaurants rated more highly than thai cafe, worker - A11GZNNVLEWRGF
+original - 30 reviews or 40 reviews
+  para - restaurants with at least 30 or 40 reviews, worker - A2WU1MO8J4CQ9K
+  para - restaurants with between 30 and 40 reviews, worker - A11GZNNVLEWRGF
+  para - what restaurants have at least 30 or 40 reviews, worker - A1Y3EFWUYKN0UP
+  para - 30 reviews or 40 reviews, worker - A3URW8DWGJVYFX
+  para - restaurants that have between 30 and 40 reviews, worker - A1NGGAVIGC9O7V
+original - restaurant that serves lunch and whose neighborhood is midtown west
+  para - hotel in the area of midtown west which serves lunch, worker - A2TEWO3WJ5YKGG
+  para - what midtown west restaurant offers lunch, worker - A1Y3EFWUYKN0UP
+  para - restaurant that serves lunch and whose neighborhood is midtown west, worker - A3URW8DWGJVYFX
+  para - what midtown west restaurant has lunch, worker - A32CIL5S21Y4MR
+  para - restaurant that serves lunch in midtown west, worker - A1U207UYSR92X5
+  para - what restaurants in midtown west serve lunch, worker - A11GZNNVLEWRGF
+original - restaurant that has take-out and that takes credit cards
+  para - restaurants that accept credit cards and offer takeout, worker - A11GZNNVLEWRGF
+  para - which restaurants have takeout and accept credit cards, worker - A2RRYVYUDNK2GB
+  para - restaurant that has takeout with credit cards, worker - AAAG7IZP1V712
+  para - restaurants with takeout and takes credit cards, worker - A8VBDRZPXTP8F
+  para - restaurant that has takeout and that takes credit cards, worker - A3URW8DWGJVYFX
+original - restaurant whose neighborhood is midtown west and whose price rating is 2 dollar signs
+  para - midtown west restaurants with 2 dollar signs price rating, worker - A1A3TGZ7DKJWRW
+  para - restaurants in the midtown west neighborhood that have a 2 dollar sign price rating, worker - A1NGGAVIGC9O7V
+  para - which restaurants in midtown west have a price rating of 2 dollar signs, worker - A11GZNNVLEWRGF
+  para - what midtown west restaurants have a price rating of 2 dollar signs, worker - A1Y3EFWUYKN0UP
+  para - what restaurant in midtown west has a rating of two dollar signs, worker - A2RRYVYUDNK2GB
+original - restaurant that is good for groups and that takes credit cards
+  para - what restaurant is good for groups and takes credit card, worker - A1Y3EFWUYKN0UP
+  para - restaurant that has room for groups and also takes credit cards, worker - ARI39GBFPAGLT
+  para - restaurant that is good for group dining and accepts credit cards, worker - A2TEWO3WJ5YKGG
+  para - what restaurant is group friendly and takes a credit card, worker - A4WSGXF5IARBH
+  para - which restaurants are good for groups and accept credit cards, worker - A11GZNNVLEWRGF
+original - restaurant that serves lunch and that is good for groups
+  para - restaurants that serves lunch and is large, worker - A8VBDRZPXTP8F
+  para - what groupfriendly restaurant serves lunch, worker - A1T9IKE8GV4LR4
+  para - what restaurants offer lunch and is good for groups, worker - A1Y3EFWUYKN0UP
+  para - which resturants serve lunch and are good for groups, worker - ADUJUZANFOWKW
+  para - what restaurant serves lunch to groups, worker - A4WSGXF5IARBH
+original - neighborhood of thai cafe
+  para - the thai cafe is in which neighborhood, worker - A2A4LHPXF2E2GS
+  para - what neighborhood is thai cafe located in, worker - A11GZNNVLEWRGF
+  para - thai cafe in the neighborhood, worker - ARI39GBFPAGLT
+  para - neighborhood of thai cafe, worker - A3URW8DWGJVYFX
+original - restaurant whose cuisine is thai and that serves lunch
+  para - find a thai restaurant that serves lunch, worker - A32CIL5S21Y4MR
+  para - thai cuisine restaurant which serves lunch, worker - A2TUNPP2GOQ1N3
+  para - list all thai restaurants offering lunch, worker - A1Y3EFWUYKN0UP
+  para - the restaurant serves lunch as well as thai food, worker - AZZRIXMY4HN25
+original - restaurant whose price rating is smaller than 2 dollar signs
+  para - restaurant whose price rating is smaller than 2 dollar signs, worker - A3URW8DWGJVYFX
+  para - list all restaurants that are cheaper than 2 dollar signs, worker - A1Y3EFWUYKN0UP
+  para - what resturant has a price rating smaller than two dollar signs, worker - ADUJUZANFOWKW
+  para - what restaurant has less than a 2 dollar price rating, worker - A32CIL5S21Y4MR
+  para - restaurants with dollar ratings less than 2, worker - A1U207UYSR92X5
+  para - restaurants whose price rating is 1 dollar sign, worker - A16ANYLVNPKCVG
+original - restaurant whose price rating is 2 dollar signs and that serves lunch
+  para - a restaurant rated 2 dollar signs for lunch, worker - A1U207UYSR92X5
+  para - restaurants with 2 price rating that serve lunch, worker - A1T9IKE8GV4LR4
+  para - restaurants that serve lunch and have a price rating of 2, worker - A16ANYLVNPKCVG
+  para - restaurant whose price rating is 2 dollar signs and that serves lunch, worker - A3URW8DWGJVYFX
+  para - restaurants serving lunch with price rating of 2 dollar signs, worker - A11GZNNVLEWRGF
+  para - what 2 dollar signs offers lunch, worker - A1Y3EFWUYKN0UP
+original - meal that restaurant that has delivery serves
+  para - what meals do delivery restaurants serve, worker - A1Y3EFWUYKN0UP
+  para - what meal does the restaurant deliver, worker - A32CIL5S21Y4MR
+  para - restaurant that has delivery services, worker - A1CVM8I2566ILI
+  para - what is a meal that a restaurant with delivery service has, worker - A2RRYVYUDNK2GB
+  para - meal served by a restaurant that delivers, worker - AMXQ53C1WOPZ8
+original - restaurant that serves lunch and that is good for kids
+  para - what restaurant is open at lunch and is good for kids, worker - A1Y3EFWUYKN0UP
+  para - which resturant serves lunch and is good for kids, worker - ADUJUZANFOWKW
+  para - what is a kid friendly restaurant that serves lunch, worker - A11GZNNVLEWRGF
+  para - which restaurant that welcomes kids offers lunch, worker - A2RRYVYUDNK2GB
+  para - find a good kids restaurant that serves lunch, worker - A32CIL5S21Y4MR
+original - restaurant whose star rating is larger than 3 stars or 5 stars
+  para - what restaurants have a rating better than 3 or 5 stars, worker - A1Y3EFWUYKN0UP
+  para - find a restaurant with more than 3 stars, worker - A32CIL5S21Y4MR
+  para - hotels that have a higher rating than 3 stars, worker - A2TEWO3WJ5YKGG
+  para - restaurant whose star rating is larger than 3 stars or 5 stars, worker - A3URW8DWGJVYFX
+  para - what are some restaurants that are rated between 3 and 5 stars, worker - A11GZNNVLEWRGF
+original - restaurant whose star rating is smaller than 3 stars or 5 stars
+  para - restaurant whose star rating is smaller than 3 stars or 5 stars, worker - A3URW8DWGJVYFX
+  para - which resturants have a star rating smaller than 3 or 5 stars, worker - ADUJUZANFOWKW
+  para - list all restaurants that areworse than 3 or 5 star rated restaurants, worker - A1Y3EFWUYKN0UP
+  para - what restaurant has less than 5 stars, worker - A32CIL5S21Y4MR
+  para - which restaurant has fewer than 3 or 5 stars, worker - A1N8SWL57W43PV
+  para - restaurants rated less than 5 stars, worker - A11GZNNVLEWRGF
+original - restaurant that has delivery and that has take-out
+  para - restaurants that deliver and offer takeout, worker - A11GZNNVLEWRGF
+  para - restaurants that have delivery and takeout, worker - A16ANYLVNPKCVG
+  para - restaurants that have takeout and deliver, worker - A1KF05U5IO9AFG
+  para - what restaurant offers takeout and delivery, worker - A1Y3EFWUYKN0UP
+  para - restaurant that has delivery and that has takeout, worker - A3URW8DWGJVYFX
+  para - restaurants that offer takeout and delivery, worker - A1NGGAVIGC9O7V
+  para - restaurant that has delivery and that has takeout, worker - A2J6N5HD2EBCM6
+original - restaurant that is good for kids and that is good for kids
+  para - which restaurants are kid friendly, worker - A11GZNNVLEWRGF
+  para - restaurant that is good for kids and that is good for kids, worker - A3URW8DWGJVYFX
+  para - restaurants that are kid friendly, worker - AODM31DHYJG99
+  para - which resturant is good for kids, worker - ADUJUZANFOWKW
+  para - restaurants that are good for children, worker - A1NGGAVIGC9O7V
+original - total star rating of restaurant
+  para - what is the total star rating of all restaurants, worker - A16ANYLVNPKCVG
+  para - what are the star ratings of this restaurant, worker - A1NGGAVIGC9O7V
+  para - total star rating of restaurant, worker - A2J6N5HD2EBCM6
+  para - what is the star rating of the restaurant, worker - A32CIL5S21Y4MR
+  para - what is the total star rating of all restaurants, worker - A1Y3EFWUYKN0UP
+original - restaurant that is good for kids and that serves lunch
+  para - what restaurant is good for kids and offers lunch, worker - A1Y3EFWUYKN0UP
+  para - a kid friendly restaurant for lunch, worker - A11B84S796PPW5
+  para - what good kids restaurant serves lunch, worker - A32CIL5S21Y4MR
+  para - what restaurants are good for kids and serve lunch, worker - A24TG1B5IY8YZ5
+  para - restaurants for lunch for kids, worker - A1U207UYSR92X5
+original - restaurant that is good for groups and that has take-out
+  para - what restaurants serve good food for groups and have takeout, worker - A1T9IKE8GV4LR4
+  para - find a good group restaurant with takeout, worker - A32CIL5S21Y4MR
+  para - restaurants with takeout that are good for large parties, worker - A16ANYLVNPKCVG
+  para - restaurant that is good for groups and that has takeout, worker - A3URW8DWGJVYFX
+  para - restaurants with takeout for groups, worker - A1U207UYSR92X5
+original - restaurant that is good for kids and whose price rating is 2 dollar signs
+  para - kid friendly restaurant with a price equal to 2 dollar signs, worker - A3DTN2OMF6DUSI
+  para - 2 dollar signed rated restaurants for kids, worker - A1U207UYSR92X5
+  para - which restaurant with a price rating of two dollar signs is good for children, worker - A2RRYVYUDNK2GB
+  para - what good kids restaurant has a 2 dollar price rating, worker - A32CIL5S21Y4MR
+original - restaurant that takes credit cards and that serves lunch
+  para - restaurants open for lunch that take credit cards, worker - A1U207UYSR92X5
+  para - what restaurant can i eat lunch and pay with a credit card, worker - A32CIL5S21Y4MR
+  para - restaurant that takes credit cards and that serves lunch, worker - A3URW8DWGJVYFX
+  para - what restaurant offers lunch and takes credit cards, worker - A1Y3EFWUYKN0UP
+  para - restaurant that serves lunch and accepts credit cards, worker - A11GZNNVLEWRGF
+  para - restaurants that take credit cards and serve lunch, worker - A16ANYLVNPKCVG
+original - restaurant whose star rating is 3 stars
+  para - restaurants rated 3 stars, worker - A1U207UYSR92X5
+  para - find a 3 star restaurant, worker - A32CIL5S21Y4MR
+  para - what restaurants have at least a 3 star rating, worker - A1Y3EFWUYKN0UP
+  para - hotel which has a 3 star rating, worker - A2TEWO3WJ5YKGG
+  para - a 3 star restaurant, worker - A11B84S796PPW5
+original - restaurant that is good for groups and that has waiter service
+  para - whats a resturant thats good for groups and has waiter service, worker - ADUJUZANFOWKW
+  para - what restaurants are good for groups that have waiter service, worker - A1T9IKE8GV4LR4
+  para - find a good group restaurant with waiter service, worker - A32CIL5S21Y4MR
+  para - what restaurant offers a waiter service and is good for groups, worker - A1Y3EFWUYKN0UP
+  para - which restaurant is good for a group and also has waiters, worker - A2RRYVYUDNK2GB
+original - restaurant that has take-out and whose neighborhood is midtown west
+  para - what midtown west restaurant can i get takeout from, worker - A32CIL5S21Y4MR
+  para - what midtown west restaurant offers takeout, worker - A1Y3EFWUYKN0UP
+  para - restaurant with takeout in midtown west, worker - A1U207UYSR92X5
+  para - take out restaurant in midtown west, worker - A3DTN2OMF6DUSI
+original - restaurant whose star rating is at least 3 stars or 5 stars
+  para - which restaurants are rated between 3 and 5 stars, worker - A11GZNNVLEWRGF
+  para - restaurants with 3 to 5 star ratings, worker - A1T9IKE8GV4LR4
+  para - list all restaurants with 3 or 5 star ratings, worker - A1Y3EFWUYKN0UP
+  para - restaurant that is rated 3 to 5 stars, worker - ARI39GBFPAGLT
+  para - restaurant whose star rating is at least 3 stars or 5 stars, worker - A3URW8DWGJVYFX
+original - restaurant whose star rating is 3 stars and that is good for groups
+  para - name a hotel which has a three star rating and good for group dining, worker - A2TEWO3WJ5YKGG
+  para - a 3 star resturnt that has room for groups, worker - ARI39GBFPAGLT
+  para - groupfriendly restaurants that are rated 3 stars, worker - A11GZNNVLEWRGF
+  para - restaurant whose star rating is 3 stars and that is good for groups, worker - A3URW8DWGJVYFX
+  para - which restaurant with a star rating of three is good for groups, worker - A2RRYVYUDNK2GB

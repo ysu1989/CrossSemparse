@@ -87,3 +87,10 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+execs/
+.vscode/

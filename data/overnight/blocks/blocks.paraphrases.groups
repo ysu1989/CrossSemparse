@@ -1,0 +1,2463 @@
+original - block whose width is 3 inches and that is right of block 1
+  para - find the block that has a width of 3 inches and is to the right of block 1, worker - AUQTHU5AOZVQC
+  para - 3 inch wide block to the right of block 1, worker - A2TUNPP2GOQ1N3
+  para - select the block which is right to block 1 with 3 inches, worker - A3RGYT0JTEHAOK
+  para - find me all 3 inch wide blocks right of block 1, worker - A8VBDRZPXTP8F
+original - block that is right of two block
+  para - find me all blocks 2 blocks from the right, worker - A8VBDRZPXTP8F
+  para - select the block right of block 2, worker - A1CY44CGMVAHKT
+  para - block to right of two others, worker - A2SHY0YV9UW6SC
+original - block that is below block 1 and that is above block 1
+  para - get me a block below and above block 1, worker - A2ZD8NY75G9JSX
+  para - select the blocks that are above and below block 1, worker - AUQTHU5AOZVQC
+  para - find me all blocks below of which is above block 1, worker - A8VBDRZPXTP8F
+original - block that block that block 1 is above is below
+  para - block two below block 1, worker - A2SHY0YV9UW6SC
+  para - which block is below the block below block 1, worker - A2ZD8NY75G9JSX
+  para - find the block that block 1 is above and below, worker - AUQTHU5AOZVQC
+original - block whose length is at most length of block 1
+  para - block not longer than block 1, worker - A1ULLPIT6EU99K
+  para - find me all blocks at most as long as block 1, worker - A8VBDRZPXTP8F
+  para - block whose length is at most length of block 1, worker - A3URW8DWGJVYFX
+  para - the block that is equal to the length of block 1, worker - A35IMPTI2U7XGC
+  para - find a block as long or longer than block 1, worker - A32CIL5S21Y4MR
+  para - which brick is no longer than brick 1, worker - A2YLK83DQ6PA5Y
+original - block that block that block 1 is below is left of
+  para - find me the block that block 1 is below and to the left of, worker - AUQTHU5AOZVQC
+  para - select the block to the right of the block above block 1, worker - ANFWGSQ8BQRZ
+original - block that is above block that is below block 1
+  para - which brick is above the brick that is below brick 1, worker - A2YLK83DQ6PA5Y
+  para - find a block between block 1 and a block below block 1, worker - A32CIL5S21Y4MR
+  para - block above block that is below block 1, worker - A1ULLPIT6EU99K
+  para - there is a block below block 1 and a block above that one find it, worker - A1X84CLJ7N1PLZ
+original - block whose height is at least 3 inches
+  para - select the block that is at least 3 inches tall, worker - A32CIL5S21Y4MR
+  para - block whose height is at least 3 inches, worker - A3URW8DWGJVYFX
+  para - find the block that is not less than 3 inches tall, worker - A1X84CLJ7N1PLZ
+  para - choose a 3 inch tall brick, worker - A3PRT2O0B4B5E7
+  para - which brick is at least 3 inches high, worker - A2YLK83DQ6PA5Y
+original - block that is below block 1 and that is right of block 1
+  para - find me all blocks below and to the right of block 1, worker - A8VBDRZPXTP8F
+  para - find the block that is below and to the right of block 1, worker - AUQTHU5AOZVQC
+  para - find block that is below and to the right of block 1, worker - A3HMBHM8HJLKRD
+original - block that is right of block that block 1 is below
+  para - above block 1 to the left, worker - A3HMBHM8HJLKRD
+  para - find me all blocks right of the block that block 1 is below, worker - A8VBDRZPXTP8F
+  para - find the block that is right and below block 1, worker - AO8LXT6Z1D9MU
+  para - find the block that is to the right of the block that block 1 is below, worker - AUQTHU5AOZVQC
+original - block that the most number of block is right of
+  para - block which is at the right of most number of blocks, worker - A1ULLPIT6EU99K
+  para - what block is to the left of the most blocks, worker - A32CIL5S21Y4MR
+  para - find the block that has the most blocks to its right, worker - A11GZNNVLEWRGF
+  para - select the brick that is to the furthest left, worker - A8VBDRZPXTP8F
+original - block whose width is length of block 1
+  para - choose a block that is the same width as block 1s length, worker - A3PRT2O0B4B5E7
+  para - find me all the blocks with the same width as the length of block 1, worker - A8VBDRZPXTP8F
+  para - find me a block with the same width as block 1s length, worker - A32CIL5S21Y4MR
+  para - find a block that has the length of block 1, worker - A4UVNGSXE2ANA
+  para - what brick is as wide as brick 1 is long, worker - A2YLK83DQ6PA5Y
+original - block that block 1 is above and whose shape is a pyramid
+  para - find the pyramid shaped block below block 1, worker - AWJTO98M4DQFL
+  para - pyramid block below block 1, worker - A3HMBHM8HJLKRD
+  para - select all the pyramidshaped blocks above block1, worker - APGLVUSVO2R8M
+original - block whose height is 3 inches and that block 1 is above
+  para - find me all 3 inch tall blocks that block 1 is above, worker - A8VBDRZPXTP8F
+  para - what block is of 3 inches height and above block 1 , worker - A3HEFMJ50IMTY6
+  para - what 3 inch block is below block 1, worker - AHXJBZGQL5SFS
+  para - what block  has a height of 3 inches and that block 1 is above, worker - AUQTHU5AOZVQC
+original - block whose width is at most 3 inches
+  para - which brick is no wider than 3 inches, worker - A2YLK83DQ6PA5Y
+  para - choose a block no bigger than 3 inches, worker - A3PRT2O0B4B5E7
+  para - what block is 3 or less inches wide, worker - A32CIL5S21Y4MR
+  para - find me all blocks at most 3 inches wide, worker - A8VBDRZPXTP8F
+  para - not more than 3 inches wide block, worker - A1ULLPIT6EU99K
+original - block that block 1 is below and that is below block 1
+  para - select the blocks above and below block 1, worker - A1CY44CGMVAHKT
+  para - find me all blocks below block 1, worker - A8VBDRZPXTP8F
+  para - select the block that block 1 is below, worker - AUQTHU5AOZVQC
+original - block that block that block 1 is right of is left of
+  para - find me all blocks which block 1 is right and left of, worker - A8VBDRZPXTP8F
+original - width of block 1
+  para - how wide is block 1, worker - A2M4YIC3XU2693
+  para - what is the width of block 1, worker - A3PRT2O0B4B5E7
+  para - width of block 1, worker - A3URW8DWGJVYFX
+  para - what is the width of block 1, worker - A32CIL5S21Y4MR
+  para - what is the width of block 1, worker - A8VBDRZPXTP8F
+  para - how wide is block 1, worker - A2YLK83DQ6PA5Y
+original - block that is below block 1 and that block 1 is below
+  para - select block that is below block 1 and block that is above block 1, worker - AWJTO98M4DQFL
+  para - what block has block 1 above and below, worker - A2TUNPP2GOQ1N3
+  para - find me all blocks below block 1 which block 1 is also below, worker - A8VBDRZPXTP8F
+original - block that is below block 1 and that block 1 is left of
+  para - below and to the right of block 1, worker - A3HMBHM8HJLKRD
+  para - find me all blocks below and to the right of block 1, worker - A8VBDRZPXTP8F
+  para - find the block that is below and to the left of block 1 , worker - A3HEFMJ50IMTY6
+original - block whose length is at most height of block 1
+  para - block whose length is at most height of block 1, worker - A3URW8DWGJVYFX
+  para - choose a block that is the same or below brick 1, worker - A3PRT2O0B4B5E7
+  para - which brick is no longer than brick 1 is high, worker - A2YLK83DQ6PA5Y
+  para - find a block with a diameter that does not surpass the height of block 1, worker - A1X84CLJ7N1PLZ
+  para - what blocks length is less than or equal to block 1s height, worker - A32CIL5S21Y4MR
+original - block that is above block whose width is 3 inches
+  para - find me all the blocks above 3 inch wide blocks, worker - A8VBDRZPXTP8F
+  para - what block is above the 3 inch wide block, worker - A32CIL5S21Y4MR
+  para - a 3 inch block has a block on top of it find that block, worker - A1X84CLJ7N1PLZ
+  para - which brick is above a brick that is 3 inches wide, worker - A2YLK83DQ6PA5Y
+  para - block above a block which is 3 inches wide, worker - A1ULLPIT6EU99K
+  para - block that is above block whose width is 3 inches, worker - A3URW8DWGJVYFX
+original - block that is below block whose length is 3 inches
+  para - what brick is below a brick that is 3 inches long, worker - A2YLK83DQ6PA5Y
+  para - block that is below block whose length is 3 inches, worker - A3URW8DWGJVYFX
+  para - choose a block below the 3 inch brick, worker - A3PRT2O0B4B5E7
+  para - find me all blocks below 3 inch long blocks, worker - A8VBDRZPXTP8F
+  para - what block is below the 3 inch long block, worker - A32CIL5S21Y4MR
+  para - 3 inch long block below block, worker - A6BTXLINCALGZ
+original - block that is below two block
+  para - block below 2 blocks, worker - ADUJUZANFOWKW
+  para - what block is below two blocks , worker - A3HEFMJ50IMTY6
+  para - find me all blocks below 2 blocks, worker - A8VBDRZPXTP8F
+original - block that is below block 1 and that is below block 1
+  para - find the block that is underneath block 1, worker - A1X84CLJ7N1PLZ
+  para - block that is below block 1 and that is below block 1, worker - A3URW8DWGJVYFX
+  para - choose a block that is under block 1, worker - A3PRT2O0B4B5E7
+original - block that not is below block 1
+  para - find a block that is not below block 1, worker - A32CIL5S21Y4MR
+  para - select all blocks above block 1, worker - A34YPIHZ3OCPPS
+  para - find me all the blocks not below block 1, worker - A8VBDRZPXTP8F
+  para - which brick is not below brick 1, worker - A2YLK83DQ6PA5Y
+original - block whose width is height of block 1
+  para - what block has the same width as block 1s height, worker - A32CIL5S21Y4MR
+  para - find me all blocks as wide as block 1 is tall, worker - A8VBDRZPXTP8F
+  para - which block is as wide as block 1 is high, worker - A2YLK83DQ6PA5Y
+  para - block as wide as height of block 1, worker - A1ULLPIT6EU99K
+  para - choose the block that has the same width as block 1 has height, worker - A3PRT2O0B4B5E7
+original - average height of block
+  para - average height of block, worker - A3URW8DWGJVYFX
+  para - what is the height of an average block, worker - A32CIL5S21Y4MR
+  para - find the average height of a block, worker - A1X84CLJ7N1PLZ
+  para - what is the average height of the blocks, worker - A8VBDRZPXTP8F
+  para - what is the average height of a brick, worker - A3PRT2O0B4B5E7
+  para - what is the average height of the bricks, worker - A2YLK83DQ6PA5Y
+original - block that block whose height is 3 inches is below
+  para - find me the block that has a height of 3 inches, worker - AUQTHU5AOZVQC
+  para - block above 3 inch block, worker - A3HMBHM8HJLKRD
+  para - find me a block that is below any block that is 3 inches, worker - A389F6DFXS6S1I
+  para - block above 3 inch tall block, worker - A2SHY0YV9UW6SC
+  para - find me all blocks that is above 3 inch tall blocks, worker - A8VBDRZPXTP8F
+original - block whose width is 3 inches and that block 1 is above
+  para - find the block with 3 inches of width, worker - A1CVM8I2566ILI
+  para - 3 inch block below block 1, worker - A2SHY0YV9UW6SC
+  para - 3 inch block below block 1, worker - A3HMBHM8HJLKRD
+  para - find me all 3 inch wide blocks that block 1 is above, worker - A8VBDRZPXTP8F
+original - block that is left of block that is below block 1
+  para - block that is left of block that is below block 1, worker - A3URW8DWGJVYFX
+  para - choose the block that is below and to the left of block 1, worker - A3PRT2O0B4B5E7
+  para - block that is left of block which is below block 1, worker - A1ULLPIT6EU99K
+  para - find the block below and to the left of block 1, worker - A32CIL5S21Y4MR
+  para - find me all the blocks left and below block 1, worker - A8VBDRZPXTP8F
+original - block that block that is special is above
+  para - block below special block, worker - A2SHY0YV9UW6SC
+  para - find me all special blocks that are above, worker - A2RRYVYUDNK2GB
+  para - below special block, worker - A3HMBHM8HJLKRD
+original - block that block 1 is above and whose height is 3 inches
+  para - 3 inch tall bock below block 1, worker - A2SHY0YV9UW6SC
+  para - what block is above block 1 and has a height of 3 inches, worker - AUQTHU5AOZVQC
+  para - find me all 3 inch tall blocks which block 1 is above, worker - A8VBDRZPXTP8F
+  para - block below block 1 and 3 inches in height, worker - ADUJUZANFOWKW
+original - block that is above at least two block
+  para - what block is above at two or more blocks, worker - AUQTHU5AOZVQC
+  para - find a block that is above at least two other blocks, worker - A2RRYVYUDNK2GB
+  para - select a block with two blocks below it, worker - A2ZD8NY75G9JSX
+original - block whose width is 3 inches and that is special
+  para - the unique 3 inch wide block, worker - A35IMPTI2U7XGC
+  para - find the special block that is 3 inches, worker - A2M4YIC3XU2693
+  para - which special brick is 3 inches wide, worker - A2YLK83DQ6PA5Y
+  para - find the 3 inch wide special block, worker - A32CIL5S21Y4MR
+original - block whose height is at least 3 inches or 6 inches
+  para - find blocks that are at least 3 inches high or 6 inches high, worker - A11GZNNVLEWRGF
+  para - what block is 3 inches or taller, worker - A32CIL5S21Y4MR
+  para - select bricks that are at least 3 inches high, worker - A2YLK83DQ6PA5Y
+original - block whose width is larger than height of block 1
+  para - choose a brick that is wider than brick 1 is high, worker - A2YLK83DQ6PA5Y
+  para - find me all blocks wider than the height of block 1, worker - A8VBDRZPXTP8F
+  para - choose blocks wider than block 1s height, worker - A3DTN2OMF6DUSI
+  para - what blocks have a width larger than the height of block 1, worker - A2OJB437VM9WG5
+  para - find a block wider than block 1 is tall, worker - A32CIL5S21Y4MR
+original - block whose width is larger than width of block 1
+  para - which brick is wider than brick 1 is wide, worker - A2YLK83DQ6PA5Y
+  para - find me all the bricks wider than the width of block 1, worker - A8VBDRZPXTP8F
+  para - block wider than block 1, worker - A1ULLPIT6EU99K
+  para - find a wider block than block 1, worker - A32CIL5S21Y4MR
+  para - find a block that is wider than block 1, worker - A1X84CLJ7N1PLZ
+original - block whose length is smaller than height of block 1
+  para - block that is shorter than block one, worker - A35IMPTI2U7XGC
+  para - what block is not as long as block 1 is tall, worker - A32CIL5S21Y4MR
+  para - which brick has a length shorter than the height of brick 1, worker - A2YLK83DQ6PA5Y
+  para - find the block that is shorer than block 1, worker - A2M4YIC3XU2693
+  para - find me all the blocks shorter than block 1, worker - A8VBDRZPXTP8F
+original - block whose shape is a pyramid
+  para - select all pyramid blocks, worker - A2OJB437VM9WG5
+  para - find me any pyramidshaped block, worker - A32CIL5S21Y4MR
+  para - block whose shape is a pyramid, worker - A3URW8DWGJVYFX
+  para - find me all the pyramid blocks, worker - A8VBDRZPXTP8F
+  para - find a block shaped like a pyramid, worker - A3PRT2O0B4B5E7
+original - block that block that is above block 1 is below
+  para - find me the block that is above block 1, worker - AUQTHU5AOZVQC
+  para - find a block that is above block 1, worker - A2RRYVYUDNK2GB
+original - block that is special and whose length is 3 inches
+  para - find all the special blocks that are 3 inches long, worker - A302HYM1GR6605
+  para - find me all special blocks with length less than 3 inches, worker - A2OJB437VM9WG5
+  para - find me a 3 inch long special block, worker - A32CIL5S21Y4MR
+  para - block that is special and whose length is 3 inches, worker - A3URW8DWGJVYFX
+  para - find me all special 3 inch long blocks, worker - A8VBDRZPXTP8F
+original - block that block 1 is below and whose shape is a pyramid
+  para - what pyramid shaped block above block 1, worker - A2TUNPP2GOQ1N3
+  para - find me all pyramid blocks that block 1 is below, worker - A8VBDRZPXTP8F
+  para - find the block that block 1 is below and that has a shape of a pyramid, worker - AUQTHU5AOZVQC
+  para - pyramid block above block 1, worker - A3HMBHM8HJLKRD
+  para - select the pyramid shaped block, worker - A1CVM8I2566ILI
+original - block that block 1 is right of and whose width is 3 inches
+  para - find 3 inch block left of block 1, worker - A3HMBHM8HJLKRD
+  para - find a block whose width is three inches that block 1 is to the right of, worker - A2RRYVYUDNK2GB
+  para - find the block that is to the right of block 1 with a width of 3 inches, worker - AUQTHU5AOZVQC
+original - block that is right of block that block 1 is above
+  para - block right of the block below block 1, worker - A3HMBHM8HJLKRD
+  para - what block is to the right of the block that block 1 is above, worker - A2RRYVYUDNK2GB
+  para - find me all blocks right of that block 1 is above, worker - A8VBDRZPXTP8F
+  para - find me the block that is to the right of the block that block 1 is above, worker - AUQTHU5AOZVQC
+original - block that is right of block 1 and whose height is 3 inches
+  para - find me all 3 inch tall blocks right of block 1, worker - A8VBDRZPXTP8F
+  para - select the block 3 inched high to the right of block 1, worker - ANFWGSQ8BQRZ
+  para - 3 inch block right of block 1, worker - A3HMBHM8HJLKRD
+  para - select the block right of block 1 that is 3 inches tall, worker - A1CY44CGMVAHKT
+  para - select the block that is to the right of block 1 and has a height of 3 inches, worker - AUQTHU5AOZVQC
+original - block that block 1 not is left of
+  para - block that block one isnt left of, worker - ADUJUZANFOWKW
+  para - select the block that block 1 is not to the left of, worker - AUQTHU5AOZVQC
+  para - block not right of block 1, worker - A2SHY0YV9UW6SC
+original - block that block that block 1 is right of is right of
+  para - find me all blocks front and left of block 1, worker - A8VBDRZPXTP8F
+  para - find the block on the right side of the block on the right side of block 1, worker - AWJTO98M4DQFL
+  para - what block is two blocks to the right of block 1, worker - A32CIL5S21Y4MR
+original - block that is left of block 1 and that block 1 is below
+  para - block left and above block 1, worker - A3HMBHM8HJLKRD
+  para - find me all blocks left and above block 1, worker - A8VBDRZPXTP8F
+  para - block above and to the left of block 1, worker - ADUJUZANFOWKW
+  para - get me a block above and to the left of block 1, worker - A2ZD8NY75G9JSX
+original - block that is special and that is special
+  para - block that is special and that is special, worker - A3URW8DWGJVYFX
+  para - find a special block, worker - A1X84CLJ7N1PLZ
+  para - choose a block that is special, worker - A3PRT2O0B4B5E7
+original - block that block 1 is below
+  para - find me the block that block 1 is below, worker - AUQTHU5AOZVQC
+  para - select the block above block 1, worker - A1CY44CGMVAHKT
+  para - find me all blocks above block 1, worker - A8VBDRZPXTP8F
+original - block that at least two block is above
+  para - find me a block below at least two blocks, worker - A32CIL5S21Y4MR
+  para - which block has at least two blocks above it, worker - A2YLK83DQ6PA5Y
+  para - block above at leat two blocks, worker - A1ULLPIT6EU99K
+  para - find a block buried under at least two other blocks, worker - A1X84CLJ7N1PLZ
+  para - find me all blocks with at least 2 blocks above it, worker - A8VBDRZPXTP8F
+original - block that is above less than two block
+  para - is there a block piled on any other block but only one, worker - A1X84CLJ7N1PLZ
+  para - block that is above less than two block, worker - A3URW8DWGJVYFX
+  para - block above less than two blocks, worker - A1ULLPIT6EU99K
+  para - which brick is above less than two bricks, worker - A2YLK83DQ6PA5Y
+  para - what block has less than two blocks below it, worker - A32CIL5S21Y4MR
+original - block that block 1 is above and that is special
+  para - find me all special blocks that block 1 is above, worker - A8VBDRZPXTP8F
+  para - select the block 1, worker - A3RGYT0JTEHAOK
+  para - select the block that is special and that block 1 is above, worker - AUQTHU5AOZVQC
+original - block that is above block whose shape is a pyramid
+  para - find a block with a pyramidshaped block below it, worker - A32CIL5S21Y4MR
+  para - block that is above block whose shape is a pyramid, worker - A3URW8DWGJVYFX
+  para - block above a pyramid shaped block, worker - A1ULLPIT6EU99K
+  para - which brick is above the pyramidshaped block, worker - A2YLK83DQ6PA5Y
+  para - is there a block on top of the pyramidshaped block, worker - A1X84CLJ7N1PLZ
+original - color of block 1
+  para - what is the color of block 1, worker - A8VBDRZPXTP8F
+  para - what is the color of block 1, worker - A32CIL5S21Y4MR
+  para - what color is block 1, worker - A11GZNNVLEWRGF
+  para - what is the color of block 1, worker - A3PRT2O0B4B5E7
+  para - color of block 1, worker - A3URW8DWGJVYFX
+  para - what color is brick 1, worker - A2YLK83DQ6PA5Y
+original - block that is left of less than two block
+  para - find me all blocks with at most two blocks to the left, worker - A8VBDRZPXTP8F
+  para - what block has less than two blocks to the right of it, worker - A32CIL5S21Y4MR
+  para - which brick is to the left of less than two bricks, worker - A2YLK83DQ6PA5Y
+  para - find that block that is to the left of just one other block, worker - A1X84CLJ7N1PLZ
+  para - which blocks are left of singleorfewer blocks, worker - A3GNQDFPZALU92
+original - block that block 1 is left of and whose width is 3 inches
+  para - what block is to the right of block 1 and has a width of 3 inches, worker - AUQTHU5AOZVQC
+  para - block to the left of block 1 thats 3 inches wide, worker - ADUJUZANFOWKW
+original - block that is left of at least two block
+  para - select the block that is to the left of two or more blocks, worker - AUQTHU5AOZVQC
+  para - block left of 2 blocks, worker - ADUJUZANFOWKW
+  para - block to left of two or more blocks, worker - A2SHY0YV9UW6SC
+  para - find me all blocks with at least 2 blocks to the right, worker - A8VBDRZPXTP8F
+original - block that is above block that block 1 is below
+  para - block two above block 1, worker - A2SHY0YV9UW6SC
+  para - what block is above the block of block1 , worker - A3HEFMJ50IMTY6
+  para - find me all blocks above that block 1 is below, worker - A8VBDRZPXTP8F
+  para - find me the block that is above the block that block 1 is below, worker - AUQTHU5AOZVQC
+original - block that is above block that is left of block 1
+  para - choose a block to the left of block 1, worker - A3PRT2O0B4B5E7
+  para - choose the brick that is above the brick to the left of brick 1, worker - A2YLK83DQ6PA5Y
+original - block that block that is left of block 1 is left of
+  para - find the blocks that are to the left of block 1 , worker - A3HEFMJ50IMTY6
+  para - block to the left of block 1, worker - ADUJUZANFOWKW
+original - block that has the most number of color
+  para - block that has the most number of color, worker - A3URW8DWGJVYFX
+  para - find the block with the most colors, worker - A32CIL5S21Y4MR
+  para - find the block with the greatest number of colors on it, worker - A1X84CLJ7N1PLZ
+  para - find me the most colorful block, worker - A8VBDRZPXTP8F
+  para - which brick has the most colors, worker - A2YLK83DQ6PA5Y
+  para - choose the most colorful block, worker - A3PRT2O0B4B5E7
+original - block that is below block whose height is 3 inches
+  para - block that is below block whose height is 3 inches, worker - A3URW8DWGJVYFX
+  para - find me all blocks below 3 inch high blocks, worker - A8VBDRZPXTP8F
+  para - find me a block below the 3 inch tall block, worker - A32CIL5S21Y4MR
+  para - find all blocks that are below blocks with height equal to 3 inches, worker - A2OJB437VM9WG5
+  para - select the lower block that is 3 inches tall, worker - A302HYM1GR6605
+original - block whose height is at most 3 inches
+  para - what block is 3 or less inches tall, worker - A32CIL5S21Y4MR
+  para - find a block with a height no more than 3 inches, worker - A4UVNGSXE2ANA
+  para - find me all the blocks at most as tall as 3 inches, worker - A8VBDRZPXTP8F
+  para - find the block with a maximum height of 3 inches, worker - A1X84CLJ7N1PLZ
+  para - what brick is no more than 3 inches high, worker - A2YLK83DQ6PA5Y
+  para - block whose height is at most 3 inches, worker - A3URW8DWGJVYFX
+original - block that block whose width is 3 inches is below
+  para - select the block that is below the block with a width of 3 inches, worker - AUQTHU5AOZVQC
+  para - select the blocks that are 3 inches wide, worker - A1CY44CGMVAHKT
+  para - block above 3 inch wide block, worker - A2SHY0YV9UW6SC
+original - block that block that is above block 1 is above
+  para - find the block that is above block 1, worker - AUQTHU5AOZVQC
+  para - block two above block 1, worker - A2SHY0YV9UW6SC
+  para - block above block 1, worker - ADUJUZANFOWKW
+original - total width of block
+  para - what is the total width of the blocks, worker - A11GZNNVLEWRGF
+  para - what is the width of the block, worker - A32CIL5S21Y4MR
+  para - what is the total width of the brick, worker - A2YLK83DQ6PA5Y
+  para - total width of blocks, worker - A1ULLPIT6EU99K
+  para - what is the total width of the block, worker - A8VBDRZPXTP8F
+original - block that block 1 is right of and whose height is 3 inches
+  para - which is the 3 inches tall block at the left of block 1, worker - A2TUNPP2GOQ1N3
+  para - block right of block 1 which is 3 inches high, worker - A1ULLPIT6EU99K
+  para - select the block that is to the left of block 1 and has a total height of 3 inches, worker - AUQTHU5AOZVQC
+  para - find me all 3 inch tall blocks that block 1 is right of, worker - A8VBDRZPXTP8F
+original - block whose length is 3 inches and that is left of block 1
+  para - is there a block that is to the left of block 1 that is also 3 inches in length, worker - A1X84CLJ7N1PLZ
+  para - find me all the 3 inch long bricks left of block 1, worker - A8VBDRZPXTP8F
+  para - select a block to the left of block 1 that is 3 inches long, worker - A32CIL5S21Y4MR
+  para - a three inches block at the left of block 1, worker - A1ULLPIT6EU99K
+  para - which brick is to the left of brick 1 that is at least 3 inches long, worker - A2YLK83DQ6PA5Y
+original - block that is right of block 1 and that is below block 1
+  para - find me all blocks right and below block 1, worker - A8VBDRZPXTP8F
+  para - find the block that is to the right of and below block 1, worker - AUQTHU5AOZVQC
+  para - the block below block one and to the right of block 1, worker - A1CY44CGMVAHKT
+  para - look below and right of block 1, worker - A3HMBHM8HJLKRD
+original - block that block 1 is below and that is right of block 1
+  para - block above and to right of block 1, worker - A2SHY0YV9UW6SC
+  para - above and to the right of block 1, worker - A3HMBHM8HJLKRD
+  para - name a block with block 1 below and to the right, worker - A2RRYVYUDNK2GB
+  para - find me all blocks that block 1 is below and right of, worker - A8VBDRZPXTP8F
+original - block that block 1 is left of and whose height is 3 inches
+  para - select the block that block 1 is to the left of and that has a height of 3 inches, worker - AUQTHU5AOZVQC
+  para - find me all 3 inch tall blocks that block 1 is left of, worker - A8VBDRZPXTP8F
+  para - which block is 3 in height and has block 1 on its left, worker - A2RRYVYUDNK2GB
+  para - 3 inch block right of block 1, worker - A3HMBHM8HJLKRD
+  para - select the block that is 3 inches and is left of block 1, worker - A4UVNGSXE2ANA
+original - block that block 1 not is above
+  para - block not below block 1, worker - A2SHY0YV9UW6SC
+  para - what block is not above block 1, worker - AUQTHU5AOZVQC
+  para - block which does not have block 1 above, worker - A2TUNPP2GOQ1N3
+  para - find me all blocks which block 1 is not above, worker - A8VBDRZPXTP8F
+original - block whose length is 3 inches and that is below block 1
+  para - select the 3 inch block below block 1, worker - A3PRT2O0B4B5E7
+  para - choose the brick below brick 1 that is 3 inches long, worker - A2YLK83DQ6PA5Y
+  para - select a block below block 1 that is 3 inches long, worker - A32CIL5S21Y4MR
+  para - find the block underneath block 1 that is 3 inches long, worker - A1X84CLJ7N1PLZ
+  para - find me all the 3 inches long blocks and below block 1, worker - A8VBDRZPXTP8F
+original - block that the most number of block is above
+  para - choose a block that is above the most bricks, worker - A3PRT2O0B4B5E7
+  para - what block is below the most blocks, worker - A32CIL5S21Y4MR
+  para - select the brick with the most blocks above it, worker - A8VBDRZPXTP8F
+  para - which block is closest to the bottom, worker - A2YLK83DQ6PA5Y
+original - block that is left of block that is above block 1
+  para - what block is above block 1, worker - A2RRYVYUDNK2GB
+  para - what block is to the left of the block above block 1, worker - AUQTHU5AOZVQC
+  para - find me all blocks and and over block 1, worker - A8VBDRZPXTP8F
+  para - left of block over block 1, worker - A3HMBHM8HJLKRD
+original - block whose shape is a pyramid or a cube
+  para - find me all the pyramid or cube bricks, worker - A8VBDRZPXTP8F
+  para - find me a pyramid or cube shaped block, worker - A32CIL5S21Y4MR
+  para - find the block that is shaped like a pyramid or a cube, worker - A1X84CLJ7N1PLZ
+  para - choose a block that is shape like a cube or pyramid, worker - A3PRT2O0B4B5E7
+  para - choose the brick shaped like a pyramid or a cube, worker - A2YLK83DQ6PA5Y
+original - block that block that block 1 is below is below
+  para - find the block that is below block 1, worker - AUQTHU5AOZVQC
+  para - find me all blocks that block 1 is belo, worker - A8VBDRZPXTP8F
+  para - 2 blocks below block 1, worker - A3HMBHM8HJLKRD
+original - block whose shape is a pyramid and whose shape is a pyramid
+  para - find a pyramidshaped block, worker - A32CIL5S21Y4MR
+  para - find me all pyramid shaped blocks, worker - A8VBDRZPXTP8F
+  para - block whose shape is a pyramid and whose shape is a pyramid, worker - A3URW8DWGJVYFX
+  para - which brick is shaped like a pyramid, worker - A2YLK83DQ6PA5Y
+  para - locate the pyramidshaped block, worker - A1X84CLJ7N1PLZ
+  para - a pyramid shaped block, worker - A1ULLPIT6EU99K
+original - block that is right of block 1 and that is above block 1
+  para - find me the block that is to the right and above block 1, worker - AUQTHU5AOZVQC
+original - block whose shape is a pyramid and whose height is 3 inches
+  para - find a pyramidshaped block with a 3 inch height, worker - A1X84CLJ7N1PLZ
+  para - which pyramidshaped brick is 3 inches high, worker - A2YLK83DQ6PA5Y
+  para - find me all the 3 inch tall pyramid bricks, worker - A8VBDRZPXTP8F
+  para - find me a pyramid block that is 3 inches tall, worker - A302HYM1GR6605
+  para - find me a 3 inch tall pyramidshaped block, worker - A32CIL5S21Y4MR
+original - block that block 1 not is right of
+  para - find me all blocks that block 1 is not right of, worker - A8VBDRZPXTP8F
+  para - block not to the left of block 1, worker - ADUJUZANFOWKW
+  para - what block is block 1 not to the right of, worker - AUQTHU5AOZVQC
+  para - block not to right of block 1, worker - A2SHY0YV9UW6SC
+  para - left of block 1, worker - A3HMBHM8HJLKRD
+original - block that block whose height is 3 inches is left of
+  para - right of 3 inch block, worker - A3HMBHM8HJLKRD
+  para - find the block of 3 inches height and placed in left , worker - A3HEFMJ50IMTY6
+  para - what block is left of a 3 inch block, worker - AHXJBZGQL5SFS
+  para - select the block that is left of a block that is 3 inches, worker - AUQTHU5AOZVQC
+original - block whose width is smaller than 3 inches
+  para - select the block with a width smaller than 3 inches, worker - A4UVNGSXE2ANA
+  para - what block is less than 3 inches wide, worker - A32CIL5S21Y4MR
+  para - find me all blocks with a width shorter than 3 inches, worker - A8VBDRZPXTP8F
+  para - block whose width is smaller than 3 inches, worker - A3URW8DWGJVYFX
+  para - find me all blocks with width less than 3 inches, worker - A2OJB437VM9WG5
+  para - which brick has a width smaller than 3 inches, worker - A2YLK83DQ6PA5Y
+original - block that block 1 or block 2 is below
+  para - select the blocks above block 1 and 2, worker - A1CY44CGMVAHKT
+  para - find blocks above block 1 or block 2, worker - ANFWGSQ8BQRZ
+  para - above block 1 or block 2, worker - A3HMBHM8HJLKRD
+  para - find me all blocks that blocks 1 or 2 is below, worker - A8VBDRZPXTP8F
+original - block that is right of block 1 and that block 1 is left of
+  para - select the block that is to the right of block 1, worker - AUQTHU5AOZVQC
+  para - right of block 1, worker - A3HMBHM8HJLKRD
+  para - select the block on the right side of block 1, worker - AWJTO98M4DQFL
+  para - find me all blocks right of block 1 which block 1 is left of, worker - A8VBDRZPXTP8F
+original - block whose length is smaller than 3 inches or 6 inches
+  para - which brick has a length smaller than 3 or 6 inches, worker - A2YLK83DQ6PA5Y
+  para - block whose length is smaller than 3 inches or 6 inches, worker - A3URW8DWGJVYFX
+  para - locate a block that is shorter than 3 inches or 6 inches, worker - A1X84CLJ7N1PLZ
+  para - a brick which length is between 3 and 6 inches, worker - A3PRT2O0B4B5E7
+  para - find a block 6 inches long or less, worker - A32CIL5S21Y4MR
+original - block that is left of block 1 and that block 1 is right of
+  para - what block is to the left of the block that block 1 is to the right of, worker - AUQTHU5AOZVQC
+  para - find the block that is left of block 1, worker - AO8LXT6Z1D9MU
+  para - select the blocks to the right and left of block 1, worker - A1CY44CGMVAHKT
+  para - left of block 1, worker - A3HMBHM8HJLKRD
+original - block that two block is above
+  para - select the block that is two blocks above that block, worker - A302HYM1GR6605
+  para - which block has two blocks above it, worker - A2YLK83DQ6PA5Y
+  para - find me all the bricks with 2 blocks above it, worker - A8VBDRZPXTP8F
+  para - is there a block beneath two other blocks, worker - A1X84CLJ7N1PLZ
+original - block whose shape is a pyramid and that is right of block 1
+  para - find me all pyramid blocks that is right of block 1, worker - A8VBDRZPXTP8F
+  para - select the block that is in the shape of a pyramid and to the right of block 1, worker - AUQTHU5AOZVQC
+  para - pyramid to right of block 1, worker - A2SHY0YV9UW6SC
+  para - pyramid block right of block 1, worker - A3HMBHM8HJLKRD
+  para - what pyramidshaped block is to the right of block 1, worker - A2RRYVYUDNK2GB
+  para - pyramid right of block 1, worker - A3HMBHM8HJLKRD
+  para - find me all pyramid blocks which is right of block 1, worker - A8VBDRZPXTP8F
+original - block that is right of block 1 and whose length is 3 inches
+  para - what block is 3 inches long and has block 1 on its left, worker - A32CIL5S21Y4MR
+  para - find me all 3 inch long blocks right of block 1, worker - A8VBDRZPXTP8F
+  para - block that is right of block 1 and whose length is 3 inches, worker - A3URW8DWGJVYFX
+  para - what 3 inch brick is to the right of brick 1, worker - A2YLK83DQ6PA5Y
+  para - block right of 3 inches long block 1, worker - A1ULLPIT6EU99K
+  para - find the 3inch long block which is located to the right of block 1, worker - A1X84CLJ7N1PLZ
+original - block that is above the most number of block
+  para - block above most number of blocks, worker - A1ULLPIT6EU99K
+  para - find the block located on top of the highest number of other blocks, worker - A1X84CLJ7N1PLZ
+  para - what block has the most blocks below it, worker - A32CIL5S21Y4MR
+original - block that block that is special is below
+  para - what is the block above special block, worker - A2TUNPP2GOQ1N3
+  para - find me all special blocks that is below, worker - A8VBDRZPXTP8F
+  para - block above special block, worker - A3HMBHM8HJLKRD
+original - block that is above block that is right of block 1
+  para - find the block up 1 and right 1 of block 1, worker - A2R085B34P2LYS
+  para - select the block that is above and right of block 1, worker - A8VBDRZPXTP8F
+  para - find a block to the right and above block 1, worker - A32CIL5S21Y4MR
+  para - block that is above block which is right of block 1, worker - A1ULLPIT6EU99K
+  para - which brick is above the brick to the right of brick 1, worker - A2YLK83DQ6PA5Y
+original - block that block 1 is left of and that is special
+  para - select the block that is block 1 is left of and that is special, worker - AUQTHU5AOZVQC
+  para - select the special block to the right of block 1, worker - A1CY44CGMVAHKT
+  para - find me all special blocks that block 1 is left of, worker - A8VBDRZPXTP8F
+original - total height of block
+  para - what is the total height of the blocks, worker - A8VBDRZPXTP8F
+  para - what is the height of the block, worker - A32CIL5S21Y4MR
+  para - find the total height of the blocks, worker - A4UVNGSXE2ANA
+  para - what is the blocks height, worker - A2OJB437VM9WG5
+original - block whose height is 3 inches and whose height is 3 inches
+  para - select all 3 inch high blocks, worker - A11GZNNVLEWRGF
+  para - find me all blocks with height and width equal to 3 inches, worker - A2OJB437VM9WG5
+  para - find a block that is 3 inches tall, worker - A32CIL5S21Y4MR
+  para - find me all blocks 3 inches tall, worker - A8VBDRZPXTP8F
+original - block that block 1 or block 2 is left of
+  para - find the block that is left of block 1 or block 2, worker - AUQTHU5AOZVQC
+  para - block left of blocks 1 and 2, worker - A2SHY0YV9UW6SC
+  para - blocks that have block 1 or block 2 at left, worker - A2TUNPP2GOQ1N3
+  para - right of block 1 and block 2, worker - A3HMBHM8HJLKRD
+  para - find me all blocks right of block 1 or 2, worker - A8VBDRZPXTP8F
+original - block whose height is length of block 1
+  para - find me all the blocks as tall as block 1 is long, worker - A8VBDRZPXTP8F
+  para - select all bricks with length of 1, worker - A3PRT2O0B4B5E7
+  para - find a block with height equal to block 1s length, worker - A32CIL5S21Y4MR
+  para - block whose height is length of block 1, worker - A3URW8DWGJVYFX
+  para - select all blocks with height equal to the length of block 1, worker - A2OJB437VM9WG5
+original - block 1 or block 2
+  para - locate block one or block 2, worker - A1X84CLJ7N1PLZ
+  para - choose brick 1 or brick 2, worker - A2YLK83DQ6PA5Y
+  para - either block 1 or 2, worker - A3GNQDFPZALU92
+  para - select block 1 or 2, worker - A8VBDRZPXTP8F
+  para - find me either block 1 or block 2, worker - A32CIL5S21Y4MR
+original - block that the least number of block is below
+  para - find a block with the least number of blocks below it, worker - A3UPDCY9G8NK6R
+  para - find the block above the least blocks, worker - A32CIL5S21Y4MR
+  para - select the block that is above the smallest group of blocks, worker - A2M4YIC3XU2693
+original - block that at most two block is above
+  para - block above at most two block, worker - A1ULLPIT6EU99K
+  para - select the blocks that are under no more than 2 blocks, worker - A11GZNNVLEWRGF
+  para - which brick has no more than two bricks above it, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks that is at most below 2 blocks, worker - A8VBDRZPXTP8F
+  para - find me a block that is below at most two blocks, worker - A32CIL5S21Y4MR
+original - block that is left of block that is left of block 1
+  para - what block is two blocks to the left of block 1, worker - A32CIL5S21Y4MR
+  para - find me all the blocks two blocks left of block 1, worker - A8VBDRZPXTP8F
+  para - block left of a block that is left of block 1, worker - A1ULLPIT6EU99K
+  para - block that is left of block that is left of block 1, worker - A3URW8DWGJVYFX
+  para - select the brick two bricks left of brick 1, worker - A2YLK83DQ6PA5Y
+  para - find the block that is on the other side of a block located to the left of block 1, worker - A1X84CLJ7N1PLZ
+original - block that is below block whose width is 3 inches
+  para - block that is below block whose width is 3 inches, worker - A3URW8DWGJVYFX
+  para - what block is below the 3 inch wide block, worker - A32CIL5S21Y4MR
+  para - which brick is below a brick that is 3 inches wide, worker - A2YLK83DQ6PA5Y
+  para - choose a block that is below a 3 inch block, worker - A3PRT2O0B4B5E7
+  para - find me all blocks below 3 inch wide blocks, worker - A8VBDRZPXTP8F
+  para - locate the block beneath the block that has a width of 3 inches, worker - A1X84CLJ7N1PLZ
+original - block whose length is 3 inches and that is above block 1
+  para - 3 inch block above block 1, worker - A3HMBHM8HJLKRD
+  para - select the block with a length of 3 inches that is above block 1, worker - AUQTHU5AOZVQC
+  para - 3 inch long block above block 1, worker - A2TUNPP2GOQ1N3
+original - block that is right of block whose height is 3 inches
+  para - block that is right of block whose height is 3 inches, worker - A3URW8DWGJVYFX
+  para - choose a block that is right of a 3 inch brick, worker - A3PRT2O0B4B5E7
+  para - block to the right of the 3 inch high block, worker - A35IMPTI2U7XGC
+  para - which brick is to the right of the brick that is 3 inches high, worker - A2YLK83DQ6PA5Y
+  para - find the block to the right of the 3 inch tall block, worker - A32CIL5S21Y4MR
+  para - find me all blocks right of 3 inch high blocks, worker - A8VBDRZPXTP8F
+original - block that is special
+  para - a special block, worker - A1ULLPIT6EU99K
+  para - find me all the special blocks, worker - A8VBDRZPXTP8F
+  para - locate the block that is special, worker - A1X84CLJ7N1PLZ
+original - block whose height is 3 inches and whose width is 3 inches
+  para - which brick is 3 inches wide and 3 inches high, worker - A2YLK83DQ6PA5Y
+  para - block whose height is 3 inches and whose width is 3 inches, worker - A3URW8DWGJVYFX
+  para - find me all 3 inch high and 3 inch wide blocks, worker - A8VBDRZPXTP8F
+  para - block with 3 inch height and 3 inch wide, worker - A1ULLPIT6EU99K
+  para - what block is 3 inches wide by 3 inches tall, worker - A32CIL5S21Y4MR
+  para - the 3x3 inch block, worker - A35IMPTI2U7XGC
+original - block whose height is at most width of block 1
+  para - which brick is no higher than brick 1 is wide, worker - A2YLK83DQ6PA5Y
+  para - block whose height is at most width of block 1, worker - A3URW8DWGJVYFX
+  para - block of height not more than width of block 1, worker - A1ULLPIT6EU99K
+  para - locate the block that is no taller in inches than the width of block 1, worker - A1X84CLJ7N1PLZ
+  para - find a block at most as tall as block 1s width, worker - A32CIL5S21Y4MR
+  para - find me all blocks at most as tall as block 1, worker - A8VBDRZPXTP8F
+original - block that block that is right of block 1 is above
+  para - find me all blocks above and right of block 1, worker - A8VBDRZPXTP8F
+original - block whose length is 3 inches and that block 1 is above
+  para - get a 3inch long block below block 1, worker - A2ZD8NY75G9JSX
+  para - find me all 3 inch long blocks that block 1 is above, worker - A8VBDRZPXTP8F
+  para - 3 inches long block and that is above block 1, worker - A1ULLPIT6EU99K
+  para - find a block with a length of 3 inches that block 1 is above, worker - AUQTHU5AOZVQC
+original - block that is left of block that is right of block 1
+  para - 2 blocks right of block 1, worker - A3HMBHM8HJLKRD
+  para - find me all blocks at block 1, worker - A8VBDRZPXTP8F
+  para - what block is to the left of the block that is to the right of block 1, worker - AUQTHU5AOZVQC
+  para - cannot paraphase, worker - A4UVNGSXE2ANA
+original - block that is right of block whose shape is a pyramid
+  para - find me all the blocks right of the pyramid block, worker - A8VBDRZPXTP8F
+  para - block with pyramid shape at the right of block, worker - A1ULLPIT6EU99K
+  para - select the blocks that are to the right of pyramid blocks, worker - A11GZNNVLEWRGF
+  para - what block is to the right of the pyramidshaped block, worker - A32CIL5S21Y4MR
+  para - which brick is to the right of the pyramidshaped brick, worker - A2YLK83DQ6PA5Y
+original - block that more than two block is left of
+  para - block that more than two block is left of, worker - A3URW8DWGJVYFX
+  para - find me all blocks with more than 2 blocks to the left of it, worker - A8VBDRZPXTP8F
+  para - is there a block to the right of more than two other blocks, worker - A1X84CLJ7N1PLZ
+  para - choose a brick that has more than 2 blocks to its left, worker - A2YLK83DQ6PA5Y
+  para - what block is to the right of more than two blocks, worker - A32CIL5S21Y4MR
+original - block that is left of block that is special
+  para - find me all the blocks left of special blocks, worker - A8VBDRZPXTP8F
+  para - select the block to the left of the special block, worker - A32CIL5S21Y4MR
+  para - find the block located on the left side of the special block, worker - A1X84CLJ7N1PLZ
+  para - choose a block to the left of the special brick, worker - A3PRT2O0B4B5E7
+  para - which brick is to the left of the special brick, worker - A2YLK83DQ6PA5Y
+original - block that more than two block is right of
+  para - what brick has more than 2 bricks to its right, worker - A2YLK83DQ6PA5Y
+  para - is there a block to the left of more than two blocks, worker - A1X84CLJ7N1PLZ
+  para - block right of more than two blocks, worker - A1ULLPIT6EU99K
+  para - what block is to left of more than two blocks, worker - A32CIL5S21Y4MR
+  para - find me all blocks with at least 2 blocks to the right of it, worker - A8VBDRZPXTP8F
+  para - block that more than two block is right of, worker - A3URW8DWGJVYFX
+original - block that block that is right of block 1 is left of
+  para - select the block to the right of the block left of block 1, worker - ANFWGSQ8BQRZ
+  para - select the block that is right of the block that block 1 is to the left of, worker - AUQTHU5AOZVQC
+  para - find me all blocks at block 1, worker - A8VBDRZPXTP8F
+  para - which block is to the right of block 1, worker - A2RRYVYUDNK2GB
+original - block that block 1 is right of and that block 1 is below
+  para - find me the block that is above and to the left of block 1, worker - AUQTHU5AOZVQC
+  para - select the blocks left of and above block 1, worker - A1CY44CGMVAHKT
+  para - block left and above block 1, worker - A2SHY0YV9UW6SC
+  para - block aboe and left of block 1, worker - A3HMBHM8HJLKRD
+  para - find me all blocks right and below block 1, worker - A8VBDRZPXTP8F
+original - block whose width is at most 3 inches or 6 inches
+  para - is there a block with a width that equals 3 or 6 inches maximum, worker - A1X84CLJ7N1PLZ
+  para - find me a block at most 6 inches wide, worker - A32CIL5S21Y4MR
+  para - find me all blocks at least 3 inch wide, worker - A8VBDRZPXTP8F
+  para - which brick is no wider than 3 or 6 inches, worker - A2YLK83DQ6PA5Y
+original - shape of block 1
+  para - find me all blocks with the shape of block 1, worker - A8VBDRZPXTP8F
+  para - what is the shape of block 1, worker - A3PRT2O0B4B5E7
+  para - what shape is block 1, worker - A32CIL5S21Y4MR
+  para - what shape is brick 1, worker - A2YLK83DQ6PA5Y
+  para - describe the shape of block 1, worker - A1X84CLJ7N1PLZ
+original - block that block 1 is below and whose length is 3 inches
+  para - find me the block that block 1 is below and that has a length of 3 inches, worker - AUQTHU5AOZVQC
+  para - 3 inch block above block 1, worker - A3HMBHM8HJLKRD
+  para - find me all 3 inch long blocks that block 1 is below, worker - A8VBDRZPXTP8F
+  para - block below block 1 which is 3 inches long, worker - A1ULLPIT6EU99K
+  para - which 3 inches long block is above block 1, worker - A2TUNPP2GOQ1N3
+original - block that block whose height is 3 inches is right of
+  para - block left of 3 inch block, worker - A2SHY0YV9UW6SC
+  para - left of 3 inch block, worker - A3HMBHM8HJLKRD
+  para - find me all blocks right of 3 inch tall blocks, worker - A8VBDRZPXTP8F
+  para - find a block to the right of a block 3 in height, worker - A2RRYVYUDNK2GB
+original - block whose height is 3 inches and that is left of block 1
+  para - what blocks are left of block 1 and 3 inches in height, worker - A1CY44CGMVAHKT
+  para - find the blocks who have a height of 3 inches are are to the left of block 1, worker - AUQTHU5AOZVQC
+  para - get the block that is 3 inches tall found left of block 1, worker - A3HMBHM8HJLKRD
+  para - find me all 3 inch tall blocks left of block 1, worker - A8VBDRZPXTP8F
+  para - 3 inch tall block left of block 1, worker - A2SHY0YV9UW6SC
+original - block that block 1 is left of
+  para - find me all blocks that block 1 is left of, worker - A8VBDRZPXTP8F
+  para - find the block that is to the left of block 1, worker - AUQTHU5AOZVQC
+  para - name a block that has block 1 on its left, worker - A2RRYVYUDNK2GB
+original - block that block 1 is below and that block 1 is above
+  para - find me the block that block 1 is below and above, worker - AUQTHU5AOZVQC
+  para - find me all blocks that block 1 is below and above, worker - A8VBDRZPXTP8F
+original - block that is right of the most number of block
+  para - block that is at the right of most number of blocks, worker - A1ULLPIT6EU99K
+  para - which block is furthest to the right, worker - A2YLK83DQ6PA5Y
+  para - locate a block that is located to the right of the maximum number of blocks, worker - A1X84CLJ7N1PLZ
+  para - select the brick that has the least blocks to the left of it, worker - A8VBDRZPXTP8F
+  para - find the block with the most blocks to the right of, worker - A32CIL5S21Y4MR
+original - block that is right of block 1 and that block 1 is right of
+  para - what block has block 1 at its left and right, worker - A2TUNPP2GOQ1N3
+  para - find me all blocks right of block 1, worker - A8VBDRZPXTP8F
+original - total length of block
+  para - what is the total length of the blocks, worker - A8VBDRZPXTP8F
+  para - how long is the block, worker - A30C0I27VH3FFW
+  para - what is the total length of the brick, worker - A2YLK83DQ6PA5Y
+  para - total length of block, worker - A3URW8DWGJVYFX
+  para - what is the length of the block, worker - A32CIL5S21Y4MR
+original - block that two block is left of
+  para - find a block located to the right of two other blocks, worker - A1X84CLJ7N1PLZ
+  para - choose a block to the left of block 2, worker - A3PRT2O0B4B5E7
+  para - find me all blocks with 2 blocks to the left, worker - A8VBDRZPXTP8F
+  para - what brick has two bricks to its left, worker - A2YLK83DQ6PA5Y
+original - block that is above block that is above block 1
+  para - block a above block that is above block 1, worker - A1ULLPIT6EU99K
+  para - what block is above the block that is above block 1, worker - AUQTHU5AOZVQC
+  para - get the second block above block 1, worker - A3HMBHM8HJLKRD
+  para - find me all blocks 2 above block 1, worker - A8VBDRZPXTP8F
+  para - block two spaces above block 1, worker - ADUJUZANFOWKW
+original - block that is right of less than two block
+  para - find me all blocks that has less than 2 blocks to the left, worker - A8VBDRZPXTP8F
+  para - what block has less than two blocks to the left of it, worker - A32CIL5S21Y4MR
+  para - block that is right of at most one block, worker - A1ULLPIT6EU99K
+  para - is there a block that has only one block to the left of it, worker - A1X84CLJ7N1PLZ
+  para - block that is right of less than two block, worker - A3URW8DWGJVYFX
+  para - which brick is to the right of less than two bricks, worker - A2YLK83DQ6PA5Y
+original - block that block 1 is above
+  para - select the block that block 1 is above, worker - AUQTHU5AOZVQC
+  para - get the blocks below block 1, worker - A2ZD8NY75G9JSX
+original - block whose length is 3 inches and whose width is 3 inches
+  para - find a block with a length and width of 3 inches each side, worker - A4UVNGSXE2ANA
+  para - block whose length is 3 inches and whose width is 3 inches, worker - A3URW8DWGJVYFX
+  para - what brick is 3 inches long and 3 inches wide, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks that is 3 inches wide and long, worker - A8VBDRZPXTP8F
+  para - is there a block whose diameter and length is an equal 3 inches in both those directions, worker - A1X84CLJ7N1PLZ
+original - block that block 1 is above and whose width is 3 inches
+  para - select the block that block 1 is above with a width of 3 inches, worker - AUQTHU5AOZVQC
+  para - find me all 3 inch wide blocks that block 1 is above, worker - A8VBDRZPXTP8F
+  para - 3 inch wide block below block 1, worker - A2SHY0YV9UW6SC
+original - block that is left of block 1 and that is special
+  para - which special brick is to the left of brick 1, worker - A2YLK83DQ6PA5Y
+  para - choose the special block to the left of block 1, worker - A3PRT2O0B4B5E7
+  para - find the special block to the left of block 1, worker - A32CIL5S21Y4MR
+  para - block lft of special block 1, worker - A1ULLPIT6EU99K
+original - block that is right of block that is below block 1
+  para - find a block below and to the right of block 1, worker - A32CIL5S21Y4MR
+  para - is there a block to the right of the block that is underneath block 1, worker - A1X84CLJ7N1PLZ
+  para - select a brick to the right of the brick directly below brick 1, worker - A2YLK83DQ6PA5Y
+  para - find me a block that is to the right of the block that is below block 1, worker - A4UVNGSXE2ANA
+original - block that is below block 1 and that block 1 is above
+  para - block below block 1, worker - A2SHY0YV9UW6SC
+  para - block below block 1, worker - ADUJUZANFOWKW
+  para - find me all blocks below that block 1 is above, worker - A8VBDRZPXTP8F
+  para - select the block that is below block 1, worker - AUQTHU5AOZVQC
+original - block that is below block 1 and that is left of block 1
+original - block that has two shape
+  para - select the block that has two shapes, worker - A4UVNGSXE2ANA
+  para - find me all blocks that have two shapes, worker - AUQTHU5AOZVQC
+  para - two shape block, worker - A2SHY0YV9UW6SC
+  para - find me all blocks with 2 shapes, worker - A8VBDRZPXTP8F
+original - block that is above at most two block
+  para - find all blocks above 2 or fewer blocks, worker - A2OJB437VM9WG5
+  para - choose a block that is no higher than 2 blocks, worker - A302HYM1GR6605
+  para - block that is above at most two block, worker - A3URW8DWGJVYFX
+  para - find me a block with at most two blocks below it, worker - A32CIL5S21Y4MR
+  para - find me all blocks above at most 2 blocks, worker - A8VBDRZPXTP8F
+original - block that has at least two shape
+  para - block with two or more shapes, worker - A2SHY0YV9UW6SC
+  para - name a block that has two or more shapes, worker - A2RRYVYUDNK2GB
+  para - what block has two or more shapes, worker - AUQTHU5AOZVQC
+original - block that is special and that block 1 is below
+  para - find a special block above block 1 , worker - AO8LXT6Z1D9MU
+  para - find me all special blocks that block 1 is under, worker - A8VBDRZPXTP8F
+  para - select the special block above block 1, worker - A1CY44CGMVAHKT
+  para - find me all special blocks that are below block 1, worker - AUQTHU5AOZVQC
+original - block whose length is 3 inches and whose length is 3 inches
+  para - find me a 3 inch long block, worker - A32CIL5S21Y4MR
+  para - a block that is 3 inches long, worker - A3PRT2O0B4B5E7
+  para - select all blocks that are 3 inches long, worker - A11GZNNVLEWRGF
+  para - block whose length is 3 inches and whose length is 3 inches, worker - A3URW8DWGJVYFX
+  para - find me all the 3 inch long blocks, worker - A8VBDRZPXTP8F
+original - block that is below block that is left of block 1
+  para - block that is below block that is left of block 1, worker - A3URW8DWGJVYFX
+  para - select block below and to the left of block 1, worker - A32CIL5S21Y4MR
+  para - find me all the blocks below and to the left of block 1, worker - A8VBDRZPXTP8F
+  para - choose a block that is below and to the left of block 1, worker - A3PRT2O0B4B5E7
+  para - find the block located beneath the second block that is located to the left of block 1, worker - A1X84CLJ7N1PLZ
+original - block whose width is smaller than height of block 1
+  para - which brick has a width smaller than the height of brick 1, worker - A2YLK83DQ6PA5Y
+  para - find a block with a width that is less than the height of block 1, worker - A1X84CLJ7N1PLZ
+  para - choose a block that is smaller than block 1, worker - A3PRT2O0B4B5E7
+  para - find me all blocks whose width is shorter than the height of block 1, worker - A8VBDRZPXTP8F
+  para - block whose width is smaller than height of block 1, worker - A3URW8DWGJVYFX
+  para - what block is skinnier than the height of block 1, worker - A32CIL5S21Y4MR
+original - block that is special and whose width is 3 inches
+  para - which special block is 3 inches wide, worker - A2YLK83DQ6PA5Y
+  para - select the 3 inch wide special block, worker - A32CIL5S21Y4MR
+  para - which one is a 3 inch special block, worker - A1ULLPIT6EU99K
+  para - find all special blocks that are 3 inches wide, worker - A11GZNNVLEWRGF
+original - block that at most two block is below
+  para - find a block above at most two blocks, worker - A32CIL5S21Y4MR
+  para - find the block above 2 blocks, worker - A2M4YIC3XU2693
+  para - choose a block beneath block 2, worker - A3PRT2O0B4B5E7
+  para - find me all the bricks that have at most 2 blocks below it, worker - A8VBDRZPXTP8F
+  para - what block has two blocks or less below it, worker - A2YLK83DQ6PA5Y
+  para - block that at most two block is below, worker - A3URW8DWGJVYFX
+original - block that is above block 1 and that is special
+  para - choose the block above the speciallooking block 1, worker - A3PRT2O0B4B5E7
+  para - select all special blocks above block 1, worker - A34YPIHZ3OCPPS
+  para - find me all the special blocks above block 1, worker - A8VBDRZPXTP8F
+  para - find the special block with block 1 below it, worker - A32CIL5S21Y4MR
+original - block that is above block 1 and whose length is 3 inches
+  para - 3 inch block above block 1, worker - A3HMBHM8HJLKRD
+  para - select the block that is 3 inches in length and is above block 1, worker - AWJTO98M4DQFL
+  para - what 3 inches long block is above block 1, worker - A2TUNPP2GOQ1N3
+  para - select the block that is above block 1 with a length of 3 inches, worker - AUQTHU5AOZVQC
+  para - find me all 3 inch long blocks above block 1, worker - A8VBDRZPXTP8F
+original - block whose height is at least length of block 1
+  para - what block is at least as tall as block 1 is long, worker - A32CIL5S21Y4MR
+  para - locate the block with a height measurement that equals at minimum the length of block 1, worker - A1X84CLJ7N1PLZ
+  para - which brick is at least as high as brick 1 is long, worker - A2YLK83DQ6PA5Y
+  para - find me all blocks taller than the length of block 1, worker - A8VBDRZPXTP8F
+  para - block whose height is at leas the length of block 1, worker - A1ULLPIT6EU99K
+original - block that block that is right of block 1 is right of
+  para - 2nd block right of block 1, worker - A3HMBHM8HJLKRD
+  para - block two right from block 1, worker - A2SHY0YV9UW6SC
+  para - find me all blocks that is right of block 1, worker - A8VBDRZPXTP8F
+original - block whose width is 3 inches and that block 1 is right of
+  para - select the block with a width of 3 inches, worker - A1CVM8I2566ILI
+  para - what block has a width of 3 inches and block 1 is to the right of, worker - AUQTHU5AOZVQC
+  para - 3 inch wide block to the left of block 1, worker - A2TUNPP2GOQ1N3
+original - block that block that is left of block 1 is below
+  para - select the block above the block to the right block 1, worker - A2ZD8NY75G9JSX
+  para - find me all blocks left of which block 1 is below, worker - A8VBDRZPXTP8F
+  para - block that is left of the block above block 1, worker - A2TUNPP2GOQ1N3
+  para - block left of block above block 1, worker - A3HMBHM8HJLKRD
+original - block that block that block 1 is right of is below
+  para - find me all blocks that block 1 is right and below, worker - A8VBDRZPXTP8F
+  para - what block is the block to the right and below block 1, worker - AUQTHU5AOZVQC
+  para - what block is to the right of and below block 1, worker - A2RRYVYUDNK2GB
+original - block that is left of block 1 and whose height is 3 inches
+  para - block left of block 1 thats 3 inches high, worker - ADUJUZANFOWKW
+  para - find me the block that is to the left of block 1 with a height of 3 inches, worker - AUQTHU5AOZVQC
+original - block that two block is below
+  para - which brick has two bricks below it, worker - A2YLK83DQ6PA5Y
+  para - find a block that is on top of two other blocks, worker - A1X84CLJ7N1PLZ
+  para - find the block above two blocks, worker - A32CIL5S21Y4MR
+  para - find me all blocks with 2 blocks below it, worker - A8VBDRZPXTP8F
+  para - choose a block under block 2, worker - A3PRT2O0B4B5E7
+original - block that block that is above block 1 is left of
+original - 3 inches or 6 inches
+  para - what brick is at least 3 or 6 inches, worker - A2YLK83DQ6PA5Y
+  para - is there a block with a measurement of 3 inches or 6 inches, worker - A1X84CLJ7N1PLZ
+  para - choose a block between 3 or 6 inches, worker - A3PRT2O0B4B5E7
+original - block that is special and that block 1 is right of
+  para - special block left of block 1, worker - A3HMBHM8HJLKRD
+  para - what is the special block in the left of block 1, worker - A2TUNPP2GOQ1N3
+  para - find me all special blocks that are to the right of block 1, worker - AUQTHU5AOZVQC
+  para - what block is special and has block 1 on its right, worker - A2RRYVYUDNK2GB
+  para - find me all special blocks that block 1 is right of, worker - A8VBDRZPXTP8F
+original - block that block 1 is below and that is special
+  para - find me all special blocks that block 1 is below, worker - A2RRYVYUDNK2GB
+  para - select the block that is special and below block 1, worker - AUQTHU5AOZVQC
+  para - find me all special blocks that block 1 is below, worker - A8VBDRZPXTP8F
+  para - find a special block above block 1, worker - A2ZD8NY75G9JSX
+original - block that block 1 is right of and that block 1 is left of
+  para - find the blocks to the right and left of block 1 , worker - A3HEFMJ50IMTY6
+  para - block in block 1, worker - A2SHY0YV9UW6SC
+  para - find me all blocks that block 1 is right and left of, worker - A8VBDRZPXTP8F
+  para - find me the block that is to the right of block 1, worker - AUQTHU5AOZVQC
+  para - left of block 1, worker - A3HMBHM8HJLKRD
+original - block whose height is height of block 1
+  para - block whose height is height of block 1, worker - A3URW8DWGJVYFX
+  para - find the block that is the same height as block 1, worker - A2M4YIC3XU2693
+  para - which block is the same height as block 1, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks as tall as block 1, worker - A8VBDRZPXTP8F
+  para - find a block with the same height as block 1, worker - A32CIL5S21Y4MR
+original - block that block 1 is above and that is right of block 1
+  para - find me the block that block 1 is to the right and above, worker - AUQTHU5AOZVQC
+  para - select the block on the right, worker - A1CVM8I2566ILI
+original - block that block 1 is left of and that block 1 is above
+  para - select the left of block 1, worker - A3RGYT0JTEHAOK
+  para - find me all blocks that block 1 is left and above of, worker - A8VBDRZPXTP8F
+  para - right and below block 1, worker - A3HMBHM8HJLKRD
+  para - find the block that block 1 is to the left of and above, worker - AUQTHU5AOZVQC
+  para - block which has block 1 at left and above, worker - A2TUNPP2GOQ1N3
+original - block whose width is 3 inches and that is above block 1
+  para - 3 inch block above block 1, worker - A3HMBHM8HJLKRD
+  para - select the block above block 1 that is 3 inches wide, worker - A1CY44CGMVAHKT
+  para - what block has a width of 3 inches and is above block 1, worker - AUQTHU5AOZVQC
+original - block whose height is 3 inches and that is above block 1
+  para - 3 inch tall block  above block 1, worker - A2SHY0YV9UW6SC
+  para - 3 inch block above block 1, worker - A3HMBHM8HJLKRD
+  para - find me the block that has a height of 3 inches and is above block 1, worker - AUQTHU5AOZVQC
+  para - what block three inches in height is above block 1, worker - A2RRYVYUDNK2GB
+original - block that is below block 1 and whose shape is a pyramid
+  para - find all pyramid blocks below block 1, worker - A2OJB437VM9WG5
+  para - which pyramidshaped brick is below brick 1, worker - A2YLK83DQ6PA5Y
+  para - what pyramidshaped blocks are below block 1, worker - A11GZNNVLEWRGF
+  para - find the pyramidshaped block below block 1, worker - A32CIL5S21Y4MR
+original - block that is right of block 1 and whose width is 3 inches
+  para - which block of 3 width is to the right of block 1, worker - A2RRYVYUDNK2GB
+  para - find me a 3inch wide block to the right of block 1, worker - A2ZD8NY75G9JSX
+  para - find the block that is right of block 1 and has a width of 3 inches, worker - AUQTHU5AOZVQC
+  para - find me all 3 inch wide blocks that is right of block 1, worker - A8VBDRZPXTP8F
+original - block whose height is at least height of block 1
+  para - find me all the blocks at least as tall as block 1, worker - A8VBDRZPXTP8F
+  para - locate the block with a height that is equal to or greater than the height of block 1, worker - A1X84CLJ7N1PLZ
+  para - find me all blocks at least the same height as block 1, worker - A32CIL5S21Y4MR
+  para - block whose height is at least height of block 1, worker - A3URW8DWGJVYFX
+  para - what brick is at least as high as brick 1, worker - A2YLK83DQ6PA5Y
+  para - find a block that is at least the same height as block 1, worker - A4UVNGSXE2ANA
+original - block that has less than two shape
+  para - find a block with less than two shapes, worker - A32CIL5S21Y4MR
+  para - block with one shape, worker - A35IMPTI2U7XGC
+  para - find me all blocks with less than 2 shapes, worker - A8VBDRZPXTP8F
+  para - which brick has less than two shapes, worker - A2YLK83DQ6PA5Y
+  para - block thats less than block 2, worker - A3PRT2O0B4B5E7
+  para - block that has less than two shape, worker - A3URW8DWGJVYFX
+original - block whose width is smaller than width of block 1
+  para - which brick has a width smaller than the width of brick 1, worker - A2YLK83DQ6PA5Y
+  para - find me all the bricks with a smaller width than block 1, worker - A8VBDRZPXTP8F
+  para - locate the block with a diameter less than that of block 1, worker - A1X84CLJ7N1PLZ
+  para - choose a smallest block than block 1, worker - A3PRT2O0B4B5E7
+  para - find me a block skinnier than block 1, worker - A32CIL5S21Y4MR
+original - block whose length is larger than width of block 1
+  para - what block is longer than block 1 is wide, worker - A32CIL5S21Y4MR
+  para - which block is longer than block 1 is wide, worker - A2YLK83DQ6PA5Y
+  para - block longer than width of block 1, worker - A1ULLPIT6EU99K
+  para - block whose length is larger than width of block 1, worker - A3URW8DWGJVYFX
+  para - find me all the bricks  longer than the width of block 1, worker - A8VBDRZPXTP8F
+  para - locate the block with a length that exceeds the width of block 1, worker - A1X84CLJ7N1PLZ
+original - block that is left of block that block 1 is below
+  para - what block is to the left of the block that block 1 is below, worker - AUQTHU5AOZVQC
+  para - get me the blocks to the left of the block above block 1, worker - A2ZD8NY75G9JSX
+  para - see block above block 1 and get block left of that one, worker - A3HMBHM8HJLKRD
+  para - which block is to the left of the block that block 1 is below, worker - A2RRYVYUDNK2GB
+  para - find me all blocks left of that block 1 is below, worker - A8VBDRZPXTP8F
+original - block that is below block that block 1 is right of
+  para - which block is below a block that block 1 is to the right of, worker - A2RRYVYUDNK2GB
+  para - what block is below the block that block 1 is to the right of, worker - AUQTHU5AOZVQC
+  para - block below and two left of block 1, worker - A2SHY0YV9UW6SC
+  para - find me all blocks that is below which block 1 is right of, worker - A8VBDRZPXTP8F
+original - a pyramid or a cube
+  para - choose a pyramid or a cube, worker - A2YLK83DQ6PA5Y
+  para - a pyramid or a cube, worker - A3URW8DWGJVYFX
+  para - select a pyramid or cube shaped block, worker - A32CIL5S21Y4MR
+  para - find a block shaped like a pyramid or a cube, worker - A1X84CLJ7N1PLZ
+  para - is it a pyramid or a cube, worker - AD5IKFAK8KN4P
+original - block that has at most two color
+  para - find me all blocks with at most 2 colors, worker - A8VBDRZPXTP8F
+  para - block with maximum two colors, worker - A1ULLPIT6EU99K
+  para - find me a block with two or less colors, worker - A32CIL5S21Y4MR
+  para - which brick has no more than 2 colors, worker - A2YLK83DQ6PA5Y
+  para - find a block with a maximum of two colors on it, worker - A1X84CLJ7N1PLZ
+original - block that has the smallest width
+  para - block that has the smallest width, worker - A3URW8DWGJVYFX
+  para - choose the brick with the smallest width, worker - A2YLK83DQ6PA5Y
+  para - find me the block with the smallest width, worker - A8VBDRZPXTP8F
+  para - find the skinniest block, worker - A32CIL5S21Y4MR
+  para - block with lowest width, worker - A1ULLPIT6EU99K
+  para - choose the brick that is the least thick, worker - A3PRT2O0B4B5E7
+original - block that block 1 is above and that block 1 is above
+  para - what block is above block 1 , worker - A3HEFMJ50IMTY6
+  para - select the block that is above block 1, worker - AUQTHU5AOZVQC
+original - block whose length is height of block 1
+  para - find me a block with length equal to block 1s height, worker - A32CIL5S21Y4MR
+  para - block as long as the height of block 1, worker - A1ULLPIT6EU99K
+  para - which brick is as long as brick 1 is tall, worker - A2YLK83DQ6PA5Y
+  para - is there a block that is as long as block 1 is high, worker - A1X84CLJ7N1PLZ
+  para - find me all the blocks that is as long as block 1 is tall, worker - A8VBDRZPXTP8F
+original - block that is below block that is below block 1
+  para - find me all blocks 2 blocks below block 1, worker - A8VBDRZPXTP8F
+  para - what block is 2 blocks below block 1, worker - A32CIL5S21Y4MR
+  para - block below block which is below block 1, worker - A1ULLPIT6EU99K
+  para - block that is below block that is below block 1, worker - A3URW8DWGJVYFX
+  para - which brick is below the brick below brick 1, worker - A2YLK83DQ6PA5Y
+  para - choose block underneath block under block 1, worker - A3GNQDFPZALU92
+original - block that is right of block whose length is 3 inches
+  para - find me all the blocks right of 3 inch long blocks, worker - A8VBDRZPXTP8F
+  para - what block is to the right of the 3 inch long block, worker - A32CIL5S21Y4MR
+  para - what brick is to the right of the 3 inch brick, worker - A2YLK83DQ6PA5Y
+  para - select the block that is to the right of a block with a length of 3 inches, worker - A4UVNGSXE2ANA
+  para - choose the brick to the right of the 3 inch block, worker - A3PRT2O0B4B5E7
+original - block whose shape is a pyramid and that block 1 is above
+  para - pyramid block below block 1, worker - A3HMBHM8HJLKRD
+  para - select the pyramidshaped block below block 1, worker - A1CY44CGMVAHKT
+original - block that is below block 1 and that block 1 is right of
+  para - find me all blocks below which block 1 is right of, worker - A8VBDRZPXTP8F
+  para - block below and to left of block 1, worker - A2SHY0YV9UW6SC
+original - block that is below block that block 1 is left of
+  para - block below and to right of block 1, worker - A2SHY0YV9UW6SC
+  para - what block is below the block that block 1 is to the left of, worker - AUQTHU5AOZVQC
+  para - block below block right of block 1, worker - A3HMBHM8HJLKRD
+original - block that has the largest width
+  para - select the block with the biggest width, worker - A8VBDRZPXTP8F
+  para - select the widest block, worker - A11GZNNVLEWRGF
+  para - which brick is the widest, worker - A2YLK83DQ6PA5Y
+  para - find the widest block, worker - A32CIL5S21Y4MR
+original - block whose height is smaller than length of block 1
+  para - what block is shorter then block 1 is long, worker - A32CIL5S21Y4MR
+  para - find me all the blocks shorter than block 1 is long, worker - A8VBDRZPXTP8F
+  para - block whose height is smaller than length of block 1, worker - A3URW8DWGJVYFX
+  para - find a block whose height is smaller than the length of block 1, worker - A4UVNGSXE2ANA
+original - block whose height is at least width of block 1
+  para - find me all the blocks as tall as the width of block 1, worker - A8VBDRZPXTP8F
+  para - what block is at least as tall as block 1 is wide, worker - A32CIL5S21Y4MR
+  para - which block is at least as high as block 1 is wide, worker - A2YLK83DQ6PA5Y
+  para - block taller or same height as the width of block 1, worker - A1ULLPIT6EU99K
+  para - find blocks that are at least as tall as block 1 is wide, worker - A11GZNNVLEWRGF
+original - block that block 1 is below and whose height is 3 inches
+  para - which block that is 3 in height has block 1 below it, worker - A2RRYVYUDNK2GB
+  para - what block is below block 1 and has a height of 3 inches, worker - AUQTHU5AOZVQC
+  para - select the 3 inch high block above block 1, worker - ANFWGSQ8BQRZ
+original - block whose height is 3 inches and whose shape is a pyramid
+  para - what block is 3 inches tall and pyramidshaped, worker - A32CIL5S21Y4MR
+  para - find me all the 3 inch tall pyramid blocks, worker - A8VBDRZPXTP8F
+  para - find me all pyramid blocks with height equal to 3 inches, worker - A2OJB437VM9WG5
+  para - find all 3 inch pyramid blocks, worker - A3PRT2O0B4B5E7
+  para - block whose height is 3 inches and whose shape is a pyramid, worker - A3URW8DWGJVYFX
+original - block that is above block 1 and that is right of block 1
+  para - block above and right from block 1, worker - A2SHY0YV9UW6SC
+  para - find me all blocks over and right of block 1, worker - A8VBDRZPXTP8F
+original - block whose width is 3 inches
+  para - block whose width is 3 inches, worker - A3URW8DWGJVYFX
+  para - what block is 3 inches wide, worker - A4WSGXF5IARBH
+  para - locate a 3inch lwide block, worker - A1X84CLJ7N1PLZ
+  para - which brick is 3 inches wide, worker - A2YLK83DQ6PA5Y
+original - block that is below block 1 and whose height is 3 inches
+  para - 3 inch tall block under first block, worker - A35IMPTI2U7XGC
+  para - select the 3 inch tall block below block 1, worker - A32CIL5S21Y4MR
+  para - which 3 inch brick is below brick 1, worker - A2YLK83DQ6PA5Y
+  para - find the block below block 1 that is 3 inches high, worker - A2M4YIC3XU2693
+original - block that is left of block 1 and that block 1 is left of
+  para - find the block that is to the left of block 1, worker - AUQTHU5AOZVQC
+  para - select the block left of block 1, worker - A1CY44CGMVAHKT
+  para - left of block 1, worker - A3HMBHM8HJLKRD
+original - block that block 1 is above and that block 1 is below
+  para - block above 1 block and below 1 block, worker - A1ULLPIT6EU99K
+  para - find me all blocks that above and below block 1, worker - A8VBDRZPXTP8F
+original - block that block 1 is left of and that block 1 is right of
+  para - block that has block 1 in the right and left, worker - A2TUNPP2GOQ1N3
+  para - find me the block that is to the left of the block that is to the right of block 1, worker - AUQTHU5AOZVQC
+  para - what block is left and right of block 1, worker - A2RRYVYUDNK2GB
+  para - find me all blocks that block 1 is left and right of, worker - A8VBDRZPXTP8F
+original - block whose length is smaller than width of block 1
+  para - find me all blocks with a length shorter than the width of block 1, worker - A8VBDRZPXTP8F
+  para - which block has a length smaller than block 1s width, worker - A2YLK83DQ6PA5Y
+  para - select all which is less than the width of block 1, worker - A1V5OMRC87TDXW
+  para - choose a block that is less thick than block 1, worker - A3PRT2O0B4B5E7
+  para - what blocks length is smaller than block 1s width, worker - A32CIL5S21Y4MR
+original - block that block that block 1 is below is right of
+  para - what block is block 1 below and to the right of, worker - AUQTHU5AOZVQC
+  para - below and right from block 1, worker - A2SHY0YV9UW6SC
+  para - right of block above block 1, worker - A3HMBHM8HJLKRD
+original - block that block whose length is 3 inches is left of
+  para - what block is at right of 3 inches long block, worker - A2TUNPP2GOQ1N3
+  para - select the block that is on the left side of the block that is 3 inches in length, worker - AWJTO98M4DQFL
+original - block whose length is at least 3 inches
+  para - find the block that is at least 3 inches long, worker - A1X84CLJ7N1PLZ
+  para - which brick is at least 3 inches long, worker - A2YLK83DQ6PA5Y
+  para - find me all the bricks at least 3 inches long, worker - A8VBDRZPXTP8F
+  para - find me a block at least 3 inches long, worker - A32CIL5S21Y4MR
+  para - gather all the blocks that are 3 inches or more, worker - A302HYM1GR6605
+original - block that is left of block that block 1 is left of
+  para - find me all blocks 2 left of block 1, worker - A8VBDRZPXTP8F
+  para - block to the left of a block that block 1 is left of, worker - ADUJUZANFOWKW
+  para - 2nd left of block 1, worker - A3HMBHM8HJLKRD
+original - block whose shape is a pyramid and that block 1 is below
+  para - what pyramid blocks are above block 1, worker - A2ZD8NY75G9JSX
+original - block that has the least number of color
+  para - block that has the least number of color, worker - A3URW8DWGJVYFX
+  para - which is the least colorful block, worker - A3PRT2O0B4B5E7
+  para - what block has the least number of colors, worker - A11GZNNVLEWRGF
+  para - find me the block with the least colors, worker - A32CIL5S21Y4MR
+  para - which brick has the least number of colors, worker - A2YLK83DQ6PA5Y
+  para - select the least colorful brick, worker - A8VBDRZPXTP8F
+original - block whose length is at most 3 inches or 6 inches
+  para - select all blocks whose length at a maximum of 6 inches, worker - A8VBDRZPXTP8F
+  para - block whose length is at most either 3 inches or 6 inches, worker - A1ULLPIT6EU99K
+  para - which brick is at most 3 or 6 inches long, worker - A2YLK83DQ6PA5Y
+  para - find the block with maximum length of 6 inches, worker - A2R085B34P2LYS
+  para - find a block 6 inches or less long, worker - A32CIL5S21Y4MR
+original - block whose width is at most height of block 1
+  para - locate a block that is no wider than the height of block 1, worker - A1X84CLJ7N1PLZ
+  para - find me all blocks at most as wide at block 1 is tall, worker - A8VBDRZPXTP8F
+  para - what blocks width is less than or equal to block 1s height, worker - A32CIL5S21Y4MR
+  para - which brick is no wider than brick 1 is tall, worker - A2YLK83DQ6PA5Y
+original - block that less than two block is above
+  para - what block is below less than two blocks, worker - A32CIL5S21Y4MR
+  para - which brick has less than two bricks above it, worker - A2YLK83DQ6PA5Y
+  para - the block beneath the block which is less than two, worker - A35IMPTI2U7XGC
+  para - find me all the blocks with less than 2 blocks above it, worker - A8VBDRZPXTP8F
+original - block that is above block that block 1 is right of
+  para - what block is above the block that block 1 is to the right of, worker - A2RRYVYUDNK2GB
+  para - find me all blocks above that block 1 is right of, worker - A8VBDRZPXTP8F
+  para - what blocks are above the block that is to the right of block 1, worker - AUQTHU5AOZVQC
+original - block whose width is at least width of block 1
+  para - block whose width is at least the width of block 1, worker - A1ULLPIT6EU99K
+  para - choose a block thats the same width as block 1, worker - A3PRT2O0B4B5E7
+  para - which brick is at least as wide as brick 1, worker - A2YLK83DQ6PA5Y
+  para - find me a block as wide as block 1 or wider, worker - A32CIL5S21Y4MR
+original - block that has the smallest length
+  para - select the shortest block, worker - A8VBDRZPXTP8F
+  para - which block has the shortest length, worker - A2OJB437VM9WG5
+  para - find the block that has the smallest length, worker - A3UPDCY9G8NK6R
+  para - what block is not longer than any other, worker - A32CIL5S21Y4MR
+original - block that is above block 1 and whose width is 3 inches
+  para - find the block that has a width of 3 inches and is above block 1, worker - AUQTHU5AOZVQC
+  para - name a block of 3inch width above block 1, worker - A2RRYVYUDNK2GB
+  para - 3 inch block above block 1, worker - A2SHY0YV9UW6SC
+original - block that is below block that is special
+  para - find me all blocks below the special blocks, worker - A8VBDRZPXTP8F
+  para - what block is below the special block, worker - A32CIL5S21Y4MR
+  para - find the block below the special block, worker - A2R085B34P2LYS
+  para - block below a special block, worker - A1ULLPIT6EU99K
+  para - which brick is below the special brick, worker - A2YLK83DQ6PA5Y
+original - block whose width is smaller than length of block 1
+  para - which brick has a width less than the length of brick 1, worker - A2YLK83DQ6PA5Y
+  para - block whose width is smaller than length of block 1, worker - A3URW8DWGJVYFX
+  para - block less wider than the length of block 1, worker - A1ULLPIT6EU99K
+  para - find me all the blocks with a smaller width than the length of block 1, worker - A8VBDRZPXTP8F
+  para - what block is thinner then block 1 is long, worker - A32CIL5S21Y4MR
+  para - choose a block that is not as thick as block 1, worker - A3PRT2O0B4B5E7
+original - block that is left of block whose length is 3 inches
+  para - find me all blocks left of 3 inch blocks, worker - A8VBDRZPXTP8F
+  para - is there a block located to the left of another block that is 3 inches long, worker - A1X84CLJ7N1PLZ
+  para - which brick is to the left of the 3 inch brick, worker - A2YLK83DQ6PA5Y
+  para - block that is left of block whose length is 3 inches, worker - A3URW8DWGJVYFX
+  para - what block is to the left of the 3 inch long block, worker - A32CIL5S21Y4MR
+  para - choose a block that is 3 inches tall, worker - A3PRT2O0B4B5E7
+original - block that block 1 or block 2 is right of
+  para - left of block 3, worker - A3HMBHM8HJLKRD
+  para - find me all blocks right of blocks 1 or 2, worker - A8VBDRZPXTP8F
+  para - block that has block 1 or block 2 at right, worker - A2TUNPP2GOQ1N3
+  para - what block is block 1 or 2 to the right of, worker - AUQTHU5AOZVQC
+  para - get a block to the left of block 1 or block 2, worker - A2ZD8NY75G9JSX
+original - block that is below more than two block
+  para - find me all blocks underneath at least 2 blocks, worker - A8VBDRZPXTP8F
+  para - find me the block that is below two or more blocks, worker - AUQTHU5AOZVQC
+  para - block below two or more blocks, worker - A2SHY0YV9UW6SC
+original - block whose length is at least length of block 1
+  para - what block is at least as long as block 1, worker - A32CIL5S21Y4MR
+  para - which brick is at least as long as brick 1, worker - A2YLK83DQ6PA5Y
+  para - block whose length is at least length of block 1, worker - A1ULLPIT6EU99K
+  para - find me all blocks as long as block 1, worker - A8VBDRZPXTP8F
+  para - choose a block that is the same length as block 1, worker - A3PRT2O0B4B5E7
+original - block that block 1 is left of and whose length is 3 inches
+  para - find me all 3 inch long blocks  that block 1 is left of, worker - A8VBDRZPXTP8F
+  para - what block is to the right of block 1 and has a length of 3 inches, worker - AUQTHU5AOZVQC
+  para - 3 inch block right of block 1, worker - A3HMBHM8HJLKRD
+  para - are there any 3inch long blocks to the right of block 1, worker - A2ZD8NY75G9JSX
+  para - 3 inches long block which has block 1 at left, worker - A2TUNPP2GOQ1N3
+original - block that is left of block whose height is 3 inches
+  para - which block is to the left of the 3inch high block, worker - A30C0I27VH3FFW
+  para - choose a block that is left of a 3 inch brick, worker - A3PRT2O0B4B5E7
+  para - block that is left of block whose height is 3 inches, worker - A3URW8DWGJVYFX
+  para - which brick is to the left of the brick that is 3 inches tall, worker - A2YLK83DQ6PA5Y
+  para - what block is to the left of the 3 inch tall block, worker - A32CIL5S21Y4MR
+  para - find me all the blocks left of 3 inch tall blocks, worker - A8VBDRZPXTP8F
+original - block that is below the most number of block
+  para - block that is below the most number of block, worker - A3URW8DWGJVYFX
+  para - which brick is closest to the top, worker - A2YLK83DQ6PA5Y
+  para - what block has the most blocks above it, worker - A32CIL5S21Y4MR
+  para - choose a block that is under the most populous amount of blocks, worker - A3PRT2O0B4B5E7
+original - block that block 1 is left of and that block 1 is below
+  para - find me all blocks that block 1 is left and under, worker - A8VBDRZPXTP8F
+  para - select the block that block 1 is to the left and below, worker - AUQTHU5AOZVQC
+  para - block to the right of block 1 and above it, worker - ADUJUZANFOWKW
+original - block that is above block 1 and that block 1 is above
+original - block whose length is 3 inches and that is right of block 1
+  para - select the block that is 3 inches long and to the right of block 1, worker - A11GZNNVLEWRGF
+  para - which brick is 3 inches wide and to the right of brick 1, worker - A2YLK83DQ6PA5Y
+  para - select the 3 inch long block to the right of block 1, worker - A32CIL5S21Y4MR
+  para - find me all blocks 3 inch long right of block 1, worker - A8VBDRZPXTP8F
+  para - choose a 3 inch block to the right of block 1, worker - A3PRT2O0B4B5E7
+original - block that is below block whose shape is a pyramid
+  para - which brick is below the brick shaped like a pyramid, worker - A2YLK83DQ6PA5Y
+  para - find the block with the pyramidshaped block above it, worker - A32CIL5S21Y4MR
+  para - block below a pyramid shaped block, worker - A1ULLPIT6EU99K
+  para - block that is below block whose shape is a pyramid, worker - A3URW8DWGJVYFX
+  para - find the block underneath the pyramidshaped block, worker - A1X84CLJ7N1PLZ
+  para - find me all blocks below pyramid blocks, worker - A8VBDRZPXTP8F
+original - block that is below block that is above block 1
+  para - block below block that is above block 1, worker - A1ULLPIT6EU99K
+  para - which brick is below the brick that is above brick 1, worker - A2YLK83DQ6PA5Y
+  para - find me all blocks at the same level as block 1, worker - A8VBDRZPXTP8F
+  para - find a block between block 1 and a block above block 1, worker - A32CIL5S21Y4MR
+original - block that is above block 1 and that block 1 is below
+  para - find me all blocks above block 1, worker - A8VBDRZPXTP8F
+  para - block above block 1, worker - A2SHY0YV9UW6SC
+original - block that less than two block is below
+  para - which brick has two blocks below it, worker - A2YLK83DQ6PA5Y
+  para - block less than two blocks below, worker - A1ULLPIT6EU99K
+  para - find me a block that has less than two blocks below it, worker - A32CIL5S21Y4MR
+  para - find me all blocks with less than 2 blocks below it, worker - A8VBDRZPXTP8F
+  para - the blocks under block 2 are smaller, worker - A3PRT2O0B4B5E7
+original - block that is below block 1
+  para - find me a block with block 1 above it, worker - A32CIL5S21Y4MR
+  para - select the blocks below block 1, worker - A11GZNNVLEWRGF
+original - block whose color is color of block 1
+  para - find me all blocks with the same color as block 1, worker - A8VBDRZPXTP8F
+  para - block with same color as of block 1, worker - A1ULLPIT6EU99K
+  para - which block is the same color as block 1, worker - A2YLK83DQ6PA5Y
+  para - find a block the same color as block 1, worker - A32CIL5S21Y4MR
+  para - is there a block with the same color as block 1, worker - A1X84CLJ7N1PLZ
+original - block that block 1 is left of and whose shape is a pyramid
+  para - what pyramid shaped block is at right of block 1, worker - A2TUNPP2GOQ1N3
+  para - right of block one with pyramid shape, worker - A3HMBHM8HJLKRD
+  para - what block is to the right of block 1 and is in the shape of a pyramid, worker - AUQTHU5AOZVQC
+original - block whose height is larger than width of block 1
+  para - find a block taller than block 1 is wide, worker - A32CIL5S21Y4MR
+  para - locate the block with a height that equals more than the width of block 1, worker - A1X84CLJ7N1PLZ
+  para - block taller than the width of block 1, worker - A1ULLPIT6EU99K
+  para - find me all the bricks taller than the width of block 1, worker - A8VBDRZPXTP8F
+  para - which brick is taller than brick 1 is high, worker - A2YLK83DQ6PA5Y
+  para - block whose height is larger than width of block 1, worker - A3URW8DWGJVYFX
+original - block that is below less than two block
+  para - which brick is below less than two bricks, worker - A2YLK83DQ6PA5Y
+  para - find a block with less that two blocks above it, worker - A32CIL5S21Y4MR
+  para - find me all the blocks below at most 1 blocks, worker - A8VBDRZPXTP8F
+  para - find me all blocks below two block, worker - A34YPIHZ3OCPPS
+  para - choose a block below block 2, worker - A3PRT2O0B4B5E7
+original - block whose length is larger than height of block 1
+  para - find me all blocks taller than block 1, worker - A8VBDRZPXTP8F
+  para - which brick is longer than brick 1 is tall, worker - A2YLK83DQ6PA5Y
+  para - locate a block that is longer tha block 1 is tall, worker - A1X84CLJ7N1PLZ
+  para - block whose length is larger than height of block 1, worker - A3URW8DWGJVYFX
+  para - find a block with a length greater than block 1 is tall, worker - A32CIL5S21Y4MR
+original - block that is above block 1 and that block 1 is left of
+  para - find me the block that is to the left and above block 1, worker - AUQTHU5AOZVQC
+  para - find me all blocks above and to the right of block 1, worker - A8VBDRZPXTP8F
+  para - what block is above and to the left of block 1 , worker - A3HEFMJ50IMTY6
+original - block that is right of block that is special
+  para - which brick is to the right of the special brick, worker - A2YLK83DQ6PA5Y
+  para - block at the right of a special block, worker - A1ULLPIT6EU99K
+  para - choose the block to the right of the unique block, worker - A3PRT2O0B4B5E7
+  para - find me the block that is to the right of the special block, worker - A8VBDRZPXTP8F
+  para - find a block with a special block to the left of it, worker - A32CIL5S21Y4MR
+  para - block that is right of block that is special, worker - A3URW8DWGJVYFX
+original - block that is special and whose shape is a pyramid
+  para - what block is unique and shaped like a pyramid, worker - A35IMPTI2U7XGC
+  para - block that is special and whose shape is a pyramid, worker - A3URW8DWGJVYFX
+  para - find me all special pyramid blocks, worker - A8VBDRZPXTP8F
+  para - find a special pyramidshaped block, worker - A32CIL5S21Y4MR
+  para - which pyramidshaped block is special, worker - A2YLK83DQ6PA5Y
+  para - a special block whose shape is pyramid, worker - A1ULLPIT6EU99K
+original - block whose height is at most height of block 1
+  para - choose a block that is shorter than block 1, worker - A3PRT2O0B4B5E7
+  para - find the block that has a height that does not surpass the height of block 1, worker - A1X84CLJ7N1PLZ
+  para - what block is at least as tall as block 1, worker - A32CIL5S21Y4MR
+  para - choose a brick that is no higher than brick 1, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks at most as tall as block 1, worker - A8VBDRZPXTP8F
+original - block that is special and that block 1 is left of
+  para - what block is special and left of block 1, worker - A1CY44CGMVAHKT
+  para - what block is special and is to the left of block 1, worker - AUQTHU5AOZVQC
+  para - special block to right of block 1, worker - A2SHY0YV9UW6SC
+  para - look right of block 1 and get the special block, worker - A3HMBHM8HJLKRD
+original - block that block 1 is right of and that is right of block 1
+  para - find the block that is to the right of block 1, worker - AUQTHU5AOZVQC
+  para - what block is to the right of block 1, worker - A2RRYVYUDNK2GB
+original - block that at least two block is right of
+  para - what brick has at least 2 bricks to its right, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks that has at least 2 blocks to the left, worker - A8VBDRZPXTP8F
+  para - find a block that is right of at least two blocks, worker - A4UVNGSXE2ANA
+  para - choose the block to the right of the other block, worker - A3PRT2O0B4B5E7
+  para - find me a block to the left of at least two blocks, worker - A32CIL5S21Y4MR
+original - block whose width is larger than 3 inches
+  para - which blocks exceed 3inches wide, worker - A3GNQDFPZALU92
+  para - find me a block wider than 3 inches, worker - A32CIL5S21Y4MR
+  para - which brick is wider than 3 inches, worker - A2YLK83DQ6PA5Y
+  para - find a block with a diameter that is wider than 3 inches total, worker - A1X84CLJ7N1PLZ
+original - block whose length is at least height of block 1
+  para - which brick is at least as long as brick 1 is tall, worker - A2YLK83DQ6PA5Y
+  para - is there a block with a length whose measurement is equivalent to that of  block 1s height, worker - A1X84CLJ7N1PLZ
+  para - block whose length is minimum the height of block 1, worker - A1ULLPIT6EU99K
+  para - what block is at least as long as block 1s height, worker - A32CIL5S21Y4MR
+  para - find me all the blocks that is at least as long as block 1 is tall, worker - A8VBDRZPXTP8F
+original - block that block that is above block 1 is right of
+  para - select the block to the left of the block above block 1, worker - ANFWGSQ8BQRZ
+  para - which block is above and to the right of block 1, worker - A2RRYVYUDNK2GB
+  para - find me all blocks that block 1 is above and right of, worker - A8VBDRZPXTP8F
+original - block that block 1 is below and that block 1 is below
+  para - find me all blocks that block 1 is below, worker - A8VBDRZPXTP8F
+  para - find me the block that is below block 1, worker - AUQTHU5AOZVQC
+original - block that block 1 is left of and that is above block 1
+  para - block right and up from block 1, worker - A2SHY0YV9UW6SC
+  para - find me all blocks that block 1 is left and below, worker - A8VBDRZPXTP8F
+  para - which block is above and to left of block 1 , worker - A3HEFMJ50IMTY6
+original - block that more than two block is below
+  para - what block is above more than two blocks, worker - A32CIL5S21Y4MR
+  para - choose the block beneath the 2 block, worker - A3PRT2O0B4B5E7
+  para - is there a block that is on top of more than two other blocks, worker - A1X84CLJ7N1PLZ
+  para - what brick has more than 2 bricks below it, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks with more than 2 blocks below it, worker - A8VBDRZPXTP8F
+original - block that is above block whose length is 3 inches
+  para - what block is above the block that is 3 inches long, worker - A2YLK83DQ6PA5Y
+  para - find a block with a 3 inch long block below it, worker - A32CIL5S21Y4MR
+  para - what is the block above that has its length as 3 inches, worker - AD5IKFAK8KN4P
+  para - find me all the blocks above 3 inch long blocks, worker - A8VBDRZPXTP8F
+  para - block that is above block whose length is 3 inches, worker - A3URW8DWGJVYFX
+  para - locate the block that is on top of at least one other block and that has a length of 3 inches, worker - A1X84CLJ7N1PLZ
+original - block whose shape is a pyramid and whose width is 3 inches
+  para - pyramid block 3 inches wide, worker - A6BTXLINCALGZ
+  para - a 3 inch brick that is shaped like a pyramid, worker - A3PRT2O0B4B5E7
+  para - what 3inch wide brick is pyramidshaped, worker - A2YLK83DQ6PA5Y
+  para - find a 3 inch wide pyramidshaped block, worker - A32CIL5S21Y4MR
+  para - block whose shape is a pyramid and whose width is 3 inches, worker - A3URW8DWGJVYFX
+original - block whose length is not 3 inches
+  para - find all the blocks that are shorter or longer than 3 inches, worker - A30C0I27VH3FFW
+  para - find a block without a length of 3 inches, worker - A32CIL5S21Y4MR
+  para - block whose length is not 3 inches, worker - A3URW8DWGJVYFX
+  para - choose a block that is not 3 inches, worker - A3PRT2O0B4B5E7
+  para - which brick is not 3 inches long, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks that is not 3 inches long, worker - A8VBDRZPXTP8F
+original - block whose length is 3 inches and that block 1 is left of
+  para - select the block whose length is 3 inches and that is to the left of block 1, worker - AUQTHU5AOZVQC
+  para - what block is left of block 1 and 3 inches in length, worker - A1CY44CGMVAHKT
+  para - look right of block 1 and find 3 inch block, worker - A3HMBHM8HJLKRD
+  para - 3 inch block to right of block 1, worker - A2SHY0YV9UW6SC
+original - block that less than two block is left of
+  para - block that less than two block is left of, worker - A3URW8DWGJVYFX
+  para - is there a block to the right of just one block only, worker - A1X84CLJ7N1PLZ
+  para - find me all blocks with less than 2 blocks to the left, worker - A8VBDRZPXTP8F
+  para - choose a block that is to the left of block 2, worker - A3PRT2O0B4B5E7
+  para - choose a block that has less than 2 blocks to its left, worker - A2YLK83DQ6PA5Y
+original - block that block that is special is right of
+  para - which is the block to the right of special block, worker - A2TUNPP2GOQ1N3
+  para - left of special block, worker - A3HMBHM8HJLKRD
+  para - find me all special blocks right of something, worker - A8VBDRZPXTP8F
+original - block whose height is at most length of block 1
+  para - find me all blocks as high as block 1 is long, worker - A8VBDRZPXTP8F
+  para - which brick is no taller than brick 1 is long, worker - A2YLK83DQ6PA5Y
+  para - what block has height less than or equal to the length of block 1, worker - A32CIL5S21Y4MR
+  para - block whose height is not more than block 1, worker - A1ULLPIT6EU99K
+  para - select the blocks that have a height less than or equal to block 1s length, worker - A11GZNNVLEWRGF
+original - number of block
+  para - what is the number of the block, worker - A32CIL5S21Y4MR
+  para - number of block, worker - A3URW8DWGJVYFX
+  para - tell me the number of blocks, worker - A4UVNGSXE2ANA
+  para - how many blocks are there, worker - A2YLK83DQ6PA5Y
+  para - what is the number of bricks, worker - A4WSGXF5IARBH
+  para - what is the number of blocks, worker - A8VBDRZPXTP8F
+original - block whose width is 3 inches and whose shape is a pyramid
+  para - select all which is 3 inches in width and pyramid in shape, worker - A1V5OMRC87TDXW
+  para - choose a block that is 3 inches and shaped like a pyramid, worker - A3PRT2O0B4B5E7
+  para - which pyramidshaped block is 3 inches wide, worker - A2YLK83DQ6PA5Y
+  para - find me all 3 inch wide pyramid blocks, worker - A8VBDRZPXTP8F
+  para - find me the 3 inch wide pyramidshaped block, worker - A32CIL5S21Y4MR
+original - block that block that block 1 is left of is above
+  para - what block is left of and above block 1, worker - A2RRYVYUDNK2GB
+  para - find me all blocks that block 1 is left and above, worker - A8VBDRZPXTP8F
+  para - select the block that block 1 is to the left and above, worker - AUQTHU5AOZVQC
+  para - block above and right from block 1, worker - A2SHY0YV9UW6SC
+original - block whose length is larger than length of block 1
+  para - what block is longer than block 1, worker - A32CIL5S21Y4MR
+  para - which brick is longer than brick 1, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks longer than block 1, worker - A8VBDRZPXTP8F
+  para - which block is bigger than block 1, worker - A2M4YIC3XU2693
+  para - select a block with a length larger than the length of block 1, worker - A3UPDCY9G8NK6R
+original - block that is special and whose height is 3 inches
+  para - block that is special and whose height is 3 inches, worker - A3URW8DWGJVYFX
+  para - is  there a special block with a height that is only 3 inches, worker - A1X84CLJ7N1PLZ
+  para - find the 3 inch tall special block, worker - A32CIL5S21Y4MR
+  para - find me all 3 inch high special blocks, worker - A8VBDRZPXTP8F
+original - block that is above block whose height is 3 inches
+  para - block that is above block whose height is 3 inches, worker - A3URW8DWGJVYFX
+  para - which block is above the brick that is 3 inches high, worker - A2YLK83DQ6PA5Y
+  para - find the block located on top of the block that is 3 inches high, worker - A1X84CLJ7N1PLZ
+  para - find me all the blocks above 3 inch tall blocks, worker - A8VBDRZPXTP8F
+  para - choose a block above a 3 inch block, worker - A3PRT2O0B4B5E7
+  para - what block is above the 3 inch high block, worker - A32CIL5S21Y4MR
+original - block whose length is 3 inches and that block 1 is right of
+  para - 3 inches long block to the left of block 1, worker - A2TUNPP2GOQ1N3
+  para - find the 3 inches in length block that is on the left side  of block 1, worker - AWJTO98M4DQFL
+  para - select blocks that have a length of 3 icnhes and are to the right of block 1, worker - AUQTHU5AOZVQC
+  para - 3 inch block left of block 1, worker - A3HMBHM8HJLKRD
+  para - find me all 3 inch long blocks that block 1 is right of, worker - A8VBDRZPXTP8F
+original - block that block 1 is right of and that is below block 1
+  para - find me the block that block 1 is to the right of, worker - AUQTHU5AOZVQC
+  para - find me all blocks that block 1 is right and below of, worker - A8VBDRZPXTP8F
+  para - what block has block 1 on the right, worker - A2RRYVYUDNK2GB
+original - block that block whose length is 3 inches is above
+  para - select the block that has a length of two inches above another block, worker - AUQTHU5AOZVQC
+  para - above block at least 3 inches long, worker - ADUJUZANFOWKW
+  para - block above 3 inches long block, worker - A1ULLPIT6EU99K
+original - block that has at least two color
+  para - find me all blocks with at least 2 colors, worker - A8VBDRZPXTP8F
+  para - what block has two or more colors, worker - AUQTHU5AOZVQC
+  para - blocks of two or more colors, worker - A2TUNPP2GOQ1N3
+original - block that not is above block 1
+  para - which brick is below brick 1, worker - A2YLK83DQ6PA5Y
+  para - select the block that block 1 is not below it, worker - A32CIL5S21Y4MR
+  para - which blocks are not above block 1, worker - A2OJB437VM9WG5
+  para - find me all blocks not above block 1, worker - A8VBDRZPXTP8F
+  para - find a block that is not above block 1, worker - A4UVNGSXE2ANA
+original - block that at most two block is right of
+  para - block that at most two block is right of, worker - A3URW8DWGJVYFX
+  para - choose a block that is the right of block 2, worker - A3PRT2O0B4B5E7
+  para - find the block to the left of two blocks or one but no more, worker - A1X84CLJ7N1PLZ
+  para - find a block with two or less blocks to the right of it, worker - A32CIL5S21Y4MR
+  para - which brick has no more than 2 bricks to its right, worker - A2YLK83DQ6PA5Y
+  para - find me all blocks with at most 2 blocks to the right of it, worker - A8VBDRZPXTP8F
+original - block whose height is 3 inches and that block 1 is right of
+  para - find the block whose height is 3 inches, worker - A1CVM8I2566ILI
+  para - find the block that has a height of 3 inches and that block 1 is to the right of, worker - AUQTHU5AOZVQC
+  para - find me all 3 inch tall blocks that block 1 is right of, worker - A8VBDRZPXTP8F
+  para - 3 inch tall block at the left of block 1, worker - A2TUNPP2GOQ1N3
+original - block whose height is 3 inches and whose length is 3 inches
+  para - find the block with a height and length of 3 inches, worker - AUQTHU5AOZVQC
+  para - block 3 inches high and long, worker - ADUJUZANFOWKW
+original - block whose height is not 3 inches
+  para - gather all the blocks that are not 3 inches long, worker - A302HYM1GR6605
+  para - block whose height is not 3 inches, worker - A3URW8DWGJVYFX
+  para - what blocks height is not 3 inches, worker - A32CIL5S21Y4MR
+  para - what blocks have a height not equal to 3 inches, worker - A2OJB437VM9WG5
+  para - find me all blocks not 3 inches high, worker - A8VBDRZPXTP8F
+original - block that is left of at most two block
+  para - block that is left of at most two block, worker - A3URW8DWGJVYFX
+  para - find me a block that is to the left of two or less blocks, worker - A32CIL5S21Y4MR
+  para - find a block that has at most two blocks to its left, worker - A3UPDCY9G8NK6R
+  para - find me all the blocks that has at most 2 blocks to the right of it, worker - A8VBDRZPXTP8F
+  para - which block is to the left of no more than two blocks, worker - A2YLK83DQ6PA5Y
+original - block whose width is 3 inches and whose length is 3 inches
+  para - block whose width is 3 inches and whose length is 3 inches, worker - A3URW8DWGJVYFX
+  para - find a block with equal height and width measurements specifically 3 inches, worker - A1X84CLJ7N1PLZ
+  para - find me all 3 inch wide and long blocks, worker - A8VBDRZPXTP8F
+original - block whose width is at least 3 inches
+  para - find blocks wider than 3 inches, worker - A3DTN2OMF6DUSI
+  para - what block is at least 3 inches wide, worker - A32CIL5S21Y4MR
+  para - find me all blocks at least 3 inches wide, worker - A8VBDRZPXTP8F
+  para - find me all blocks at least 3 inches in width, worker - A2OJB437VM9WG5
+  para - select a brick that is at least 3 inches wide, worker - A2YLK83DQ6PA5Y
+original - block whose shape is not a pyramid
+  para - find me a block that is not a pyramid, worker - A32CIL5S21Y4MR
+  para - locate the block that has a shape other than that of a pyramid, worker - A1X84CLJ7N1PLZ
+  para - which brick is not shaped like a pyramid, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks that is not a pyramid, worker - A8VBDRZPXTP8F
+  para - choose a block that is not pyramid shaped, worker - A3PRT2O0B4B5E7
+  para - block whose shape is not a pyramid, worker - A3URW8DWGJVYFX
+original - block whose width is at least 3 inches or 6 inches
+  para - find a block at least 3 inches wide, worker - A32CIL5S21Y4MR
+  para - find me all blocks as wider than 3 inches, worker - A8VBDRZPXTP8F
+  para - find blocks that are at least 3 inches wide or 6 inches wide, worker - A11GZNNVLEWRGF
+  para - choose a brick that is at least 3 inches wide, worker - A2YLK83DQ6PA5Y
+original - block whose height is width of block 1
+  para - what block is as tall as block 1 is wide, worker - A32CIL5S21Y4MR
+  para - which blocks have a height equal to the width of block 1, worker - A2OJB437VM9WG5
+  para - select a block that has the same width and height, worker - A1EVW13BQQMRRO
+  para - find me all blocks as tall as block 1 is wide, worker - A8VBDRZPXTP8F
+  para - select a block with a height of 1 block width, worker - A3UPDCY9G8NK6R
+original - block that is above two block
+  para - block above two others, worker - A2SHY0YV9UW6SC
+  para - find me all blocks above 2 blocks, worker - A8VBDRZPXTP8F
+  para - what block is above two blocks, worker - AUQTHU5AOZVQC
+  para - what block is above two other blocks, worker - A2RRYVYUDNK2GB
+original - block that block that block 1 is above is right of
+  para - what block is above and to the right of block 1 , worker - A3HEFMJ50IMTY6
+  para - find me all blocks that block 1 is right and above of, worker - A8VBDRZPXTP8F
+  para - select the block above the right one, worker - A1CVM8I2566ILI
+original - block that block whose length is 3 inches is below
+  para - find me the block that has a length of 3 inches, worker - AUQTHU5AOZVQC
+  para - block above 3 inch block, worker - A3HMBHM8HJLKRD
+  para - block block a 3 inch long block, worker - ADUJUZANFOWKW
+  para - find me all 3 inch long blocks, worker - A8VBDRZPXTP8F
+  para - select the blocks that are 3 inches long, worker - A1CY44CGMVAHKT
+original - block that block 1 is above and that block 1 is right of
+  para - find me all blocks above and to the left of block 1, worker - A8VBDRZPXTP8F
+  para - select the block above the right, worker - A1CVM8I2566ILI
+  para - block below and left from block 1, worker - A2SHY0YV9UW6SC
+  para - below and left of block 1, worker - A3HMBHM8HJLKRD
+  para - what block is block one above and to the right of, worker - AUQTHU5AOZVQC
+original - block that block that is special is left of
+  para - find me a block that has a special block to its right, worker - A32CIL5S21Y4MR
+  para - find the block on the left side of the special block, worker - AWJTO98M4DQFL
+  para - right of special block, worker - A3HMBHM8HJLKRD
+  para - find me all special blocks left of something, worker - A8VBDRZPXTP8F
+  para - find me all the blocks that are special, worker - AUQTHU5AOZVQC
+original - block whose width is 3 inches and whose width is 3 inches
+  para - find the block that is 3 inches wide, worker - A2M4YIC3XU2693
+  para - find me all the 3 inch wide blocks, worker - A8VBDRZPXTP8F
+  para - identify a block with a width of 3 inches, worker - A3UPDCY9G8NK6R
+original - block that is right of more than two block
+  para - select the block that is to the right of more than 2 blocks, worker - A389F6DFXS6S1I
+  para - block to right of two or more blocks, worker - A2SHY0YV9UW6SC
+  para - select the blocks to the right of greater that two blocks, worker - AUQTHU5AOZVQC
+  para - find me all blocks that is right of more than 2 blocks, worker - A8VBDRZPXTP8F
+original - block that block 1 is right of and that block 1 is above
+  para - find me the block that is to the left and below block 1, worker - AUQTHU5AOZVQC
+  para - find me all blocks 1 is right and above, worker - A8VBDRZPXTP8F
+  para - select the block above block 1 and on the left side, worker - AWJTO98M4DQFL
+original - block that has more than two color
+  para - blocks of more than two colours, worker - A2TUNPP2GOQ1N3
+  para - find me all blocks with more than 2 colors, worker - A8VBDRZPXTP8F
+  para - select the block that has greater than two colors, worker - AUQTHU5AOZVQC
+  para - dual colored block, worker - A3HMBHM8HJLKRD
+  para - multicolor block, worker - A2SHY0YV9UW6SC
+original - block whose length is at most width of block 1
+  para - block whose length is at most width of block 1, worker - A3URW8DWGJVYFX
+  para - select brick whose length is more than the width of block 1, worker - A4UVNGSXE2ANA
+  para - what block has less than or equal length then block 1 has width, worker - A32CIL5S21Y4MR
+  para - which brick is no longer than brick 1 is wide, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks at most as long as the width of block 1, worker - A8VBDRZPXTP8F
+original - block whose shape is a pyramid and that block 1 is right of
+  para - find the block that is in the shape of a pyramid that block 1 is to the right of, worker - AUQTHU5AOZVQC
+  para - find me all pyramid blocks which block 1 is right of, worker - A8VBDRZPXTP8F
+  para - pyramid block to left of block 1, worker - A2SHY0YV9UW6SC
+  para - look left for block 1 and get the pyramid block, worker - A3HMBHM8HJLKRD
+original - block that has less than two color
+  para - select a block that has less than two colors, worker - A4UVNGSXE2ANA
+  para - select a block with less than two colors, worker - A32CIL5S21Y4MR
+  para - which block is only a single color, worker - A2YLK83DQ6PA5Y
+  para - find the block with only one color, worker - A1X84CLJ7N1PLZ
+  para - find me all blocks with less than 2 colors, worker - A8VBDRZPXTP8F
+original - block that block 1 is left of and that is below block 1
+  para - block right and below block 1, worker - A2SHY0YV9UW6SC
+  para - find me all blocks below and right of block 1, worker - A8VBDRZPXTP8F
+  para - find a block that is to the left and below block 1, worker - AUQTHU5AOZVQC
+  para - what block has block 1 above and left, worker - A2TUNPP2GOQ1N3
+original - block that block that is below block 1 is above
+  para - block below block one, worker - ADUJUZANFOWKW
+  para - find me all blocks below which block 1 is above, worker - A8VBDRZPXTP8F
+  para - what block is below the block that block 1 is above, worker - AUQTHU5AOZVQC
+original - block that block 1 is right of and that is above block 1
+  para - what block has block 1 below and left, worker - A2TUNPP2GOQ1N3
+  para - left and above block 1, worker - A3HMBHM8HJLKRD
+  para - find me the block that is both above and to the right of block 1, worker - AUQTHU5AOZVQC
+  para - find me all blocks above which block 1 is right of, worker - A8VBDRZPXTP8F
+  para - select the blocks to the left of and above block 1, worker - A1CY44CGMVAHKT
+original - block whose length is 3 inches and whose height is 3 inches
+  para - find the block whose length and height is 3 inches, worker - A1CVM8I2566ILI
+  para - find the blocks with length and height of 3 inches , worker - A3HEFMJ50IMTY6
+original - block that block that is below block 1 is below
+  para - what blocks are below block 1, worker - AUQTHU5AOZVQC
+  para - find me all blocks 2 below block 1, worker - A8VBDRZPXTP8F
+  para - 2 blocks below block 1, worker - A3HMBHM8HJLKRD
+original - block that is below block 1 and whose width is 3 inches
+  para - find the 3 inch wide block below block 1, worker - A32CIL5S21Y4MR
+  para - which block is below block 1 that is at least 3 inches high, worker - A2YLK83DQ6PA5Y
+  para - block that is below block 1 and whose width is 3 inches, worker - A3URW8DWGJVYFX
+  para - choose a 3 inch block under block 1, worker - A3PRT2O0B4B5E7
+  para - locate the block beneath block 1 that also has a width of 3 inches, worker - A1X84CLJ7N1PLZ
+original - block whose width is larger than length of block 1
+  para - choose a block that is bigger than block 1, worker - A3PRT2O0B4B5E7
+  para - block more wider than length of block 1, worker - A1ULLPIT6EU99K
+  para - find me a block thicker than the length of block 1, worker - A32CIL5S21Y4MR
+  para - find me all blocks as wide as block 1 is long, worker - A8VBDRZPXTP8F
+  para - which block is wider than block 1 is long, worker - A2YLK83DQ6PA5Y
+original - average width of block
+  para - what is the average width of the blocks, worker - A8VBDRZPXTP8F
+  para - what is the average width of the bricks, worker - A2YLK83DQ6PA5Y
+  para - what is the average width of a block, worker - A3PRT2O0B4B5E7
+  para - what is the average block width, worker - A32CIL5S21Y4MR
+original - block that is left of block whose shape is a pyramid
+  para - block at the left of pyramid shaped block, worker - A1ULLPIT6EU99K
+  para - find me all blocks left of pyramid blocks, worker - A8VBDRZPXTP8F
+  para - what block is to the left of the pyramidshaped block, worker - A2YLK83DQ6PA5Y
+  para - find all blocks that are to the left of a pyramid block, worker - A11GZNNVLEWRGF
+  para - find the block to the left of the pyramidshaped block, worker - A32CIL5S21Y4MR
+original - block whose width is 3 inches and that block 1 is below
+  para - select the block that has a width of 3 inches and is below block 1, worker - AUQTHU5AOZVQC
+  para - find me all 3 inch wide blocks that block 1 is below, worker - A8VBDRZPXTP8F
+  para - 3 inches wide block below block 1, worker - A1ULLPIT6EU99K
+  para - what block has a width of three inches and that block 1 is below, worker - A2RRYVYUDNK2GB
+original - block that is above block 1 and that block 1 is right of
+  para - block above and left of block 1, worker - A2SHY0YV9UW6SC
+original - block that is special and that is left of block 1
+  para - what special blocks are left of block 1, worker - A2OJB437VM9WG5
+  para - find me the special block that is to the left of block 1, worker - A4UVNGSXE2ANA
+  para - find me a special block to the left of block 1, worker - A32CIL5S21Y4MR
+  para - block that is special and that is left of block 1, worker - A3URW8DWGJVYFX
+  para - which special block is to the left of brick 1, worker - A2YLK83DQ6PA5Y
+original - block that has the largest height
+  para - what block has the greatest height, worker - A4WSGXF5IARBH
+  para - which block is the tallest, worker - A2YLK83DQ6PA5Y
+  para - find the tallest block, worker - A32CIL5S21Y4MR
+  para - block that has the largest height, worker - A3URW8DWGJVYFX
+  para - select the tallest block, worker - A8VBDRZPXTP8F
+  para - which block has the largest height, worker - A4UVNGSXE2ANA
+original - block that is right of block that is above block 1
+  para - choose the brick to the right of the brick above brick 1, worker - A2YLK83DQ6PA5Y
+  para - block that is right of block that is above block 1, worker - A3URW8DWGJVYFX
+  para - select the brick right and above block 1, worker - A8VBDRZPXTP8F
+  para - choose block at right of block over block 1, worker - A3GNQDFPZALU92
+  para - block right of a block which is above block 1, worker - A1ULLPIT6EU99K
+original - block that the least number of block is right of
+  para - select the brick with the least number of blocks to the right, worker - A8VBDRZPXTP8F
+  para - select the block to the right of the least amount of blocks, worker - A2M4YIC3XU2693
+  para - block that the least number of block is right of, worker - A3URW8DWGJVYFX
+  para - what block is to the left of the least blocks, worker - A32CIL5S21Y4MR
+  para - which brick is farthest to the left, worker - A2YLK83DQ6PA5Y
+original - block that block 1 is left of and that is right of block 1
+  para - select the block that is on the right side of block 1, worker - AWJTO98M4DQFL
+  para - what block is to the right of block 1, worker - AUQTHU5AOZVQC
+  para - find me all blocks that block 1 is left and right of, worker - A8VBDRZPXTP8F
+original - block that is left of block 1 and that is right of block 1
+  para - block surrounding block 1, worker - A2SHY0YV9UW6SC
+  para - select the blocks on the right and left of block 1, worker - A1CY44CGMVAHKT
+original - block that is left of the least number of block
+  para - find a block with the least blocks to the left of, worker - A32CIL5S21Y4MR
+  para - locate a block that is on the left side of the smallest number of blocks, worker - A1X84CLJ7N1PLZ
+  para - select the brick that has the least blocks to the right of it, worker - A8VBDRZPXTP8F
+  para - which brick is furthest to the right, worker - A2YLK83DQ6PA5Y
+  para - block at the left of least number of blocks, worker - A1ULLPIT6EU99K
+original - block that block 1 is below and whose width is 3 inches
+  para - find me all 3 inch wide blocks above block 1, worker - A8VBDRZPXTP8F
+  para - block that has a width of 3 inches and is below block 1, worker - AUQTHU5AOZVQC
+  para - find me a block with a width of three inches that block 1 is below, worker - A2RRYVYUDNK2GB
+  para - 3 inch wide block above block 1, worker - A2SHY0YV9UW6SC
+original - block that is below block 1 or block 2
+  para - block below either block 1 or block 2, worker - A1ULLPIT6EU99K
+  para - which brick is below brick 1 or 2, worker - A2YLK83DQ6PA5Y
+  para - find a block below either block 1 or block 2, worker - A32CIL5S21Y4MR
+  para - find me all the bricks below block 1 or 2, worker - A8VBDRZPXTP8F
+  para - block that is below block 1 or block 2, worker - A3URW8DWGJVYFX
+  para - find a block that is beneath either block 1 or block 2, worker - A1X84CLJ7N1PLZ
+original - block that is above block 1
+  para - find me all blocks above block 1, worker - A8VBDRZPXTP8F
+  para - is there a block piled on top of block 1, worker - A1X84CLJ7N1PLZ
+  para - which brick is above brick 1, worker - A2YLK83DQ6PA5Y
+  para - find a block with block 1 below it, worker - A32CIL5S21Y4MR
+  para - block that is above block 1, worker - A3URW8DWGJVYFX
+original - block whose height is 3 inches and that is right of block 1
+  para - select blocks that have a height of 3 inches and are to the right of block 1, worker - AUQTHU5AOZVQC
+  para - find the block that is 3 inches in height and is on the right side of block 1, worker - AWJTO98M4DQFL
+  para - 3 inches tall block at the right of block 1, worker - A2TUNPP2GOQ1N3
+original - block whose width is width of block 1
+  para - block with same width that of block 1, worker - A1ULLPIT6EU99K
+  para - block whose width is width of block 1, worker - A3URW8DWGJVYFX
+  para - which brick is the same width as brick 1, worker - A2YLK83DQ6PA5Y
+  para - select a block with equivalent width to block 1, worker - A32CIL5S21Y4MR
+  para - select all blocks with the same width as block 1, worker - A8VBDRZPXTP8F
+  para - bricks that are the same size as brick 1, worker - A3PRT2O0B4B5E7
+original - block whose length is at least width of block 1
+  para - select a brick whose length is at least the width of block 1, worker - A4UVNGSXE2ANA
+  para - which brick is at least as long as brick 1 is wide, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks at least as long as block 1 is wide, worker - A8VBDRZPXTP8F
+  para - block whose length is at least width of block 1, worker - A3URW8DWGJVYFX
+  para - find me a block as long or longer then block 1 is wide, worker - A32CIL5S21Y4MR
+original - block that is above block 1 and that is left of block 1
+  para - select the block on the left, worker - A1CVM8I2566ILI
+  para - left and above block 1, worker - A3HMBHM8HJLKRD
+  para - find the blocks that are above and left to the block 1 , worker - A3HEFMJ50IMTY6
+original - block whose height is 3 inches and that block 1 is below
+  para - 3 inch block above block 1, worker - A3HMBHM8HJLKRD
+  para - which block of 3 inches height is above the block 1 , worker - A3HEFMJ50IMTY6
+  para - select the block that has a height of 3 inches and is above block 1, worker - AUQTHU5AOZVQC
+original - block that is right of block 1 and that is right of block 1
+  para - is there a block on the right side of block 1, worker - A1X84CLJ7N1PLZ
+  para - find a block to the right of block 1, worker - A32CIL5S21Y4MR
+  para - block that is right of block 1 and that is right of block 1, worker - A3URW8DWGJVYFX
+original - block whose width is smaller than 3 inches or 6 inches
+  para - block whose width is smaller than 3 inches or 6 inches, worker - A3URW8DWGJVYFX
+  para - choose a block between 3 and 6 inches wide, worker - A3PRT2O0B4B5E7
+  para - find me a block smaller than 6 inches, worker - A32CIL5S21Y4MR
+  para - find me all blocks whose width is smaller than 6 inches, worker - A8VBDRZPXTP8F
+  para - which block has a width of less than 3 inches, worker - A2YLK83DQ6PA5Y
+  para - is there a block no wider than 3 or 6 inches, worker - A1X84CLJ7N1PLZ
+original - block that at most two block is left of
+  para - block within 2 blocks to the left, worker - A6BTXLINCALGZ
+  para - choose a block that is at most 2 block to the left, worker - A3PRT2O0B4B5E7
+  para - find a block with two or less blocks to the left, worker - A32CIL5S21Y4MR
+  para - find me all blocks  with at most two blocks left of it, worker - A8VBDRZPXTP8F
+  para - block that at most two block is left of, worker - A3URW8DWGJVYFX
+  para - what brick has no more than two bricks to its left, worker - A2YLK83DQ6PA5Y
+original - block that is special and that is above block 1
+  para - find me all special blocks above block 1, worker - A11GZNNVLEWRGF
+  para - find me all special blocks above block 1, worker - A8VBDRZPXTP8F
+  para - which special brick is above brick 1, worker - A2YLK83DQ6PA5Y
+  para - what special blocks are above block 1, worker - A2OJB437VM9WG5
+  para - what special block is above block 1, worker - A32CIL5S21Y4MR
+original - block whose length is 3 inches
+  para - block whose length is 3 inches, worker - A3URW8DWGJVYFX
+  para - 3 inches long block, worker - A1ULLPIT6EU99K
+  para - find the 3 inch long block, worker - A32CIL5S21Y4MR
+  para - find a block that is 3 inches long, worker - A1X84CLJ7N1PLZ
+original - block that has the largest length
+  para - which block has the largest length, worker - A2OJB437VM9WG5
+  para - select the longest brick, worker - A1EVW13BQQMRRO
+  para - select the longest block, worker - A8VBDRZPXTP8F
+  para - what block is the longest, worker - A3UPDCY9G8NK6R
+  para - find the longest block, worker - A32CIL5S21Y4MR
+original - block that is right of block 1 and that block 1 is above
+  para - block that has block 1 above and left, worker - A2TUNPP2GOQ1N3
+  para - find me all blocks right of block 1 that is above it, worker - A8VBDRZPXTP8F
+  para - select the blocks on the right of and below block 1, worker - A1CY44CGMVAHKT
+  para - what block is to the right and above block 1, worker - AUQTHU5AOZVQC
+  para - below and right of block 1, worker - A3HMBHM8HJLKRD
+original - block that has the smallest height
+  para - which block is the smallest, worker - A3PRT2O0B4B5E7
+  para - which block is the shortest, worker - A2YLK83DQ6PA5Y
+  para - find the shortest block, worker - A32CIL5S21Y4MR
+  para - find the shortest block, worker - A2M4YIC3XU2693
+  para - block that has the smallest height, worker - A3URW8DWGJVYFX
+original - block that is left of block 1 and that is left of block 1
+  para - find a block to the left of block 1, worker - A32CIL5S21Y4MR
+  para - what blocks are left of block 1, worker - A2OJB437VM9WG5
+  para - what block is to the left of block one, worker - A3DTN2OMF6DUSI
+original - block that block 1 is right of and that is left of block 1
+  para - block left of block one, worker - A2SHY0YV9UW6SC
+  para - find me all blocks that block 1 is right of and which is left of block 1, worker - A8VBDRZPXTP8F
+original - block whose length is 3 inches and that block 1 is below
+  para - 3 inch block above block 1, worker - A3HMBHM8HJLKRD
+  para - find the block that has a length of 3 inches and is below block 1, worker - AUQTHU5AOZVQC
+  para - block 3 inches long and below block one, worker - ADUJUZANFOWKW
+  para - find me all 3 inch long blocks which block 1 is below, worker - A8VBDRZPXTP8F
+original - block that is above block 1 and whose shape is a pyramid
+  para - find me the block that is above block 1 and is in the shape of a pyramid, worker - AWJTO98M4DQFL
+  para - what pyramidshaped block is above block 1, worker - A32CIL5S21Y4MR
+  para - pyramid block above block 1, worker - A3HMBHM8HJLKRD
+  para - find me the block in the shape of a pyramid above block 1, worker - AUQTHU5AOZVQC
+original - block that block whose height is 3 inches is above
+  para - find me the block that has a height of 3 inches, worker - AUQTHU5AOZVQC
+  para - 3 inch block near top, worker - A3HMBHM8HJLKRD
+  para - block below three inch block, worker - A2SHY0YV9UW6SC
+  para - what block is above a block that is three inches in height, worker - A2RRYVYUDNK2GB
+  para - find me all 3 inch tall blocks, worker - A8VBDRZPXTP8F
+original - block that is right of block that is right of block 1
+  para - bock right of block that is right of block 1, worker - A1ULLPIT6EU99K
+  para - find me all blocks 2 blocks to the right of block 1, worker - A8VBDRZPXTP8F
+  para - which brick is 2 bricks to the right of brick 1, worker - A2YLK83DQ6PA5Y
+  para - the third block to the right, worker - A35IMPTI2U7XGC
+  para - block that is right of block that is right of block 1, worker - A3URW8DWGJVYFX
+original - block that is special and that is right of block 1
+  para - which special brick is to the right of brick 1, worker - A2YLK83DQ6PA5Y
+  para - find me the special block to the right of block 1, worker - A4UVNGSXE2ANA
+  para - block that is special and that is right of block 1, worker - A3URW8DWGJVYFX
+  para - find the special block to the right of block 1, worker - A32CIL5S21Y4MR
+  para - find me all the special blocks right of block 1, worker - A8VBDRZPXTP8F
+original - block that at least two block is below
+  para - find me all blocks with at least 2 blocks below, worker - A8VBDRZPXTP8F
+  para - find the block on top of at least two other blocks, worker - A1X84CLJ7N1PLZ
+  para - which block has at least two blocks below it, worker - A2YLK83DQ6PA5Y
+  para - block that is below at least two blocksw, worker - A1ULLPIT6EU99K
+  para - block that at least two block is below, worker - A3URW8DWGJVYFX
+  para - find me a block above at least two blocks, worker - A32CIL5S21Y4MR
+original - block that not is right of block 1
+  para - which block is to the left of block 1, worker - A2YLK83DQ6PA5Y
+  para - find the blocks that are not to the right of block 1, worker - A11GZNNVLEWRGF
+  para - find me all blocks not right of block 1, worker - A8VBDRZPXTP8F
+  para - what block is not to the right of block 1, worker - A32CIL5S21Y4MR
+  para - block that is not right of block 1, worker - A1ULLPIT6EU99K
+original - block that is right of block 1 and whose shape is a pyramid
+  para - which pyramid shaped block is to the right of block 1, worker - A2RRYVYUDNK2GB
+  para - pyramid block rght of block 1, worker - A3HMBHM8HJLKRD
+  para - which pyramid blocks are to the right of block 1, worker - A2ZD8NY75G9JSX
+  para - find me all pyramid blocks right of block 1, worker - A8VBDRZPXTP8F
+  para - find the block that is to the right of block 1 whose shape is also a pyramid, worker - AUQTHU5AOZVQC
+original - block whose length is smaller than length of block 1
+  para - find a block that block 1 is longer than, worker - A32CIL5S21Y4MR
+  para - which brick has a length shorter than the length of brick 1, worker - A2YLK83DQ6PA5Y
+  para - block that is shorter than block 1, worker - A1ULLPIT6EU99K
+  para - find the block with a length shorter than that of block 1, worker - A1X84CLJ7N1PLZ
+original - block that block 1 is above and whose length is 3 inches
+  para - 3 inch long block below block 1, worker - A2SHY0YV9UW6SC
+  para - find me all 3 inch long blocks below block 1, worker - A8VBDRZPXTP8F
+  para - what block has a length of 3 inches and block 1 above it, worker - AUQTHU5AOZVQC
+  para - select a block above block one that is 3 inches long, worker - A1CY44CGMVAHKT
+original - block that is right of block 1 and that is left of block 1
+  para - find me all blocks that is left and right of block 1, worker - A8VBDRZPXTP8F
+  para - block around block 1, worker - A2SHY0YV9UW6SC
+original - block that is above block 1 or block 2
+  para - which brick is above brick 1 or 2, worker - A2YLK83DQ6PA5Y
+  para - is there a block piled on top of either block 1 or block 2, worker - A1X84CLJ7N1PLZ
+  para - find me all the blocks above block 1 or 2, worker - A8VBDRZPXTP8F
+  para - choose a block that is above block 1 or 2, worker - A3PRT2O0B4B5E7
+original - block that block that block 1 is right of is above
+  para - find a block below the block on the right of block 1, worker - A2ZD8NY75G9JSX
+  para - find me all blocks that is above and right of block 1, worker - A8VBDRZPXTP8F
+  para - left and below of block 1, worker - A3HMBHM8HJLKRD
+  para - block that has block 1 at right and below, worker - A2TUNPP2GOQ1N3
+  para - select the block that block 1 is to the right and above, worker - AUQTHU5AOZVQC
+original - block that is right of block that block 1 is left of
+  para - two blocks right of block 1, worker - A3HMBHM8HJLKRD
+  para - find the block to the right of the block that is to the left of block 1, worker - AUQTHU5AOZVQC
+  para - find me a block that block 1 is to the left of, worker - A2RRYVYUDNK2GB
+  para - 2 blocks right of block 1, worker - A2SHY0YV9UW6SC
+  para - find me all blocks right to whatever block 1 is left of, worker - A8VBDRZPXTP8F
+original - block that is left of two block
+  para - select the block on the left corner, worker - A1CVM8I2566ILI
+  para - find me all blocks left of 2 blocks, worker - A8VBDRZPXTP8F
+  para - find me the block that is left of two blocks, worker - AUQTHU5AOZVQC
+  para - block left from two others, worker - A2SHY0YV9UW6SC
+original - block that is special and that block 1 is above
+  para - find me all special blocks  below block 1, worker - A8VBDRZPXTP8F
+  para - find a special block below block 1, worker - A2ZD8NY75G9JSX
+  para - find special blocks with block 1 above them, worker - A2RRYVYUDNK2GB
+  para - what blocks are special and are below block 1, worker - AUQTHU5AOZVQC
+original - block whose height is larger than 3 inches
+  para - find the block taller than 3 inches, worker - A32CIL5S21Y4MR
+  para - block that is taller than three inches, worker - A35IMPTI2U7XGC
+  para - choose a block that is taller than 3 inches, worker - A3PRT2O0B4B5E7
+  para - which brick is higher than 3 inches, worker - A2YLK83DQ6PA5Y
+  para - block whose height is larger than 3 inches, worker - A3URW8DWGJVYFX
+original - block that block whose width is 3 inches is above
+  para - find me all blocks above 3 inch wide blocks, worker - A8VBDRZPXTP8F
+  para - block below 3 inches wide block, worker - A2TUNPP2GOQ1N3
+  para - find the block below the block that is 3 inches in width, worker - AWJTO98M4DQFL
+original - block whose length is 3 inches or 6 inches
+  para - find me all 3 or 6 inch long blocks, worker - A8VBDRZPXTP8F
+  para - choose every block measuring 3 or 6 inches, worker - A3GNQDFPZALU92
+  para - block whose length is 3 inches or 6 inches, worker - A3URW8DWGJVYFX
+  para - block either 3 inches or 6 inches long, worker - A1ULLPIT6EU99K
+  para - select block of length 3 or 6 inches, worker - A32CIL5S21Y4MR
+  para - which brick is 3 or 6 inches long, worker - A2YLK83DQ6PA5Y
+original - block that is above block that is special
+  para - find me all the blocks above special blocks, worker - A8VBDRZPXTP8F
+  para - which block is above the special block, worker - A2YLK83DQ6PA5Y
+  para - find me the special block on top of the block, worker - A2M4YIC3XU2693
+  para - block that is above block that is special, worker - A3URW8DWGJVYFX
+  para - find me the block above the special block, worker - A32CIL5S21Y4MR
+original - block that is above block 1 and that is below block 1
+  para - what blocks are both above and below block 1, worker - AUQTHU5AOZVQC
+  para - what block is both above and below block one, worker - AHXJBZGQL5SFS
+  para - find blocks above block 1 and below block 1 , worker - A3HEFMJ50IMTY6
+original - block that is right of block 1
+  para - select the block to the right of block 1, worker - A3UPDCY9G8NK6R
+  para - find me all the blocks right of block 1, worker - A8VBDRZPXTP8F
+  para - choose a block that is right of block 1, worker - A3PRT2O0B4B5E7
+original - block that less than two block is right of
+  para - choose a block to the right of block 2, worker - A3PRT2O0B4B5E7
+  para - which block has less than two blocks to its right, worker - A2YLK83DQ6PA5Y
+  para - find me all blocks with less than 2 blocks to the right of it, worker - A8VBDRZPXTP8F
+original - block whose length is larger than 3 inches or 6 inches
+  para - select a block longer than 3 inches, worker - A32CIL5S21Y4MR
+  para - which brick is longer than 3 or 6 inches, worker - A2YLK83DQ6PA5Y
+  para - what blocks length is greater than 3 to 6 inches, worker - A4WSGXF5IARBH
+  para - find those blocks with lengths that exceed either 3 or 6 inches, worker - A1X84CLJ7N1PLZ
+  para - block whose length is larger than 3 inches or 6 inches, worker - A3URW8DWGJVYFX
+  para - find me all blocks with a length longer than 3 inches, worker - A8VBDRZPXTP8F
+original - block whose height is larger than 3 inches or 6 inches
+  para - which brick is higher than 3 or 6 inches, worker - A2YLK83DQ6PA5Y
+  para - choose a block that is taller than 3 or 6 inches, worker - A3PRT2O0B4B5E7
+  para - find the block with a height that does not surpass either 3 or 6 inches, worker - A1X84CLJ7N1PLZ
+  para - find a block taller than 3 inches, worker - A32CIL5S21Y4MR
+  para - find me all the blocks taller than 3 inches, worker - A8VBDRZPXTP8F
+original - block that is above the least number of block
+  para - which brick is closest to the bottom, worker - A2YLK83DQ6PA5Y
+  para - select the brick that is above the least number of blocks, worker - A8VBDRZPXTP8F
+  para - find me the block with the least blocks below it, worker - A32CIL5S21Y4MR
+  para - choose a block above the least populated bricks, worker - A3PRT2O0B4B5E7
+  para - is there a block that is on top of the fewest number of other blocks, worker - A1X84CLJ7N1PLZ
+original - block that is above block that block 1 is left of
+  para - what block is above the block that is to the left of block 1, worker - AUQTHU5AOZVQC
+  para - above block to right of block 1, worker - A3HMBHM8HJLKRD
+  para - block above the block at right of block 1, worker - A2TUNPP2GOQ1N3
+  para - block up and left from block 1, worker - A2SHY0YV9UW6SC
+  para - find me all blocks over that block 1 is left of, worker - A8VBDRZPXTP8F
+original - block that is right of at most two block
+  para - find me all the blocks that has at most 2 blocks to the left, worker - A8VBDRZPXTP8F
+  para - find me a block with at most two blocks to the left of it, worker - A32CIL5S21Y4MR
+  para - block that is right of at most two block, worker - A3URW8DWGJVYFX
+  para - find a block that is to the right of two blocks, worker - A4UVNGSXE2ANA
+  para - which brick has no more than two blocks to its left, worker - A2YLK83DQ6PA5Y
+original - block that block that block 1 is left of is left of
+  para - what block has block 1 left and right, worker - A2TUNPP2GOQ1N3
+  para - 2nd block left of block 1, worker - A3HMBHM8HJLKRD
+  para - select the block that is left of block 1, worker - AUQTHU5AOZVQC
+original - block that block whose width is 3 inches is left of
+  para - find me all blocks left of 3 inch wide blocks, worker - A8VBDRZPXTP8F
+  para - select the block whose width is 3 inches, worker - A1CVM8I2566ILI
+  para - block right of 3 inch wide block, worker - A2SHY0YV9UW6SC
+  para - find the block that is left to the block of 3 inches , worker - A3HEFMJ50IMTY6
+original - block whose width is at least length of block 1
+  para - find me all blocks as wide or wider than block 1, worker - A8VBDRZPXTP8F
+  para - select a brick that is at least as wide as brick 1 is long, worker - A2YLK83DQ6PA5Y
+  para - block whose width is at least the length of block 1, worker - A1ULLPIT6EU99K
+  para - select a block with width equal or greater than block 1 is long, worker - A32CIL5S21Y4MR
+  para - find all blocks that are as long as or longer than block 1, worker - A11GZNNVLEWRGF
+original - block that is left of block 1 and whose shape is a pyramid
+  para - find me all pyramid blocks left of block 1, worker - A8VBDRZPXTP8F
+  para - pyramid to left of block 1, worker - A2SHY0YV9UW6SC
+  para - select the pyramidshaped block that is left of block 1, worker - A1CY44CGMVAHKT
+  para - block left of block one and shaped like a pyramid, worker - ADUJUZANFOWKW
+  para - pyramid shaped block that is to the left of block 1, worker - A2TUNPP2GOQ1N3
+  para - find the block that is to the left of block 1 whose shape is that of a pyramid, worker - AUQTHU5AOZVQC
+  para - find me the block that is to the left of block 1 whose shape is a pyramid, worker - AUQTHU5AOZVQC
+original - block whose height is 3 inches or 6 inches
+  para - block with height of either 3 inches or 6 inches, worker - A1ULLPIT6EU99K
+  para - find me a block that is either 3 or 6 inches tall, worker - A32CIL5S21Y4MR
+  para - find me all 3 or 6 inch high blocks, worker - A8VBDRZPXTP8F
+  para - which brick is 3 or 6 inches high, worker - A2YLK83DQ6PA5Y
+  para - is there any block with a height of either 3 or 6 inches, worker - A1X84CLJ7N1PLZ
+  para - block whose height is 3 inches or 6 inches, worker - A3URW8DWGJVYFX
+original - block whose height is smaller than height of block 1
+  para - what block is shorter than block 1, worker - A32CIL5S21Y4MR
+  para - select a block with height less than block 1, worker - A2OJB437VM9WG5
+  para - find a block with a height smaller than the height of block 1, worker - A4UVNGSXE2ANA
+  para - find me all blocks shorter than block 1, worker - A8VBDRZPXTP8F
+original - block that is below block that block 1 is below
+  para - find me all blocks that is 2 blocks below block 1, worker - A8VBDRZPXTP8F
+  para - what block is below the block that block 1 is below, worker - A2RRYVYUDNK2GB
+  para - find me the block that is below the block that is below block 1, worker - AUQTHU5AOZVQC
+original - block that is left of block whose width is 3 inches
+  para - what block is to the left of the 3 inch wide block, worker - A32CIL5S21Y4MR
+  para - choose a brick that is to the left of a brick that is 3 inches wide, worker - A2YLK83DQ6PA5Y
+  para - find me all blocks left of 3 inch wide blocks, worker - A8VBDRZPXTP8F
+  para - find me a block that is to the left of the block with a width of 3 inches, worker - A4UVNGSXE2ANA
+  para - find the block to the left of the block that is 3 inches in diameter, worker - A1X84CLJ7N1PLZ
+original - block that block 1 is above and that is above block 1
+  para - find the block that block 1 is above, worker - AUQTHU5AOZVQC
+  para - which block is above block 1, worker - A2RRYVYUDNK2GB
+original - block that has two color
+  para - block with two colors, worker - A2SHY0YV9UW6SC
+  para - what block has two color, worker - AUQTHU5AOZVQC
+  para - select blocks that are two colors, worker - A1CY44CGMVAHKT
+  para - find me all blocks with 2 colors, worker - A8VBDRZPXTP8F
+original - block whose width is at least height of block 1
+  para - choose a block that is the same height as block 1, worker - A3PRT2O0B4B5E7
+  para - which block is at least as wide as block 1 is tall, worker - A2YLK83DQ6PA5Y
+  para - select a block who has width greater than or equal to block 1s height, worker - A32CIL5S21Y4MR
+  para - find me all the bricks at least as wide as block 1 is tall, worker - A8VBDRZPXTP8F
+  para - block whose width is at least height of block 1, worker - A3URW8DWGJVYFX
+  para - select the block that is equal or bigger than block 1, worker - A2M4YIC3XU2693
+original - block that block that is below block 1 is left of
+  para - select the brick that is below and to the left of block 1, worker - A4UVNGSXE2ANA
+  para - find me all blocks below that block 1 is left of, worker - A8VBDRZPXTP8F
+  para - left of block below block 1, worker - A3HMBHM8HJLKRD
+original - average length of block
+  para - average length of block, worker - A3URW8DWGJVYFX
+  para - find me a block with average length, worker - A32CIL5S21Y4MR
+  para - what is the average length of a block, worker - A3PRT2O0B4B5E7
+  para - what is the average length of the bricks, worker - A2YLK83DQ6PA5Y
+original - block that is right of block whose width is 3 inches
+  para - block at the right of 3 inches wide block, worker - A1ULLPIT6EU99K
+  para - locate the block to the right side of a block measuring 3 inches in width, worker - A1X84CLJ7N1PLZ
+  para - select the block to the right of the block that is 3 inches long, worker - A2YLK83DQ6PA5Y
+  para - what block is to the right of the 3 inch wide block, worker - A32CIL5S21Y4MR
+original - block that two block is right of
+  para - block that two block is right of, worker - A3URW8DWGJVYFX
+  para - find me all blocks with 2 blocks left of it, worker - A8VBDRZPXTP8F
+  para - choose the block to the right of block 2, worker - A3PRT2O0B4B5E7
+  para - which brick has two bricks to its right, worker - A2YLK83DQ6PA5Y
+  para - select block to the left of two blocks, worker - A32CIL5S21Y4MR
+  para - find a block that is on the left side of two other blocks, worker - A1X84CLJ7N1PLZ
+original - block that block 1 is right of
+  para - what block is block 1 to the right of, worker - AUQTHU5AOZVQC
+  para - block left of block 1, worker - A2SHY0YV9UW6SC
+  para - left of block 1, worker - A3HMBHM8HJLKRD
+original - block that block whose shape is a pyramid is right of
+  para - find me all blocks right of pyramid blocks, worker - A8VBDRZPXTP8F
+  para - what block is to the right of a pyramidshaped block, worker - A2RRYVYUDNK2GB
+  para - block left of pyramid, worker - A2SHY0YV9UW6SC
+original - block that is left of block 1 and that is above block 1
+  para - select the block above on the left, worker - A1CVM8I2566ILI
+  para - select the block that is to the left and above block 1, worker - AUQTHU5AOZVQC
+original - height of block 1
+  para - how tall is block 1, worker - A1X84CLJ7N1PLZ
+  para - what is the height of brick 1, worker - A2YLK83DQ6PA5Y
+  para - how tall is block 1, worker - A32CIL5S21Y4MR
+  para - what is the height of block 1, worker - A8VBDRZPXTP8F
+  para - what is the height of block 1, worker - A4WSGXF5IARBH
+  para - height of block 1, worker - A3URW8DWGJVYFX
+original - block that is left of block 1
+  para - select the blocks to the left of block 1, worker - A11GZNNVLEWRGF
+  para - find a block that has block 1 to its right, worker - A32CIL5S21Y4MR
+  para - which brick is to the left of brick 1, worker - A2YLK83DQ6PA5Y
+  para - choose a block that is left of block 1, worker - A3PRT2O0B4B5E7
+original - block that is left of block 1 and whose length is 3 inches
+  para - find a 3inch long block located to the left of block 1, worker - A1X84CLJ7N1PLZ
+  para - what 3 inch brick is to the left of brick 1, worker - A2YLK83DQ6PA5Y
+  para - choose a 3 inch block that is left of block 1, worker - A3PRT2O0B4B5E7
+  para - find the 3 inch long block to the left of block 1, worker - A32CIL5S21Y4MR
+  para - find me all 3 inch blocks left of block 1, worker - A8VBDRZPXTP8F
+original - block that block 1 is right of and whose shape is a pyramid
+  para - what block has block 1 on its right and is pyramidshaped, worker - A2RRYVYUDNK2GB
+  para - find me the block that block 1 is to ther right of and that has a shape of a pyramid, worker - AUQTHU5AOZVQC
+  para - find me all pyramid blocks that is left or right of block 1, worker - A8VBDRZPXTP8F
+  para - pyramid block left of block 1, worker - A3HMBHM8HJLKRD
+  para - find me the pyramid block that is to the right of block 1, worker - A4UVNGSXE2ANA
+original - block that is special and that is below block 1
+  para - find me all special blocks below block 1, worker - A8VBDRZPXTP8F
+  para - find all special blocks below block 1, worker - A11GZNNVLEWRGF
+  para - choose a special block that is below block 1, worker - A3PRT2O0B4B5E7
+original - block that block whose shape is a pyramid is below
+  para - what block has below it a block in the shape of a pyramid, worker - AUQTHU5AOZVQC
+  para - find me all blocks above pyramid blocks, worker - A8VBDRZPXTP8F
+  para - get a block above any pyramid block, worker - A2ZD8NY75G9JSX
+  para - block above pyramid block, worker - A3HMBHM8HJLKRD
+  para - block below block with pyramid shape, worker - A1ULLPIT6EU99K
+original - block that is left of the most number of block
+  para - select the block that to the left of the most blocks, worker - A3UPDCY9G8NK6R
+  para - which brick is furthest to the left, worker - A2YLK83DQ6PA5Y
+  para - select the brick at the very left, worker - A8VBDRZPXTP8F
+  para - what block has the most blocks to the right of it, worker - A32CIL5S21Y4MR
+  para - find the block to the left of the largest number of blocks, worker - A2M4YIC3XU2693
+original - block that is left of block 1 or block 2
+  para - third block to the left, worker - A35IMPTI2U7XGC
+  para - find me all blocks left of block 1 or 2, worker - A8VBDRZPXTP8F
+  para - which brick is left of brick 1 or 2, worker - A2YLK83DQ6PA5Y
+  para - what block is to the left of either block 1 or block 2, worker - A32CIL5S21Y4MR
+  para - block that is left of block 1 or block 2, worker - A3URW8DWGJVYFX
+  para - choose a block that is to the left of block 1 and 2, worker - A3PRT2O0B4B5E7
+original - block that is right of block that block 1 is right of
+  para - find me all blocks that is right of the block which block 1 is right of, worker - A8VBDRZPXTP8F
+  para - what block is to the right of the block that block 1 is to the right of, worker - AUQTHU5AOZVQC
+original - block that is left of block 1 and that block 1 is above
+  para - select the block that is to the left of the block that block 1 is above, worker - AUQTHU5AOZVQC
+  para - find me all blocks above that is left of block 1, worker - A8VBDRZPXTP8F
+  para - find a block left of and below block 1, worker - A2ZD8NY75G9JSX
+original - block whose length is 3 inches and that is special
+  para - what brick is both unique and 3 inches, worker - A3PRT2O0B4B5E7
+  para - find me a special 3 inch long block, worker - A32CIL5S21Y4MR
+  para - what special blocks have a length of 3 inches, worker - A2OJB437VM9WG5
+  para - find me all the 3 inch long special blocks, worker - A8VBDRZPXTP8F
+  para - block whose length is 3 inches and that is special, worker - A3URW8DWGJVYFX
+original - block whose height is at most 3 inches or 6 inches
+  para - which brick is no higher than 3 or 6 inches, worker - A2YLK83DQ6PA5Y
+  para - a brick between 3 and 6 inches, worker - A3PRT2O0B4B5E7
+  para - find a block 6 inches or shorter, worker - A32CIL5S21Y4MR
+  para - are there any blocks whose height is that of either 3 inches or 6 inches at most, worker - A1X84CLJ7N1PLZ
+  para - find me all blocks at most 6 inches high, worker - A8VBDRZPXTP8F
+  para - block whose height is at most 3 inches or 6 inches, worker - A3URW8DWGJVYFX
+original - block that has the most number of shape
+  para - find the block with the most shapes, worker - A32CIL5S21Y4MR
+  para - which type of block has the most shapes, worker - A1X84CLJ7N1PLZ
+  para - block that has the most number of shape, worker - A3URW8DWGJVYFX
+  para - select the block with the most shapes, worker - A8VBDRZPXTP8F
+  para - which brick has the most shapes, worker - A2YLK83DQ6PA5Y
+original - block whose height is smaller than 3 inches
+  para - find a block shorter than 3 inches, worker - A32CIL5S21Y4MR
+  para - find me all the blocks shorter than 3 inches, worker - A8VBDRZPXTP8F
+  para - find the block with a height less than 3 inches, worker - A4UVNGSXE2ANA
+  para - what block is shorter than 3 inches, worker - A4WSGXF5IARBH
+  para - which brick is shorter than 3 inches, worker - A2YLK83DQ6PA5Y
+  para - block whose height is smaller than 3 inches, worker - A3URW8DWGJVYFX
+original - block that is right of at least two block
+  para - block right of at least two block, worker - A1ULLPIT6EU99K
+  para - find me all blocks with more than 2 blocks to its left, worker - A8VBDRZPXTP8F
+  para - block to the right of at least 2 blocks, worker - ADUJUZANFOWKW
+  para - find me the block that is to the right of two or more blocks, worker - AUQTHU5AOZVQC
+original - block that block that block 1 is left of is right of
+  para - find me all blocks that is left or right of block 1, worker - A8VBDRZPXTP8F
+  para - what block is to the right of block 1 , worker - A3HEFMJ50IMTY6
+original - block that is left of block 1 and that is below block 1
+  para - select the blocks that are left of and below block 1, worker - AVY4AB9FI7CLK
+  para - find me all blocks left and below block 1, worker - A8VBDRZPXTP8F
+  para - below and left of block 1, worker - A3HMBHM8HJLKRD
+  para - what block is left and below block 1, worker - AUQTHU5AOZVQC
+original - block whose shape is a pyramid and whose length is 3 inches
+  para - choose a brick 3 inches long that is shaped like a pyramid, worker - A2YLK83DQ6PA5Y
+  para - find the 3 inch long pyramidshaped block, worker - A32CIL5S21Y4MR
+  para - find me a block with a pyramid shape and has a length of 3 inches, worker - A4UVNGSXE2ANA
+original - block that block 1 is below and that block 1 is left of
+  para - right of and above block 1, worker - A3HMBHM8HJLKRD
+  para - what block has block 1 below and to the left, worker - A2RRYVYUDNK2GB
+  para - select the blocks below and to the left of block 1, worker - A1CY44CGMVAHKT
+  para - what block is block 1 below and to the left of, worker - AUQTHU5AOZVQC
+original - block that is above more than two block
+  para - what blocks are above more than two blocks, worker - AUQTHU5AOZVQC
+  para - block above more than 2 blocks, worker - ADUJUZANFOWKW
+  para - block above two or more blocks, worker - A2SHY0YV9UW6SC
+original - block that block 1 is below and that is left of block 1
+  para - above and left of block 1, worker - A3HMBHM8HJLKRD
+  para - select blocks that are below and to the left of block 1, worker - AVY4AB9FI7CLK
+  para - block which has block 1s below and right, worker - A2TUNPP2GOQ1N3
+original - block whose shape is a pyramid and that is special
+  para - block whose shape is a pyramid and that is special, worker - A3URW8DWGJVYFX
+  para - find me a special pyramidshaped block, worker - A32CIL5S21Y4MR
+  para - choose a block that is special and shaped like a pyramid, worker - A3PRT2O0B4B5E7
+  para - find me all the special pyramid blocks, worker - A8VBDRZPXTP8F
+  para - select a special pyramid block, worker - A3UPDCY9G8NK6R
+  para - which special brick is pyramidshaped, worker - A2YLK83DQ6PA5Y
+original - block that is above block 1 and whose height is 3 inches
+  para - find a block of 3 height above block 1, worker - A2RRYVYUDNK2GB
+  para - get a 3inch block above block 1, worker - A2ZD8NY75G9JSX
+  para - select me the block that is above block 1 and has a height of 3 inches, worker - AUQTHU5AOZVQC
+original - block that is below at most two block
+  para - what block has at most two blocks above it, worker - A32CIL5S21Y4MR
+  para - which brick is below no more than two bricks, worker - A2YLK83DQ6PA5Y
+  para - find me all the bricks below at most 2 blocks, worker - A8VBDRZPXTP8F
+  para - find a block that is below no more than two blocks, worker - A302HYM1GR6605
+  para - is there a block under one or two blocks at most, worker - A1X84CLJ7N1PLZ
+original - block whose height is 3 inches and that block 1 is left of
+  para - look right of block 1 and get the 3 inch tall block, worker - A3HMBHM8HJLKRD
+  para - find me a block with a height of 3 inches that block 1 is to the left of, worker - AUQTHU5AOZVQC
+  para - 3 inch tall block right from block 1, worker - A2SHY0YV9UW6SC
+  para - what block is 3 tall and has block 1 on its left, worker - A2RRYVYUDNK2GB
+  para - find me all 3 inch tall blocks which block 1 is left of, worker - A8VBDRZPXTP8F
+original - block that more than two block is above
+  para - block that more than two block is above, worker - A3URW8DWGJVYFX
+  para - which brick has more than two bricks above it, worker - A2YLK83DQ6PA5Y
+  para - choose a block that is above block 2, worker - A3PRT2O0B4B5E7
+  para - find the block with more than two blocks above it, worker - A32CIL5S21Y4MR
+  para - block that is above more than two blocks, worker - A1ULLPIT6EU99K
+  para - find me all the blocks with more than 2 blocks above it, worker - A8VBDRZPXTP8F
+original - block that is right of block that is left of block 1
+  para - choose a block that is the right of the furthest block to the left, worker - A3PRT2O0B4B5E7
+  para - block right of block which is left of block 1, worker - A1ULLPIT6EU99K
+  para - what block is between block 1 and a block to the left of block 1, worker - A32CIL5S21Y4MR
+  para - which brick is to the right of the brick to the left of brick 1, worker - A2YLK83DQ6PA5Y
+original - block whose height is 3 inches and that is below block 1
+  para - find the 3 inch tall block below block 1, worker - A32CIL5S21Y4MR
+  para - block whose height is 3 inches and that is below block 1, worker - A3URW8DWGJVYFX
+  para - beneath block 1 is a block with a height of 3 inches find it, worker - A1X84CLJ7N1PLZ
+  para - 3 inches high block below block 1, worker - A1ULLPIT6EU99K
+  para - choose the brick that is 3 inches high below brick 1, worker - A2YLK83DQ6PA5Y
+original - block that is below block 1 and whose length is 3 inches
+  para - choose the block below block 1 that is 3 inches long, worker - A2YLK83DQ6PA5Y
+  para - find the block underneath block 1 that is also 3 inches long, worker - A1X84CLJ7N1PLZ
+  para - what block is below block 1 and 3 inches long, worker - A32CIL5S21Y4MR
+  para - block that is below block 1 and whose length is 3 inches, worker - A3URW8DWGJVYFX
+original - block that is below block that is right of block 1
+  para - which brick is below the brick to the right of brick 1, worker - A2YLK83DQ6PA5Y
+  para - select the brick below and to the right of block 1, worker - A8VBDRZPXTP8F
+  para - select the block that is below the block to the right of block 1, worker - A11GZNNVLEWRGF
+  para - which block is below block that is at the right of block 1, worker - A1ULLPIT6EU99K
+original - block that is left of block 1 and whose width is 3 inches
+  para - what block three inches in width is left of block 1, worker - A2RRYVYUDNK2GB
+  para - what block is on the left of block 1 and is 3 inches in width, worker - A1CY44CGMVAHKT
+  para - what block is to the left of block 1 and has a width of 3 inches, worker - AUQTHU5AOZVQC
+  para - find me all 3 inch wide blocks left of block 1, worker - A8VBDRZPXTP8F
+original - block whose shape is a pyramid and that is above block 1
+  para - find me all pyramid blocks above block 1, worker - A8VBDRZPXTP8F
+  para - select the pyramidshape blocks above block 1, worker - A1CY44CGMVAHKT
+  para - pyramid above block 1, worker - A2SHY0YV9UW6SC
+  para - pyramid block above block 1, worker - A3HMBHM8HJLKRD
+  para - what block is in the shape of a pyramid and is above block 1, worker - AUQTHU5AOZVQC
+original - block that block 1 is below and that block 1 is right of
+  para - above and left of block 1, worker - A3HMBHM8HJLKRD
+  para - block above and left from block 1, worker - A2SHY0YV9UW6SC
+  para - select the block below the one on the right, worker - A1CVM8I2566ILI
+  para - find me all blocks that block 1 is below and right of, worker - A8VBDRZPXTP8F
+  para - find blocks to the left and above block 1, worker - A2ZD8NY75G9JSX
+original - block whose shape is a pyramid and that block 1 is left of
+  para - pyramid shaped block left of block 1, worker - A1ULLPIT6EU99K
+  para - find the block that has a shape of a pyramid and is to the right of block 1, worker - AUQTHU5AOZVQC
+original - block that is right of the least number of block
+  para - find the block with the fewest blocks to the left of it, worker - A1X84CLJ7N1PLZ
+  para - block that is right of the least number of block, worker - A3URW8DWGJVYFX
+  para - which block is farthest to the left, worker - A2YLK83DQ6PA5Y
+  para - choose a block to the right of the most blocks, worker - A3PRT2O0B4B5E7
+  para - what block has the least blocks to the left of it, worker - A32CIL5S21Y4MR
+  para - find me all blocks that is to the right of the least number of blocks, worker - A8VBDRZPXTP8F
+original - block that the least number of block is left of
+  para - block that the least number of block is left of, worker - A3URW8DWGJVYFX
+  para - locate the block with the least amount of blocks beside it on the left, worker - A1X84CLJ7N1PLZ
+  para - select the brick with the least number of blocks to the left of it, worker - A8VBDRZPXTP8F
+  para - what block is left of the least number of blocks, worker - A4WSGXF5IARBH
+  para - what block is to the right of the least blocks, worker - A32CIL5S21Y4MR
+original - block whose length is length of block 1
+  para - find the block with the same length as block 1, worker - A1X84CLJ7N1PLZ
+  para - which block is the same length as block 1, worker - A2YLK83DQ6PA5Y
+  para - find blocks with the length of block 1, worker - AD5IKFAK8KN4P
+  para - find me all the blocks as long as block 1, worker - A8VBDRZPXTP8F
+  para - find a block with the same length as block 1, worker - A32CIL5S21Y4MR
+  para - block whose length is length of block 1, worker - A3URW8DWGJVYFX
+original - block that block that is below block 1 is right of
+  para - find me all blocks below that block 1 is right of, worker - A8VBDRZPXTP8F
+  para - left of and below block 1, worker - A3HMBHM8HJLKRD
+  para - find me the block that is below and to the right of block 1, worker - AUQTHU5AOZVQC
+original - block whose height is larger than length of block 1
+  para - which brick is higher than brick 1 is long, worker - A2YLK83DQ6PA5Y
+  para - find blocks that are taller than block 1 is long, worker - A11GZNNVLEWRGF
+  para - find me all the blocks taller than the length of block 1, worker - A8VBDRZPXTP8F
+  para - find a block taller than block 1 is long, worker - A32CIL5S21Y4MR
+  para - bloch longer than the length of block 1, worker - A1ULLPIT6EU99K
+original - block that block whose shape is a pyramid is above
+  para - find me all blocks above a pyramid block, worker - A8VBDRZPXTP8F
+  para - block above pyramid, worker - A2SHY0YV9UW6SC
+  para - find me the block whose shape is a pyramid, worker - A2RRYVYUDNK2GB
+original - block that block 1 is above and that block 1 is left of
+  para - block above 1 block and left of 1 block, worker - A1ULLPIT6EU99K
+  para - find a block that block 1 is above and to the left of, worker - AUQTHU5AOZVQC
+  para - right and below block 1, worker - A3HMBHM8HJLKRD
+  para - find a block under and to the right of block 1, worker - A2ZD8NY75G9JSX
+original - block that block whose width is 3 inches is right of
+  para - what block is to the right of the block that is three inches wide, worker - A2RRYVYUDNK2GB
+  para - block left from 3 inch block, worker - A2SHY0YV9UW6SC
+  para - block left of 3 inch block, worker - A3HMBHM8HJLKRD
+original - block that block 1 is above and that is left of block 1
+  para - select the block above the left one, worker - A1CVM8I2566ILI
+  para - what blocks are to the left and below block 1, worker - A2ZD8NY75G9JSX
+original - block whose shape is a pyramid and that is below block 1
+  para - block whose shape is a pyramid and that is below block 1, worker - A3URW8DWGJVYFX
+  para - select the pyramidshaped brick below brick 1, worker - A2YLK83DQ6PA5Y
+  para - choose block with pyramid shape under block 1, worker - A3GNQDFPZALU92
+  para - find pyramid shaped block below block 1, worker - A32CIL5S21Y4MR
+original - block that block that block 1 is above is left of
+  para - select the block that block 1 is above and to the left of, worker - AUQTHU5AOZVQC
+  para - find me all blocks that is above and right of block 1, worker - A8VBDRZPXTP8F
+  para - what is the block below and left of block 1, worker - A2TUNPP2GOQ1N3
+original - block whose height is larger than height of block 1
+  para - is there a block that is taller than block 1, worker - A1X84CLJ7N1PLZ
+  para - which brick is taller than brick 1, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks taller than block 1, worker - A8VBDRZPXTP8F
+  para - what block is taller than block 1, worker - A32CIL5S21Y4MR
+original - length of block 1
+  para - what is the length of block 1, worker - A2R085B34P2LYS
+  para - what is the length of brick 1, worker - A2YLK83DQ6PA5Y
+  para - what is the length of block 1, worker - A32CIL5S21Y4MR
+  para - select all blocks of length 1, worker - A8VBDRZPXTP8F
+  para - what is the length of block 1, worker - A1ULLPIT6EU99K
+original - block that block whose shape is a pyramid is left of
+  para - select all blocks that are in the shape of a pyramid, worker - AUQTHU5AOZVQC
+  para - block to the left of pyramid block, worker - ADUJUZANFOWKW
+  para - select the pyramidshaped blocks, worker - A1CY44CGMVAHKT
+  para - find me all pyramid blocks, worker - A8VBDRZPXTP8F
+  para - block right of pyramid block, worker - A3HMBHM8HJLKRD
+original - block that is left of block that block 1 is right of
+  para - block is at the second left of block 1, worker - A2TUNPP2GOQ1N3
+  para - find me the block that is left of the block that block 1 is right of, worker - AUQTHU5AOZVQC
+  para - second left of block 1, worker - A3HMBHM8HJLKRD
+  para - find me all blocks left of what block 1 is right of, worker - A8VBDRZPXTP8F
+original - block whose length is at most 3 inches
+  para - select the blocks less than 3 inches, worker - A3DTN2OMF6DUSI
+  para - find me all blocks at most 3 inches long, worker - A8VBDRZPXTP8F
+  para - find me all blocks no bigger than 3 inches, worker - A2OJB437VM9WG5
+  para - select a brick that is no bigger than 3 inches long, worker - A2YLK83DQ6PA5Y
+  para - what block is 3 inches or less long, worker - A32CIL5S21Y4MR
+original - block that has at most two shape
+  para - find me all the blocks with at most 2 shapes, worker - A8VBDRZPXTP8F
+  para - find the blocks that have two shapes or less, worker - A30C0I27VH3FFW
+  para - choose a block that is not more than 2 shapes, worker - A3PRT2O0B4B5E7
+  para - what block has two or less shapes, worker - A32CIL5S21Y4MR
+  para - block that has at most two shape, worker - A3URW8DWGJVYFX
+  para - which brick has at most two shapes, worker - A2YLK83DQ6PA5Y
+original - block whose length is width of block 1
+  para - block whose length is width of block 1, worker - A3URW8DWGJVYFX
+  para - block as long as block 1 is wide, worker - A6BTXLINCALGZ
+  para - find me all blocks with the same width as block 1, worker - A8VBDRZPXTP8F
+  para - choose a block which is as long as block 1 is wide, worker - A3PRT2O0B4B5E7
+  para - what brick is as long as brick 1 is wide, worker - A2YLK83DQ6PA5Y
+  para - what block is as long as block 1 is wide, worker - A32CIL5S21Y4MR
+original - block that block 1 is below and that is above block 1
+  para - block above block one, worker - ADUJUZANFOWKW
+  para - block above and below block 1, worker - A2SHY0YV9UW6SC
+original - block that block that is right of block 1 is below
+  para - what block is to the right and below block 1, worker - AUQTHU5AOZVQC
+  para - find me all blocks right and below block 1, worker - A8VBDRZPXTP8F
+  para - block to the right and below block 1, worker - ADUJUZANFOWKW
+  para - find the block that is below to the right of block 1 , worker - A3HEFMJ50IMTY6
+original - block that is below the least number of block
+  para - which brick is at the very top, worker - A2YLK83DQ6PA5Y
+  para - find me all blocks below the smallest numbers of blocks, worker - A8VBDRZPXTP8F
+  para - choose a block that is under the least number of bricks, worker - A3PRT2O0B4B5E7
+  para - find me the block with the least number of blocks below it, worker - A32CIL5S21Y4MR
+  para - find the block that is beneath the smallest number of other blocks, worker - A1X84CLJ7N1PLZ
+  para - block that is below the least number of block, worker - A3URW8DWGJVYFX
+original - block that is left of block that block 1 is above
+  para - block left and below block 1, worker - A2SHY0YV9UW6SC
+  para - find me the block that is to the left of the block that block 1 is above, worker - AUQTHU5AOZVQC
+  para - block which is at the left of the block below block 1, worker - A2TUNPP2GOQ1N3
+  para - see block below block 1 and choose the one left of it, worker - A3HMBHM8HJLKRD
+  para - find me all blocks which is left and above block 1, worker - A8VBDRZPXTP8F
+original - block that block 1 is right of and whose length is 3 inches
+  para - select the block that is to the left of block 1 and that has a length of 3 inches, worker - AUQTHU5AOZVQC
+  para - 3 inches long block at the left of block 1, worker - A2TUNPP2GOQ1N3
+  para - select the 3 inch long block that is left of block 1, worker - A1CY44CGMVAHKT
+  para - 3 inch block left of block 1, worker - A3HMBHM8HJLKRD
+original - block that block whose length is 3 inches is right of
+  para - get me a block to the right of a 3inch block, worker - A2ZD8NY75G9JSX
+  para - find the block with 3 inches in length, worker - A1CVM8I2566ILI
+original - block that is below at least two block
+  para - block on bottom, worker - A3HMBHM8HJLKRD
+  para - select the blocks below block 2, worker - A1CY44CGMVAHKT
+  para - find me all blocks at least 2 blocks below, worker - A8VBDRZPXTP8F
+  para - what block is below two or more blocks, worker - AUQTHU5AOZVQC
+  para - block below two other blocks, worker - A2SHY0YV9UW6SC
+original - block that is left of more than two block
+  para - find me all blocks left of more than 2 blocks, worker - A8VBDRZPXTP8F
+  para - what block is to the left of more than two blocks, worker - AUQTHU5AOZVQC
+  para - block left of more than 2 blocks, worker - ADUJUZANFOWKW
+original - block that the most number of block is left of
+  para - block that the most number of block is left of, worker - A3URW8DWGJVYFX
+  para - what is the left most block, worker - AD5IKFAK8KN4P
+  para - what block is to the right of the most blocks, worker - A32CIL5S21Y4MR
+  para - find the single block that is located to the right of the largest number of blocks, worker - A1X84CLJ7N1PLZ
+  para - select the brick at the very right, worker - A8VBDRZPXTP8F
+  para - which block has the largest number of blocks to its left, worker - A2YLK83DQ6PA5Y
+original - block whose shape is shape of block 1
+  para - which brick is the same shape as brick 1, worker - A2YLK83DQ6PA5Y
+  para - find the block with the same shape as block 1, worker - A1X84CLJ7N1PLZ
+  para - block whose shape is shape of block 1, worker - A3URW8DWGJVYFX
+  para - find me all blocks with the same shape as block 1, worker - A8VBDRZPXTP8F
+  para - choose a block that looks just like block 1, worker - A3PRT2O0B4B5E7
+  para - find a block the same shape as block 1, worker - A32CIL5S21Y4MR
+original - block that the most number of block is below
+  para - find me a block that is above the most blocks, worker - A32CIL5S21Y4MR
+  para - choose a block that is below the most populated bricks, worker - A3PRT2O0B4B5E7
+  para - block that the most number of block is below, worker - A3URW8DWGJVYFX
+  para - which block has the highest number of blocks below it, worker - A3UPDCY9G8NK6R
+original - block that is right of block 1 and that block 1 is below
+  para - block left and above block 1, worker - A3HMBHM8HJLKRD
+  para - find me all blocks to the right and above block 1, worker - A8VBDRZPXTP8F
+  para - what block is to the right and above block 1, worker - AUQTHU5AOZVQC
+  para - block above block one and to the right, worker - ADUJUZANFOWKW
+  para - block above and rigth from block 1, worker - A2SHY0YV9UW6SC
+original - block that block that is left of block 1 is above
+  para - block above and right from block 1, worker - A2SHY0YV9UW6SC
+  para - find me all blocks left and above block 1, worker - A8VBDRZPXTP8F
+original - block that block 1 is right of and that is special
+  para - find me all special blocks left of block 1, worker - A8VBDRZPXTP8F
+  para - special block left of block 1, worker - A3HMBHM8HJLKRD
+  para - block that left of block one and special, worker - ADUJUZANFOWKW
+  para - find me the block that is to the left of block 1 and special, worker - AUQTHU5AOZVQC
+original - block whose shape is a pyramid and that is left of block 1
+  para - pyramid block rght of block 1, worker - A3HMBHM8HJLKRD
+  para - what pyramidshaped block is left of block 1, worker - A2RRYVYUDNK2GB
+  para - find me all pyramid blocks that is left of block 1, worker - A8VBDRZPXTP8F
+  para - what block has the shape of a pyramid and is to the left of block 1, worker - AUQTHU5AOZVQC
+  para - pyramid left of block 1, worker - A2SHY0YV9UW6SC
+original - block that is right of block 1 or block 2
+  para - find me a block to the right of either block 1 or block 2, worker - A32CIL5S21Y4MR
+  para - select all bricks right of block 1 or 2, worker - A8VBDRZPXTP8F
+  para - is there a block to the right of either block 1 or block 2, worker - A1X84CLJ7N1PLZ
+  para - which blocks are right of blocks 1 or 2, worker - A3GNQDFPZALU92
+  para - which brick is to the right of brick 1 or 2, worker - A2YLK83DQ6PA5Y
+original - block that has the least number of shape
+  para - which brick has the least number of shapes, worker - A2YLK83DQ6PA5Y
+  para - select all blocks which has least number of shape, worker - A34YPIHZ3OCPPS
+  para - what block has the fewest shapes, worker - A32CIL5S21Y4MR
+  para - choose the most shapeless block, worker - A3PRT2O0B4B5E7
+  para - select the brick with the least number of shapes, worker - A8VBDRZPXTP8F
+original - block whose width is 3 inches and that block 1 is left of
+  para - 3 inches wide block at the right of block 1, worker - A2TUNPP2GOQ1N3
+  para - find the block whose width is 3 inches and is on the right side of block 1, worker - AWJTO98M4DQFL
+  para - find the blocks that have a width of 3 inches and are to the left of block 1, worker - AUQTHU5AOZVQC
+original - block that is above block 1 and that is above block 1
+  para - what brick is above brick 1, worker - A2YLK83DQ6PA5Y
+  para - find the block that is on top of block 1, worker - A1X84CLJ7N1PLZ
+  para - find me all the blocks above block 1, worker - A8VBDRZPXTP8F
+  para - choose the block above block 1, worker - A3PRT2O0B4B5E7
+original - block that block that block 1 is left of is below
+  para - what block is to the left of and below block 1, worker - A2RRYVYUDNK2GB
+  para - what block is to the left and below block 1, worker - AUQTHU5AOZVQC
+  para - block below and right of block 1, worker - A2SHY0YV9UW6SC
+original - block whose width is 3 inches and that is left of block 1
+  para - select the 3 inch wide block left of block 1, worker - ANFWGSQ8BQRZ
+  para - what block has a width of 3 inches and is to the left of block 1, worker - AUQTHU5AOZVQC
+original - block that block 1 is above and that is below block 1
+  para - select block 1 and all of the blocks below it, worker - AVY4AB9FI7CLK
+  para - block that has block 1 above and below, worker - A2TUNPP2GOQ1N3
+original - block whose height is 3 inches and that is special
+  para - find me all 3 inch tall special blocks, worker - A8VBDRZPXTP8F
+  para - select the special 3 inch tall block, worker - A32CIL5S21Y4MR
+  para - a special 3 inch high block, worker - A1ULLPIT6EU99K
+  para - which special block is 3 inches high, worker - A2YLK83DQ6PA5Y
+original - block that block that is left of block 1 is right of
+  para - find me all blocks left of block 1, worker - A8VBDRZPXTP8F
+  para - what block is left of the block that block 1 is to the right of, worker - AUQTHU5AOZVQC
+  para - select the block that is on the right side of the block on the left side of block 1, worker - AWJTO98M4DQFL
+original - block that block 1 is left of and that block 1 is left of
+  para - right of block 1, worker - A3HMBHM8HJLKRD
+  para - select the block that is one to the left of another block, worker - AUQTHU5AOZVQC
+  para - select the block at the right of block 1, worker - A2TUNPP2GOQ1N3
+original - block that block 1 is left of and that is left of block 1
+  para - find me all blocks that is left of block 1, worker - A8VBDRZPXTP8F
+  para - is there a block to the right of block 1 and to the left of block 1, worker - A2ZD8NY75G9JSX
+  para - what block has block 1 at right and left, worker - A2TUNPP2GOQ1N3
+  para - find me the block that is to the left of block 1, worker - AUQTHU5AOZVQC
+original - block that is right of block 1 and that is special
+  para - what special block is at the right of block 1, worker - A2TUNPP2GOQ1N3
+  para - special block right of block 1, worker - A3HMBHM8HJLKRD
+  para - select the special block right to block 1, worker - A3RGYT0JTEHAOK
+  para - find me all special blocks that is right of block 1, worker - A8VBDRZPXTP8F
+  para - get the special block from right of block 1, worker - A3HMBHM8HJLKRD
+  para - find the block that is special and to the right of block 1, worker - AUQTHU5AOZVQC
+  para - find me all special blocks right of block 1, worker - A8VBDRZPXTP8F
+  para - find all special blocks to the right of block 1 , worker - A3HEFMJ50IMTY6
+  para - special block to right of block 1, worker - A2SHY0YV9UW6SC
+  para - select the special block that is to the right of block 1, worker - AUQTHU5AOZVQC
+original - block that block 1 or block 2 is above
+  para - select the block below block 1 and block 2, worker - A1CY44CGMVAHKT
+  para - block below blocks 1 and 2, worker - A2SHY0YV9UW6SC
+  para - block below block 1 and block 2, worker - A3HMBHM8HJLKRD
+  para - find me all blocks below blocks 1 or 2, worker - A8VBDRZPXTP8F
+  para - what block is above block 2 or block 1, worker - AUQTHU5AOZVQC
+original - block whose width is at most length of block 1
+  para - which brick is no wider than brick 1 is long, worker - A2YLK83DQ6PA5Y
+  para - what block has width less than or equal to block 1s length, worker - A32CIL5S21Y4MR
+  para - find me all blocks at most as wide as block 1, worker - A8VBDRZPXTP8F
+  para - choose a block that is as thick as block 1 is long, worker - A3PRT2O0B4B5E7
+original - block that block that block 1 is below is above
+  para - find the block that block 1 is below, worker - AUQTHU5AOZVQC
+  para - block two above block 1, worker - A2SHY0YV9UW6SC
+original - block whose width is not 3 inches
+  para - which brick is not 3 inches wide, worker - A2YLK83DQ6PA5Y
+  para - find a block that is not 3 inches wide, worker - A32CIL5S21Y4MR
+  para - find me all blocks not 3 inches wide, worker - A8VBDRZPXTP8F
+  para - select all blocks that dont have a width of 3 inches, worker - A2OJB437VM9WG5
+  para - select all bricks that are not 3 inches wide, worker - A11GZNNVLEWRGF
+original - block that not is left of block 1
+  para - block that not is left of block 1, worker - A3URW8DWGJVYFX
+  para - is there a block located to the left of block 1, worker - A1X84CLJ7N1PLZ
+  para - block that is not left of block 1, worker - A1ULLPIT6EU99K
+  para - find me all blocks not left of block 1, worker - A8VBDRZPXTP8F
+  para - which brick is not to the left of brick 1, worker - A2YLK83DQ6PA5Y
+  para - what block is not to the left of block 1, worker - A32CIL5S21Y4MR
+original - block whose width is 3 inches and whose height is 3 inches
+  para - select a block that has width and height of 3 inches each, worker - A4UVNGSXE2ANA
+  para - find me all the 3 inch wide and tall blocks, worker - A8VBDRZPXTP8F
+  para - what brick is 3 inches wide and 3 inches high, worker - A2YLK83DQ6PA5Y
+  para - what block is 3 inches wide and 3 inches tall, worker - A32CIL5S21Y4MR
+original - block whose length is at least 3 inches or 6 inches
+  para - which block is at least 3 or 6 inches long, worker - A2YLK83DQ6PA5Y
+  para - find me all the blocks at least 3 inches long, worker - A8VBDRZPXTP8F
+  para - find a block at least 3 inches long, worker - A32CIL5S21Y4MR
+  para - block whose length is at least 3 inches or 6 inches, worker - A3URW8DWGJVYFX
+  para - find a block that is at least 3 to 6 inches, worker - A2M4YIC3XU2693
+original - block that is above block that block 1 is above
+  para - find me the block that is above the block that is below block 1, worker - AUQTHU5AOZVQC
+  para - find me all blocks over that block 1 is above, worker - A8VBDRZPXTP8F
+  para - block two up from block 1, worker - A2SHY0YV9UW6SC
+original - block that block 1 not is below
+  para - select the block that block 1 is not below, worker - AUQTHU5AOZVQC
+  para - what block that is not block 1 is below, worker - A2RRYVYUDNK2GB
+  para - find me all blocks that block 1 is not under, worker - A8VBDRZPXTP8F
+  para - select a block that is not below block 1, worker - A1CY44CGMVAHKT
+original - block whose length is smaller than 3 inches
+  para - find me all blocks with length less than 3 inches, worker - A2OJB437VM9WG5
+  para - what block is less than 3 inches long, worker - A32CIL5S21Y4MR
+  para - find a block that has a length of less than 3 inches, worker - A4UVNGSXE2ANA
+  para - which brick has a length shorter than 3 inches, worker - A2YLK83DQ6PA5Y
+  para - block whose length is smaller than 3 inches, worker - A3URW8DWGJVYFX
+  para - find me all blocks shorter than 3 inches, worker - A8VBDRZPXTP8F
+original - block that has more than two shape
+  para - find me the blocks that are more than two shapes, worker - AUQTHU5AOZVQC
+  para - find me all blocks with at least 2 shapes, worker - A8VBDRZPXTP8F
+  para - block with more than 2 shapes, worker - ADUJUZANFOWKW
+  para - block with more than two shapes, worker - A2SHY0YV9UW6SC
+original - block whose width is 3 inches or 6 inches
+  para - select the 3 or 6 inch wide block, worker - A32CIL5S21Y4MR
+  para - is there a block with a width equal to either 3 or 6 inches, worker - A1X84CLJ7N1PLZ
+  para - any block with width of either 3 inches or 6 inches, worker - A1ULLPIT6EU99K
+  para - which block has a width of either 3 or 6 inches, worker - A2YLK83DQ6PA5Y
+  para - find me all 3 or 6 inch wide blocks, worker - A8VBDRZPXTP8F
+original - block whose height is 3 inches
+  para - find me all 3 inch high blocks, worker - A8VBDRZPXTP8F
+  para - find the block with 3 inches of height, worker - A1X84CLJ7N1PLZ
+  para - select the 3 inch tall block, worker - A32CIL5S21Y4MR
+  para - block whose height is 3 inches, worker - A3URW8DWGJVYFX
+  para - 3 inches high block, worker - A1ULLPIT6EU99K
+original - block whose length is larger than 3 inches
+  para - select all blocks with length greater than 3, worker - A2OJB437VM9WG5
+  para - select a block that has a length of more than 3 inches, worker - A4UVNGSXE2ANA
+  para - block whose length is larger than 3 inches, worker - A3URW8DWGJVYFX
+  para - find me all blocks longer than 3 inches, worker - A8VBDRZPXTP8F
+  para - which brick is longer than 3 inches, worker - A2YLK83DQ6PA5Y
+  para - what block is longer than 3 inches, worker - A32CIL5S21Y4MR
+original - block whose width is 3 inches and that is below block 1
+  para - block whose width is 3 inches and that is below block 1, worker - A3URW8DWGJVYFX
+  para - find the block located beneath block 1 that has a 3 inch diameter, worker - A1X84CLJ7N1PLZ
+  para - find me all the 3 inch wide blocks below block 1, worker - A8VBDRZPXTP8F
+  para - what block below block 1 is 3 inches wide, worker - A32CIL5S21Y4MR
+  para - which brick is 3 inches wide and below brick 1, worker - A2YLK83DQ6PA5Y
+original - block that is below block that block 1 is above
+  para - find a block that is below block 1, worker - A2RRYVYUDNK2GB
+  para - find the block below the block under block 1, worker - A2ZD8NY75G9JSX
+  para - find me all blocks 2 below block 1, worker - A8VBDRZPXTP8F
+  para - find me the block that is below the block which block 1 is above, worker - AUQTHU5AOZVQC
+  para - 2 blocks below block 1, worker - A3HMBHM8HJLKRD
+original - block whose width is larger than 3 inches or 6 inches
+  para - which block is wider than 3 or 6 inches, worker - A2YLK83DQ6PA5Y
+  para - find me a block at least 3 inches wide, worker - A32CIL5S21Y4MR
+  para - locate a block with a width that is more than either 3 or 6 inches, worker - A1X84CLJ7N1PLZ
+original - block whose width is at most width of block 1
+  para - which brick is no wider than brick 1, worker - A2YLK83DQ6PA5Y
+  para - select a block that has a width that is the same width of block 1, worker - A4UVNGSXE2ANA
+  para - find me a block with equal or less width than block 1, worker - A32CIL5S21Y4MR
+  para - find a block with width less than or equal to block 1, worker - A2OJB437VM9WG5
+original - block that block 1 is right of and that block 1 is right of
+  para - select the block on the left side of block 1, worker - AWJTO98M4DQFL
+  para - left of block 1, worker - A3HMBHM8HJLKRD
+original - block whose height is smaller than 3 inches or 6 inches
+  para - find a block shorter than 6 inches, worker - A32CIL5S21Y4MR
+  para - find all blocks with height less than 6 inches, worker - A2OJB437VM9WG5
+  para - select the bricks that are less than 6 inches tall then select the bricks that are less than 3 inches tall, worker - A1EVW13BQQMRRO
+original - block that the least number of block is above
+  para - find the block buried under the smallest number of other blocks, worker - A1X84CLJ7N1PLZ
+  para - select the brick with the least blocks above it, worker - A8VBDRZPXTP8F
+  para - block that the least number of block is above, worker - A3URW8DWGJVYFX
+  para - what block is below the fewest blocks, worker - A32CIL5S21Y4MR
+  para - block above least number of blocks, worker - A1ULLPIT6EU99K
+  para - which block is at the very bottom, worker - A2YLK83DQ6PA5Y
+original - block that at least two block is left of
+  para - find me a block with two blocks to the left of it, worker - A32CIL5S21Y4MR
+  para - find me all the blocks that have 2 blocks to the right of it, worker - A8VBDRZPXTP8F
+  para - what brick has at least two bricks to its left, worker - A2YLK83DQ6PA5Y
+  para - block that at least two block is left of, worker - A3URW8DWGJVYFX
+  para - find a block that is is left of block two, worker - A4UVNGSXE2ANA
+  para - find the block located to the right of at least two other blocks, worker - A1X84CLJ7N1PLZ
+original - block whose height is smaller than width of block 1
+  para - is there a block shorter in height than block 1 is wide, worker - A1X84CLJ7N1PLZ
+  para - find a block shorter than the width of block 1, worker - A32CIL5S21Y4MR
+  para - which brick is shorter than brick 1 is high, worker - A2YLK83DQ6PA5Y
+  para - block whose height is less than width of block 1, worker - A1ULLPIT6EU99K
+  para - find me all blocks shorter than the width of block 1, worker - A8VBDRZPXTP8F
+original - block whose length is 3 inches and whose shape is a pyramid
+  para - find me a pyramidshaped block 3 inches long, worker - A32CIL5S21Y4MR
+  para - block whose length is 3 inches and whose shape is a pyramid, worker - A3URW8DWGJVYFX
+  para - what pyramidshaped brick is 3 inches long, worker - A2YLK83DQ6PA5Y
+  para - 3 inches long pyramid shaped block, worker - A1ULLPIT6EU99K
+original - block that is below block 1 and that is special
+  para - choose the block below the special looking block 1, worker - A3PRT2O0B4B5E7
+  para - find me the special blocks below block 1, worker - A8VBDRZPXTP8F
+  para - a special block below block 1, worker - A1ULLPIT6EU99K
+  para - block that is below block 1 and that is special, worker - A3URW8DWGJVYFX
+original - block that block that block 1 is above is above
+  para - find me the block that is above the block that is above block 1, worker - A389F6DFXS6S1I

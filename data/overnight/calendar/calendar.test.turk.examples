@@ -1,0 +1,760 @@
+(example
+  (utterance "What meeting is on Jan 2?")
+  (original "meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)))
+  )
+)
+
+(example
+  (utterance "How many meetings after 10 am?")
+  (original "number of meeting whose start time is larger than 10 am")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string start_time)) (string >) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericEntity (time 10 0)))))
+  )
+)
+
+(example
+  (utterance "What meeting is on Wed Jan 2")
+  (original "meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2))) 
+  )
+)
+
+(example
+  (utterance "Where are the meetings for jan 2?")
+  (original "location of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string location)))
+  )
+)
+
+(example
+  (utterance "What time does the weekly standup start?")
+  (original "start time of weekly standup")
+  (targetFormula                                                                                      
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty en.meeting.weekly_standup (string start_time)))
+  )
+)
+
+(example
+  (utterance "who is attending meeting on jan 2?")
+  (original "attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee)))
+  )
+)
+
+(example
+  (utterance "how long is the meeting on jan 2?")
+  (original "length of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string length)))
+  )
+)
+
+(example
+  (utterance "what is the location of the meeting on jan 2?")
+  (original "location of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string location)))
+  )
+)
+
+(example
+  (utterance "How many attendees are planning on going to the meeting?")
+  (original "number of attendee of meeting")
+  (targetFormula      
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string attendee))))
+  )
+)
+
+(example
+  (utterance "What time is my weekly standup")
+  (original "start time of weekly standup")
+  (targetFormula
+     (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty en.meeting.weekly_standup (string start_time)))
+  )
+)
+
+(example                                                                                              
+  (utterance "How many times have I visited greenberg cafe at noon?")                                 
+  (original "Number of meetings whose location is greenberg cafe and whose start time is 12pm")       
+  (targetFormula             
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string location) (string =) en.location.greenberg_cafe) (string start_time) (string =) (time 12 0))))
+  )
+)
+
+(example                                                                                              
+  (utterance "Who are all the attendees for the meeting?")
+  (original "attendee of meeting")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string attendee)))
+  )
+)
+
+(example                                                                                              
+  (utterance "Where the meeting is scheduled?")
+  (original "location of meeting")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string location)))
+  )
+)
+
+(example                                                                                              
+  (utterance "How many members are going to attend the meeting?")
+  (original "number of attendee of meeting")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string attendee))))
+  )
+)
+
+(example
+  (utterance "What time is jan 2's meeting?")
+  (original "start time of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string start_time)))
+  )
+) 
+
+(example
+  (utterance "What is the earliest meeting jan 2?")
+  (original "meeting whose date is jan 2 that has smallest start time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string min) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string start_time))))
+  )
+)
+
+(example
+  (utterance "What is the latest meeting jan 2?")
+  (original "meeting whose date is jan 2 that has largest start time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string max) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string start_time))))
+  )
+)
+
+(example
+  (utterance "How many people will attend the meeting jan 2?")
+  (original "number of attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee))))
+  )
+)
+
+(example
+  (utterance "What time does jan 2's meeting start?")
+  (original "start time of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string start_time)))
+  )
+)
+
+(example
+  (utterance "what do I have scheduled on Jan 2")
+  (original "meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2))) 
+  )
+)
+
+(example
+  (utterance "what time do I have to be at the meeting on jan 2")
+  (original "start time of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string start_time))) 
+  )
+)
+
+(example
+  (utterance "how many meetings does Alice have on jan 2?")
+  (original "number of meeting whose attendee is Alice and whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice) (string date) (string =) (date 2015 1 2))))
+  )
+)
+
+(example
+  (utterance "Where is my first meeting of jan 2 at?")
+  (original "location of meeting whose date is jan 2 that has smallest start time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string min) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string start_time))) (string location)))
+  )
+)
+
+(example
+  (utterance "When does my last meeting of jan 2 end?")
+  (original "end time of meeting whose date is jan 2 that has largest end time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string max) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string end_time))) (string end_time)))
+  )
+)
+
+(example
+  (utterance "Who is attending the same meetings as me on January 2nd")
+  (original "attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee)))
+  )
+)
+
+(example
+  (utterance "Who is attending the 10:00 am meeting on January 2nd?")
+  (original "attendee of meeting whose date is jan 2 and whose start time is 10 am")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string start_time) (string =) (time 10 0)) (string attendee)))
+  )
+)
+
+(example
+  (utterance "What time does my first meeting start on Jan 2?")
+  (original "start time of meeting whose date is jan 2 that has smallest start time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string min) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string start_time))) (string start_time)))
+  )
+)
+
+(example
+  (utterance "How many people will be attending the meeting on January 2?")
+  (original "number of attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee))))  
+  )
+)
+
+(example
+  (utterance "when day does my weekly standup start?")
+  (original "date of weekly standup")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty en.meeting.weekly_standup (string date)))
+  )
+)
+
+(example
+  (utterance "Where are my meetings on jan 2?")
+  (original "location of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string location)))
+  )
+)
+
+(example
+  (utterance "Who will be at the meeting on jan 2?")
+  (original "attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee)))
+  )
+)
+
+(example
+  (utterance "When is my first meeting on jan 2?")
+  (original "start time of meeting whose date is jan 2 that has smallest start time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string min) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string start_time))) (string start_time)))
+  )
+)
+
+(example
+  (utterance "When is my last meeting on jan 2")
+  (original "start time of meeting whose date is jan 2 that has largest start time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string max) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string start_time))) (string start_time)))
+  )
+)
+
+(example
+  (utterance "How many meetings are jan 2")
+  (original "number of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string date)) (string =) (date 2015 1 2))))
+  )
+)
+
+(example
+  (utterance "Who is attending he meeeting on Jan 2")
+  (original "attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee)))
+  )
+)
+
+(example
+  (utterance "Where is the location of the meeting on Jan 2")
+  (original "location of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string location)))
+  )
+)
+
+(example
+  (utterance "where is my jan 2 meeting")
+  (original "location of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string location)))
+  )
+)
+
+(example
+  (utterance "who is attending my jan 2 meeting?")
+  (original "attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee)))
+  )
+)
+
+(example
+  (utterance "What is the start time of my jan 2 meeting?")
+  (original "start time of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string start_time)))
+  )
+)
+
+(example 
+  (utterance "which meetings are with client Alice")
+  (original "meeting whose attendee is alice")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice))
+  )
+)
+
+(example
+  (utterance "how many meetings are on jan 2")
+  (original "number of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string date)) (string =) (date 2015 1 2))))
+  )
+)
+
+(example 
+  (utterance "Who am I meeting with on jan 2?")
+  (original "attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee)))
+  )
+)
+
+(example
+  (utterance "When does the meeting on Jan 2nd end?")
+  (original "end time of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string end_time)))
+  )
+)
+
+(example
+  (utterance "What is on jan 2nd's calendar")
+  (original "meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2))) 
+  )
+)
+
+(example
+  (utterance "What time is my meeting on Jan 2nd?")
+  (original "start time of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string end_time)))
+  )
+)
+
+(example
+  (utterance "How many people will be in the Jan 2nd meeting?")
+  (original "number of attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee))))
+  )
+)
+
+(example
+  (utterance "Who is attending the January 2nd meeting")
+  (original "attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee)))
+  )
+)
+
+(example
+  (utterance "Where are the weekly standups held?")
+  (original "location of weekly standup")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty en.meeting.weekly_standup (string location)))
+  )
+)
+
+(example
+  (utterance "What is happening on the second?")
+  (original "meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)))
+  )
+)
+
+(example
+  (utterance "How many meetings do I have jan 2")
+  (original "number of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string date)) (string =) (date 2015 1 2))))
+  )
+)
+
+(example
+  (utterance "when does my last meeting end on jan 2?")
+  (original "end time of meeting whose date is jan 2 that has largest end time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string max) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string end_time))) (string end_time)))
+  )
+)
+
+(example
+  (utterance "where is my first meeting jan 2 morning?")
+  (original "location of meeting whose date is jan 2 that has smallest start time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string min) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string start_time))) (string location)))
+  )
+)
+
+(example
+  (utterance "how many people will be at the january 2 meeting?")
+  (original "number of attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee))))
+  )
+)
+
+(example
+  (utterance "What time is my meeting on Monday Jan 2nd?")
+  (original "start time of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string start_time)))
+  )
+)
+
+(example
+  (utterance "When is my meeting with Alice")
+  (original "start time of meeting whose attendee is alice")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice) (string start_time)))
+  )
+) 
+
+(example
+  (utterance "how many meeting is Alice going to?")
+  (original "number of meeting whose attendee is Alice")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice)))
+  )
+)
+
+(example
+  (utterance "how many meeting are in February")
+  (original "number of meeting whose date is at least feb 1 and whose date is at most feb 29")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string >=) (date 2015 2 1)) (string date) (string <=) (date 2015 2 29))))
+  )
+)
+
+(example
+  (utterance "where is the last meeting of the year?")
+  (original "location of meeting that has largest date")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string max) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string date))) (string location)))
+  )
+)
+
+(example
+  (utterance "How many meetings are before 10 am on Jan 2nd?")
+  (original "number of meeting whose date is jan 2 and whose start time is at most 10 am")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string start_time) (string <=) (time 10 0))))
+  )
+)
+
+(example
+  (utterance "Which meeting is Alice attending on jan 2?")
+  (original "meeting whose attendee is Alice and whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice) (string date) (string =) (date 2015 1 2)))
+  )
+)
+
+(example
+  (utterance "How long will the meeting prolong?")
+  (original "length of meeting")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string length)))
+  )
+)
+
+(example
+  (utterance "What meetings are in March?")
+  (original "meeting whose date is at least mar 1 and whose date is at most mar 31")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string >=) (date 2015 3 1)) (string date) (string <=) (date 2015 3 31)))
+  )
+)
+
+(example
+  (utterance "how many meetings on jan 2 are longer than 1 hour")
+  (original "number of meeting whose date is jan 2 and whose length is at least 1 hour")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string length) (string >=) (number 1 en.hour))))
+  )
+)
+
+(example
+  (utterance "What meeting are scheduled for Jan 2?")
+  (original "meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)))
+  )
+)
+
+(example
+  (utterance "Where are the meetings for jan 2?")
+  (original "location of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string location)))
+  )
+)
+
+(example
+  (utterance "How many people will be attending the Jan 2nd meeting")
+  (original "number of attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee))))
+  )
+)
+
+(example
+  (utterance "What time does the jan 2 meeting start?")
+  (original "start time of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string start_time)))
+  )
+)
+
+(example
+  (utterance "What time is my first meeting on Jan 2?")
+  (original "start time of meeting whose date is jan 2 that has smallest start time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string min) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string start_time))) (string start_time)))
+  )
+)
+
+(example 
+  (utterance "What meetings are scheduled with the CEO, Alice?")
+  (original "meeting whose attendee is alice")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice))
+  )
+)
+
+(example
+  (utterance "When does my last meeting of jan 2 end?")
+  (original "end time of meeting whose date is jan 2 that has largest end time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string max) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string end_time))) (string end_time)))
+  )
+)
+
+(example
+  (utterance "what time is my meeting with alice")
+  (original "start time of meeting whose attendee is alice")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string attendee) (string =) en.person.alice) (string start_time)))
+  )
+)
+
+(example
+  (utterance "where is the 10am meeting being held")
+  (original "location of meeting whose start time is 10 am")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string start_time) (string =) (time 10 0)) (string location)))
+  )
+)
+
+(example
+  (utterance "how long is my last meeting today?")
+  (original "length of meeting whose date is jan 2 that has largest end time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string max) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string end_time))) (string length)))
+  )
+)
+
+(example
+  (utterance "Are there any meetings in June?")
+  (original "meeting whose date is at least jun 1 and whose date is at most jun 31")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string >=) (date 2015 6 1)) (string date) (string <=) (date 2015 6 31)))
+  )
+)
+
+(example
+  (utterance "Do I have meetings on Jan 2?")
+  (original "meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)))
+  )
+) 
+
+(example
+  (utterance "Do I have a meeting Jan 2?")
+  (original "meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)))
+  )
+)
+
+(example
+  (utterance "Do I have any meetings on jan 2nd?")
+  (original "meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)))
+  )
+)
+
+(example
+  (utterance "Is there a meeting on January 2?")
+  (original "meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)))
+  )
+)
+
+(example 
+  (utterance "Do I have any meetings Jan 2?")
+  (original "meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)))
+  )
+)
+
+(example 
+  (utterance "do i have any plans for 2nd january")
+  (original "meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)))
+  )
+)
+
+(example
+  (utterance "how many meetings do I have to attend in July?")
+  (original "number of meeting whose date is at least jul 1 and whose date is at most jul 31")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string >=) (date 2015 7 1)) (string date) (string <=) (date 2015 7 31))))
+  )
+)
+
+(example
+  (utterance "How many meetings is Alice going to in April?")
+  (original "number of meeting whose date is at least apr 1 and whose date is at most apr 31 and whose attendee is alice")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string >=) (date 2015 7 1)) (string date) (string <=) (date 2015 7 31)) (string attendee) (string =) en.person.alice)))
+  )
+)
+
+(example
+  (utterance "What is the longest meeting scheduled for the week of Jan 2-3?")
+  (original "meeting whose date is at most jan 3 and whose date is at least jan 2 that has largest length")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string >=) (date 2015 1 2)) (string date) (string <=) (date 2015 1 3)) (string max) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string length))))
+  )
+)
+
+(example
+  (utterance "Where is my meeting on Jan 2?")
+  (original "location of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string location)))
+  )
+)
+
+(example 
+  (utterance "Who am I meeting with jan 2?")
+  (original "attendee of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string attendee)))
+  )
+)
+
+(example 
+  (utterance "who will be at the weekly standup?")
+  (original "attendee of weekly standup")
+  (targetFormula                                                                                      
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty en.meeting.weekly_standup (string attendee)))
+  )
+)
+
+
+(example                                                                                              
+  (utterance "where are the meetings?")
+  (original "location of meeting")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string location)))
+  )
+)
+
+(example
+  (utterance "what is the last meeting on jan 2?")
+  (original "meeting whose date is jan 2 that has largest start time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string max) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string start_time))))
+  )
+)
+
+(example 
+  (utterance "how many meetings are on jan 2?")
+  (original "number of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string date)) (string =) (date 2015 1 2))))
+  )
+)
+
+(example
+  (utterance "who is in the first meeting on jan 2?")
+  (original "attendee of meeting whose date is jan 2 that has smallest start time")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.superlative (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string min) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string start_time))) (string attendee)))
+  )
+)
+
+(example
+  (utterance "How many meeting do I have jan 2")
+  (original "number of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call .size (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (call edu.stanford.nlp.sempre.agile.SimpleWorld.ensureNumericProperty (string date)) (string =) (date 2015 1 2))))
+  )
+)
+
+(example                                                                                              
+  (utterance "what time are the meetings?")
+  (original "start time of meeting")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string start_time)))
+  )
+)
+
+(example
+  (utterance "where will the weekly standup take place?")
+  (original "location of weekly standup")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty en.meeting.weekly_standup (string location)))
+  )
+)
+
+(example
+  (utterance "Who will be at the weekly standup")
+  (original "attendee of weekly standup")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty en.meeting.weekly_standup (string attendee)))
+  )
+)
+
+(example
+  (utterance "what is the total duration of the meetings on jan 2?")
+  (original "total length of meeting whose date is jan 2")
+  (targetFormula
+    (call edu.stanford.nlp.sempre.agile.SimpleWorld.listValue (call edu.stanford.nlp.sempre.agile.SimpleWorld.aggregate (string sum) (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.filter (call edu.stanford.nlp.sempre.agile.SimpleWorld.getProperty (call edu.stanford.nlp.sempre.agile.SimpleWorld.singleton en.meeting) (string !type)) (string date) (string =) (date 2015 1 2)) (string length))))
+  )
+)

@@ -1,0 +1,1171 @@
+original - 1500 dollars or 2000 dollars
+  para - find housing units with rental charges between 1500 and 2000 dollars, worker - AD5IKFAK8KN4P
+  para - seeking apartments between 1500 and 2000, worker - A3PRT2O0B4B5E7
+  para - rent between 1500 and 2000 dollars, worker - A2YLK83DQ6PA5Y
+original - housing unit that allows dogs and whose housing type is apartment
+  para - dogfriendly apartment, worker - A3PRT2O0B4B5E7
+  para - housing unit which is an apartment that is dogs friendly, worker - A1ULLPIT6EU99K
+  para - housing apartments that allow dogs, worker - A8VBDRZPXTP8F
+  para - dogfriendly apartments, worker - A11GZNNVLEWRGF
+original - housing unit whose housing type is apartment and whose neighborhood is midtown west
+  para - apartments in the midtown west neighborhood, worker - A3PRT2O0B4B5E7
+  para - list all apartments in midtown west, worker - A1Y3EFWUYKN0UP
+  para - apartments in the midtown west neighborhood, worker - A4UVNGSXE2ANA
+  para - apartment in midtown west, worker - A2YLK83DQ6PA5Y
+original - housing unit that has a private room and whose posting date is jan 2
+  para - what housing unit  posted on jan 2 has a private room, worker - A32CIL5S21Y4MR
+  para - housing units that have a private room that was posted on january 2, worker - A4UVNGSXE2ANA
+  para - housing with private room that was posted on january 2, worker - A1NF6PELRKACS9
+  para - housing with a private room that posted on january 2, worker - A2RRYVYUDNK2GB
+original - total size of housing unit
+  para - how large is the housing unit, worker - ANFWGSQ8BQRZ
+  para - what is that housing unit size, worker - AD5IKFAK8KN4P
+  para - what is the total area of a housing unit, worker - A2TEWO3WJ5YKGG
+  para - what is the size of the apartment, worker - A3PRT2O0B4B5E7
+  para - how big is the housing unit, worker - A11GZNNVLEWRGF
+original - housing unit whose monthly rent is 1500 dollars and whose housing type is apartment
+  para - apartment for rent at 1500, worker - A3PRT2O0B4B5E7
+  para - apartments renting for 1500 a month, worker - A3RQ7JFMZIWRSW
+  para - which housing unit does not belong to the apartment type with a monthly rent of 1500 dollars, worker - A2TEWO3WJ5YKGG
+  para - apartments for 1500, worker - A2R085B34P2LYS
+original - housing type that is housing type of less than two housing unit
+  para - housing type with less than 2 units, worker - A8VBDRZPXTP8F
+  para - find all detached housing units, worker - A2U6D0T6GFXZIF
+  para - housing with fewer than two units, worker - A2RRYVYUDNK2GB
+  para - what kind of housing type is the only of its kind, worker - A32CIL5S21Y4MR
+original - housing unit that allows cats and whose neighborhood is midtown west
+  para - housing unit that allows cats with midtown west as neighborhood, worker - A1ULLPIT6EU99K
+  para - what midtown west housing allows cats, worker - A1Y3EFWUYKN0UP
+  para - catfriendly apartments in midtown west, worker - A3PRT2O0B4B5E7
+original - housing unit that has a private bath and that allows dogs
+  para - which housing unit permits dogs and has a private bath, worker - A2TEWO3WJ5YKGG
+  para - looking for a unit with a private bathroom and dog friendly, worker - A2J65ZHAJQDKAC
+  para - dogfriendly apartment with a private bathroom, worker - A3PRT2O0B4B5E7
+original - housing unit that has a private room and whose size is 800 square feet
+  para - find 800 square feet sized housing units with a private room, worker - AD5IKFAK8KN4P
+  para - 800 square food housing units that have private baths, worker - A4UVNGSXE2ANA
+  para - 800 foot apartment with a private room, worker - A3PRT2O0B4B5E7
+  para - housing that is 800 square feet with a private room, worker - A11GZNNVLEWRGF
+  para - which housing unit with an area of 800 square feet has a private room, worker - A2TEWO3WJ5YKGG
+original - housing unit whose neighborhood is midtown west and that has a private bath
+  para - what midtown west housing unit has a private bath, worker - A1Y3EFWUYKN0UP
+  para - housing units with a  orivate bath in the midtown west area, worker - A4UVNGSXE2ANA
+  para - private bath in midtown west, worker - A2YLK83DQ6PA5Y
+  para - apartment with a master bathroom in midtown west neighbourhood, worker - A3PRT2O0B4B5E7
+original - housing unit that allows dogs and that has a private room
+  para - find housing units with a private room and is dog friendly, worker - AD5IKFAK8KN4P
+  para - which housing units permits dogs and offers a private room, worker - A2TEWO3WJ5YKGG
+  para - show me places with private rooms where dogs are welcome, worker - ANFWGSQ8BQRZ
+original - housing unit that allows cats and whose monthly rent is 1500 dollars
+  para - find cat friendly housing units that charge 1500 dollars as rent, worker - AD5IKFAK8KN4P
+  para - housing that is 1500month and cats are allowed, worker - A11GZNNVLEWRGF
+  para - what housing is cat friendly and costs 1500 dollars, worker - A3DTN2OMF6DUSI
+  para - which housing unit with a rent of 1500 dollars per month permits cats in it, worker - A2TEWO3WJ5YKGG
+original - housing unit that has at most two housing type
+  para - housing units that have the most housing types, worker - A4UVNGSXE2ANA
+  para - find housing units that satisfies two housing types, worker - AD5IKFAK8KN4P
+  para - building with two or less kinds of unis, worker - A11GZNNVLEWRGF
+  para - which housing unit has a maximum of two housing types, worker - A2TEWO3WJ5YKGG
+  para - housing that are either apartments or houses for rent, worker - A3PRT2O0B4B5E7
+original - housing unit that allows dogs and that allows dogs
+  para - apartments that are dog friendly, worker - A3PRT2O0B4B5E7
+  para - dogfriendly housing, worker - A11GZNNVLEWRGF
+  para - find housing units that are pet friendly, worker - AD5IKFAK8KN4P
+  para - show me housing where dogs are allowed, worker - ANFWGSQ8BQRZ
+  para - which is the housing unit that permits dogs inside it, worker - A2TEWO3WJ5YKGG
+original - average monthly rent of housing unit
+  para - what is the average monthly rent, worker - A11GZNNVLEWRGF
+  para - what is the average price of apartments, worker - A3PRT2O0B4B5E7
+  para - what is the average monthly rent of the housing units, worker - A4UVNGSXE2ANA
+  para - what is the average rent per month of a housing unit, worker - A2TEWO3WJ5YKGG
+  para - what is the average monthly rent of housing units, worker - AD5IKFAK8KN4P
+original - neighborhood that is neighborhood of at most two housing unit
+  para - which neighborhood has two housing units maximum, worker - A3GNQDFPZALU92
+  para - neighborhood with at most two housing, worker - A1NF6PELRKACS9
+  para - a neighborhood with at most twohouse units, worker - A2RRYVYUDNK2GB
+  para - what neighborhood has two or less housing units, worker - A32CIL5S21Y4MR
+original - housing unit whose housing type is apartment or condo
+  para - find housing units of the type apartment or condo, worker - AD5IKFAK8KN4P
+  para - aparartment or condo units, worker - AODM31DHYJG99
+  para - apartment or condo, worker - A2YLK83DQ6PA5Y
+  para - show me apartments and condos, worker - A11GZNNVLEWRGF
+  para - looking for housing that is either an apartment or condo, worker - A3PRT2O0B4B5E7
+original - housing unit that has a private bath and that allows cats
+  para - which housing unit permits cats inside it and has the facility of a private bath, worker - A2TEWO3WJ5YKGG
+  para - catfriendly apartments with a private bathroom, worker - A3PRT2O0B4B5E7
+  para - catfriendly housing with a private bath, worker - A11GZNNVLEWRGF
+  para - show me housing which have a private bathroom and allow cats, worker - ANFWGSQ8BQRZ
+original - housing type that is housing type of housing unit that has a private room
+  para - what is the type of housing that has a private room, worker - AD5IKFAK8KN4P
+  para - apartments with a private room, worker - A3PRT2O0B4B5E7
+  para - what is the housing type of the housing unit with a private room, worker - A1ULLPIT6EU99K
+  para - what kinds of housing include a private room, worker - A11GZNNVLEWRGF
+original - housing unit whose monthly rent is 1500 dollars and that allows dogs
+  para - find pet friendly housing units that charge 1500 dollars as rent, worker - AD5IKFAK8KN4P
+  para - housing with 1500 rent and allows dogs, worker - AODM31DHYJG99
+  para - housing unit that costs 1500 dollars rent and allows dogs, worker - A8VBDRZPXTP8F
+original - neighborhood that is neighborhood of housing unit whose monthly rent is 1500 dollars
+  para - what is the neighborhood  of the housing unit with the monthly rent 1500 dollars, worker - AD5IKFAK8KN4P
+  para - which neighborhoods have housing with monthly rent of 1500 dollars, worker - ANFWGSQ8BQRZ
+  para - neighborhood of housing unit whose monthly rent is 1500 dollars, worker - A1ULLPIT6EU99K
+  para - neighborhoods with housing that is 1500month, worker - A11GZNNVLEWRGF
+  para - housing with rent at 1500, worker - A3PRT2O0B4B5E7
+original - housing unit whose housing type is apartment and that allows dogs
+  para - apartments that allow dogs, worker - A11GZNNVLEWRGF
+original - housing unit that allows cats and whose posting date is jan 2
+  para - housing that allows cats posted on january 2, worker - A2RRYVYUDNK2GB
+  para - what housing unit posted on jan 2 allows cats, worker - A32CIL5S21Y4MR
+  para - which housing posted jan 2nd permits cats, worker - A3GNQDFPZALU92
+original - 123 sesame street or 900 mission ave
+  para - compare 123 sesame street and 900 mission avenue, worker - A3PRT2O0B4B5E7
+  para - unit on 123 sesame street or 900 mission avenue, worker - A2YLK83DQ6PA5Y
+original - housing unit whose size is size of 123 sesame street
+  para - apartments similar in size to 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - find housing units in the same size of 123 sesame street, worker - AD5IKFAK8KN4P
+  para - housing unit sizes on 123 sesame street, worker - A34HA6251RR0LH
+  para - which housing unit resembles 123 sesame street in size, worker - A2TEWO3WJ5YKGG
+original - housing unit whose housing type is apartment and whose housing type is apartment
+  para - looking for apartments, worker - A3PRT2O0B4B5E7
+  para - housing unit that is an aprtment, worker - A8VBDRZPXTP8F
+  para - find housing that is an apartment, worker - A2M4YIC3XU2693
+  para - which housing unit has houses of apartment kind, worker - A2TEWO3WJ5YKGG
+original - neighborhood that is neighborhood of at least two housing unit
+  para - name neighborhoods with two or more housing units, worker - AD5IKFAK8KN4P
+  para - which area has a minimum of two housing units, worker - A2TEWO3WJ5YKGG
+  para - neighborhood that has at least two listings, worker - A11GZNNVLEWRGF
+  para - neighborhood that has at least 2 apartments, worker - A3PRT2O0B4B5E7
+  para - which neighborhoods have more than two places available, worker - ANFWGSQ8BQRZ
+original - neighborhood that is neighborhood of housing unit that allows dogs
+  para - which neighborhoods have dogfriendly housing, worker - A11GZNNVLEWRGF
+  para - what neighborhood housing units allows dogs, worker - A1Y3EFWUYKN0UP
+  para - which neighborhoods have housing where dogs are allowed, worker - ANFWGSQ8BQRZ
+  para - which housing units in the neighbourhood permits dogs inside it, worker - A2TEWO3WJ5YKGG
+  para - neighborhoods with dogfriendly apartments, worker - A3PRT2O0B4B5E7
+original - housing type of 123 sesame street
+  para - what kind of housing is 123 sesame street, worker - A11GZNNVLEWRGF
+  para - housing type on 123 sesame street, worker - A34HA6251RR0LH
+  para - what is the 123 sesame street housing type, worker - AD5IKFAK8KN4P
+original - housing unit whose posting date is smaller than posting date of 123 sesame street
+  para - find housing units posted after 123 sesame street, worker - AD5IKFAK8KN4P
+  para - housing posted before 123 sesame street, worker - A11GZNNVLEWRGF
+  para - housing unit with posting date less than that of 123 sesame street, worker - A1ULLPIT6EU99K
+  para - which housing unit is posted before  the posting date of 123 sesame street, worker - A2TEWO3WJ5YKGG
+  para - apartments posted before 123 sesame street was posted, worker - A3PRT2O0B4B5E7
+original - number of neighborhood
+  para - how many neighborhoods are in the city, worker - A3PRT2O0B4B5E7
+  para - how many neighborhoods, worker - ANFWGSQ8BQRZ
+  para - how  many neighbourhoods are there, worker - A2TEWO3WJ5YKGG
+original - housing unit whose neighborhood is midtown west and whose size is 800 square feet
+  para - housing in midtown west with 800 square feet, worker - A2R085B34P2LYS
+  para - 800 square foot apartments in midtown west, worker - A3PRT2O0B4B5E7
+  para - find 800 square feet housing units in the neighborhoods of midtown west, worker - AD5IKFAK8KN4P
+original - 800 square feet or 1000 square feet
+  para - either 800 or 1000 square feet, worker - A1ULLPIT6EU99K
+  para - housing units of either 800 square feet or 1000 square feet, worker - AD5IKFAK8KN4P
+  para - list all housing that have the size of 800 or 1000 square feet, worker - A1Y3EFWUYKN0UP
+original - housing unit that has a private room and that has a private bath
+  para - apartment with a master bedroom and private bath, worker - A3PRT2O0B4B5E7
+  para - housing with a private room and bath, worker - A11GZNNVLEWRGF
+  para - locate housing units with private roombath, worker - A3GNQDFPZALU92
+  para - find housing with a private room and bath, worker - A2M4YIC3XU2693
+  para - housing unit with a private room and bath, worker - A8VBDRZPXTP8F
+original - housing unit that allows dogs and that allows cats
+  para - find housing that allows dogs and cats, worker - A2M4YIC3XU2693
+  para - which housing unit allows dogs and cats, worker - A2TEWO3WJ5YKGG
+  para - housing unit that allows dogs and cats, worker - A8VBDRZPXTP8F
+original - housing unit whose posting date is smaller than jan 2 or feb 3
+  para - which housing unit is posted before jan 2, worker - A2TEWO3WJ5YKGG
+  para - find housing unit with posting date between january 2nd or february 3rd, worker - AD5IKFAK8KN4P
+  para - housing with posting dates before january 2nd and february 3rd, worker - ANFWGSQ8BQRZ
+  para - housing posted before january 2 or february 3, worker - A11GZNNVLEWRGF
+original - housing unit that has a private room and whose housing type is apartment
+  para - find apartments with a private room, worker - AD5IKFAK8KN4P
+  para - which housing unit belongs to the apartment kind with the facility of a private troom, worker - A2TEWO3WJ5YKGG
+original - housing unit whose size is 800 square feet and whose size is 800 square feet
+  para - find 800 square feet housing units, worker - AD5IKFAK8KN4P
+  para - which housing unit has an area of 800 square feet, worker - A2TEWO3WJ5YKGG
+original - housing unit that has a private room and whose neighborhood is midtown west
+  para - need a unit with a private room in the midtown west area, worker - A2J65ZHAJQDKAC
+  para - housing in midtown west with a private room, worker - A11GZNNVLEWRGF
+  para - private housing in midtown west, worker - A1EVW13BQQMRRO
+  para - apartments in midtown west with a private room, worker - A3PRT2O0B4B5E7
+  para - which housing unit in the midtown west area has a private room, worker - A2TEWO3WJ5YKGG
+original - housing unit whose monthly rent is smaller than 1500 dollars or 2000 dollars
+  para - rent less than 15002000 dollars, worker - A2YLK83DQ6PA5Y
+  para - apartments with rent between 1500 and 2000, worker - A3PRT2O0B4B5E7
+  para - housing with rent less than 1500 or less than 2000, worker - A11GZNNVLEWRGF
+  para - find housing units with rental charges lesser than 2000 dollars, worker - AD5IKFAK8KN4P
+  para - housing with monthly rent less than 1500 dollars, worker - AODM31DHYJG99
+original - housing unit whose monthly rent is at least 1500 dollars or 2000 dollars
+  para - find housing units with rental charges between 1500 to 2000 dollars, worker - AD5IKFAK8KN4P
+  para - which housing unit is available for a rent of 1500 2000 dollars, worker - A2TEWO3WJ5YKGG
+  para - housing that is at least 1500month or at least 2000month, worker - A11GZNNVLEWRGF
+original - housing unit that has the least number of housing type
+  para - which housing unit has the least variety of houses, worker - A2TEWO3WJ5YKGG
+  para - building with the least number of housing types, worker - A11GZNNVLEWRGF
+  para - housing units with a small amount of housing, worker - A4UVNGSXE2ANA
+  para - seeking houses in quiet neighborhoods, worker - A3PRT2O0B4B5E7
+  para - find housing units with unique housing types, worker - AD5IKFAK8KN4P
+original - housing unit whose monthly rent is 1500 dollars and whose neighborhood is midtown west
+  para - midtown west unit with 1500 rent monthly, worker - A2YLK83DQ6PA5Y
+  para - apartments in midtown west with rent at 1500, worker - A3PRT2O0B4B5E7
+  para - find housing units with 1500 dollars as rent and is near midtown west, worker - AD5IKFAK8KN4P
+  para - housing unit in midtown west that has monthly rent of 1500, worker - AODM31DHYJG99
+  para - housing in midtown west with 1500month rent, worker - A11GZNNVLEWRGF
+original - housing unit whose monthly rent is at most monthly rent of 123 sesame street
+  para - housing that is the same rent as or cheaper than 123 sesame street, worker - A11GZNNVLEWRGF
+  para - housing unit that costs as much rent as the homes in 123 sesame street, worker - A8VBDRZPXTP8F
+  para - housing that does not have a higher rent then 123 sesame street, worker - AODM31DHYJG99
+  para - find housing units with less than or equal to the rent of 123 sesame street, worker - AD5IKFAK8KN4P
+original - housing unit whose size is 800 square feet and that allows dogs
+  para - which housing unit with an area of 800 square permits dogs, worker - A2TEWO3WJ5YKGG
+  para - where are 800 square fee housing units that allow dogs, worker - A4UVNGSXE2ANA
+  para - dogfriendly 800 square foot apartment, worker - A3PRT2O0B4B5E7
+  para - pet friendly 800 square feet housing unit, worker - AD5IKFAK8KN4P
+  para - dogfriendly housing that is 800 square feet, worker - A11GZNNVLEWRGF
+original - housing unit that allows cats and that allows dogs
+  para - dog and cat friendly housing, worker - A11GZNNVLEWRGF
+  para - looking for a pet friendly unit, worker - A2J65ZHAJQDKAC
+  para - find pet friendly housing units, worker - AD5IKFAK8KN4P
+  para - which housing units permit dogs and cats, worker - A2TEWO3WJ5YKGG
+original - jan 2 or feb 3
+  para - january 2 to february 3, worker - A3PRT2O0B4B5E7
+original - housing unit whose posting date is jan 2 and that is size of 123 sesame street
+  para - housing units who have a posting date of january 2nd and on 123 sesame street, worker - AUQTHU5AOZVQC
+  para - housing unit posted on january 2 and that is the same size as 123 sesame st, worker - A2U6D0T6GFXZIF
+  para - housing like 123 sesame street that was posted on january 2, worker - AMXQ53C1WOPZ8
+  para - what housing unit posted on jan 2 is the same size as 123 sesame street, worker - A32CIL5S21Y4MR
+  para - housing typical of 123 sesame street housing posted on january 2, worker - A2RRYVYUDNK2GB
+original - housing unit whose monthly rent is larger than 1500 dollars
+  para - any units costing more than 1500 a month, worker - A2J65ZHAJQDKAC
+  para - housing costing more than 1500 dollars per month, worker - A1EVW13BQQMRRO
+  para - which housing unit has a monthly rent of more than 1000 dollars, worker - A2TEWO3WJ5YKGG
+  para - apartments with rent above 1500, worker - A3PRT2O0B4B5E7
+  para - housing that is more than 1500month, worker - A11GZNNVLEWRGF
+original - housing unit that has the largest posting date
+  para - what housing has the latest posting date, worker - A1Y3EFWUYKN0UP
+  para - housing with with largest posting date, worker - A1ULLPIT6EU99K
+  para - housing posted the most recently, worker - A3PRT2O0B4B5E7
+  para - housing unit with the largest posting date, worker - A8VBDRZPXTP8F
+  para - most recently posted housing, worker - A11GZNNVLEWRGF
+original - housing unit whose posting date is at least jan 2 or feb 3
+  para - housing that was posted on february 3, worker - AMXQ53C1WOPZ8
+  para - housing that was posted on january 2 or february 3, worker - A1NF6PELRKACS9
+  para - which housing posted no earlier than jan 2nd or feb 3rd, worker - A3GNQDFPZALU92
+  para - housing that was posted after january 2 or after february 3, worker - A2RRYVYUDNK2GB
+original - housing unit whose monthly rent is at least 1500 dollars
+  para - which housing unit has a  minimum  rent of 1500 dollars per month, worker - A2TEWO3WJ5YKGG
+  para - housing that rents for at least 1500 per month, worker - A3RQ7JFMZIWRSW
+  para - housing that is at least 1500month, worker - A11GZNNVLEWRGF
+  para - apartments that rent for at least 1500, worker - A3PRT2O0B4B5E7
+original - housing unit whose housing type is apartment and that allows cats
+  para - find apartments that are pet friendly, worker - AD5IKFAK8KN4P
+  para - apartment that allows cats, worker - A3PRT2O0B4B5E7
+original - housing unit whose housing type is apartment
+  para - list all housing units that are apartments, worker - A1Y3EFWUYKN0UP
+  para - housing units that are apartments, worker - A4UVNGSXE2ANA
+original - housing unit that allows dogs and whose neighborhood is midtown west
+  para - which housing unit in midtown west permits dogs, worker - A2TEWO3WJ5YKGG
+  para - what housing units in the midtown east area also allow dogs, worker - A4UVNGSXE2ANA
+original - housing unit that allows cats and whose housing type is apartment
+  para - which apartment kind of housing units permits cats in it, worker - A2TEWO3WJ5YKGG
+  para - housing apartments that allows cats, worker - A8VBDRZPXTP8F
+  para - apartments that are catfriendly, worker - A3PRT2O0B4B5E7
+  para - apartments that permit cats, worker - A2YLK83DQ6PA5Y
+original - housing unit that has less than two housing type
+  para - housing units with one housing type, worker - A4UVNGSXE2ANA
+  para - unit with one housing type, worker - A2YLK83DQ6PA5Y
+  para - which housing offers less than two kinds of units, worker - A11GZNNVLEWRGF
+  para - apartments with less than 2 units, worker - A3PRT2O0B4B5E7
+  para - housing unit with 2 types of housing, worker - A8VBDRZPXTP8F
+original - housing unit whose housing type is not apartment
+  para - which housing unit does not have apartment type of house, worker - A2TEWO3WJ5YKGG
+  para - housing that is not an apartment, worker - A11GZNNVLEWRGF
+  para - looking for housing that isnt an apartment, worker - A3PRT2O0B4B5E7
+  para - find housing units that is not an apartment, worker - AD5IKFAK8KN4P
+  para - show me housing units that arent apartments, worker - ANFWGSQ8BQRZ
+original - housing unit whose posting date is larger than jan 2
+  para - which housing posted after jan 2nd, worker - A3GNQDFPZALU92
+  para - housing units posted after january 2, worker - A2RRYVYUDNK2GB
+original - housing unit that allows cats and that has a private room
+  para - catfriendly apartments with a private room, worker - A3PRT2O0B4B5E7
+  para - which housing unit permits cats inside it and has a private room, worker - A2TEWO3WJ5YKGG
+  para - what housing unit contains a private room and allows cats, worker - A1Y3EFWUYKN0UP
+  para - catfriendly housing with a private room, worker - A11GZNNVLEWRGF
+  para - show me places with a private room where cats are welcome, worker - ANFWGSQ8BQRZ
+original - housing unit whose size is 800 square feet and whose housing type is apartment
+  para - find 800 square feet housing units of the type apartment, worker - AD5IKFAK8KN4P
+  para - which housing unit has apartment kind of house with an area of 800 square feet, worker - A2TEWO3WJ5YKGG
+original - monthly rent of 123 sesame street
+  para - how much is 123 sesame street per month, worker - A11GZNNVLEWRGF
+  para - how much a month is the rent at 123 sesame street, worker - ANFWGSQ8BQRZ
+  para - what is the rent of 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - what is the rent of 123 sesame street per month, worker - A2TEWO3WJ5YKGG
+  para - what is the monthly rent at 123 sesame street, worker - A4UVNGSXE2ANA
+original - housing unit whose posting date is jan 2 and that is monthly rent of 123 sesame street
+  para - what housing unit posted on jan 2 has the same rent as 123 sesame street, worker - A32CIL5S21Y4MR
+  para - housing unit posted january 2 and the same rent as 123 sesame street, worker - A8VBDRZPXTP8F
+  para - find a housing unit posted on january 2 with the same rent price as 123 sesame st, worker - A2U6D0T6GFXZIF
+  para - what housing that was posted on january 2 has the same rent as 123 sesame street, worker - AMXQ53C1WOPZ8
+  para - housing unit posted january 2 with the same rent as 123 sesame street, worker - A2RRYVYUDNK2GB
+original - housing unit whose posting date is jan 2 and whose monthly rent is 1500 dollars
+  para - which housing posted jan 2nd rents for 1500, worker - A3GNQDFPZALU92
+  para - housing posted on january 2 that rents out for 1500 dollar per month, worker - A1NF6PELRKACS9
+  para - what housing unit posted on jan 2 has a monthly rent of 1500 dollars, worker - A32CIL5S21Y4MR
+  para - housing with 1500 dollar rent that was posted on january 2, worker - AMXQ53C1WOPZ8
+original - housing unit that has the least number of neighborhood
+  para - which area has the least number of housing units, worker - A2TEWO3WJ5YKGG
+  para - find housing units with the least number of neighborhoods, worker - AD5IKFAK8KN4P
+  para - housing listed in the fewest neighborhoods, worker - A11GZNNVLEWRGF
+  para - apartment in a quiet neighborhood, worker - A3PRT2O0B4B5E7
+original - housing unit whose neighborhood is midtown west and whose posting date is jan 2
+  para - housing in midtown west neighborhood posted on january 2, worker - A1NF6PELRKACS9
+  para - a housing unit in midtown west that was posted on january 2, worker - A2RRYVYUDNK2GB
+  para - what housing unit in midtown west was posted on jan 2, worker - A32CIL5S21Y4MR
+  para - which housing unit is in midtown west and was posted on january 2, worker - A2U6D0T6GFXZIF
+original - housing type that is housing type of 123 sesame street
+  para - what kind of housing is 123 sesame street, worker - A11GZNNVLEWRGF
+  para - what is the kind of housing available in 123 sesamre street, worker - A2TEWO3WJ5YKGG
+  para - what is the housing type at 123 sesame street, worker - A4UVNGSXE2ANA
+  para - what type of housing is 123 sesame street, worker - ANFWGSQ8BQRZ
+original - neighborhood that is neighborhood of housing unit whose posting date is jan 2
+  para - housing neighborhood that was posted on january 2, worker - A1NF6PELRKACS9
+  para - housing posted in a neighborhood on january 2, worker - A2RRYVYUDNK2GB
+  para - what neighborhood was the housing unit posted on jan 2, worker - A32CIL5S21Y4MR
+  para - what neighborhood is the housing unit in that was posted on january 2, worker - A2U6D0T6GFXZIF
+original - housing unit whose monthly rent is monthly rent of 123 sesame street
+  para - unit with same rent as 123 sesame street, worker - A2YLK83DQ6PA5Y
+  para - housing that costs the same as 123 sesame street, worker - A11GZNNVLEWRGF
+  para - which housing unit has the monthly rent of 123 sesame street, worker - A2TEWO3WJ5YKGG
+  para - housing unit with the same monthly rent as 123 sesame street, worker - A8VBDRZPXTP8F
+  para - housing with the same rent as 123 sesame street, worker - A3PRT2O0B4B5E7
+original - housing unit whose posting date is jan 2 and that is housing type of 123 sesame street
+  para - a housing unit on 123 sesame street that posted on january 2, worker - A2RRYVYUDNK2GB
+  para - housing that is the same type as 123 sesame street that was posted on january 2, worker - AMXQ53C1WOPZ8
+  para - housing kind of 123 sesame street that was posted on january 2, worker - A1NF6PELRKACS9
+  para - what housing unit posted on jan 2 is the same kind as 123 sesame street, worker - A32CIL5S21Y4MR
+  para - which housing unit was posted january 2 that is the same housing type as 123 sesame st, worker - A2U6D0T6GFXZIF
+original - housing unit that allows cats
+  para - cats permitted in unit, worker - A2YLK83DQ6PA5Y
+  para - catfriendly housing, worker - A11GZNNVLEWRGF
+  para - which housing unit permits cats in it, worker - A2TEWO3WJ5YKGG
+original - housing unit whose posting date is jan 2 and that allows dogs
+  para - housing allowing dogs that was posted on january 2, worker - A1NF6PELRKACS9
+  para - what housing unit allowing dogs was posted on jan 2, worker - A32CIL5S21Y4MR
+  para - housing that allows dogs that posted on january 2, worker - A2RRYVYUDNK2GB
+  para - housing that allows dogs and was posted on january 2, worker - AMXQ53C1WOPZ8
+original - housing unit whose size is larger than size of 123 sesame street
+  para - housing units outsizing 123 sesame street, worker - A3GNQDFPZALU92
+  para - find housing larger than 123 sesame street, worker - A2M4YIC3XU2693
+  para - housing units bigger than homes on 123 sesame street, worker - A8VBDRZPXTP8F
+  para - housing with more square footage than 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - housing that is bigger than 123 sesame street, worker - A11GZNNVLEWRGF
+original - size of 123 sesame street
+  para - what is the square footage of 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - how large is the unit at 123 sesame street, worker - ANFWGSQ8BQRZ
+  para - what is the area of 123 sesame street, worker - A2TEWO3WJ5YKGG
+  para - how big is 123 sesame street, worker - A11GZNNVLEWRGF
+  para - how large is 123 sesame street, worker - A1Y3EFWUYKN0UP
+original - housing unit that has two neighborhood
+  para - what housing unit is in two neighborhoods, worker - A32CIL5S21Y4MR
+  para - find a housing unit that is in two neighborhoods, worker - A2U6D0T6GFXZIF
+  para - housing units with 2 neighborhoods, worker - A8VBDRZPXTP8F
+  para - housing units near two neighborhoods, worker - A2RRYVYUDNK2GB
+original - housing unit that has more than two housing type
+  para - a housing unit that includes more than two housing types, worker - A2RRYVYUDNK2GB
+  para - housing of more than two types, worker - A1NF6PELRKACS9
+  para - what housing unit has two or more housing types, worker - A32CIL5S21Y4MR
+original - housing unit whose size is 800 square feet and whose neighborhood is midtown west
+  para - 800 square feet in midtown west, worker - A2YLK83DQ6PA5Y
+  para - 800 square foot apartment in midtown west, worker - A3PRT2O0B4B5E7
+  para - which midtown west housing have 800 square feet, worker - ANFWGSQ8BQRZ
+  para - find 800 square feet sized housing in the neighborhoods of midtown west, worker - AD5IKFAK8KN4P
+original - housing unit whose housing type is housing type that is housing type of 123 sesame street
+  para - show me the same kind of housing as 123 sesame street, worker - A11GZNNVLEWRGF
+  para - find housing similar to the house located at 123 sesame street, worker - A1EVW13BQQMRRO
+original - posting date of 123 sesame street
+  para - what day did 123 sesame street become available, worker - A3PRT2O0B4B5E7
+  para - what is the date of 123 sesame street posting, worker - AD5IKFAK8KN4P
+  para - what is the date on which 123 sesame street was posted, worker - A2TEWO3WJ5YKGG
+  para - when was 123 sesame street posted, worker - A11GZNNVLEWRGF
+  para - what is the date of the 123 sesame street posting, worker - A3DTN2OMF6DUSI
+original - housing unit whose posting date is smaller than jan 2
+  para - housing posted before january 2, worker - A11GZNNVLEWRGF
+  para - housing posted before january 2, worker - A3PRT2O0B4B5E7
+  para - which housing unit was posted before jan 2, worker - A2TEWO3WJ5YKGG
+  para - housing unit with a post date earlier than january 2, worker - A8VBDRZPXTP8F
+  para - units posted before january 2nd, worker - A2YLK83DQ6PA5Y
+original - housing unit that allows dogs and whose posting date is jan 2
+  para - what housing unit posted on jan 2 allows dogs, worker - A32CIL5S21Y4MR
+  para - housing that allows dogs and was posted on january 2, worker - AMXQ53C1WOPZ8
+  para - which housing posted jan 2nd permits dogs, worker - A3GNQDFPZALU92
+  para - housing posted on january 2nd that allows dogs, worker - A2RRYVYUDNK2GB
+original - housing unit whose posting date is not jan 2
+  para - apartments posted after january 2, worker - A3PRT2O0B4B5E7
+  para - find housings unit posted on other dates except for january 2nd, worker - AD5IKFAK8KN4P
+  para - housing not posted on january 2, worker - A11GZNNVLEWRGF
+  para - which housing posted on a date other than january 2nd, worker - ANFWGSQ8BQRZ
+  para - which housing unit was not posted on jan 2, worker - A2TEWO3WJ5YKGG
+original - neighborhood that is neighborhood of housing unit whose size is 800 square feet
+  para - neighborhoods that have 800 square foot housing, worker - A11GZNNVLEWRGF
+  para - which nearby area has a housing unit of 800 square feet by area, worker - A2TEWO3WJ5YKGG
+  para - what neighborhoods have units with 800 square feet, worker - A2R085B34P2LYS
+  para - show only neighborhood units of 800 square feet, worker - A3GNQDFPZALU92
+  para - what neighborhood is the 800 square foot apartment in, worker - A3PRT2O0B4B5E7
+original - neighborhood that is neighborhood of housing unit that has a private room
+  para - what neighborhood has housing with a private room, worker - A3PRT2O0B4B5E7
+  para - what is the neighborhood of the  housing unit with a private room, worker - AD5IKFAK8KN4P
+  para - neighborhoods with housing units with private rooms, worker - A8VBDRZPXTP8F
+  para - neighborhood where i can find housing with a private room, worker - A11GZNNVLEWRGF
+  para - which housing unit in this area has a private room, worker - A2TEWO3WJ5YKGG
+original - housing unit whose posting date is jan 2 and whose housing type is apartment
+  para - find apartments posted on january 2, worker - A2U6D0T6GFXZIF
+  para - apartment housing that was posted on january 2, worker - AMXQ53C1WOPZ8
+  para - an apartment that was posted on january 2, worker - A2RRYVYUDNK2GB
+  para - apartment that was posted on january 2, worker - A1NF6PELRKACS9
+original - neighborhood that is neighborhood of the most number of housing unit
+  para - neighborhood with the most housing units, worker - A2YLK83DQ6PA5Y
+  para - neighborhood with the most available housing, worker - A11GZNNVLEWRGF
+  para - which is the neighborhood shared by most nuumber of housing units, worker - A1ULLPIT6EU99K
+  para - what neighborhood has the most apartment complexes, worker - A3PRT2O0B4B5E7
+  para - where are the most number of housing units found, worker - AD5IKFAK8KN4P
+original - housing unit that has more than two neighborhood
+  para - housing units that have more than two neighborhoods, worker - A4UVNGSXE2ANA
+  para - what housing unit is in over two neighborhoods, worker - A32CIL5S21Y4MR
+  para - housing in more than two neighborhoods, worker - A2RRYVYUDNK2GB
+  para - housing that has more than two neighborhood, worker - A1NF6PELRKACS9
+original - housing type that is housing type of 123 sesame street or 900 mission ave
+  para - what kind of housing is 123 sesame street or 900 mission ave, worker - A11GZNNVLEWRGF
+  para - what kind of housing is 900 mission ave and 123 sesame street, worker - A2M4YIC3XU2693
+  para - housing unit that is the same as the ones on 123 sesame street or 900 mission ave, worker - A8VBDRZPXTP8F
+  para - which housing unit resembles 123 sesame street or 900 mission ave, worker - A2TEWO3WJ5YKGG
+  para - housing types like 123 sesame street or 900 mission avenue, worker - A3PRT2O0B4B5E7
+original - housing unit whose posting date is jan 2 and that allows cats
+  para - housing that allows cats that posted on january 2, worker - A2RRYVYUDNK2GB
+  para - what housing unit allowing cats was posted on jan 2, worker - A32CIL5S21Y4MR
+  para - find a housing unit posted on january 2 and that allows cats, worker - A2U6D0T6GFXZIF
+  para - housing allowing cats that was posted on january 2, worker - A1NF6PELRKACS9
+original - housing unit that allows cats and that allows cats
+  para - pet friendly housing unit, worker - AD5IKFAK8KN4P
+  para - housing unit that allows cats, worker - A8VBDRZPXTP8F
+  para - which housing unit permits cats inside it, worker - A2TEWO3WJ5YKGG
+original - housing type that is housing type of housing unit whose housing type is apartment
+  para - looking for apartments, worker - A3PRT2O0B4B5E7
+  para - which housing unit has an apartment kind of house, worker - A2TEWO3WJ5YKGG
+  para - find housing units of the type apartment, worker - AD5IKFAK8KN4P
+original - neighborhood that is neighborhood of housing unit whose housing type is apartment
+  para - what is the neighborhood area of that apartment, worker - AD5IKFAK8KN4P
+  para - what neighborhoods have apartments, worker - A2R085B34P2LYS
+  para - neighborhoods with apartments, worker - A11GZNNVLEWRGF
+  para - what is the neighborhood of housing unit of the apartments, worker - A1ULLPIT6EU99K
+  para - neighborhood with apartments, worker - A3PRT2O0B4B5E7
+original - housing unit that has at least two neighborhood
+  para - housing near at least two neighborhoods, worker - A2RRYVYUDNK2GB
+  para - what housing unit has two or more neighborhoods, worker - A32CIL5S21Y4MR
+  para - housing that has at least two neighborhood, worker - A1NF6PELRKACS9
+original - housing unit whose monthly rent is 1500 dollars and that has a private room
+  para - private room for 1500 a month, worker - A2YLK83DQ6PA5Y
+  para - apartment with a private room that rents for 1500 a month, worker - A3PRT2O0B4B5E7
+  para - housing that is 1500month and includes a private room, worker - A11GZNNVLEWRGF
+  para - find me a housing unti that chagres 1500 for rent and has a priiiiiiat bathroom, worker - A4UVNGSXE2ANA
+  para - which 1500monthly rentals come with private room, worker - A3GNQDFPZALU92
+original - housing unit whose size is at least 800 square feet
+  para - housing unit that is 800 square feet or larger in size, worker - AODM31DHYJG99
+  para - apartments 800 square feet and above, worker - A3PRT2O0B4B5E7
+  para - housing that is 800 square feet or bigger, worker - A11GZNNVLEWRGF
+  para - housing unit bigger than 800 square feet, worker - A8VBDRZPXTP8F
+  para - which housing units are at least 800 square feet in size, worker - ANFWGSQ8BQRZ
+original - housing unit whose size is at least 800 square feet or 1000 square feet
+  para - housing that is at least 800 square feet or at least 1000 square feet, worker - A11GZNNVLEWRGF
+  para - housing that is beetween 800 and 1000 square feet, worker - AODM31DHYJG99
+  para - what housing units are at least 800 or 1000 square feet, worker - A4UVNGSXE2ANA
+  para - apartments between 800 and 1000 square feet, worker - A3PRT2O0B4B5E7
+  para - list all housing us that are at least 800 or 1000 square feet, worker - A1Y3EFWUYKN0UP
+original - housing unit whose housing type is housing unit whose posting date is jan 2
+  para - a housing unit that was posted on january 2, worker - A2RRYVYUDNK2GB
+  para - what housing unit is the same type as the unit posted on jan 2, worker - A32CIL5S21Y4MR
+  para - what type of housing unit posted jan 2nd, worker - A3GNQDFPZALU92
+original - housing unit that allows cats and whose size is 800 square feet
+  para - which housing unit with an area of 800 square feet permits  cats and dogs inside it, worker - A2TEWO3WJ5YKGG
+  para - show me housing with 800 square feet of space where cats are acceptable, worker - ANFWGSQ8BQRZ
+  para - find 800 square feet housing units that are cat friendly, worker - AD5IKFAK8KN4P
+original - housing type that is housing type of housing unit that allows dogs
+  para - housing that allows dogs, worker - A2R085B34P2LYS
+  para - which housing type allows pets, worker - AD5IKFAK8KN4P
+  para - what kinds of housing allow dogs, worker - A11GZNNVLEWRGF
+  para - what is the housing type of the housing unit that allows dogs, worker - A1ULLPIT6EU99K
+original - neighborhood that is neighborhood of 123 sesame street
+  para - the neighborhood of apartment 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - which neighborhood is 123 sesame street in, worker - ANFWGSQ8BQRZ
+  para - what neighborhood is 123 sesame street in, worker - A11GZNNVLEWRGF
+  para - in which area is 123 sesame street, worker - A2TEWO3WJ5YKGG
+  para - find housing units around 123 sesame street, worker - AD5IKFAK8KN4P
+original - housing unit whose monthly rent is 1500 dollars and whose monthly rent is 1500 dollars
+  para - which housing has a monthly rent of 1500 dollars, worker - ANFWGSQ8BQRZ
+  para - find housing units with rent as 1500 dollars, worker - AD5IKFAK8KN4P
+  para - housing unit whose monthly rent is 1500 dollars, worker - A1ULLPIT6EU99K
+original - housing unit whose neighborhood is midtown west or chelsea
+  para - which housing unit is in the area of midtown west or chelsea, worker - A2TEWO3WJ5YKGG
+  para - find housing units in the neighborhoods of midtown west or chelsea, worker - AD5IKFAK8KN4P
+  para - show me housing in midtown west or chelsea, worker - ANFWGSQ8BQRZ
+  para - apartments in the midtown west or chelsea neighborhoods, worker - A3PRT2O0B4B5E7
+original - housing unit whose neighborhood is midtown west
+  para - housing unit near midtown west, worker - AD5IKFAK8KN4P
+  para - what housing units are in midtown west, worker - A1Y3EFWUYKN0UP
+  para - find all units available midtown east, worker - A3GNQDFPZALU92
+original - neighborhood that is neighborhood of 123 sesame street or 900 mission ave
+  para - what are the neighborhoods of 123 sesame street or 900 mission ave, worker - AD5IKFAK8KN4P
+  para - neighborhood of 123 sesame street or 900 mission ave, worker - A11GZNNVLEWRGF
+  para - neighborhoods in 123 sesame street or 900 mission ave, worker - A8VBDRZPXTP8F
+  para - housing in the neighborhood of 123 sesame street or 900 mission ave, worker - A2YLK83DQ6PA5Y
+  para - what are the neighborhoods of 123 sesame street and 900 mission avenue, worker - A3PRT2O0B4B5E7
+original - housing unit whose monthly rent is at most 1500 dollars
+  para - what housing unit is priced at 1500 dollars, worker - A1Y3EFWUYKN0UP
+  para - housing that is 1500month or less, worker - A11GZNNVLEWRGF
+  para - which housing unit has a rent of 1500 dollars per month, worker - A2TEWO3WJ5YKGG
+  para - apartments for rent below 1500, worker - A3PRT2O0B4B5E7
+  para - show me housing available for 1500 dollars a month or less, worker - ANFWGSQ8BQRZ
+original - neighborhood of 123 sesame street
+  para - area around 123sesame street, worker - A2TEWO3WJ5YKGG
+  para - what kind of housing is in 123 sesame street, worker - A8VBDRZPXTP8F
+  para - housing near 123 sesame street, worker - AD5IKFAK8KN4P
+  para - what neighborhood is 123 sesame street in, worker - A11GZNNVLEWRGF
+  para - what is the neighborhood of 123 sesame street, worker - A3PRT2O0B4B5E7
+original - housing unit that allows dogs and whose size is 800 square feet
+  para - 800 square foot dogfriendly apartment, worker - A3PRT2O0B4B5E7
+  para - dogfriendly hosing that is 800 square feet, worker - A11GZNNVLEWRGF
+  para - what 800 square housing allows dogs, worker - A1Y3EFWUYKN0UP
+  para - 800 square feet housing unit which allows dogs, worker - A1ULLPIT6EU99K
+  para - 800 square feet housing that allows dogs, worker - A8VBDRZPXTP8F
+original - neighborhood that is neighborhood of the least number of housing unit
+  para - neighborhoods with the least housing units, worker - A8VBDRZPXTP8F
+  para - looking for a quiet neighborhood, worker - A3PRT2O0B4B5E7
+  para - what neighborhood has the least amount of housing, worker - A11GZNNVLEWRGF
+  para - find the neighborhood that has the least number of housing units, worker - AD5IKFAK8KN4P
+  para - neighborhood with the fewest amount of housing units, worker - AODM31DHYJG99
+original - housing unit that has the smallest posting date
+  para - earliest posted housing, worker - A11GZNNVLEWRGF
+  para - housing unit with the smallest posting date, worker - A8VBDRZPXTP8F
+  para - which housing unit is posted lately, worker - A2TEWO3WJ5YKGG
+  para - find housing unit with the latest posting date, worker - AD5IKFAK8KN4P
+  para - what housing has been posted lately, worker - A3PRT2O0B4B5E7
+original - housing type that is housing type of housing unit whose posting date is jan 2
+  para - housing with posting date of january 2, worker - A2RRYVYUDNK2GB
+  para - find all housing units posted on january 2, worker - A2U6D0T6GFXZIF
+  para - what kind of housing was posted on january 2, worker - A1NF6PELRKACS9
+  para - housing posted on january 2, worker - A2RRYVYUDNK2GB
+  para - what kind of housing is the housing unit posted on jan 2, worker - A32CIL5S21Y4MR
+  para - housing type posted january 2, worker - A8VBDRZPXTP8F
+  para - what kind of housing was posted on jan 2, worker - A32CIL5S21Y4MR
+  para - what housing is the same type as the housing posted on january 2, worker - AMXQ53C1WOPZ8
+original - housing unit that has the most number of neighborhood
+  para - units with the most neighborhoods, worker - A2YLK83DQ6PA5Y
+  para - apartments with the most neighborhoods around it, worker - A3PRT2O0B4B5E7
+  para - housing found in the most neighborhoods, worker - A11GZNNVLEWRGF
+  para - find housing units with the most number of neighborhoods, worker - AD5IKFAK8KN4P
+  para - which area has the most number of housing units, worker - A2TEWO3WJ5YKGG
+original - housing unit whose size is larger than 800 square feet or 1000 square feet
+  para - which housing unit is bigger  in area by 800 square feet or 1000 square feet, worker - A2TEWO3WJ5YKGG
+  para - housing at least 800 to 1000 square feet, worker - A3RQ7JFMZIWRSW
+  para - housing that is over 800 square feet or over 1000 square feet, worker - A11GZNNVLEWRGF
+  para - units larger than 800 square feet, worker - A2R085B34P2LYS
+original - neighborhood that is neighborhood of 123 sesame street and that is neighborhood of 123 sesame street
+  para - neighborhood of 123 sesame street, worker - A2YLK83DQ6PA5Y
+  para - what is the neighborhood of 123 sesame street called as, worker - AD5IKFAK8KN4P
+original - housing unit that has a private room and that allows cats
+  para - apartments with a private bathroom that allow cats, worker - A3PRT2O0B4B5E7
+  para - find cat friendly housing units with a private room, worker - AD5IKFAK8KN4P
+  para - which housing unit permits cats and has a private room, worker - A2TEWO3WJ5YKGG
+  para - housing that allows cats and includes a private room, worker - A11GZNNVLEWRGF
+  para - housing unit with a private room and allows cats, worker - A8VBDRZPXTP8F
+original - housing unit that has a private bath and whose neighborhood is midtown west
+  para - apartments with a private bathroom in midtown west, worker - A3PRT2O0B4B5E7
+  para - which housing unit around midtown west has a private bath, worker - A2TEWO3WJ5YKGG
+  para - which housing in midtown west has a private bath, worker - ANFWGSQ8BQRZ
+  para - find housing units with private bath located in the neighborhoods of midtown west, worker - AD5IKFAK8KN4P
+original - housing unit whose size is smaller than 800 square feet
+  para - housing under 800 square feet, worker - A3PRT2O0B4B5E7
+  para - housing that is less than 800 square feet, worker - A11GZNNVLEWRGF
+  para - housing unit smaller than 800 square feet, worker - A1ULLPIT6EU99K
+  para - find housing units with size lesser than 800 square feet, worker - AD5IKFAK8KN4P
+  para - list all housing that is smaller than 800 square feet, worker - A1Y3EFWUYKN0UP
+original - housing unit whose neighborhood is midtown west and whose monthly rent is 1500 dollars
+  para - apartments in midtown west with a rent of 1500 a month, worker - A3PRT2O0B4B5E7
+  para - housing in midtown west that costs 1500month, worker - A11GZNNVLEWRGF
+  para - find housing units in the neighborhoods of midtown west with 1500 dollars as monthly rent, worker - AD5IKFAK8KN4P
+  para - which housing unit in midtown area has a monthly rent of 1500 dollars, worker - A2TEWO3WJ5YKGG
+  para - show me housing in midtown west where rent is 1500 dollars a month, worker - ANFWGSQ8BQRZ
+original - housing unit that allows dogs
+  para - housing that accepts dogs, worker - A11GZNNVLEWRGF
+  para - what housing units allows dogs, worker - A1Y3EFWUYKN0UP
+  para - what housing units allow dogs, worker - A4UVNGSXE2ANA
+  para - apartments that allow dogs, worker - A3PRT2O0B4B5E7
+original - housing unit that has a private bath and that has a private bath
+  para - apartments that have a private bath, worker - A3PRT2O0B4B5E7
+  para - find housing with a private bath, worker - A2M4YIC3XU2693
+  para - which housing unit offers a private bath, worker - A2TEWO3WJ5YKGG
+  para - housing unit with a private bath, worker - A8VBDRZPXTP8F
+original - housing unit whose posting date is housing unit whose posting date is jan 2
+  para - what housing unit was posted on jan 2, worker - A32CIL5S21Y4MR
+  para - all housing units posted on january 2, worker - A2U6D0T6GFXZIF
+original - housing unit whose size is not 800 square feet
+  para - which housing unit has less than 800 square feet, worker - A2TEWO3WJ5YKGG
+  para - housing that is more than 800 square feet, worker - A3PRT2O0B4B5E7
+  para - housing unit that is not 800 square feet, worker - A8VBDRZPXTP8F
+  para - housing size other than 800 square feet, worker - A2YLK83DQ6PA5Y
+  para - housing that is not 800 square feet, worker - A11GZNNVLEWRGF
+original - housing unit whose monthly rent is 1500 dollars
+  para - apartment for rent at 1500, worker - A3PRT2O0B4B5E7
+  para - housing available for 1500month, worker - A34HA6251RR0LH
+  para - find housing units with rent as 1500 dollars per month, worker - AD5IKFAK8KN4P
+  para - which housing unit has 1500 dollars as monthly rent, worker - A2TEWO3WJ5YKGG
+original - housing unit whose monthly rent is 1500 dollars and whose size is 800 square feet
+  para - which 1500monthly rentals are 800 square feet, worker - A3GNQDFPZALU92
+  para - 800 square foot apartment for 1500 rent, worker - A3PRT2O0B4B5E7
+  para - housing that is 1500month and 800 square feet, worker - A11GZNNVLEWRGF
+  para - 800 square foot unit with rent of 1500 monthly, worker - A2YLK83DQ6PA5Y
+original - housing unit whose neighborhood is not midtown west
+  para - housing that isnt in midtown west, worker - A11GZNNVLEWRGF
+  para - what are the  units that  do  not belong to the area around midtown west, worker - A2TEWO3WJ5YKGG
+  para - exclude apartments from midtown west, worker - A3PRT2O0B4B5E7
+  para - find housing units far from midtown west, worker - AD5IKFAK8KN4P
+  para - housing not in midtown west, worker - A34HA6251RR0LH
+original - housing unit whose posting date is at most jan 2
+  para - which housing unit is posted on or before jan 2, worker - A2TEWO3WJ5YKGG
+  para - housing unit with a posting date at the latest january 2, worker - A8VBDRZPXTP8F
+  para - housing posted on or before january 2, worker - A11GZNNVLEWRGF
+  para - apartments posted on january 2, worker - A3PRT2O0B4B5E7
+  para - find housing units posted before january 2nd, worker - AD5IKFAK8KN4P
+original - housing unit whose housing type is apartment and that has a private bath
+  para - apartments with a private bath, worker - A11GZNNVLEWRGF
+  para - housing apartments with a private bath, worker - A8VBDRZPXTP8F
+  para - apartment with a private bathroom, worker - A3PRT2O0B4B5E7
+  para - find apartments with a private bath, worker - AD5IKFAK8KN4P
+  para - apartments with private baths, worker - AODM31DHYJG99
+original - midtown west or chelsea
+  para - looking for housing in midtown west or chelsea area, worker - A2J65ZHAJQDKAC
+  para - neighborhoods medtown west or chelsea, worker - A3PRT2O0B4B5E7
+original - housing unit whose neighborhood is neighborhood that is neighborhood of 123 sesame street
+  para - which housing unit is in the area of 123 sesame street, worker - A2TEWO3WJ5YKGG
+  para - housing in the same neighborhood at 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - housing unit in the neighborhood of 123 sesame street, worker - A8VBDRZPXTP8F
+original - housing unit whose housing type is apartment and that has a private room
+  para - find housing units with a private room and is of the housing type apartment, worker - AD5IKFAK8KN4P
+  para - show me apartments with a private room, worker - ANFWGSQ8BQRZ
+  para - apartments with a private room, worker - A11GZNNVLEWRGF
+  para - housing unit which is an apartment housing type with a private room, worker - A1ULLPIT6EU99K
+  para - apartment with a private room, worker - A3PRT2O0B4B5E7
+original - housing unit whose posting date is jan 2
+  para - which housing unit posted jan 2nd, worker - A3GNQDFPZALU92
+original - housing unit whose posting date is jan 2 and whose posting date is jan 2
+  para - what housing unit was posted on jan 2, worker - A32CIL5S21Y4MR
+  para - which housing unit has a jan 2nd posting, worker - A3GNQDFPZALU92
+original - housing unit whose posting date is jan 2 and that is posting date of 123 sesame street
+  para - what housing unit posted was posted on jan 2, worker - A32CIL5S21Y4MR
+  para - which housing posted jan 2nd at 123 sesame street, worker - A3GNQDFPZALU92
+  para - housing that was posted on january 2 of 123 sesame street kind, worker - A1NF6PELRKACS9
+original - number of housing type
+  para - what is the phone number of this apartment complex, worker - A3PRT2O0B4B5E7
+  para - how many different housing types are there, worker - A11GZNNVLEWRGF
+  para - what is the housing type number, worker - AD5IKFAK8KN4P
+  para - count of different units, worker - A2YLK83DQ6PA5Y
+original - housing type that is housing type of at least two housing unit
+  para - apartments with at least 2 units, worker - A3PRT2O0B4B5E7
+  para - looking for a 2 family house, worker - A2J65ZHAJQDKAC
+  para - show me housing that is the same type as at least two others, worker - A11GZNNVLEWRGF
+  para - what is the housing type of the two housing units, worker - A2TEWO3WJ5YKGG
+  para - name housing types that has more than one housing unit of that type, worker - AD5IKFAK8KN4P
+original - housing type that is housing type of housing unit whose neighborhood is midtown west
+  para - apartment similar to the apartment in midtown west, worker - A3PRT2O0B4B5E7
+  para - housing types in the midtown west, worker - A8VBDRZPXTP8F
+  para - what kind of housing is in midtown west, worker - AODM31DHYJG99
+  para - what kinds of housing is there in midtown west, worker - A11GZNNVLEWRGF
+  para - what are housing types found in the neighborhoods of midtown west, worker - AD5IKFAK8KN4P
+original - housing unit whose size is 800 square feet and whose posting date is jan 2
+  para - what 800 square foot housing posted jan 2nd, worker - A3GNQDFPZALU92
+  para - housing of 800 square feet posted on january 2, worker - A1NF6PELRKACS9
+  para - housing 800 sf in size posted on january 2, worker - A2RRYVYUDNK2GB
+original - housing unit that has two housing type
+  para - what housing unit has two housing types, worker - A32CIL5S21Y4MR
+  para - which housing has two types, worker - A3GNQDFPZALU92
+  para - a twohousing unit, worker - A2RRYVYUDNK2GB
+original - housing type that is housing type of housing unit whose monthly rent is 1500 dollars
+  para - what is the housing type that charges 1500 dollars as monthly rent, worker - AD5IKFAK8KN4P
+  para - which kind of housing is available for a rent of 1500 dollars per month, worker - A2TEWO3WJ5YKGG
+  para - what kind of housing is available for 1500month, worker - A11GZNNVLEWRGF
+  para - units with 1500 dollar rent, worker - A2YLK83DQ6PA5Y
+  para - seeking housing with rent at 1500, worker - A3PRT2O0B4B5E7
+original - housing unit whose posting date is at least posting date of 123 sesame street
+  para - housing that posted on the same day at 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - housing posted the same day or after 123 sesame street, worker - A11GZNNVLEWRGF
+  para - what housing has the same posting date as those in 123 sesame street, worker - A1Y3EFWUYKN0UP
+  para - find housing units that are posted on the date same as 123 sesame street or later, worker - AD5IKFAK8KN4P
+original - housing unit whose size is at least size of 123 sesame street
+  para - what housing units are the same size as those in 123 sesame street, worker - A1Y3EFWUYKN0UP
+  para - apartment that is the same size are 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - housing that is the same size or bigger than 123 sesame street, worker - A11GZNNVLEWRGF
+  para - housing units that are at least the same square footage as the housing unit on 123 sesame street, worker - AODM31DHYJG99
+  para - what housing units that are at least the size of 123 sesame street, worker - A4UVNGSXE2ANA
+original - neighborhood that is not neighborhood of 123 sesame street
+  para - neighborhoods not near 123 sesame street, worker - A2R085B34P2LYS
+  para - list available neighborhoods besides 123 sesame street, worker - A3GNQDFPZALU92
+  para - exclude apartments that are in the same neighborhood as 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - neighborhoods that do not contain 123 sesame street, worker - A11GZNNVLEWRGF
+original - housing unit whose posting date is at most posting date of 123 sesame street
+  para - show me housing which posted on or before the day 123 sesame street did, worker - ANFWGSQ8BQRZ
+  para - housing posted before or on the same day as 123 sesame street, worker - A11GZNNVLEWRGF
+  para - find housing units posted before or on the same date as 123 sesame street, worker - AD5IKFAK8KN4P
+original - housing unit that has a private bath and whose housing type is apartment
+  para - apartment with private bath, worker - A2YLK83DQ6PA5Y
+  para - housing apartment with a private bath, worker - A8VBDRZPXTP8F
+  para - apartment type housing unit that has private bath, worker - A2TEWO3WJ5YKGG
+original - housing unit whose housing type is apartment and whose size is 800 square feet
+  para - find an apartment that is 800 square feet, worker - A2M4YIC3XU2693
+  para - 800 square feet apartment type housing unit, worker - A1ULLPIT6EU99K
+  para - apartments at 800 square feet, worker - A3PRT2O0B4B5E7
+  para - which housing unit has apartment kind of houses with an area of 800 square feet, worker - A2TEWO3WJ5YKGG
+original - housing type that is housing type of 123 sesame street and that is housing type of 123 sesame street
+  para - want a housing type like 123 sesame street, worker - A2J65ZHAJQDKAC
+  para - show me housing that is the same type as 123 sesame street, worker - A11GZNNVLEWRGF
+  para - what is the housing type of 123 sesame street, worker - AD5IKFAK8KN4P
+original - housing unit whose posting date is posting date of 123 sesame street
+  para - which housing unit is posted on the posting date of 123 sesame street, worker - A2TEWO3WJ5YKGG
+  para - housing posted the same day as 123 sesame street, worker - A11GZNNVLEWRGF
+  para - find housing units with the same posting date as 123 sesame street, worker - AD5IKFAK8KN4P
+  para - housing posted the same day as 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - which housing posted on the same date as 123 sesame street, worker - ANFWGSQ8BQRZ
+original - housing unit that has a private bath and that has a private room
+  para - which housing unit offers a private room and a private bath, worker - A2TEWO3WJ5YKGG
+  para - housing unit with a private bath and room, worker - A8VBDRZPXTP8F
+  para - find housing that has a private room and bath, worker - A2M4YIC3XU2693
+  para - housing unit with private bath as well as private room, worker - A1ULLPIT6EU99K
+  para - housing with a master bedroom and private bath, worker - A3PRT2O0B4B5E7
+original - housing unit whose size is at most 800 square feet or 1000 square feet
+  para - housing that ranges between 800 and 1000 square feet, worker - AODM31DHYJG99
+  para - housing unit at most 800 or 1000 square feet, worker - A8VBDRZPXTP8F
+  para - apartment between 800 and 1000 square feet, worker - A3PRT2O0B4B5E7
+  para - housing that is 800 square feet or less or 1000 square feet or less, worker - A11GZNNVLEWRGF
+  para - find housing units less than 1000  square feet, worker - AD5IKFAK8KN4P
+original - apartment or condo
+  para - seeking apartment or condo, worker - A3PRT2O0B4B5E7
+  para - condominium or apartment housing, worker - A2YLK83DQ6PA5Y
+  para - condomonium or flat, worker - A2TEWO3WJ5YKGG
+original - housing type that is housing type of at most two housing unit
+  para - housing with no more than two housing units, worker - A2RRYVYUDNK2GB
+  para - what kind of housing is at two or less housing units, worker - A32CIL5S21Y4MR
+  para - which housing consists of two units maximum, worker - A3GNQDFPZALU92
+original - housing unit whose neighborhood is midtown west and whose housing type is apartment
+  para - apartments in midtown west, worker - A11GZNNVLEWRGF
+  para - find apartments in the neighborhoods of midtown west, worker - AD5IKFAK8KN4P
+  para - housing apartments in a midtown west neighborhood, worker - A8VBDRZPXTP8F
+original - housing unit that has a private room and whose monthly rent is 1500 dollars
+  para - which housing with a private room rents for 1500 dollar monthly, worker - ANFWGSQ8BQRZ
+  para - housing that is 1500month with a private room, worker - A11GZNNVLEWRGF
+  para - which housing unit with a rent of 1500 dollars per month has a private room, worker - A2TEWO3WJ5YKGG
+  para - find housing units with a private room and has 1500 dollars as monthly rent, worker - AD5IKFAK8KN4P
+  para - apartment with a private room for rent at 1500, worker - A3PRT2O0B4B5E7
+original - housing unit whose posting date is jan 2 and that has a private bath
+  para - housing with private bath that was posted on january 2, worker - A1NF6PELRKACS9
+  para - a unit with a private bath that posted on january 2, worker - A2RRYVYUDNK2GB
+  para - housing with private bath that was posted on january 2, worker - AMXQ53C1WOPZ8
+  para - what housing unit with a private bath was posted on jan 2, worker - A32CIL5S21Y4MR
+original - housing unit whose size is 800 square feet and that has a private bath
+  para - which housing unit has a private bath and an area of 800 square feet, worker - A2TEWO3WJ5YKGG
+  para - 800 square feet housing unit with a private bath, worker - AD5IKFAK8KN4P
+  para - 800 square foot apartment with private bathroom, worker - A3PRT2O0B4B5E7
+  para - housing units that are 800 square feet and have private baths, worker - A4UVNGSXE2ANA
+  para - housing that is 800 square feet with a private bath, worker - A11GZNNVLEWRGF
+original - housing unit whose posting date is jan 2 and whose neighborhood is midtown west
+  para - housing in midtown west that was posted on january 2, worker - AMXQ53C1WOPZ8
+  para - housing unit in west midtown posted on january 2, worker - A2U6D0T6GFXZIF
+  para - housing in midtown west that posted on january 2, worker - A2RRYVYUDNK2GB
+  para - what housing unit posted on jan 2 is in midtown west, worker - A32CIL5S21Y4MR
+  para - housing units with a posting date of january 2nd that are located in midtown west, worker - AUQTHU5AOZVQC
+original - housing unit that has a private bath and whose size is 800 square feet
+  para - 800 square foot apartment with a private bath, worker - A3PRT2O0B4B5E7
+  para - housing that is 800 square feet and includes a private bah, worker - A11GZNNVLEWRGF
+  para - find all 800 square foot units with private baths, worker - A3GNQDFPZALU92
+  para - private bath with 800 square feet, worker - A2YLK83DQ6PA5Y
+original - housing type that is not housing type of 123 sesame street
+  para - find housing types other than 123 sesame street, worker - A3GNQDFPZALU92
+  para - housing that is not the same kind as 123 sesame street, worker - A11GZNNVLEWRGF
+  para - name housing types other than 123 sesame street type, worker - AD5IKFAK8KN4P
+  para - exclude housing similar to 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - list all housing types that are not the same as those in 123 sesame street, worker - A1Y3EFWUYKN0UP
+original - number of housing unit
+  para - what is the house number of the apartment, worker - A3PRT2O0B4B5E7
+  para - show total number of all units, worker - A3GNQDFPZALU92
+  para - how many housing units are there, worker - A1Y3EFWUYKN0UP
+  para - what is the housing unit number, worker - AD5IKFAK8KN4P
+original - housing unit that allows cats and that has a private bath
+  para - apartment with a private bath that also accepts cats, worker - A3PRT2O0B4B5E7
+  para - which housing unit permits cats and had a private bath in it, worker - A2TEWO3WJ5YKGG
+  para - housing unit that allows cats and has a private bath, worker - A8VBDRZPXTP8F
+  para - housing that allows cats and includes a private bath, worker - A11GZNNVLEWRGF
+  para - find cat friendly housing units with a private bath, worker - AD5IKFAK8KN4P
+original - neighborhood that is neighborhood of housing unit whose neighborhood is midtown west
+  para - what is the other areas around midtown west that has housing units, worker - AD5IKFAK8KN4P
+  para - what housing unit is found in the midtown east neighborhood, worker - A4UVNGSXE2ANA
+  para - what are the housing units in the area around midtown west, worker - A2TEWO3WJ5YKGG
+  para - where is midtown west, worker - A3PRT2O0B4B5E7
+original - housing type that is housing type of housing unit that allows cats
+  para - what is the housing type that allows cats, worker - AD5IKFAK8KN4P
+  para - which kind of housing permits cats inside it, worker - A2TEWO3WJ5YKGG
+  para - what kinds of housing allow cats, worker - A11GZNNVLEWRGF
+original - housing unit whose neighborhood is midtown west and that has a private room
+  para - private room in midtown west, worker - A2YLK83DQ6PA5Y
+  para - find housing units with private room near midtown west, worker - AD5IKFAK8KN4P
+  para - housing unit with a private room in midtown west, worker - AODM31DHYJG99
+  para - apartments with a private room in midtown west, worker - A3PRT2O0B4B5E7
+original - housing unit that has the most number of housing type
+  para - what is the most numerous housing type, worker - A8VBDRZPXTP8F
+  para - building with the most kinds of units, worker - A11GZNNVLEWRGF
+  para - which housing has the most amount of housing types, worker - A2M4YIC3XU2693
+  para - which housing unit has  the variety of houses, worker - A2TEWO3WJ5YKGG
+  para - apartment complexes with the most units, worker - A3PRT2O0B4B5E7
+original - housing unit whose size is at most 800 square feet
+  para - find housing units with maximum size 800 square feet, worker - A3GNQDFPZALU92
+  para - 800 square foot apartments, worker - A3PRT2O0B4B5E7
+  para - housing unit at most 800 square feet, worker - A8VBDRZPXTP8F
+  para - find a housing that is no more than 800 square feet, worker - A2M4YIC3XU2693
+  para - housing that is 800 square feet or less, worker - A11GZNNVLEWRGF
+original - housing unit whose monthly rent is larger than 1500 dollars or 2000 dollars
+  para - apartments with rent between 1500 to 2000 dollars, worker - A3PRT2O0B4B5E7
+  para - which housing unit has a rent of 1500 dollars or 2000 dollars per month, worker - A2TEWO3WJ5YKGG
+  para - housing that is more than 1500month or more than 2000month, worker - A11GZNNVLEWRGF
+original - housing unit whose size is smaller than size of 123 sesame street
+  para - housing that is smaller than 123 sesame street, worker - A11GZNNVLEWRGF
+  para - find housing units with size lesser than that of 123 sesame street, worker - AD5IKFAK8KN4P
+  para - housing units that are smaller than 123 sesame street, worker - AODM31DHYJG99
+  para - unit smaller than 123 sesame street, worker - A2YLK83DQ6PA5Y
+  para - apartments that are smaller than 123 sesame street, worker - A3PRT2O0B4B5E7
+original - housing unit whose size is larger than 800 square feet
+  para - find housing units with size greater than 800 square feet, worker - AD5IKFAK8KN4P
+  para - which housing have more than 800 square feet of space, worker - ANFWGSQ8BQRZ
+  para - apartments bigger than 800 square feet, worker - A3PRT2O0B4B5E7
+  para - unit larger than 800 square feet, worker - A2YLK83DQ6PA5Y
+  para - housing that is bigger than 800 square feet, worker - A11GZNNVLEWRGF
+original - housing type that is housing type of housing unit whose size is 800 square feet
+  para - unit of 800 square feet, worker - A2YLK83DQ6PA5Y
+  para - housing units that are 800 square feet, worker - A4UVNGSXE2ANA
+  para - what kind of housing is 800 square feet, worker - A11GZNNVLEWRGF
+original - housing unit whose neighborhood is midtown west and that allows dogs
+  para - housing unit in midtown west and allows dogs, worker - A8VBDRZPXTP8F
+  para - housing units in midtown west that allow dogs, worker - AODM31DHYJG99
+  para - show me housing in midtown west where dogs are welcome, worker - ANFWGSQ8BQRZ
+original - housing unit whose neighborhood is midtown west and whose neighborhood is midtown west
+  para - which housing unit is available in the area around mid town west, worker - A2TEWO3WJ5YKGG
+  para - apartment in the midtown west neighborhood, worker - A3PRT2O0B4B5E7
+  para - housing units in the midtown west area, worker - A4UVNGSXE2ANA
+  para - find housing units in the neighborhoods of midtown west, worker - AD5IKFAK8KN4P
+original - housing unit whose monthly rent is 1500 dollars and that has a private bath
+  para - which housing unit has 1500 dollars as monthly rent and also has the facility of a private bath, worker - A2TEWO3WJ5YKGG
+  para - apartment with a private bathroom for rent at 1500, worker - A3PRT2O0B4B5E7
+  para - housing with 1500 dollars rent that has a private bath, worker - AD5IKFAK8KN4P
+  para - housing units with a private bath and a 1500 dollar monthly rent, worker - A4UVNGSXE2ANA
+original - housing unit that has a private bath and whose posting date is jan 2
+  para - what housing using posted on jan 2 has a private bath, worker - A32CIL5S21Y4MR
+  para - a housing unit with a private bath that posted on january 2, worker - A2RRYVYUDNK2GB
+  para - housing with private bath posted on january 2, worker - A1NF6PELRKACS9
+original - housing unit that has a private bath and whose monthly rent is 1500 dollars
+  para - housing unit with a private bath and 1500 dollar rent, worker - AODM31DHYJG99
+  para - show me housing whose rent is 1500 dollars and which provides a private bathroom, worker - ANFWGSQ8BQRZ
+  para - housing unit with a private bath and cost 1500 dollars rent, worker - A8VBDRZPXTP8F
+  para - apartment with a private bath for rent at 1500, worker - A3PRT2O0B4B5E7
+original - neighborhood that is neighborhood of more than two housing unit
+  para - neighborhoods with more than two apartment complexes, worker - A3PRT2O0B4B5E7
+  para - neighborhood with more than two housing units, worker - A11GZNNVLEWRGF
+  para - which area has more than two housing units, worker - A2TEWO3WJ5YKGG
+  para - neighborhoods that have more than two units, worker - A2R085B34P2LYS
+  para - housing in a neighborhood larger than two houses, worker - A3RQ7JFMZIWRSW
+original - housing unit whose size is 800 square feet or 1000 square feet
+  para - housing unit that is 800 or 1000 square feet, worker - A8VBDRZPXTP8F
+  para - find housing between 800 and 1000 square feet, worker - A2M4YIC3XU2693
+  para - housing unit with size of either 800 or 1000 square feet, worker - A1ULLPIT6EU99K
+  para - which housing unit has  an area of 800 or 1000 square feet, worker - A2TEWO3WJ5YKGG
+original - housing type that is housing type of housing unit that has a private bath
+  para - which types of housing have a private bathroom, worker - ANFWGSQ8BQRZ
+  para - apartments with a private bathroom, worker - A3PRT2O0B4B5E7
+  para - specify the housing type of the housing unit that has a private bath, worker - AD5IKFAK8KN4P
+  para - what kinds of housing has a private bath, worker - A11GZNNVLEWRGF
+  para - unit with private bath, worker - A2YLK83DQ6PA5Y
+original - housing unit that allows dogs and that has a private bath
+  para - which housing unit permits dogs and has the facility of a private bath, worker - A2TEWO3WJ5YKGG
+  para - housing unit that allows dogs and has a private bath, worker - A8VBDRZPXTP8F
+  para - which unit allows dogs and has a private bath, worker - A2M4YIC3XU2693
+  para - apartments with a private bath that allow dogs, worker - A3PRT2O0B4B5E7
+original - housing unit whose monthly rent is 1500 dollars and that allows cats
+  para - housing unit that costs 1500 dollars rent and allows cats, worker - A8VBDRZPXTP8F
+  para - housing units that allow cats and charge 1500 rent monthly, worker - A4UVNGSXE2ANA
+  para - catfriendly apartments with rent at 1500, worker - A3PRT2O0B4B5E7
+  para - cats permitted 1500 rent monthly, worker - A2YLK83DQ6PA5Y
+  para - housing that allows cats and is 1500 a month, worker - A11GZNNVLEWRGF
+original - housing unit whose monthly rent is at most 1500 dollars or 2000 dollars
+  para - which housing unit is available for a rent of 1500 pr 2000 dollars per month, worker - A2TEWO3WJ5YKGG
+  para - what housing is priced at 1500 or 2000 dollars, worker - A1Y3EFWUYKN0UP
+  para - find housing units with 1500 dollars to 2000 as rent, worker - AD5IKFAK8KN4P
+  para - housing that is 1500month or less or 2000month or less, worker - A11GZNNVLEWRGF
+original - housing unit that has the smallest size
+  para - what is the smallest housing, worker - A11GZNNVLEWRGF
+  para - smallest housing units, worker - A8VBDRZPXTP8F
+  para - smallest available unit, worker - A2YLK83DQ6PA5Y
+  para - which housing unit has the smallest size, worker - A4UVNGSXE2ANA
+  para - smallest apartments, worker - A3PRT2O0B4B5E7
+original - housing unit whose posting date is jan 2 and whose size is 800 square feet
+  para - find an 800 sq ft housing unit posted on january 2, worker - A2U6D0T6GFXZIF
+  para - housing units that are posted on january end and have a total size of 800 square feet, worker - AUQTHU5AOZVQC
+  para - housing 800 sq in size posted on january 2, worker - A2RRYVYUDNK2GB
+original - housing type that is housing type of two housing unit
+  para - what kind of housing are the two housing units, worker - A32CIL5S21Y4MR
+  para - housing of two types, worker - A1NF6PELRKACS9
+  para - housing that includes two units, worker - A2RRYVYUDNK2GB
+  para - what housing is a two unit type, worker - A3GNQDFPZALU92
+original - housing unit whose size is smaller than 800 square feet or 1000 square feet
+  para - find housing units with size between 800 and 1000 square feet, worker - AD5IKFAK8KN4P
+  para - housing unit smaller than 800 or 1000 square feet, worker - A8VBDRZPXTP8F
+  para - which housing unit is smaller than 800 square feet or 1000 square feet by area, worker - A2TEWO3WJ5YKGG
+  para - housing that is smaller than 800 square feet or smaller than 1000 square feet, worker - A11GZNNVLEWRGF
+  para - apartment that is below 1000 or 800 square feet, worker - A3PRT2O0B4B5E7
+original - housing unit whose size is 800 square feet and that allows cats
+  para - which housing unit with an area of 800 square feet permits cats in it, worker - A2TEWO3WJ5YKGG
+  para - 800 square foot apartment that allows cats, worker - A3PRT2O0B4B5E7
+  para - find 800 square feet housing units that allow cats, worker - AD5IKFAK8KN4P
+  para - what kind of housing offers 800 square feet and allows cats, worker - A1Y3EFWUYKN0UP
+original - housing unit whose monthly rent is 1500 dollars or 2000 dollars
+  para - housing unit that costs 1500 or 200 dollars in rent, worker - A8VBDRZPXTP8F
+  para - unit with rent between 15002000 dollars, worker - A2YLK83DQ6PA5Y
+  para - find housing with rental charges between 1500 and 2000 dollars, worker - AD5IKFAK8KN4P
+  para - housing that is 1500month or 2000month, worker - A11GZNNVLEWRGF
+  para - apartment with rent between 1500 and 2000, worker - A3PRT2O0B4B5E7
+original - housing unit that has a private room
+  para - housing units with private room, worker - A3GNQDFPZALU92
+  para - housing unit with a private room, worker - A8VBDRZPXTP8F
+  para - what housing has a private room, worker - A2M4YIC3XU2693
+original - housing unit whose size is 800 square feet and that has a private room
+  para - 800 square foot apartment with a private room, worker - A3PRT2O0B4B5E7
+  para - housing with a private room that is 800 square feet total, worker - A11GZNNVLEWRGF
+  para - which housing unit with an area of 800 square feet has the facility of a private room, worker - A2TEWO3WJ5YKGG
+  para - find housing units with a private room and is of size 800 square feet, worker - AD5IKFAK8KN4P
+  para - 800 square foot housing unit with a private room, worker - A3DTN2OMF6DUSI
+original - housing unit that has a private room and that allows dogs
+  para - which housing unit permits dogs and has the facility of a private room, worker - A2TEWO3WJ5YKGG
+  para - housing unit that both have a private room and allow dogs, worker - A4UVNGSXE2ANA
+  para - which housing provides a private room where dogs are allowed, worker - ANFWGSQ8BQRZ
+original - average size of housing unit
+  para - what is the average area  of a housing unit, worker - A2TEWO3WJ5YKGG
+  para - unit of average size, worker - A2YLK83DQ6PA5Y
+  para - what is the average size of housing, worker - A11GZNNVLEWRGF
+  para - what is the average find 800 square feet housing units that allow cats, worker - AD5IKFAK8KN4P
+  para - what is the average size of an apartment, worker - A3PRT2O0B4B5E7
+original - housing unit whose housing type is apartment and whose monthly rent is 1500 dollars
+  para - housing apartments that costs 1500 dollars, worker - A8VBDRZPXTP8F
+  para - housing unit which is an apartment with a monthly rent of 1500 dollars, worker - A1ULLPIT6EU99K
+  para - what apartment costs 1500 dollars, worker - A1Y3EFWUYKN0UP
+  para - apartments are 1500, worker - A3PRT2O0B4B5E7
+original - housing unit whose housing type is housing type of 123 sesame street
+  para - find housing units in the same housing type of 123 sesame street, worker - AD5IKFAK8KN4P
+  para - housing unit with same housing type as that of 123 sesame street, worker - A1ULLPIT6EU99K
+  para - which housing unit resembles that of 123 sesame street, worker - A2TEWO3WJ5YKGG
+original - housing unit whose size is 800 square feet
+  para - find 800 square feet sized housing units, worker - AD5IKFAK8KN4P
+  para - show me housing with 800 square feet of space, worker - ANFWGSQ8BQRZ
+  para - unit is 800 square feet, worker - A2YLK83DQ6PA5Y
+original - housing type that is housing type of the least number of housing unit
+  para - what are the rare housing types, worker - AD5IKFAK8KN4P
+  para - apartments with the least amount of units, worker - A3PRT2O0B4B5E7
+  para - what housing units have a small amount of housing units, worker - A4UVNGSXE2ANA
+  para - rarest housing type, worker - A11GZNNVLEWRGF
+  para - what kind of housing has the least number of units, worker - A2TEWO3WJ5YKGG
+original - housing unit whose posting date is jan 2 and that is neighborhood of 123 sesame street
+  para - housing posted on january 2 around 123 sesame street, worker - A1NF6PELRKACS9
+  para - housing in 123 sesame street neighborhood that was posted on january 2, worker - AMXQ53C1WOPZ8
+  para - what housing unit is in the same neighborhood as 123 sesame st and was posted on jan 2, worker - A2U6D0T6GFXZIF
+  para - what housing unit in the same neighborhood as 123 sesame street was posted on jan 2, worker - A32CIL5S21Y4MR
+original - housing unit whose neighborhood is housing unit whose posting date is jan 2
+  para - what housing unit is in the same neighborhood as the unit posted on jan 2, worker - A32CIL5S21Y4MR
+  para - housing unit posted on january 2, worker - A1NF6PELRKACS9
+  para - a housing unit posted on january 2 in any neighborhood, worker - A2RRYVYUDNK2GB
+  para - what neighborhood is the housing unit in that was posted january 2, worker - A2U6D0T6GFXZIF
+original - housing unit whose posting date is jan 2 and that has a private room
+  para - housing posted january 2nd that includes a private room, worker - A2RRYVYUDNK2GB
+  para - what housing with a private room posted jan 2nd, worker - A3GNQDFPZALU92
+  para - find a housing unit posted on january 2 and that has a private room, worker - A2U6D0T6GFXZIF
+  para - what housing unit with a private room was posted on jan 2, worker - A32CIL5S21Y4MR
+original - housing unit that has the largest size
+  para - which housing unit is bigger by area, worker - A2TEWO3WJ5YKGG
+  para - what is the biggest housing unit, worker - A11GZNNVLEWRGF
+  para - find the largest housing unit, worker - AD5IKFAK8KN4P
+  para - show me the housing with the most space available, worker - ANFWGSQ8BQRZ
+  para - where are the biggest apartments, worker - A3PRT2O0B4B5E7
+original - neighborhood that is neighborhood of housing unit that allows cats
+  para - neighborhoods of housing units that allows cats, worker - A8VBDRZPXTP8F
+  para - neighborhoods with catfriendly housing, worker - A11GZNNVLEWRGF
+  para - what is the neighborhood of the apartment that is pet friendly, worker - A3PRT2O0B4B5E7
+  para - find housing that allows cats, worker - A2M4YIC3XU2693
+  para - which housing unit in the area permits cats, worker - A2TEWO3WJ5YKGG
+original - housing unit that has a private bath
+  para - housing units with a private bath, worker - A4UVNGSXE2ANA
+  para - what housing unit contains a private bath, worker - A1Y3EFWUYKN0UP
+  para - apartment with a master bathroom, worker - A3PRT2O0B4B5E7
+  para - housing units that have a private bath, worker - AODM31DHYJG99
+original - total monthly rent of housing unit
+  para - what is units monthly rental, worker - A3GNQDFPZALU92
+  para - what is the total monthly rent, worker - A11GZNNVLEWRGF
+  para - what is the monthly rent of this apartment, worker - A3PRT2O0B4B5E7
+original - housing unit that has less than two neighborhood
+  para - quiet apartments, worker - A3PRT2O0B4B5E7
+  para - housing found in less than two neighborhoods, worker - A11GZNNVLEWRGF
+  para - which area has less than two housing units, worker - A2TEWO3WJ5YKGG
+  para - housing units with less than two nieghborhoods, worker - A4UVNGSXE2ANA
+  para - find housing units with just one neighborhood, worker - AD5IKFAK8KN4P
+original - housing unit that has the smallest monthly rent
+  para - cheapest housing, worker - A11GZNNVLEWRGF
+  para - cheapest places to rent, worker - A3PRT2O0B4B5E7
+  para - which housing unit is available for the least rent, worker - A2TEWO3WJ5YKGG
+  para - find the housing unit with the least monthly rent, worker - AD5IKFAK8KN4P
+  para - what housing has the cheapest rent, worker - A1Y3EFWUYKN0UP
+original - neighborhood that is neighborhood of less than two housing unit
+  para - neighborhood with less than two housing, worker - A1NF6PELRKACS9
+  para - what neighborhood has less than two housing units, worker - A32CIL5S21Y4MR
+  para - a neighborhood with fewer than twohouse units, worker - A2RRYVYUDNK2GB
+  para - which neighborhood has under two housing units, worker - A3GNQDFPZALU92
+original - housing unit that allows dogs and whose monthly rent is 1500 dollars
+  para - pet friendly housing with 1500 dollars as rent, worker - AD5IKFAK8KN4P
+  para - which 1500monthly rentals are dogfriendly, worker - A3GNQDFPZALU92
+  para - what housing unit has a price of 1500 dollars and allows dogs, worker - A1Y3EFWUYKN0UP
+original - housing unit whose monthly rent is at least monthly rent of 123 sesame street
+  para - housing unit as costly as the rent of the homes in 123 sesame street, worker - A8VBDRZPXTP8F
+  para - housing that is at least as expensive as 123 sesame street, worker - A11GZNNVLEWRGF
+  para - apartments with the same rent as 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - which housing unit has the rent of 123 sesame street, worker - A2TEWO3WJ5YKGG
+  para - what is the monthly rent for 123 sesame street, worker - A2M4YIC3XU2693
+original - housing unit whose neighborhood is neighborhood of 123 sesame street
+  para - find housing units around the neighborhoods of 123 sesame street, worker - AD5IKFAK8KN4P
+  para - apartments in the same neighborhood at 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - housing in the neighborhood of 123 sesame street, worker - AODM31DHYJG99
+original - housing unit whose housing type is apartment and whose posting date is jan 2
+  para - apartments that were posted on january 2, worker - AMXQ53C1WOPZ8
+  para - apartments that were posted on january 2, worker - A2U6D0T6GFXZIF
+original - housing unit whose monthly rent is not 1500 dollars
+  para - housing unit whose monthly rent is not 1500 dollars, worker - A1ULLPIT6EU99K
+  para - which housing unit is available for a price of less than 1500 dollars, worker - A2TEWO3WJ5YKGG
+  para - apartments with a rent below 1500 a month, worker - A3PRT2O0B4B5E7
+  para - housing that is not 1500month, worker - A11GZNNVLEWRGF
+  para - find housing units with monthly not equal to 1500 dollars, worker - AD5IKFAK8KN4P
+original - housing unit that has the largest monthly rent
+  para - most expensive places to rent, worker - A3PRT2O0B4B5E7
+  para - which housing unit has the highest rent per month, worker - A2TEWO3WJ5YKGG
+  para - which housing unit with the highest rent, worker - A4UVNGSXE2ANA
+  para - most expensive housing, worker - A11GZNNVLEWRGF
+  para - find the housing unit with the most monthly rent, worker - AD5IKFAK8KN4P
+original - neighborhood that is neighborhood of housing unit that has a private bath
+  para - neighborhoods with housing that have a private bathroom, worker - A3PRT2O0B4B5E7
+  para - neighborhoods with housing that has a private bath, worker - A11GZNNVLEWRGF
+  para - which housing unit in this neighbourhood has the facility of a private bath, worker - A2TEWO3WJ5YKGG
+  para - name the neighborhood of the housing unit with private bath, worker - AD5IKFAK8KN4P
+  para - which neighborhoods have housing with a private bath, worker - ANFWGSQ8BQRZ
+original - neighborhood that is neighborhood of two housing unit
+  para - neighborhood that has two housing, worker - A1NF6PELRKACS9
+  para - a neighborhood with twohouse units, worker - A2RRYVYUDNK2GB
+  para - what neighborhood contains two housing units, worker - A3GNQDFPZALU92
+  para - what neighborhood has two housing units, worker - A32CIL5S21Y4MR
+original - housing unit whose monthly rent is 1500 dollars and whose posting date is jan 2
+  para - housing units with monthly rents of 1500 dollars that posted on january 2, worker - A4UVNGSXE2ANA
+  para - housing with monthly rent of 1500 dollars that was posted on january 2, worker - AMXQ53C1WOPZ8
+  para - housing with monthly rent of 1500 dollars that was posted on january 2, worker - A1NF6PELRKACS9
+  para - what housing unit posted on jan 2s rent is 1500 dollars, worker - A32CIL5S21Y4MR
+original - housing unit whose neighborhood is midtown west and that allows cats
+  para - housing units that allow cats in midtown west, worker - AODM31DHYJG99
+  para - cats allowed in midtown west, worker - A2YLK83DQ6PA5Y
+  para - cat friendly apartments in midtown west, worker - A3PRT2O0B4B5E7
+  para - pet friendly housing near midtown west, worker - AD5IKFAK8KN4P
+original - housing unit that has at most two neighborhood
+  para - housing with 2 surrounding neighborhoods, worker - A3PRT2O0B4B5E7
+  para - housing found in two or less neighborhoods, worker - A11GZNNVLEWRGF
+  para - housing unit within at most 2 neighborhoods, worker - A8VBDRZPXTP8F
+original - housing unit whose size is housing unit whose posting date is jan 2
+  para - what size is the housing unit posted on january 2, worker - A2U6D0T6GFXZIF
+  para - housing that was posted on january 2, worker - AMXQ53C1WOPZ8
+  para - what housing unit is the same size as the unit posted on jan 2, worker - A32CIL5S21Y4MR
+original - housing unit that has at least two housing type
+  para - housing that has at least two types, worker - A1NF6PELRKACS9
+  para - what kind of housing has two housing types, worker - AMXQ53C1WOPZ8
+  para - posting with at least two types of housing, worker - A2RRYVYUDNK2GB
+  para - what housing unit has 2 or more types, worker - A32CIL5S21Y4MR
+  para - which housing unit has two types minimum, worker - A3GNQDFPZALU92
+original - housing unit whose monthly rent is smaller than monthly rent of 123 sesame street
+  para - housing unit with a cheaper rent than 123 sesame street, worker - A8VBDRZPXTP8F
+  para - apartments with a cheaper rent than 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - housing that is cheaper than 123 sesame street, worker - A11GZNNVLEWRGF
+  para - which housing unit has a lesser monthly rent than 123 sesame street, worker - A2TEWO3WJ5YKGG
+  para - find housing units with rental charges lesser than that of 123 sesame street, worker - AD5IKFAK8KN4P
+original - housing unit that has a private room and that has a private room
+  para - which housing unit has a private room, worker - A1ULLPIT6EU99K
+  para - units that have a private room, worker - A2R085B34P2LYS
+  para - find housing units with a private room, worker - AD5IKFAK8KN4P
+  para - apartment with a private room, worker - A3PRT2O0B4B5E7
+original - housing unit whose monthly rent is smaller than 1500 dollars
+  para - apartments with rent below 1500, worker - A3PRT2O0B4B5E7
+  para - housing that is cheaper than 1500month, worker - A11GZNNVLEWRGF
+  para - which housing unit has a monthly rent of less than 1500 dollars, worker - A2TEWO3WJ5YKGG
+  para - find housing for less than 1500 dollars, worker - A2M4YIC3XU2693
+  para - housing unit that is cheaper than 1500 dollars, worker - A8VBDRZPXTP8F
+original - housing unit whose size is at most size of 123 sesame street
+  para - which housing unit resembles the size of 123 sesame street, worker - A2TEWO3WJ5YKGG
+  para - find housing units that are same as or lesser than the size of 123 sesame street, worker - AD5IKFAK8KN4P
+  para - housing that is the same size or smaller than 123 sesame street, worker - A11GZNNVLEWRGF
+  para - which housing is no larger than 123 sesame street, worker - ANFWGSQ8BQRZ
+  para - housing the same size as 123 sesame street, worker - A3PRT2O0B4B5E7
+original - housing type that is housing type of the most number of housing unit
+  para - apartment complexes with the most units available, worker - A3PRT2O0B4B5E7
+  para - housing types of the most units, worker - A2R085B34P2LYS
+  para - what is the most common housing type, worker - A11GZNNVLEWRGF
+  para - which housing unit has the most kind of houses, worker - A2TEWO3WJ5YKGG
+  para - what is the mostused housing type, worker - A3GNQDFPZALU92
+original - housing unit whose posting date is jan 2 or feb 3
+  para - what housing unit was posted on jan 2 or feb 3, worker - A32CIL5S21Y4MR
+  para - housing posted on january 2 or february 3, worker - A1NF6PELRKACS9
+  para - housing that was posted on january 2, worker - AMXQ53C1WOPZ8
+  para - what housing is posted either jan 2nd or feb 3rd, worker - A3GNQDFPZALU92
+  para - a housing unit posted on january 2 or february 3, worker - A2RRYVYUDNK2GB
+original - housing unit whose posting date is larger than jan 2 or feb 3
+  para - housing that was posted after january 2 or february 3, worker - A1NF6PELRKACS9
+  para - housing that posted after january 2 or february 3, worker - A2RRYVYUDNK2GB
+  para - housing unit posted after january 2 or february 3, worker - A2U6D0T6GFXZIF
+original - housing unit whose size is 800 square feet and whose monthly rent is 1500 dollars
+  para - housing that is 800 square feet and 1500month, worker - A11GZNNVLEWRGF
+  para - 800 square foot apartment with rent at 1500 a month, worker - A3PRT2O0B4B5E7
+  para - what housing costs 1500 dollars and is 800 square feet, worker - A1Y3EFWUYKN0UP
+  para - which housing unit with an area of 800 square feet is available fora rent of 1500 dollars per month, worker - A2TEWO3WJ5YKGG
+  para - find 800 square feet housing units with 1500 dollars as rent, worker - AD5IKFAK8KN4P
+original - housing unit whose posting date is larger than posting date of 123 sesame street
+  para - find housing units posted before 123 sesame street, worker - AD5IKFAK8KN4P
+  para - apartment posted at a later date than 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - housing posted after 123 sesame street, worker - A11GZNNVLEWRGF
+  para - which housing unit was posted after the posting date of 123 sesame street, worker - A2TEWO3WJ5YKGG
+  para - housing unit with a posting date bigger than the date of 123 sesame street, worker - A8VBDRZPXTP8F
+original - housing type that is housing type of more than two housing unit
+  para - housing that is either an apartment or townhouse, worker - A3PRT2O0B4B5E7
+  para - show housing types for three or more units, worker - A3GNQDFPZALU92
+  para - which housing unit has more than two kinds of houses, worker - A2TEWO3WJ5YKGG
+  para - housing types of more than two units, worker - A2R085B34P2LYS
+  para - housing type of more than two available housings, worker - A11GZNNVLEWRGF
+original - housing unit whose posting date is at most jan 2 or feb 3
+  para - housing posted on or before january 2 or on or before february 3, worker - A11GZNNVLEWRGF
+  para - housing unit posted at the latest january 2 or february 3, worker - A8VBDRZPXTP8F
+  para - find housing units with posting date between january 2nd and february 3rd, worker - AD5IKFAK8KN4P
+original - housing unit whose posting date is at least jan 2
+  para - housing that was posted january 2 or later, worker - A2RRYVYUDNK2GB
+  para - housing that was posted on january 2, worker - AMXQ53C1WOPZ8
+  para - what housing was posted no earlier than jan 2, worker - A3GNQDFPZALU92
+original - housing unit whose monthly rent is housing unit whose posting date is jan 2
+  para - what housing unit has the same rent as the unit posted on jan 2, worker - A32CIL5S21Y4MR
+  para - housing with any monthly rent posted on january 2, worker - A2RRYVYUDNK2GB
+  para - housing unit for rent posted on january 2, worker - A2U6D0T6GFXZIF
+  para - what is the monthly rent of housing units posted on january 2nd, worker - AUQTHU5AOZVQC
+original - housing unit whose monthly rent is larger than monthly rent of 123 sesame street
+  para - apartments with rent that is more expensive than 123 sesame street, worker - A3PRT2O0B4B5E7
+  para - which housing unit is more expensive than 123 sesame street, worker - A1ULLPIT6EU99K
+  para - housing that is more expensive than 123 sesame street, worker - A11GZNNVLEWRGF
+  para - units with larger rent than 123 sesame street, worker - A2YLK83DQ6PA5Y
+  para - find housing units with rental charges greater than 123 sesame street, worker - AD5IKFAK8KN4P

@@ -1,0 +1,1046 @@
+original - meeting that has the largest start time
+  para - what meeting begins latest, worker - A32CIL5S21Y4MR
+  para - show me the meeting starting latest in the day, worker - A2WU1MO8J4CQ9K
+  para - meetings with the latest start time, worker - A11GZNNVLEWRGF
+  para - what meeting has the latest start time, worker - A4WSGXF5IARBH
+original - meeting that is important and whose end time is 10am
+  para - show me all meetings marked important ending at 10 am, worker - A2WU1MO8J4CQ9K
+  para - show me all important meetings that end at 10am, worker - AODM31DHYJG99
+original - person that is attendee of more than two meeting
+  para - show me all people who have attended more than two meetings, worker - A2WU1MO8J4CQ9K
+  para - people that attend more than two meetings, worker - A11GZNNVLEWRGF
+  para - what person is an attendee of more than two meetings, worker - A4WSGXF5IARBH
+  para - who is the person attending  more than two meetings, worker - AODM31DHYJG99
+  para - which people will attend two or more meetings, worker - ANFWGSQ8BQRZ
+original - location that is location of meeting whose location is greenberg cafe
+  para - what meeting is at greenberg cafe, worker - A4WSGXF5IARBH
+original - meeting whose date is smaller than jan 2
+  para - show me meetings before january 2nd, worker - ANFWGSQ8BQRZ
+  para - meetings held before january 2, worker - A11GZNNVLEWRGF
+  para - meeting before jan 2, worker - A2TUNPP2GOQ1N3
+  para - what meeting has an earlier date than jan 2, worker - A4WSGXF5IARBH
+  para - show me all meetings happening before january 2nd, worker - A2WU1MO8J4CQ9K
+original - meeting whose attendee is not alice
+  para - show me all meetings that alice is not attending, worker - AODM31DHYJG99
+  para - what meeting is alice not attending, worker - A4WSGXF5IARBH
+  para - meetings that are not attended by alice, worker - A11GZNNVLEWRGF
+  para - what meeting did alice not attend, worker - A32CIL5S21Y4MR
+  para - show me any meetings that alice has not attended, worker - A2WU1MO8J4CQ9K
+original - location that is location of at most two meeting
+original - meeting whose location is greenberg cafe and whose end time is 10am
+  para - show me all meetings at greenberg cafe ending at 10 am, worker - A2WU1MO8J4CQ9K
+  para - what meeting is at greenberg cafe and ends at 10am, worker - A4WSGXF5IARBH
+  para - meeting at greenberg cafe ends at 1000 am, worker - A2TUNPP2GOQ1N3
+  para - meetings in greenberg cafe that end at 10am, worker - A11GZNNVLEWRGF
+  para - show me all meetings that end at 10am in greenberg cafe, worker - AODM31DHYJG99
+original - person that is attendee of meeting whose end time is 10am
+  para - person who attends the meeting that ends at 10 am, worker - A2TUNPP2GOQ1N3
+  para - show me all attendees of meetings ending at 10 am, worker - A2WU1MO8J4CQ9K
+  para - who is attending the meeting that ends at 10am, worker - AODM31DHYJG99
+  para - people attending meetings that end at 10am, worker - A11GZNNVLEWRGF
+  para - what person is attending a meeting that ends at 10am, worker - A4WSGXF5IARBH
+original - 10am or 3pm
+  para - is the meeting at 10am or 3pm, worker - A11GZNNVLEWRGF
+  para - schedule a meeting for 10am or 3pm, worker - AODM31DHYJG99
+  para - show me all meetings between 10am and 3pm, worker - A4WSGXF5IARBH
+original - meeting whose start time is 10am and whose end time is 10am
+  para - meeting that starts and ends at 10am, worker - A11GZNNVLEWRGF
+  para - what meeting starts at 10am and ends at 10am q, worker - A4WSGXF5IARBH
+  para - show me all meetings beginning and ending at 10 am, worker - A2WU1MO8J4CQ9K
+  para - show me the meeting that starts and ends at 10 am, worker - A30C0I27VH3FFW
+original - meeting whose date is jan 2 and whose end time is 10am
+  para - show me all meetings on january 2nd ending at 10 am, worker - A2WU1MO8J4CQ9K
+  para - meeting on jan 2 which ends at 10 am, worker - A2TUNPP2GOQ1N3
+  para - show all meetings that end at 10am on jan 2, worker - AODM31DHYJG99
+  para - create a meeting for jan 2nd until 10am, worker - A3DTN2OMF6DUSI
+  para - meetings on january 2 that end at 10am, worker - A11GZNNVLEWRGF
+original - meeting whose length is at least three hours
+  para - meeting is at least 3 hours long, worker - A2YLK83DQ6PA5Y
+  para - show me all meetings at least three hours long, worker - A2WU1MO8J4CQ9K
+  para - meetings that are three hours or longer, worker - A11GZNNVLEWRGF
+  para - what meeting is at least three hours, worker - A4WSGXF5IARBH
+  para - what meetings are scheduled to run for 3 hours, worker - AODM31DHYJG99
+original - meeting whose date is jan 2 and whose attendee is alice
+  para - meetings on january 2 that alice attends, worker - A11GZNNVLEWRGF
+  para - show me any meetings alice has attended on january 2nd, worker - A2WU1MO8J4CQ9K
+  para - which january 2nd meetings is alice attenting, worker - ANFWGSQ8BQRZ
+  para - what meeting has a date of jan 2 and has alice attending, worker - A4WSGXF5IARBH
+  para - jan 2nd meeting with alice as attendee, worker - A2YLK83DQ6PA5Y
+original - person that is attendee of the most number of meeting
+  para - who has attended the most meetings, worker - A2WU1MO8J4CQ9K
+  para - person attending the most meetings, worker - A2YLK83DQ6PA5Y
+  para - show me the people who attend the most meetings, worker - A2R085B34P2LYS
+  para - who attends the most meetings, worker - A11GZNNVLEWRGF
+  para - what person attends most meetings, worker - A4WSGXF5IARBH
+original - meeting whose end time is larger than end time of weekly standup
+  para - what meeting has an end time no greater than the end of weekly startup, worker - A4WSGXF5IARBH
+  para - meetings that end later than the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - show me all meetings ending later than the weekly standup, worker - A2WU1MO8J4CQ9K
+  para - meeting ends after end time of weekly standup, worker - A2YLK83DQ6PA5Y
+  para - which meetings end later in the day than weekly standup, worker - ANFWGSQ8BQRZ
+original - meeting whose end time is start time of weekly standup
+  para - meeting that ends at start time of weekly standup, worker - A2YLK83DQ6PA5Y
+  para - which meetings end when weekly standup is scheduled to start, worker - ANFWGSQ8BQRZ
+  para - meetings that end at the time when the weekly standup meeting starts, worker - A11GZNNVLEWRGF
+  para - what meeting ends at the start time of weekly standup, worker - A4WSGXF5IARBH
+  para - show me all meetings which end at the same time the weekly standup begins, worker - A2WU1MO8J4CQ9K
+original - meeting whose end time is 10am and whose length is three hours
+  para - three hour meeting that ends at 10am, worker - A2YLK83DQ6PA5Y
+  para - show me all meetings ending at 10 am which are scheduled to be three hours long, worker - A2WU1MO8J4CQ9K
+  para - show me all 3 hour long meetings that end at 10am, worker - AODM31DHYJG99
+  para - meetings that are three hours long and end at 10am, worker - A11GZNNVLEWRGF
+original - meeting that has at least two location
+original - meeting whose start time is not 10am
+  para - show me all meetings not beginning at 10 am, worker - A2WU1MO8J4CQ9K
+  para - which meetings dont start at 10am, worker - ANFWGSQ8BQRZ
+  para - meeting does not start at 10am, worker - A2YLK83DQ6PA5Y
+  para - meetings that do not start at 10am, worker - A11GZNNVLEWRGF
+  para - what meeting does not start at 10am, worker - A4WSGXF5IARBH
+original - meeting that is important and whose date is jan 2
+  para - what important meetings are scheduled for jan 2, worker - AODM31DHYJG99
+  para - important meeting on january 2nd, worker - A2YLK83DQ6PA5Y
+original - meeting whose start time is smaller than start time of weekly standup
+  para - show me all meetings beginning earlier than the weekly standup, worker - A2WU1MO8J4CQ9K
+  para - meeting starts before weekly standup, worker - A2YLK83DQ6PA5Y
+  para - meetings that start earlier than the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - what meeting has a start time earlier than the weekly standup, worker - A4WSGXF5IARBH
+original - meeting that is important
+  para - what are some important meetings, worker - A4WSGXF5IARBH
+  para - important meetings, worker - A11GZNNVLEWRGF
+  para - show me all meetings marked as important, worker - A2WU1MO8J4CQ9K
+  para - important meeting, worker - A2TUNPP2GOQ1N3
+  para - which meetings are significant, worker - ANFWGSQ8BQRZ
+original - meeting that has the most number of location
+  para - show me the meeting which has happened at the most locations, worker - A2WU1MO8J4CQ9K
+  para - what meeting has the most amount of locations, worker - AODM31DHYJG99
+  para - meetings held in the most locations, worker - A11GZNNVLEWRGF
+  para - meeting with largest number of locations, worker - A2YLK83DQ6PA5Y
+  para - show me meetings with the most locations, worker - A2R085B34P2LYS
+original - meeting whose location is greenberg cafe
+  para - what meeting is being held at the greenberg cafe, worker - A32CIL5S21Y4MR
+  para - which meetings are held at greenberg cafe, worker - A11GZNNVLEWRGF
+original - meeting whose attendee is alice
+  para - show me all meetings with alice, worker - AODM31DHYJG99
+original - meeting whose attendee is alice and whose end time is 10am
+  para - what meeting ending at 10am is alice attending, worker - A32CIL5S21Y4MR
+  para - show me all meetings alice has attended which have ended at 10 am, worker - A2WU1MO8J4CQ9K
+  para - show me all meetings ending at 10am that alice is attending, worker - AODM31DHYJG99
+  para - what meeting ends at 10am and alice is attending, worker - A4WSGXF5IARBH
+original - location that is location of weekly standup
+  para - what is the location of the weekly standup, worker - A4WSGXF5IARBH
+original - meeting whose attendee is alice and whose start time is 10am
+  para - what meeting is alice attending at 10am, worker - A32CIL5S21Y4MR
+  para - show me all meetings attended by alice beginning at 10 am, worker - A2WU1MO8J4CQ9K
+  para - meeting in which alice is attending which starts at 1000 am, worker - A2TUNPP2GOQ1N3
+  para - meetings attended by alice that start at 10am, worker - A11GZNNVLEWRGF
+  para - what meeting has alice attending and starts at 10am, worker - A4WSGXF5IARBH
+original - meeting that has more than two attendee
+original - meeting whose end time is 10am and that is important
+  para - what important meeting has an end time of 10am, worker - A4WSGXF5IARBH
+  para - important meetings that end at 10am, worker - A11GZNNVLEWRGF
+  para - show me all meetings marked important which end at 10 am, worker - A2WU1MO8J4CQ9K
+original - attendee of weekly standup
+  para - who is attending weekly standup, worker - A4WSGXF5IARBH
+  para - weekly startup attendee, worker - A2YLK83DQ6PA5Y
+  para - who is attending weekly standup, worker - ANFWGSQ8BQRZ
+  para - who has attended the weekly standup meeting, worker - A2WU1MO8J4CQ9K
+  para - who attends the weekly standup meeting, worker - A11GZNNVLEWRGF
+original - meeting whose start time is at most end time of weekly standup
+  para - show me all meetings that start no earlier than when the weekly standup meeting ends, worker - AODM31DHYJG99
+  para - meetings that start earlier than or at the same time as the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - show me all meetings which begin at the same time or earlier than the weekly standup ends, worker - A2WU1MO8J4CQ9K
+  para - meeting that starts no later than end time of weekly standup, worker - A2YLK83DQ6PA5Y
+  para - what meeting start time is at the end of weekly standup, worker - A4WSGXF5IARBH
+original - meeting that has the smallest length
+  para - shortest meeting, worker - A2YLK83DQ6PA5Y
+  para - what is the shortest meeting, worker - A2WU1MO8J4CQ9K
+  para - which meeting is the shortest, worker - A11GZNNVLEWRGF
+  para - what meeting has the smallest length, worker - A4WSGXF5IARBH
+  para - what meetings run for the shortest length of time, worker - AODM31DHYJG99
+original - meeting whose length is three hours or one hour
+  para - show me all meetings which are exactly one hour or exactly three hours long, worker - A2WU1MO8J4CQ9K
+  para - meetings that are three hours long or one hour long, worker - A11GZNNVLEWRGF
+  para - show me all meetings that run either three hours or one hour, worker - AODM31DHYJG99
+  para - what meeting lasts from one to three hours, worker - A4WSGXF5IARBH
+original - meeting whose date is smaller than date of weekly standup
+  para - what meeting is before weekly standup, worker - A32CIL5S21Y4MR
+  para - meeting held before the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - what meeting has a date earlier than weekly startup, worker - A4WSGXF5IARBH
+  para - show me all meetings happening on days before the weekly standup, worker - A2WU1MO8J4CQ9K
+original - meeting whose length is three hours and that is important
+  para - show me all meetings three hours long which are marked as important, worker - A2WU1MO8J4CQ9K
+  para - three hours long important meeting, worker - A2TUNPP2GOQ1N3
+  para - important meetings that are three hours long, worker - A11GZNNVLEWRGF
+  para - show me all three hour meetings that are important, worker - AODM31DHYJG99
+  para - what important meeting has a length of three hours, worker - A4WSGXF5IARBH
+original - meeting whose start time is at most start time of weekly standup
+  para - show me all meetings that start earlier than the weekly standup meeting, worker - A2WU1MO8J4CQ9K
+  para - meeting starts no later than start time of weekly standup, worker - A2YLK83DQ6PA5Y
+  para - meetings that start at or before the time of the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - show me all meetings that begin no later than the time the weekly standup meeting starts, worker - AODM31DHYJG99
+  para - what meeting starts at the weekly standup average start time, worker - A4WSGXF5IARBH
+original - meeting whose length is at least length of weekly standup
+  para - show me all meetings the same length or longer than the weekly standup, worker - A2WU1MO8J4CQ9K
+  para - which meetings will take as much time as weekly standup, worker - ANFWGSQ8BQRZ
+  para - what meeting has the same length as weekly startup, worker - A4WSGXF5IARBH
+  para - meetings that are the same length as or longer than the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - what meeting is as long or longer than weekly standup, worker - A32CIL5S21Y4MR
+original - meeting whose start time is start time of weekly standup
+  para - which meetings have the same start time as the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - what meetings have the same start time as the week startup meeting, worker - AODM31DHYJG99
+  para - meeting starting at time of weekly standup, worker - A2YLK83DQ6PA5Y
+  para - show me all meetings starting at the same time as the weekly standup, worker - A2WU1MO8J4CQ9K
+  para - what meeting is starting the same time as weekly standup, worker - A32CIL5S21Y4MR
+original - meeting whose start time is 10am and whose length is three hours
+  para - show me meetings starting at 10am that take 3 horus, worker - A2R085B34P2LYS
+  para - what three hour meeting starts at 10am, worker - A4WSGXF5IARBH
+  para - show me all meetings that start at 10am and last three hours, worker - AODM31DHYJG99
+  para - show me all meetings beginning at 10 am which are three hours long, worker - A2WU1MO8J4CQ9K
+  para - meetings that are three hours long that start at 10am, worker - A11GZNNVLEWRGF
+original - person that is attendee of the least number of meeting
+  para - person attending least number of meetings, worker - A2YLK83DQ6PA5Y
+  para - who has attended the least number of meetings, worker - A2WU1MO8J4CQ9K
+  para - show me the people attending the most meetings, worker - A2R085B34P2LYS
+  para - who has attended the least meetings, worker - A32CIL5S21Y4MR
+  para - person that attends the fewest meetings, worker - A11GZNNVLEWRGF
+original - meeting whose end time is 10am and whose attendee is alice
+  para - show me all meetings which alice has attended that end at 10 am, worker - A2WU1MO8J4CQ9K
+  para - meeting in which alice is attending and ends at 10 am, worker - A2TUNPP2GOQ1N3
+  para - show me the meeting alice will attend which ends at 10am, worker - ANFWGSQ8BQRZ
+  para - what meeting ends at 10am in which alice is attending, worker - A4WSGXF5IARBH
+original - date of weekly standup
+  para - show me the dates of all weekly standup meetings, worker - A2WU1MO8J4CQ9K
+  para - show me the dates of the weekly standup meetings, worker - AODM31DHYJG99
+  para - weekly standup date, worker - A2YLK83DQ6PA5Y
+  para - what is the date of weekly standup, worker - A4WSGXF5IARBH
+  para - what date is the weekly standup meeting, worker - A11GZNNVLEWRGF
+original - meeting whose date is not jan 2
+  para - show me all meetings happening on days other than january 2nd, worker - A2WU1MO8J4CQ9K
+  para - meetings that are not on january 2, worker - A11GZNNVLEWRGF
+  para - show me meetings not on jan 2, worker - A2R085B34P2LYS
+  para - show me all meetings that fall before or after jan 2, worker - AODM31DHYJG99
+  para - what meeting is not on jan 2, worker - A4WSGXF5IARBH
+original - meeting whose location is greenberg cafe or central office
+  para - what meeting is in either greenberg cage or central office, worker - A4WSGXF5IARBH
+  para - meeting in greenberg cafe or central office, worker - A2YLK83DQ6PA5Y
+  para - meetings held at greenberg cafe or central office, worker - A11GZNNVLEWRGF
+  para - show me all meetings in greenberg cafe or central office, worker - AODM31DHYJG99
+  para - show me any meetings located at greenberg cafe or central office, worker - A2WU1MO8J4CQ9K
+original - meeting that has the smallest date
+  para - which meeting is scheduled on the earliest date, worker - A11GZNNVLEWRGF
+  para - what meeting has the earliest date, worker - A4WSGXF5IARBH
+  para - show me the meetings scheduled earliest in the month, worker - A2WU1MO8J4CQ9K
+original - location that is location of meeting whose length is three hours
+  para - show me the locations of all meetings three hours in length, worker - A2WU1MO8J4CQ9K
+  para - where is the threehour long meeting, worker - A30C0I27VH3FFW
+  para - location is same as the location of three hours long meeting, worker - A2TUNPP2GOQ1N3
+  para - locations of meetings that are three hours long, worker - A11GZNNVLEWRGF
+  para - what location is the three hour meeting, worker - A4WSGXF5IARBH
+original - meeting whose length is smaller than three hours
+  para - meeting that has duration of lesser than three hour, worker - A2TUNPP2GOQ1N3
+  para - meetings that are shorter than three hours, worker - A11GZNNVLEWRGF
+  para - show me all meetings shorter than three hours, worker - A2WU1MO8J4CQ9K
+  para - find me a meeting shorter than three hours, worker - A32CIL5S21Y4MR
+  para - what meeting has a length smaller than three hours, worker - A4WSGXF5IARBH
+original - meeting whose length is smaller than three hours or one hour
+  para - show me all meetings scheduled to be less than three hours or less than one hour, worker - A2WU1MO8J4CQ9K
+  para - what meeting has length shorter than one to three hours, worker - A4WSGXF5IARBH
+  para - what meeting was shorter than three hours, worker - A32CIL5S21Y4MR
+  para - meetings that are shorter than three hours or shorter than one hour, worker - A11GZNNVLEWRGF
+original - meeting that is important and whose location is greenberg cafe
+  para - show me important meetings at greenberg cafe, worker - A2R085B34P2LYS
+  para - important meeting at greenberg cafe, worker - A2YLK83DQ6PA5Y
+  para - important meetings at greenberg cafe, worker - A11GZNNVLEWRGF
+  para - show me all meetings marked as important happening at greenberg cafe, worker - A2WU1MO8J4CQ9K
+  para - what important meeting has a location at greenberg cafe, worker - A4WSGXF5IARBH
+original - meeting that has the least number of attendee
+  para - what meeting had the fewest people show up, worker - A32CIL5S21Y4MR
+  para - meetings attended by the smallest number of people, worker - A11GZNNVLEWRGF
+  para - which meeting has the fewest attendees, worker - A2WU1MO8J4CQ9K
+  para - what meeting has the least number of attendees, worker - AODM31DHYJG99
+  para - meeting with least attendees, worker - A2YLK83DQ6PA5Y
+original - meeting whose date is at least jan 2
+  para - meetings held on or after january 2, worker - A11GZNNVLEWRGF
+  para - what meeting has a date no later than jan 2, worker - A4WSGXF5IARBH
+  para - show me all meetings happening on or after january 2nd, worker - A2WU1MO8J4CQ9K
+  para - what meetings are scheduled for a date no earlier than jan 2, worker - AODM31DHYJG99
+original - meeting whose start time is at least 10am
+  para - meeting that starts at 10am or earlier, worker - A2YLK83DQ6PA5Y
+  para - what meeting starts at least at 10am, worker - A4WSGXF5IARBH
+  para - show me all meetings starting at 10 am or after, worker - A2WU1MO8J4CQ9K
+  para - meetings that start at or after 10am, worker - A11GZNNVLEWRGF
+  para - show me all meetings that start no earlier than 10am, worker - AODM31DHYJG99
+original - meeting whose end time is at least 10am or 3pm
+  para - what meeting ends 10am or later, worker - A32CIL5S21Y4MR
+  para - meetings that end at or after 10 am or at or after 3pm, worker - A11GZNNVLEWRGF
+  para - what meeting ends at 10am or 3pm, worker - A4WSGXF5IARBH
+original - meeting whose end time is 10am and whose date is jan 2
+  para - show me all meetings on january 2nd which end at 10 am, worker - A2WU1MO8J4CQ9K
+  para - what meeting ends at 10am on january second, worker - ANFWGSQ8BQRZ
+  para - what meetings on january 2 end at 10am, worker - A11GZNNVLEWRGF
+  para - what meeting has an end time of 10am on jan2, worker - A4WSGXF5IARBH
+  para - show me all meetings that end at 10am on jan 2, worker - AODM31DHYJG99
+original - meeting that is important and whose attendee is alice
+  para - show me important meetings with alice, worker - A2R085B34P2LYS
+  para - what important meeting has alice attending, worker - A4WSGXF5IARBH
+  para - important meetings attended by alice, worker - A11GZNNVLEWRGF
+  para - important meeting with alice as attendee, worker - A2YLK83DQ6PA5Y
+  para - show me all meetings marked important which are also attended by alice, worker - A2WU1MO8J4CQ9K
+original - location that is location of more than two meeting
+  para - what location has more than two meetings, worker - A4WSGXF5IARBH
+  para - location where more than two meetings are held, worker - A11GZNNVLEWRGF
+  para - location of more than two meetings, worker - A2YLK83DQ6PA5Y
+  para - what is the location that more than two meetings will be held at, worker - AODM31DHYJG99
+  para - show me all locations that are used for more than two meetings, worker - A2WU1MO8J4CQ9K
+original - meeting whose length is larger than length of weekly standup
+  para - what meeting is longer than weekly standup, worker - A32CIL5S21Y4MR
+  para - which meetings will be longer than weekly standup, worker - ANFWGSQ8BQRZ
+  para - meetings that are longer than the weekly startup meeting, worker - A11GZNNVLEWRGF
+  para - show me all meetings scheduled to be longer than the weekly standup meeting, worker - A2WU1MO8J4CQ9K
+  para - what meeting has a length greater than weekly startup, worker - A4WSGXF5IARBH
+original - location that is location of the most number of meeting
+  para - what is the location that the most number of meetings will be held, worker - AODM31DHYJG99
+  para - location features the largest number of meetings, worker - A2YLK83DQ6PA5Y
+  para - show me the locations which have the most number of meetings, worker - A2WU1MO8J4CQ9K
+  para - which location hosts the most meetings, worker - ANFWGSQ8BQRZ
+  para - what location is most meetings, worker - A4WSGXF5IARBH
+original - person that is attendee of meeting whose start time is 10am
+  para - who is attending the 10sm meeting, worker - AODM31DHYJG99
+  para - who is attending the 10 am meeting, worker - A32CIL5S21Y4MR
+  para - show me all attendees of meetings beginning at 10 am, worker - A2WU1MO8J4CQ9K
+  para - what person is attending the meeting that starts at 10am, worker - A4WSGXF5IARBH
+  para - people attending meetings that start at 10 am, worker - A11GZNNVLEWRGF
+original - person that is attendee of meeting that is important
+  para - who will be attending important meetings, worker - ANFWGSQ8BQRZ
+  para - which person is attending an important meeting, worker - A4WSGXF5IARBH
+  para - show me all attendees of meetings marked important, worker - A2WU1MO8J4CQ9K
+  para - people that attend important meetings, worker - A11GZNNVLEWRGF
+  para - person who attends important meeting, worker - A2TUNPP2GOQ1N3
+original - meeting that has less than two attendee
+original - meeting whose end time is 10am and whose end time is 10am
+  para - show me all meetings that end at 10am, worker - AODM31DHYJG99
+  para - show me all meetings beginning at 10 am and all meetings ending at 10 am, worker - A2WU1MO8J4CQ9K
+  para - which meetings end at 10am, worker - ANFWGSQ8BQRZ
+original - person that is attendee of meeting whose location is greenberg cafe
+  para - people that attend meetings at greenberg cafe, worker - A11GZNNVLEWRGF
+  para - what person is attending the meeting at greenberg cafe, worker - A4WSGXF5IARBH
+  para - who are the attendees for fo the meetings in greenberg cafe, worker - AODM31DHYJG99
+  para - show me all attendees of meetings at the greenberg cafe, worker - A2WU1MO8J4CQ9K
+  para - who is attending the greenberg cafe for the meeting, worker - A32CIL5S21Y4MR
+original - meeting whose end time is larger than 10am
+  para - meeting ends after 10am, worker - A2YLK83DQ6PA5Y
+  para - what meeting ended after 10am, worker - A32CIL5S21Y4MR
+  para - meetings that end later than 10am, worker - A11GZNNVLEWRGF
+  para - show me all meetings which end later than 10 am, worker - A2WU1MO8J4CQ9K
+  para - show me meetings ending after 10am, worker - A2R085B34P2LYS
+original - meeting that has at least two attendee
+  para - meetings attended by two or more people, worker - A11GZNNVLEWRGF
+  para - show me all meetings with two or more people attending, worker - AODM31DHYJG99
+  para - show me all the meetings that have two or more participants, worker - A30C0I27VH3FFW
+  para - meeting which has minimum two attendees, worker - A2TUNPP2GOQ1N3
+  para - show me all meetings with at least two people attending, worker - A2WU1MO8J4CQ9K
+original - meeting whose start time is 10am
+  para - meeting which starts at 10 am, worker - A2TUNPP2GOQ1N3
+  para - show me all meetings that begin at 10am, worker - AODM31DHYJG99
+original - meeting whose location is greenberg cafe and that is important
+  para - show me important meetings at greenberg cafe, worker - A2R085B34P2LYS
+  para - what important meeting is located at greenberg cafe, worker - A4WSGXF5IARBH
+original - meeting that is important and whose start time is 10am
+  para - important meeting at 10am, worker - A2YLK83DQ6PA5Y
+  para - what important meeting started at 10am, worker - A32CIL5S21Y4MR
+  para - show me all meetings marked important beginning at 10 am, worker - A2WU1MO8J4CQ9K
+  para - show me important meetings that start at 10am, worker - AODM31DHYJG99
+  para - important meetings that start at 10am, worker - A11GZNNVLEWRGF
+original - meeting whose end time is smaller than 10am
+  para - meetings that end before 10am, worker - A11GZNNVLEWRGF
+  para - show me meetings before 10am, worker - A2R085B34P2LYS
+  para - show me all meetings ending before 10 am, worker - A2WU1MO8J4CQ9K
+  para - what meeting ends no earlier than 10am, worker - A4WSGXF5IARBH
+original - meeting whose location is greenberg cafe and whose length is three hours
+  para - which meetings in greenberg cafe will last three hours, worker - ANFWGSQ8BQRZ
+  para - show me all meetings three hours long happening at the greenberg cafe, worker - A2WU1MO8J4CQ9K
+  para - three hour long meeting at greenberg, worker - A2TUNPP2GOQ1N3
+  para - what three hour meeting is at greenberg cafe, worker - A4WSGXF5IARBH
+original - meeting whose end time is end time of weekly standup
+  para - meeting that ends at end time of weekly standup, worker - A2TUNPP2GOQ1N3
+  para - what meetings end at the same time as the weekly roundup meeting, worker - AODM31DHYJG99
+  para - meetings that end at the same as the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - what meeting has and end time the same as weekly startup, worker - A4WSGXF5IARBH
+  para - show me all meetings which end at the same time as the weekly standup ends, worker - A2WU1MO8J4CQ9K
+original - meeting whose end time is smaller than start time of weekly standup
+  para - what meeting has an end time earlier than weekly startup, worker - A4WSGXF5IARBH
+  para - show me meetings that will end before weekly standup begins, worker - ANFWGSQ8BQRZ
+  para - show me all meetings which end earlier than the weekly standup begins, worker - A2WU1MO8J4CQ9K
+  para - what meeting ends before the start of weekly standup, worker - A32CIL5S21Y4MR
+  para - meetings that end before the weekly standup meeting starts, worker - A11GZNNVLEWRGF
+original - meeting whose start time is at most 10am or 3pm
+  para - show me all meetings beginning at 3 pm at latest, worker - A2WU1MO8J4CQ9K
+  para - show me meetings starting before 3pm, worker - A2R085B34P2LYS
+  para - what meeting has a start time no later than 10am or 3pm, worker - A4WSGXF5IARBH
+  para - meeting starts at 10am or 3pm at the earliest, worker - A2YLK83DQ6PA5Y
+original - meeting whose start time is larger than end time of weekly standup
+  para - show me all meetings ending after the weekly standup ends, worker - A2WU1MO8J4CQ9K
+  para - meeting whose start time is after end time of weekly standup, worker - A2TUNPP2GOQ1N3
+  para - meetings that start later than the weekly standup meeting, worker - A11GZNNVLEWRGF
+original - meeting that has the largest date
+  para - what is the most recent meeting, worker - A32CIL5S21Y4MR
+  para - which meeting is scheduled on the latest date, worker - A11GZNNVLEWRGF
+  para - what meeting has the later date, worker - A4WSGXF5IARBH
+  para - show me the meetings which are latest in the month, worker - A2WU1MO8J4CQ9K
+original - meeting that is important and that is important
+  para - what is an important meeting, worker - A4WSGXF5IARBH
+  para - show me all meetings marked important, worker - A2WU1MO8J4CQ9K
+  para - which meetings are important, worker - A11GZNNVLEWRGF
+  para - show me important meetings, worker - A2R085B34P2LYS
+  para - select all important meetings, worker - A1V5OMRC87TDXW
+original - meeting whose start time is 10am or 3pm
+  para - meetings that start at 10am or 3pm, worker - A11GZNNVLEWRGF
+  para - meeting which starts at 1000 am or 300 pm, worker - A2TUNPP2GOQ1N3
+  para - what meetings have a start time of 10 am or 3pm, worker - AODM31DHYJG99
+original - meeting whose start time is at least end time of weekly standup
+  para - show me all meetings which begin after the weekly standup ends, worker - A2WU1MO8J4CQ9K
+  para - what meeting who starts right right after weekly standup, worker - A4WSGXF5IARBH
+  para - meetings that start at the same time or after the weekly standup meeting ends, worker - A11GZNNVLEWRGF
+  para - show me meetings that start before the weekly standup ends, worker - A2R085B34P2LYS
+  para - show me meetings that start before the weekly standup meeting ends, worker - AODM31DHYJG99
+original - meeting whose attendee is person that is attendee of weekly standup
+  para - show me all meetings that share an attendee with the weekly standup meeting, worker - AODM31DHYJG99
+  para - show me all meetings attended by people who have also attended the weekly standup, worker - A2WU1MO8J4CQ9K
+  para - meetings that are attended by people that also attend the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - meeting shares attendee with weekly standup, worker - A2YLK83DQ6PA5Y
+original - meeting whose length is at most three hours or one hour
+  para - meetings that are three hours or less or one hour or less, worker - A11GZNNVLEWRGF
+  para - she me all meetings with a duration between 1 and 3 hours, worker - AODM31DHYJG99
+  para - what meeting is no greater than one to three hours, worker - A4WSGXF5IARBH
+  para - show me meetings shorter than three hours, worker - A2R085B34P2LYS
+original - person that is attendee of at most two meeting
+original - meeting whose start time is at least 10am or 3pm
+  para - show me meetings starting at 10am or 3pm, worker - A2R085B34P2LYS
+  para - what meeting starts at least at 10am or 3pm, worker - A4WSGXF5IARBH
+  para - show me all meetings beginning no later than 10 am or 3 pm, worker - A2WU1MO8J4CQ9K
+  para - tell me the all meetings begins after 10am or 3pm, worker - A1V5OMRC87TDXW
+original - meeting that has more than two location
+original - length of weekly standup
+  para - weekly standup duration, worker - A2YLK83DQ6PA5Y
+  para - show me the length of the weekly standup, worker - A2R085B34P2LYS
+  para - what is the length of weekly startup, worker - A4WSGXF5IARBH
+  para - how long is the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - how long is the weekly standup meeting, worker - A2WU1MO8J4CQ9K
+original - meeting whose location is greenberg cafe and whose date is jan 2
+  para - show me meetings at greenberg cafe on jan 2, worker - A2R085B34P2LYS
+  para - what meetings take place on jan 2 in greenberg cafe, worker - AODM31DHYJG99
+  para - what meeting has a location at greeberg cafe on jan 2, worker - A4WSGXF5IARBH
+  para - show me all meetings on january 2nd happening at the greenberg cafe, worker - A2WU1MO8J4CQ9K
+original - meeting whose date is jan 2 and whose length is three hours
+  para - which january 2nd meeting is three hours long, worker - ANFWGSQ8BQRZ
+  para - what meetings are scheduled to run for three hours on jan 2, worker - AODM31DHYJG99
+  para - show me all meetings on january 2nd which are three hours long, worker - A2WU1MO8J4CQ9K
+  para - what three hour meeting is on jan 2, worker - A4WSGXF5IARBH
+original - meeting whose length is at least three hours or one hour
+  para - meetings that are three hours or longer or an hour or longer, worker - A11GZNNVLEWRGF
+  para - show me all meetings at least one hour or three hours long, worker - A2WU1MO8J4CQ9K
+  para - what meeting is one hour or longer, worker - A32CIL5S21Y4MR
+original - meeting whose end time is 10am and whose start time is 10am
+  para - show me all meetings that end at 10am and start at 10am, worker - AODM31DHYJG99
+  para - meetings that end at 10am and start at 10am, worker - A11GZNNVLEWRGF
+  para - show me meetings that start and end at 10am, worker - A2R085B34P2LYS
+  para - show me all meetings which begin at 10 am and end at 10 am, worker - A2WU1MO8J4CQ9K
+original - location of weekly standup
+  para - where is the weekly standup meeting located, worker - A2WU1MO8J4CQ9K
+original - meeting whose start time is larger than 10am or 3pm
+  para - meetings that start after 10am or after 3pm, worker - A11GZNNVLEWRGF
+  para - show me meetings starting later than 10am, worker - A2R085B34P2LYS
+  para - show me all meetings happening later than 10 am or 3 pm, worker - A2WU1MO8J4CQ9K
+original - person that is attendee of meeting whose attendee is alice
+  para - show me everyone who attended meetings also attended by alice, worker - A2WU1MO8J4CQ9K
+  para - people attending meetings that alice attends, worker - A11GZNNVLEWRGF
+  para - person attending same meeting as alice, worker - A2YLK83DQ6PA5Y
+  para - who is attending the same meeting as alice, worker - A4WSGXF5IARBH
+original - meeting whose length is length of weekly standup
+  para - show me all meetings the same length of the weekly standup, worker - A2WU1MO8J4CQ9K
+  para - what meetings have the same duration as the weekly stand up meeting, worker - AODM31DHYJG99
+  para - what meeting is the same length as that of weekly startup, worker - A4WSGXF5IARBH
+  para - meetings that are the same length as the weekly standup meeting, worker - A11GZNNVLEWRGF
+original - meeting whose date is larger than jan 2
+  para - meetings held later than january 2, worker - A11GZNNVLEWRGF
+  para - show me all meetings after january 2nd, worker - A2WU1MO8J4CQ9K
+  para - what meeting has a date after jan 2, worker - A4WSGXF5IARBH
+  para - show me meetings happening after jan 2nd, worker - ANFWGSQ8BQRZ
+original - jan 2 or jan 3
+  para - is this meeting on january 2 or january 3, worker - A11GZNNVLEWRGF
+  para - january 2nd or 3rd, worker - A2YLK83DQ6PA5Y
+  para - find all meetings which begin on january 2nd or january 3rd, worker - A2WU1MO8J4CQ9K
+original - person that is attendee of weekly standup or annual review
+  para - person is attendee of weekly standup or annual review, worker - A2YLK83DQ6PA5Y
+  para - people that attend the weekly standup meeting or the annual review meeting, worker - A11GZNNVLEWRGF
+  para - show me all people attending either the weekly standup meeting or annual review, worker - A2WU1MO8J4CQ9K
+  para - who is at the weekly standup or annual review, worker - A2R085B34P2LYS
+original - location that is location of at least two meeting
+  para - location of at least two meetings is the location, worker - A2TUNPP2GOQ1N3
+  para - what is the location of the meeting that will have two or more attendees, worker - AODM31DHYJG99
+  para - what are the areas where two or more meetings take place, worker - A30C0I27VH3FFW
+  para - show me all locations which have had at least two meetings, worker - A2WU1MO8J4CQ9K
+  para - locations that house at least two meetings, worker - A11GZNNVLEWRGF
+original - meeting whose attendee is attendee of weekly standup
+  para - meetings attended by people that attend the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - meeting share attendee with weekly standup, worker - A2YLK83DQ6PA5Y
+  para - show me all meetings attended by people who have also attended the weekly standup meeting, worker - A2WU1MO8J4CQ9K
+  para - what meeting had someone who went to weekly standup, worker - A32CIL5S21Y4MR
+original - meeting whose start time is larger than 10am
+  para - meeting starts later than 10am, worker - A2YLK83DQ6PA5Y
+  para - meetings that start after 10am, worker - A11GZNNVLEWRGF
+  para - show me all meetings that start later than 10 am, worker - A2WU1MO8J4CQ9K
+  para - what meeting start time is later than 10am, worker - A4WSGXF5IARBH
+original - meeting whose date is jan 2 and whose location is greenberg cafe
+  para - show me all meetings in greenberg cafe on jan 2, worker - AODM31DHYJG99
+  para - show me meetings on jan 2 in greenberg cafe, worker - A2R085B34P2LYS
+  para - show me all meetings on january 2nd at the greenberg cafe, worker - A2WU1MO8J4CQ9K
+  para - what meeting has a date of jan 2 at greenberg cafe, worker - A4WSGXF5IARBH
+original - meeting whose end time is at least 10am
+  para - show me all meetings that end by 10am, worker - AODM31DHYJG99
+  para - find me a meeting that ends 10am or later, worker - A32CIL5S21Y4MR
+  para - show me all meetings ending at or after 10 am, worker - A2WU1MO8J4CQ9K
+  para - what meeting has an end time of at least 10am, worker - A4WSGXF5IARBH
+  para - meetings that end at or after 10am, worker - A11GZNNVLEWRGF
+original - greenberg cafe or central office
+  para - show me all meetings happening at greenberg cafe or central office, worker - A2WU1MO8J4CQ9K
+  para - location is greenberg cafe or central office, worker - A2YLK83DQ6PA5Y
+original - meeting that has the smallest start time
+  para - what meeting starts the earliest, worker - A2WU1MO8J4CQ9K
+  para - meeting which has shortest start time, worker - A2TUNPP2GOQ1N3
+  para - meetings with the earliest start time, worker - A11GZNNVLEWRGF
+  para - which meeting begins earliest, worker - ANFWGSQ8BQRZ
+  para - what meeting has the earliest start time, worker - A4WSGXF5IARBH
+original - meeting whose attendee is alice and whose attendee is alice
+  para - show me all meetings that alice is attending, worker - AODM31DHYJG99
+original - meeting whose end time is at most 10am
+  para - show me all meetings ending no later than 10 am, worker - A2WU1MO8J4CQ9K
+  para - what meeting ends at most at 10am, worker - A4WSGXF5IARBH
+  para - what meeting ends at 10am or earlier, worker - A32CIL5S21Y4MR
+  para - show me all meeting that will end by 10am, worker - AODM31DHYJG99
+  para - meetings that end at or before 10am, worker - A11GZNNVLEWRGF
+original - meeting whose end time is smaller than end time of weekly standup
+  para - show me all meetings that end earlier than the week standup meeting ends, worker - AODM31DHYJG99
+  para - what meeting has an end time smaller than weekly standup, worker - A4WSGXF5IARBH
+  para - meeting that ends sooner than weekly standup ends, worker - A2YLK83DQ6PA5Y
+  para - meetings that end earlier than the weekly standup meeting, worker - A11GZNNVLEWRGF
+original - meeting whose start time is smaller than end time of weekly standup
+  para - what meeting starts earlier than the end time of weekly standup, worker - A4WSGXF5IARBH
+  para - what meeting starts before weekly standup ends, worker - A32CIL5S21Y4MR
+  para - meetings that start before the weekly standup meeting ends, worker - A11GZNNVLEWRGF
+  para - meeting starts before end time of weekly standup, worker - A2YLK83DQ6PA5Y
+original - meeting whose attendee is alice and that is important
+  para - show me all important meetings that alice is attending, worker - AODM31DHYJG99
+  para - what important meetings are attended by alice, worker - A11GZNNVLEWRGF
+  para - what important meeting is alice attending, worker - A32CIL5S21Y4MR
+  para - important meeting alice is attending, worker - A2YLK83DQ6PA5Y
+  para - show me all meetings alice has attended marked as important, worker - A2WU1MO8J4CQ9K
+original - meeting whose length is three hours and whose attendee is alice
+  para - show me all 3 hour meetings with alice, worker - AODM31DHYJG99
+  para - show me meetings that take 3 hours and are with alice, worker - A2R085B34P2LYS
+  para - meetings that are attended by alice and are three hours long, worker - A11GZNNVLEWRGF
+  para - what meetings have a length of three hours and alice is attending, worker - A4WSGXF5IARBH
+  para - show me all meetings alice is attending which are three hours long, worker - A2WU1MO8J4CQ9K
+original - location that is location of meeting whose start time is 10am
+  para - show me the locations of all meetings beginning at 10 am, worker - A2WU1MO8J4CQ9K
+  para - location of meetings that start at 10am, worker - A11GZNNVLEWRGF
+  para - what location is the meeting that starts at 10am, worker - A4WSGXF5IARBH
+  para - show me meeting locations that start at 10am, worker - A2R085B34P2LYS
+original - meeting whose location is greenberg cafe and whose start time is 10am
+  para - meetings at greenberg cafe that start at 10am, worker - A11GZNNVLEWRGF
+  para - meeting which starts at 10 am at greenberg cafe, worker - A2TUNPP2GOQ1N3
+  para - what is the meeting that starts at 10 am in greenberg cafe, worker - A30C0I27VH3FFW
+  para - what meeting has a location at greenberg cafe and starts at 10am, worker - A4WSGXF5IARBH
+original - person that is attendee of less than two meeting
+original - average length of meeting
+  para - what is the average length of all the meetings, worker - A11GZNNVLEWRGF
+  para - how long does the average meeting last, worker - A2WU1MO8J4CQ9K
+  para - what is the average length of all meetings, worker - AODM31DHYJG99
+  para - what is the average length of a meeting, worker - A4WSGXF5IARBH
+  para - show me average meeting length, worker - A2R085B34P2LYS
+original - location that is location of meeting whose date is jan 2
+  para - locations that house meetings on january 2, worker - A11GZNNVLEWRGF
+  para - location is same as the location of meeting on jan 2, worker - A2TUNPP2GOQ1N3
+  para - show me the locations of all meetings on january 2, worker - A2WU1MO8J4CQ9K
+  para - where is my jan 2 meeting, worker - A30C0I27VH3FFW
+  para - what is the location of the jan 2 meeting, worker - AODM31DHYJG99
+original - meeting whose length is larger than three hours
+original - meeting that has the largest length
+  para - show me the longest meetings, worker - A2R085B34P2LYS
+  para - show me the meetings that are scheduled for longest length of time, worker - AODM31DHYJG99
+  para - show me the meetings which have lasted the longest, worker - A2WU1MO8J4CQ9K
+  para - what meeting has the longest length, worker - A4WSGXF5IARBH
+  para - what is the longest meeting, worker - A11GZNNVLEWRGF
+original - meeting whose location is location that is location of weekly standup
+  para - show me all meetings happening at the same location as the weekly standup, worker - A2WU1MO8J4CQ9K
+  para - what meeting has the same location as weekly standup, worker - A4WSGXF5IARBH
+  para - show me meetings that share location with the weekly standup meeting, worker - AODM31DHYJG99
+  para - meeting whose location is same as the  location of weekly standup, worker - A2TUNPP2GOQ1N3
+  para - meetings held in the same place as the weekly standup meeting, worker - A11GZNNVLEWRGF
+original - meeting whose end time is at least start time of weekly standup
+  para - meetings that end at the same time as or later than the start of the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - show me all meetings which end at the same time or later than the weekly standup meeting begins, worker - A2WU1MO8J4CQ9K
+  para - meeting ends at least at start time of weekly roundup, worker - A2YLK83DQ6PA5Y
+  para - show me meetings that end before the weekly standup starts, worker - A2R085B34P2LYS
+  para - what meeting ends at the start or after the start of weekly standup, worker - A32CIL5S21Y4MR
+original - person that is attendee of meeting whose date is jan 2
+  para - show me all attendees of meetings on january 2nd, worker - A2WU1MO8J4CQ9K
+  para - who is attending the meeting on jan 2, worker - A32CIL5S21Y4MR
+  para - show me the attendees for all meetings on jan 2, worker - AODM31DHYJG99
+  para - person attending jan 2nd meeting, worker - A2YLK83DQ6PA5Y
+  para - which people are attending meetings on january 2, worker - A11GZNNVLEWRGF
+original - meeting whose start time is larger than start time of weekly standup
+  para - start time of the meeting is after the start time of weekly standup, worker - A2TUNPP2GOQ1N3
+  para - show me the meetings that start later than the weekly standup meeting, worker - A30C0I27VH3FFW
+  para - meetings that start after the weekly standup meeting starts, worker - A11GZNNVLEWRGF
+  para - show me all meetings beginning later than the weekly standup, worker - A2WU1MO8J4CQ9K
+original - number of location
+  para - what is the number of the location, worker - A32CIL5S21Y4MR
+  para - how many locations house meetings, worker - A11GZNNVLEWRGF
+original - meeting whose length is at most length of weekly standup
+  para - show me all meetings no longer than the weekly standup, worker - A2WU1MO8J4CQ9K
+  para - meeting no longer than duration of weekly standup, worker - A2YLK83DQ6PA5Y
+  para - meetings that are the same length or shorter than the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - what meeting has the length of most weekly startup meetings, worker - A4WSGXF5IARBH
+original - meeting whose date is larger than jan 2 or jan 3
+  para - show me meetings after jan 2, worker - A2R085B34P2LYS
+  para - meetings after january 2 or after january 3, worker - A11GZNNVLEWRGF
+  para - meeting later than january 2nd or 3rd, worker - A2YLK83DQ6PA5Y
+  para - show me all meetings happening after january 2nd or january 3rd, worker - A2WU1MO8J4CQ9K
+  para - what meeting has a after jan 2 or 3, worker - A4WSGXF5IARBH
+original - meeting whose end time is 10am and whose location is greenberg cafe
+  para - show me all meetings at the greenberg cafe ending at 10 am, worker - A2WU1MO8J4CQ9K
+  para - meetings at greenberg cafe that end a 10am, worker - A11GZNNVLEWRGF
+  para - meeting at greenberg cafe which ends at 10 am, worker - A2TUNPP2GOQ1N3
+  para - show me meetings ending at 10am in greenberg cafe, worker - A2R085B34P2LYS
+  para - show me all metings in greenberg cafe that end at 10am, worker - AODM31DHYJG99
+original - meeting whose end time is smaller than 10am or 3pm
+  para - meeting ends before 10am or 3pm, worker - A2YLK83DQ6PA5Y
+  para - meetings that end before 10 am or before 3pm, worker - A11GZNNVLEWRGF
+  para - what meeting ends before 3pm or 10am, worker - A32CIL5S21Y4MR
+  para - what meeting ends earlier than 10am or 3pm, worker - A4WSGXF5IARBH
+original - person that is attendee of meeting whose length is three hours
+  para - people that attend three hour long meetings, worker - A11GZNNVLEWRGF
+  para - person attending three hour meeting, worker - A2YLK83DQ6PA5Y
+  para - show me all attendees of meetings three hours long, worker - A2WU1MO8J4CQ9K
+  para - who is attending the three hour meeting, worker - AODM31DHYJG99
+  para - show me who is attending three hour meetings, worker - A2R085B34P2LYS
+original - meeting whose end time is at least end time of weekly standup
+  para - show me all meetings ending at the same time or later than the weekly standup meeting ends, worker - A2WU1MO8J4CQ9K
+  para - meeting which ends at or after the end time of weekly standup, worker - A2TUNPP2GOQ1N3
+  para - what meeting ends at the same time as weekly standup or later, worker - A4WSGXF5IARBH
+  para - what meetings end no later then the weekly standup meeting ends, worker - AODM31DHYJG99
+  para - meetings that end at or after the weekly standup meeting ends, worker - A11GZNNVLEWRGF
+original - location that is location of two meeting
+original - meeting that has the least number of location
+  para - which meeting has the fewest scheduled locations, worker - ANFWGSQ8BQRZ
+  para - what meeting has the fewest locations, worker - A4WSGXF5IARBH
+  para - show me the meetings with the least number of different locations, worker - A2WU1MO8J4CQ9K
+  para - meeting with fewest locations, worker - A2YLK83DQ6PA5Y
+  para - meeting held in the fewest number of locations, worker - A11GZNNVLEWRGF
+original - meeting whose date is larger than date of weekly standup
+  para - show me all meetings happening after the weekly standup, worker - A2WU1MO8J4CQ9K
+  para - show me meeting happening after the day of weekly standup, worker - ANFWGSQ8BQRZ
+  para - meeting occurs on later date than weekly standup, worker - A2YLK83DQ6PA5Y
+  para - what meeting has a later date than weekly standup, worker - A4WSGXF5IARBH
+original - meeting that has at most two attendee
+  para - show me all meetings that have two or fewer attendees, worker - AODM31DHYJG99
+  para - meeting that has maximum 2 attendees, worker - A2TUNPP2GOQ1N3
+  para - show me all meetings which has no more than two attendees, worker - A2WU1MO8J4CQ9K
+  para - meetings attended by two or fewer people, worker - A11GZNNVLEWRGF
+  para - what meeting has two attendees or less, worker - A4WSGXF5IARBH
+original - location that is location of meeting that is important
+  para - what is the location of the important meeting, worker - AODM31DHYJG99
+  para - show me locations of all meetings which are marked as important, worker - A2WU1MO8J4CQ9K
+  para - what is the location of the important meeting, worker - A4WSGXF5IARBH
+  para - where is the important meeting being held, worker - A32CIL5S21Y4MR
+  para - locations of important meetings, worker - A11GZNNVLEWRGF
+original - meeting whose date is at most date of weekly standup
+  para - what meeting no later than that of weekly startup, worker - A4WSGXF5IARBH
+  para - show me all meetings happening on the same day or before the weekly standup, worker - A2WU1MO8J4CQ9K
+  para - meetings held on or before the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - show me meetings before the weekly standup, worker - A2R085B34P2LYS
+original - meeting whose length is larger than three hours or one hour
+  para - meetings that are longer than three hours or longer than an hour, worker - A11GZNNVLEWRGF
+  para - show me all meetings that last longer than three hours, worker - AODM31DHYJG99
+  para - meeting longer than one or three hours, worker - A2YLK83DQ6PA5Y
+  para - show me any meetings scheduled to be longer than one hour or three hours, worker - A2WU1MO8J4CQ9K
+original - meeting whose date is jan 2 or jan 3
+  para - meeting which is on jan 2 or jan 3, worker - A2TUNPP2GOQ1N3
+  para - show me all metings that take place jan 2 or jan 3, worker - AODM31DHYJG99
+  para - what meeting is on jan 2 or 3rd, worker - A4WSGXF5IARBH
+  para - show me all meetings happening on january 2nd or january 3rd, worker - A2WU1MO8J4CQ9K
+  para - meetings on january 2 or january 3, worker - A11GZNNVLEWRGF
+original - three hours or one hour
+  para - three or one hours, worker - A2TUNPP2GOQ1N3
+  para - is this meeting three hours long or an hour long, worker - A11GZNNVLEWRGF
+  para - show me all meetings scheduled to be three hours or one hour long, worker - A2WU1MO8J4CQ9K
+original - meeting whose end time is at most start time of weekly standup
+  para - what meeting has an end time the same as weekly standup, worker - A4WSGXF5IARBH
+  para - show me meeting which end before weekly standup, worker - ANFWGSQ8BQRZ
+  para - what is the meeting that take place immediately before the weekly standup, worker - AODM31DHYJG99
+  para - show me all meetings ending at the same time or earlier than the weekly standup begins, worker - A2WU1MO8J4CQ9K
+  para - meeting ends no later than start time of weekly standup, worker - A2YLK83DQ6PA5Y
+original - start time of weekly standup
+  para - when is the weekly standup, worker - A2R085B34P2LYS
+  para - what time does the weekly standup meeting start, worker - A11GZNNVLEWRGF
+  para - what is the start time for the weekly stand up meeting, worker - AODM31DHYJG99
+  para - weekly standup start time, worker - A2YLK83DQ6PA5Y
+  para - when does the weekly standup meeting begin, worker - A2WU1MO8J4CQ9K
+original - meeting whose end time is at most 10am or 3pm
+  para - what meeting ends no later than 10am or 3pm, worker - A4WSGXF5IARBH
+  para - meetings that end at or before 10am or at or before 3pm, worker - A11GZNNVLEWRGF
+  para - meeting ends no later than 10am or 3pm, worker - A2YLK83DQ6PA5Y
+original - weekly standup or annual review
+  para - when is weekly standup or annual review, worker - ANFWGSQ8BQRZ
+  para - show me all meetings that are either weekly standup or annual review, worker - AODM31DHYJG99
+  para - show me any meetings that are either the weekly standup or annual review, worker - A2WU1MO8J4CQ9K
+original - meeting whose location is greenberg cafe and whose attendee is alice
+  para - what meeting did alice attend at the greenberg cafe, worker - A32CIL5S21Y4MR
+  para - show me any meetings which alice has attended and take place at greenberg cafe, worker - A2WU1MO8J4CQ9K
+  para - what meeting is at greenberg cafe and alice is attending, worker - A4WSGXF5IARBH
+  para - show me all meetings in greenberg cafe that alice is attending, worker - AODM31DHYJG99
+  para - meetings attended by alice in greenberg cafe, worker - A11GZNNVLEWRGF
+original - meeting whose attendee is alice and whose date is jan 2
+  para - show me all meetings alice attended on january 2nd, worker - A2WU1MO8J4CQ9K
+  para - meeting on jan 2nd with alice as attendee, worker - A2YLK83DQ6PA5Y
+  para - show me meetings on jan 2 with alice, worker - A2R085B34P2LYS
+  para - what meeting has alice attending on jan 2, worker - A4WSGXF5IARBH
+  para - show me all meetings that alice is attending on jan 2, worker - AODM31DHYJG99
+original - meeting whose date is date of weekly standup
+  para - what meeting has the same date as weekly startup, worker - A4WSGXF5IARBH
+  para - what meetings are the same day as the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - what meetings occur on the same day as weekly standup, worker - ANFWGSQ8BQRZ
+  para - what meetings have the same date as the weekly standup meeting, worker - AODM31DHYJG99
+  para - show me all meetings on the same day as the weekly standup meeting, worker - A2WU1MO8J4CQ9K
+original - meeting whose length is three hours and whose location is greenberg cafe
+  para - show me all meetings in greenber cafe that will run three hours, worker - AODM31DHYJG99
+  para - show me all meetings three hours long at the greenberg cafe, worker - A2WU1MO8J4CQ9K
+  para - show me meetings that take three hours in greenberg cafe, worker - A2R085B34P2LYS
+  para - three hour meeting at greenberg cafe, worker - A2YLK83DQ6PA5Y
+original - meeting whose start time is at most 10am
+  para - show me meetings starting before 10am, worker - A2R085B34P2LYS
+  para - meetings that start at or before 10am, worker - A11GZNNVLEWRGF
+  para - meeting which starts at or before 10 am, worker - A2TUNPP2GOQ1N3
+  para - show me all meetings that start no later than 10am, worker - AODM31DHYJG99
+  para - show me all meetings starting at or before 10 am, worker - A2WU1MO8J4CQ9K
+original - meeting whose start time is 10am and whose start time is 10am
+  para - what meeting starts at 10am, worker - A4WSGXF5IARBH
+  para - meeting which starts at 1000 am, worker - A2TUNPP2GOQ1N3
+  para - meetings that start at 10am, worker - A11GZNNVLEWRGF
+  para - show me all meeting that begin at 10am, worker - AODM31DHYJG99
+  para - show me all meetings beginning at 10 am, worker - A2WU1MO8J4CQ9K
+original - meeting whose start time is 10am and whose location is greenberg cafe
+  para - meeting which starts at 1000 am at greenberg cafe, worker - A2TUNPP2GOQ1N3
+  para - show meetings that start at 10am in greenberg cafe, worker - AODM31DHYJG99
+  para - what meeting has a start time at 10am at greenberg cafe, worker - A4WSGXF5IARBH
+  para - meetings in greenberg cafe that start at 10am, worker - A11GZNNVLEWRGF
+original - meeting whose attendee is alice or bob
+  para - show me all meetings with either bob or alice attending, worker - AODM31DHYJG99
+  para - alice or bob is an attendee at the meeting, worker - A2YLK83DQ6PA5Y
+  para - show me all meetings attended by either alice or bob, worker - A2WU1MO8J4CQ9K
+  para - show me meetings with alice or bob, worker - A2R085B34P2LYS
+  para - meetings attended by alice or bob, worker - A11GZNNVLEWRGF
+original - meeting whose start time is 10am and whose attendee is alice
+  para - show me all 10am meetings that alice is attending, worker - AODM31DHYJG99
+  para - show me all meetings alice has attended which begin at 10 am, worker - A2WU1MO8J4CQ9K
+  para - meeting featuring alice as attendee starting at 10am, worker - A2YLK83DQ6PA5Y
+  para - show me meetings at 10am with alice, worker - A2R085B34P2LYS
+original - meeting whose length is three hours and whose date is jan 2
+  para - meetings on january 2 that are three hours long, worker - A11GZNNVLEWRGF
+  para - show me all meetings on january 2nd which are also 3 hours long, worker - A2WU1MO8J4CQ9K
+  para - three hour meeting on january 2nd, worker - A2YLK83DQ6PA5Y
+  para - show me all three hour meetings on jan 2, worker - AODM31DHYJG99
+  para - show me three hour meetings on jan 2, worker - A2R085B34P2LYS
+original - meeting whose length is three hours and whose length is three hours
+  para - three hour meeting, worker - A2YLK83DQ6PA5Y
+  para - show me meetings that take 3 hours, worker - A2R085B34P2LYS
+  para - show me all meetings scheduled for three hourse, worker - AODM31DHYJG99
+  para - show me all meetings lasting for three hours, worker - A2WU1MO8J4CQ9K
+original - number of person
+  para - what is the number of the person, worker - A32CIL5S21Y4MR
+  para - how many people attended meetings, worker - A2WU1MO8J4CQ9K
+  para - how many attendees are there for this meeting, worker - A11GZNNVLEWRGF
+original - meeting whose start time is smaller than 10am
+  para - meetings that start before 10am, worker - A11GZNNVLEWRGF
+  para - meetings starting later than 10am, worker - A2YLK83DQ6PA5Y
+  para - show all meetings that start ealier than 10am, worker - AODM31DHYJG99
+  para - what meeting starts earlier than 10am, worker - A4WSGXF5IARBH
+  para - show me all meetings starting earlier than 10 am, worker - A2WU1MO8J4CQ9K
+original - location that is location of meeting whose attendee is alice
+  para - what is the location of the meeting that alice is attending, worker - AODM31DHYJG99
+  para - show me meeting locations with alice, worker - A2R085B34P2LYS
+  para - locations of meetings attended by alice, worker - A11GZNNVLEWRGF
+  para - show me the location of all meetings attended by alice, worker - A2WU1MO8J4CQ9K
+  para - what location is the meeting who has alice attending, worker - A4WSGXF5IARBH
+original - number of meeting
+  para - what is the number of the meeting, worker - A32CIL5S21Y4MR
+  para - how many meetings are scheduled, worker - A11GZNNVLEWRGF
+  para - how many meetings are there, worker - A4WSGXF5IARBH
+original - alice or bob
+  para - show me any meetings that alice or bob have attended, worker - A2WU1MO8J4CQ9K
+original - meeting whose start time is 10am and that is important
+  para - what meetings are imporant and start at 10am, worker - AODM31DHYJG99
+  para - what important meeting has a start time at 10am, worker - A4WSGXF5IARBH
+  para - show me all meetings labeled as important that start at 10 am, worker - A2WU1MO8J4CQ9K
+  para - which important meeting starts at 10 in the morning, worker - ANFWGSQ8BQRZ
+  para - what important meetings start at 10am, worker - A11GZNNVLEWRGF
+original - location that is location of the least number of meeting
+  para - show me locations with the fewest meetings, worker - A2R085B34P2LYS
+  para - show me all meetings which happened at the same location as the least number of meetings, worker - A2WU1MO8J4CQ9K
+  para - places that house at least one meeting, worker - A11GZNNVLEWRGF
+  para - what is the location of the meting with least number of attendees, worker - AODM31DHYJG99
+  para - what location are the fewest meetings held, worker - A4WSGXF5IARBH
+original - meeting whose date is jan 2 and that is important
+  para - show me all important meetings on jan 2, worker - AODM31DHYJG99
+  para - show me important meetings on jan 2, worker - A2R085B34P2LYS
+original - location that is location of weekly standup or annual review
+  para - location same as weekly meeting or annual review, worker - A2YLK83DQ6PA5Y
+  para - locations of the weekly standup meeting or annual review meeting, worker - A11GZNNVLEWRGF
+  para - what location is weekly standup and annual review, worker - A4WSGXF5IARBH
+  para - where will weekly standup and annual review take place, worker - ANFWGSQ8BQRZ
+  para - show me where the weekly standup and annual review is happening, worker - A2WU1MO8J4CQ9K
+original - end time of weekly standup
+  para - weekly standup end time, worker - A2TUNPP2GOQ1N3
+  para - what is the end time of weekly standup, worker - A4WSGXF5IARBH
+  para - what time does the weekly standup meeting end, worker - A11GZNNVLEWRGF
+  para - what time does the weekly standup meeting end, worker - A2WU1MO8J4CQ9K
+  para - what time does the weekly stand up end, worker - AODM31DHYJG99
+original - location that is location of less than two meeting
+original - location that is not location of weekly standup
+  para - locations that do not house the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - show me all locations which do not host the weekly standup, worker - A2WU1MO8J4CQ9K
+  para - what location does not hold the weekly standup meeting, worker - AODM31DHYJG99
+  para - what location is not the same as weekly standup, worker - A4WSGXF5IARBH
+  para - location different from location of weekly standup, worker - A2YLK83DQ6PA5Y
+original - meeting whose length is three hours and whose start time is 10am
+  para - show me meetings that take 3 hours and start at 10am, worker - A2R085B34P2LYS
+  para - show me all meetings lasting three hours beginning at 10 am, worker - A2WU1MO8J4CQ9K
+  para - show me all three hour meetings that begin at 10am, worker - AODM31DHYJG99
+  para - meeting that starts at 10am and ends at 1pm, worker - A11GZNNVLEWRGF
+original - meeting that has the most number of attendee
+  para - what meeting has the most attendees, worker - A4WSGXF5IARBH
+  para - meeting with largest number of attendees, worker - A2YLK83DQ6PA5Y
+  para - which meeting is attended by the most people, worker - A11GZNNVLEWRGF
+  para - show me the meetings with the most attendees, worker - A2WU1MO8J4CQ9K
+  para - which meeting has the most people scheduled to attend, worker - ANFWGSQ8BQRZ
+original - person that is attendee of weekly standup
+  para - who attends weekly standup, worker - A32CIL5S21Y4MR
+  para - show me all attendees of the weekly standup meeting, worker - A2WU1MO8J4CQ9K
+  para - person who attends weekly standup, worker - A2TUNPP2GOQ1N3
+  para - what person is attending weekly startup, worker - A4WSGXF5IARBH
+original - meeting that has less than two location
+  para - show me all meetings which have only one location, worker - A2WU1MO8J4CQ9K
+  para - what meeting has less than two locations, worker - A4WSGXF5IARBH
+  para - show me meetings at fewer than two locations, worker - A2R085B34P2LYS
+  para - meetings held in less than two locations, worker - A11GZNNVLEWRGF
+  para - meeting at a single location, worker - A2YLK83DQ6PA5Y
+original - person that is attendee of at least two meeting
+  para - people that attend at least two meetings, worker - A11GZNNVLEWRGF
+  para - who are the people attending at least two different meetings, worker - AODM31DHYJG99
+  para - person attending at least two meetings, worker - A2YLK83DQ6PA5Y
+  para - show me all people who have attended at least two meetings, worker - A2WU1MO8J4CQ9K
+  para - what person is an attendee of at least two meetings, worker - A4WSGXF5IARBH
+original - meeting whose date is at least jan 2 or jan 3
+  para - meetings that are on or before january 3, worker - A11GZNNVLEWRGF
+  para - show me all meetings beginning on or after january 2nd, worker - A2WU1MO8J4CQ9K
+  para - meeting is no later than january 2nd or 3rd, worker - A2YLK83DQ6PA5Y
+  para - what meeting has a date of jan 2 or jan 3, worker - A4WSGXF5IARBH
+original - meeting whose end time is 10am or 3pm
+  para - show meetings that end at 10am or 3pm, worker - AODM31DHYJG99
+  para - meetings that end at 10am or 3pm, worker - A11GZNNVLEWRGF
+  para - meeting ends at 10 am or 3 pm, worker - A2TUNPP2GOQ1N3
+  para - what meetings end at 10am or 3pm, worker - A3DTN2OMF6DUSI
+  para - show me all meetings ending at 10 am or 3 pm, worker - A2WU1MO8J4CQ9K
+original - meeting whose date is jan 2 and whose start time is 10am
+  para - meeting which starts at 10 am on jan 2, worker - A2TUNPP2GOQ1N3
+  para - show me all meetings on january 2nd beginning at 10 am, worker - A2WU1MO8J4CQ9K
+  para - what meeting is on jan 2 at 10am, worker - A4WSGXF5IARBH
+  para - show me the meeting that starts at 10 am on january 2, worker - A30C0I27VH3FFW
+original - meeting whose date is at most jan 2 or jan 3
+  para - show me all meetings which are scheduled no later than january 3, worker - A2WU1MO8J4CQ9K
+  para - what meeting is on or before jan 2 or 3rd, worker - A4WSGXF5IARBH
+  para - show me all meeting that take place by jan 3, worker - AODM31DHYJG99
+  para - meeting which is on jan 3 or before, worker - A2TUNPP2GOQ1N3
+  para - meetings held before january 3, worker - A11GZNNVLEWRGF
+original - meeting whose date is at most jan 2
+  para - show me all meetings happening on or before january 2nd, worker - A2WU1MO8J4CQ9K
+  para - meetings on or before january 2, worker - A11GZNNVLEWRGF
+  para - what meeting was on or before jan 2, worker - A32CIL5S21Y4MR
+  para - what meeting is on jan 2 or earlier, worker - A4WSGXF5IARBH
+  para - what meeting will take place no later than jan 2, worker - AODM31DHYJG99
+original - meeting whose location is location of weekly standup
+  para - show me all meetings at the same location as the weekly standup, worker - A2WU1MO8J4CQ9K
+  para - meeting at location of weekly standup, worker - A2TUNPP2GOQ1N3
+  para - meetings held in the same location as the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - what meeting is at the same location as weekly standup, worker - A4WSGXF5IARBH
+  para - show me meetings that have the same location as weekly startup, worker - ANFWGSQ8BQRZ
+original - person that is not attendee of weekly standup
+  para - show me all of the people who did not attend the weekly standup meeting, worker - A2WU1MO8J4CQ9K
+  para - people that do not attend the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - who is not an attendee of weekly standup, worker - A4WSGXF5IARBH
+  para - what person is not attending the weekly standup meeting, worker - AODM31DHYJG99
+  para - show me who is not at the weekly standup, worker - A2R085B34P2LYS
+original - meeting whose date is at least date of weekly standup
+  para - show me all meetings that start no earlier than the weekly standup meeting, worker - AODM31DHYJG99
+  para - meeting which is on the date of first weekly standup, worker - A2TUNPP2GOQ1N3
+  para - meetings held on the same day as or after the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - show me meetings after the weekly standup day, worker - A2R085B34P2LYS
+  para - show me all meetings happening on or after the date of the weekly standup, worker - A2WU1MO8J4CQ9K
+original - meeting whose length is three hours and whose end time is 10am
+  para - show me all three hour meetings that end at 10am, worker - AODM31DHYJG99
+  para - meetings ending at 10 am that are three hours long, worker - A11GZNNVLEWRGF
+  para - show me all meetings three hours long which end at 10 am, worker - A2WU1MO8J4CQ9K
+  para - meeting starts at 700 am and ends at 000 am, worker - A2TUNPP2GOQ1N3
+original - meeting whose length is three hours
+  para - show me meetings that last three hours, worker - ANFWGSQ8BQRZ
+  para - show me all meetings three hours long, worker - A2WU1MO8J4CQ9K
+  para - meetings that are three hours long, worker - A11GZNNVLEWRGF
+  para - find me a meeting that is three hours long, worker - A32CIL5S21Y4MR
+original - meeting whose length is at most three hours
+  para - show me meetings shorter than 3 hours, worker - A2R085B34P2LYS
+  para - show me all meetings scheduled to run for 3 hours, worker - AODM31DHYJG99
+  para - show me all meetings less than three hours long, worker - A2WU1MO8J4CQ9K
+  para - meetings that are three hours long or less, worker - A11GZNNVLEWRGF
+original - total length of meeting
+  para - how long is this meeting, worker - A11GZNNVLEWRGF
+  para - how long is the meeting, worker - A2WU1MO8J4CQ9K
+  para - duration of meeting, worker - A2YLK83DQ6PA5Y
+  para - what is the length of the meeting, worker - A32CIL5S21Y4MR
+original - location that is location of weekly standup and that is location of weekly standup
+  para - what is the location of weekly startup, worker - A4WSGXF5IARBH
+  para - where is the weekly standup, worker - A2R085B34P2LYS
+original - meeting whose start time is end time of weekly standup
+  para - what meeting starts when weekly standup ends, worker - A32CIL5S21Y4MR
+  para - show me all meetings that begin at the time the weekly standup meeting ends, worker - AODM31DHYJG99
+  para - show me all meetings which begin at the same time the weekly standup ends, worker - A2WU1MO8J4CQ9K
+  para - what meeting has a start time at the end time of weekly standup, worker - A4WSGXF5IARBH
+  para - meeting that starts when the weekly standup meeting ends, worker - A11GZNNVLEWRGF
+original - meeting whose location is not greenberg cafe
+  para - meeting is not at greenberg cafe, worker - A2YLK83DQ6PA5Y
+  para - meetings that are not held at greenberg cafe, worker - A11GZNNVLEWRGF
+  para - show me meetings not at greenberg cafe, worker - A2R085B34P2LYS
+  para - show me all meetings not happening at greenberg cafe, worker - A2WU1MO8J4CQ9K
+  para - what meeting is not located at greenberg cafe, worker - A4WSGXF5IARBH
+original - meeting whose start time is smaller than 10am or 3pm
+  para - what meeting starts before 10am or 3pm, worker - A32CIL5S21Y4MR
+  para - meetings that start before 10am or before 3pm, worker - A11GZNNVLEWRGF
+  para - meeting starts before 10am or 3pm, worker - A2YLK83DQ6PA5Y
+  para - what meeting starts earlier than 10am or 3pm, worker - A4WSGXF5IARBH
+  para - show me all meetings which begin earlier than 10 am or 3 pm, worker - A2WU1MO8J4CQ9K
+original - meeting whose date is jan 2 and whose date is jan 2
+  para - show me meetings on jan 2, worker - A2R085B34P2LYS
+  para - show me all meetings on jan 2, worker - AODM31DHYJG99
+  para - january 2nd meeting, worker - A2YLK83DQ6PA5Y
+  para - what meeting is on jan 2, worker - A4WSGXF5IARBH
+  para - show me all meetings happening on january 2nd, worker - A2WU1MO8J4CQ9K
+original - meeting that has two location
+original - person that is attendee of weekly standup and that is attendee of weekly standup
+  para - what person attended weekly standup, worker - A32CIL5S21Y4MR
+  para - what person is attending weekly standup, worker - A4WSGXF5IARBH
+  para - who is the person attending the weekly stand up meeting, worker - AODM31DHYJG99
+original - meeting that is important and whose length is three hours
+  para - important meeting with three hour duration, worker - A2YLK83DQ6PA5Y
+  para - show me the important meetings that last three hours, worker - ANFWGSQ8BQRZ
+  para - show me any meetings labeled as important which are also three hours long, worker - A2WU1MO8J4CQ9K
+  para - what important meeting has a length of three hours, worker - A4WSGXF5IARBH
+original - person that is attendee of two meeting
+original - meeting whose start time is at least start time of weekly standup
+  para - meetings that start later than or at the same time as the weekly standup meeting, worker - A11GZNNVLEWRGF
+  para - show meetings that start no earlier than the weekly startup meeting, worker - AODM31DHYJG99
+  para - meeting which starts before the start time of weekly standup, worker - A2TUNPP2GOQ1N3
+  para - show me all meetings which start at the same time or later than the weekly standup, worker - A2WU1MO8J4CQ9K
+original - meeting whose end time is not 10am
+  para - meetings that do not end at 10am, worker - A11GZNNVLEWRGF
+  para - meeting that does not end at 10am, worker - A2YLK83DQ6PA5Y
+  para - show me meetings which do not conclude at 10am, worker - ANFWGSQ8BQRZ
+  para - show me all meetings not ending at 10 am, worker - A2WU1MO8J4CQ9K
+  para - what meeting doesnt end at 10am, worker - A4WSGXF5IARBH
+original - meeting that has the smallest end time
+  para - meetings that end the earliest, worker - A11GZNNVLEWRGF
+  para - meeting of smallest duration, worker - A2TUNPP2GOQ1N3
+  para - what meeting has the shortest time, worker - A4WSGXF5IARBH
+  para - which meeting has the earliest end time, worker - A2WU1MO8J4CQ9K
+  para - what meeting ends ealiest in the day, worker - AODM31DHYJG99
+original - meeting that has two attendee
+  para - meetings attended by two people, worker - A11GZNNVLEWRGF
+  para - two attendees are at the meeting, worker - A2YLK83DQ6PA5Y
+  para - show me all meetings that have two attendees, worker - AODM31DHYJG99
+  para - show me meetings that have two attendees, worker - A2R085B34P2LYS
+  para - show me all meetings with two attendees, worker - A2WU1MO8J4CQ9K
+original - meeting whose end time is larger than 10am or 3pm
+  para - which meetings end later than 10 in the morning or 3 in the afternoon, worker - ANFWGSQ8BQRZ
+  para - what meeting has fan end time after 10am or 3pm, worker - A4WSGXF5IARBH
+  para - show me all meetings ending after 10 am or 3 pm, worker - A2WU1MO8J4CQ9K
+  para - meetings that end later than 10am or later than 3pm, worker - A11GZNNVLEWRGF
+original - meeting whose attendee is alice and whose length is three hours
+  para - three hour meeting with alice as attendee, worker - A2YLK83DQ6PA5Y
+  para - meetings attended by alice that are three hours long, worker - A11GZNNVLEWRGF
+  para - show me all meetings attended by alice which are three hours long, worker - A2WU1MO8J4CQ9K
+  para - what three hour meeting has alice attending, worker - A4WSGXF5IARBH
+  para - show me all three hour meetings that alice is attending, worker - AODM31DHYJG99
+original - meeting whose length is smaller than length of weekly standup
+original - meeting that has at most two location
+  para - meeting with no more than 2 locations, worker - A2YLK83DQ6PA5Y
+  para - what meeting has two locations, worker - A4WSGXF5IARBH
+  para - what meetings have no more than two different locations, worker - AODM31DHYJG99
+  para - show me all meetings that have at most two locations, worker - A2WU1MO8J4CQ9K
+  para - meetings held in two or fewer locations, worker - A11GZNNVLEWRGF
+original - meeting whose date is jan 2
+  para - meetings on january 2, worker - A11GZNNVLEWRGF
+  para - show the meeting on jan 2, worker - A1V5OMRC87TDXW
+  para - show me meetings for jan 2, worker - A2R085B34P2LYS
+original - meeting whose attendee is alice and whose location is greenberg cafe
+  para - show me all meetings alice has attended at the greenberg cafe, worker - A2WU1MO8J4CQ9K
+  para - what meeting is located at greenberg cafe and alice will be attending, worker - A4WSGXF5IARBH
+  para - find the meeting with alice at greenberg cafe, worker - A1V5OMRC87TDXW
+  para - meetings at greenberg cafe attended by alice, worker - A11GZNNVLEWRGF
+original - meeting whose start time is 10am and whose date is jan 2
+  para - show me all meetings that start at 10am on jan 2, worker - AODM31DHYJG99
+  para - show me any meetings on january 2 beginning at 10 am, worker - A2WU1MO8J4CQ9K
+  para - meeting on january 2nd at 10am, worker - A2YLK83DQ6PA5Y
+  para - what meeting starts at 10am on jan 2, worker - A4WSGXF5IARBH
+original - meeting whose end time is at most end time of weekly standup
+  para - show me all meetings that end at the same time or earlier than the weekly standup meeting, worker - AODM31DHYJG99
+  para - meetings that end at the same time as or before the weekly standup meeting ends, worker - A11GZNNVLEWRGF
+  para - what meeting has the same end time as that of weekly standup, worker - A4WSGXF5IARBH
+  para - show me meetings that end before the weekly standup, worker - A2R085B34P2LYS
+  para - show me the meetings which end no later than the weekly standup ends, worker - A2WU1MO8J4CQ9K
+original - meeting whose end time is 10am
+  para - meetings that end at 10am, worker - A11GZNNVLEWRGF
+  para - show me any meetings which end at 10 am, worker - A2WU1MO8J4CQ9K
+  para - which meetings are scheduled to end at 10am, worker - ANFWGSQ8BQRZ
+original - meeting whose date is smaller than jan 2 or jan 3
+  para - what meetings date is earlier than jan 2 or 3rd, worker - A4WSGXF5IARBH
+  para - show me meetings before jan 3, worker - A2R085B34P2LYS
+  para - show me all meetings happening before january 2nd or january 3rd, worker - A2WU1MO8J4CQ9K
+  para - meetings held before january 2 or january 3, worker - A11GZNNVLEWRGF
+original - meeting whose length is not three hours
+  para - what meeting was shorter or longer than three hours, worker - A32CIL5S21Y4MR
+  para - what meeting is not three hours, worker - A4WSGXF5IARBH
+  para - show me all meetings which are either shorter or longer than three hours, worker - A2WU1MO8J4CQ9K
+  para - show me all meetings with lengths that either less or more than three hours, worker - AODM31DHYJG99
+  para - meetings that are not three hours long, worker - A11GZNNVLEWRGF
+original - meeting whose end time is larger than start time of weekly standup
+  para - show me all meetings which end later than the weekly standup begins, worker - A2WU1MO8J4CQ9K
+  para - meetings that end after the weekly startup meeting starts, worker - A11GZNNVLEWRGF
+  para - meeting that starts later than start of weekly standup, worker - A2YLK83DQ6PA5Y
+  para - show me all meetings that end after the weekly stand up meeting starts, worker - AODM31DHYJG99
+  para - what meeting has an end time greater than weekly standup, worker - A4WSGXF5IARBH
+original - meeting whose location is greenberg cafe and whose location is greenberg cafe
+  para - show me meetings at greenberg cafe, worker - A2R085B34P2LYS
+  para - what meetings are located at greenberg cafe, worker - A4WSGXF5IARBH
+  para - show me all meetings located at greenberg cafe, worker - A2WU1MO8J4CQ9K
+  para - what meetings take place in greenbug cafe, worker - AODM31DHYJG99
+original - location that is location of meeting whose end time is 10am
+  para - where are the meetings ending at 10am going to be held, worker - ANFWGSQ8BQRZ
+  para - show me all locations which have meetings ending at 10 am, worker - A2WU1MO8J4CQ9K
+  para - locations of meetings that end at 10am, worker - A11GZNNVLEWRGF
+  para - what location is the meeting that ends at 10am, worker - A4WSGXF5IARBH
+  para - location is same as location of meeting ends at 10 am, worker - A2TUNPP2GOQ1N3
+original - meeting that has the largest end time
+  para - show me the meetings with the latest end times, worker - A2WU1MO8J4CQ9K
+  para - what meeting has the longest time, worker - A4WSGXF5IARBH
+  para - meetings with the latest end time, worker - A11GZNNVLEWRGF
+  para - meeting which has longest end time, worker - A2TUNPP2GOQ1N3
+  para - show me the meeting that has the latest end time, worker - AODM31DHYJG99

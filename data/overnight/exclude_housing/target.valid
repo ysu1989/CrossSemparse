@@ -1,0 +1,2036 @@
+meeting whose end time is larger than start time of weekly standup
+meeting whose length is at most three hours or one hour
+meeting whose attendee is alice and that is important
+weekly standup or annual review
+meeting whose end time is 10am and whose length is three hours
+meeting whose date is at least jan 2
+meeting whose end time is larger than end time of weekly standup
+meeting whose end time is start time of weekly standup
+three hours or one hour
+meeting whose length is smaller than three hours or one hour
+meeting whose date is jan 2 and whose location is greenberg cafe
+location that is location of the least number of meeting
+meeting whose date is jan 2 and whose start time is 10am
+meeting whose date is jan 2
+person that is attendee of meeting whose attendee is alice
+meeting whose date is jan 2 and whose location is greenberg cafe
+length of weekly standup
+meeting whose end time is larger than end time of weekly standup
+meeting whose length is larger than length of weekly standup
+meeting whose length is at most length of weekly standup
+meeting whose date is jan 2 and whose attendee is alice
+meeting whose length is three hours or one hour
+location that is location of the most number of meeting
+meeting whose date is smaller than date of weekly standup
+meeting whose start time is at most 10am or 3pm
+meeting whose date is jan 2 and whose end time is 10am
+meeting whose start time is smaller than 10am
+meeting whose length is three hours
+total length of meeting
+meeting that has the largest end time
+total length of meeting
+meeting whose end time is end time of weekly standup
+location that is location of meeting whose length is three hours
+person that is attendee of weekly standup and that is attendee of weekly standup
+meeting whose attendee is alice and whose length is three hours
+meeting whose end time is 10am and whose start time is 10am
+meeting whose end time is smaller than 10am or 3pm
+attendee of weekly standup
+meeting whose location is greenberg cafe and whose attendee is alice
+meeting whose attendee is alice and whose location is greenberg cafe
+meeting whose start time is larger than start time of weekly standup
+meeting whose location is not greenberg cafe
+person that is attendee of at least two meeting
+meeting whose attendee is person that is attendee of weekly standup
+location that is not location of weekly standup
+meeting whose length is at least three hours or one hour
+meeting whose start time is at least start time of weekly standup
+meeting that has the smallest start time
+meeting whose date is smaller than date of weekly standup
+meeting whose attendee is alice and whose start time is 10am
+location that is location of meeting whose start time is 10am
+meeting whose attendee is attendee of weekly standup
+meeting that is important and whose start time is 10am
+meeting whose end time is larger than 10am
+location that is location of meeting whose start time is 10am
+meeting whose length is at least three hours
+meeting whose location is location of weekly standup
+meeting whose start time is 10am and whose length is three hours
+location that is not location of weekly standup
+meeting whose start time is end time of weekly standup
+meeting whose date is at most jan 2
+meeting whose location is greenberg cafe and whose start time is 10am
+meeting whose date is larger than date of weekly standup
+person that is attendee of meeting whose location is greenberg cafe
+meeting whose location is greenberg cafe and whose start time is 10am
+greenberg cafe or central office
+meeting whose date is at least date of weekly standup
+meeting whose end time is 10am and whose date is jan 2
+jan 2 or jan 3
+meeting whose date is jan 2 and whose start time is 10am
+meeting whose start time is at least 10am or 3pm
+meeting whose length is at most three hours
+meeting whose date is larger than jan 2
+meeting whose location is greenberg cafe and whose attendee is alice
+meeting whose end time is smaller than start time of weekly standup
+meeting that has the smallest length
+meeting whose start time is at most 10am
+meeting whose start time is 10am and whose date is jan 2
+meeting whose length is three hours and whose start time is 10am
+meeting whose end time is at most start time of weekly standup
+meeting whose date is jan 2 and whose date is jan 2
+meeting whose attendee is attendee of weekly standup
+meeting whose date is jan 2 and whose location is greenberg cafe
+meeting whose start time is 10am and whose start time is 10am
+meeting whose date is jan 2 and whose attendee is alice
+end time of weekly standup
+jan 2 or jan 3
+meeting whose end time is 10am and whose date is jan 2
+meeting whose location is not greenberg cafe
+meeting whose date is date of weekly standup
+meeting whose start time is start time of weekly standup
+meeting whose start time is 10am and whose attendee is alice
+meeting whose end time is smaller than start time of weekly standup
+meeting whose start time is at least end time of weekly standup
+meeting that is important and that is important
+meeting whose end time is 10am and whose location is greenberg cafe
+meeting that is important and whose length is three hours
+meeting whose end time is smaller than end time of weekly standup
+meeting that has the largest length
+meeting whose start time is at least end time of weekly standup
+location that is location of meeting whose length is three hours
+meeting whose end time is end time of weekly standup
+meeting whose start time is larger than 10am or 3pm
+meeting whose end time is at most end time of weekly standup
+meeting that is important and whose location is greenberg cafe
+person that is attendee of more than two meeting
+person that is attendee of meeting that is important
+alice or bob
+meeting whose length is at most three hours or one hour
+meeting whose date is at least jan 2
+location that is location of meeting whose start time is 10am
+meeting that has less than two location
+location that is location of weekly standup and that is location of weekly standup
+meeting whose date is smaller than jan 2 or jan 3
+meeting whose end time is smaller than 10am or 3pm
+meeting that is important and whose location is greenberg cafe
+location that is location of the most number of meeting
+meeting whose start time is at most 10am or 3pm
+meeting whose length is three hours and whose end time is 10am
+meeting whose start time is at least end time of weekly standup
+length of weekly standup
+meeting whose length is at most length of weekly standup
+meeting whose location is location of weekly standup
+meeting whose start time is smaller than start time of weekly standup
+meeting whose date is not jan 2
+meeting whose length is three hours and whose attendee is alice
+meeting whose length is three hours and whose attendee is alice
+meeting whose end time is 10am and whose end time is 10am
+meeting whose start time is at most start time of weekly standup
+meeting whose length is three hours and whose length is three hours
+meeting whose location is greenberg cafe or central office
+meeting whose start time is at most end time of weekly standup
+meeting whose end time is smaller than start time of weekly standup
+team of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3
+number of points -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+player that has the largest number of steals -lrb- over a season -rrb-
+number of points -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3
+number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+player whose number of fouls -lrb- over a season -rrb- is larger than 3
+player whose number of assists -lrb- over a season -rrb- is at most 3
+player whose number of played games -lrb- over a season -rrb- is smaller than 3
+number of position
+number of blocks -lrb- over a season -rrb- of player kobe bryant
+number of turnovers -lrb- over a season -rrb- of player kobe bryant whose position is point guard
+player whose number of rebounds -lrb- over a season -rrb- is larger than number of rebounds -lrb- over a season -rrb- of player kobe bryant
+team of player kobe bryant
+player whose number of points -lrb- over a season -rrb- is at least 3
+player whose number of blocks -lrb- over a season -rrb- is not 3
+season of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+player whose number of fouls -lrb- over a season -rrb- is larger than 3
+player whose position is point guard or forward
+player whose number of fouls -lrb- over a season -rrb- is at most number of fouls -lrb- over a season -rrb- of player kobe bryant
+player whose number of played games -lrb- over a season -rrb- is at least number of played games -lrb- over a season -rrb- of player kobe bryant
+player whose number of fouls -lrb- over a season -rrb- is at most 3
+player whose number of fouls -lrb- over a season -rrb- is at most number of fouls -lrb- over a season -rrb- of player kobe bryant
+player that has the smallest number of played games -lrb- over a season -rrb-
+player that has the largest number of turnovers -lrb- over a season -rrb-
+number of rebounds -lrb- over a season -rrb- of player kobe bryant
+number of player
+player whose number of turnovers -lrb- over a season -rrb- is smaller than 3
+number of blocks -lrb- over a season -rrb- of player kobe bryant
+player whose number of played games -lrb- over a season -rrb- is larger than 3
+number of points -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+player whose number of fouls -lrb- over a season -rrb- is number of fouls -lrb- over a season -rrb- of player kobe bryant
+number of assists -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3
+number of assists -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+season of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+player whose season is season of player kobe bryant
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers
+team of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+season of player kobe bryant whose position is point guard
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose season is 2004
+player whose number of assists -lrb- over a season -rrb- is larger than 3
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+number of player
+number of played games -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+player whose number of blocks -lrb- over a season -rrb- is at most 3
+number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3
+number of played games -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3
+player that has the largest number of assists -lrb- over a season -rrb-
+player whose number of assists -lrb- over a season -rrb- is number of assists -lrb- over a season -rrb- of player kobe bryant
+team of player kobe bryant
+season of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose position is point guard
+player whose number of played games -lrb- over a season -rrb- is at least number of played games -lrb- over a season -rrb- of player kobe bryant
+player whose number of blocks -lrb- over a season -rrb- is at most number of blocks -lrb- over a season -rrb- of player kobe bryant
+position of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+team of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3
+number of played games -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3
+player whose number of assists -lrb- over a season -rrb- is at most number of assists -lrb- over a season -rrb- of player kobe bryant
+season of player kobe bryant whose team is los angeles lakers
+player whose number of blocks -lrb- over a season -rrb- is larger than 3
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3
+player that has the largest number of points -lrb- over a season -rrb-
+number of points -lrb- over a season -rrb- of player kobe bryant
+player whose number of fouls -lrb- over a season -rrb- is smaller than number of fouls -lrb- over a season -rrb- of player kobe bryant
+player whose number of blocks -lrb- over a season -rrb- is at most 3
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+player whose number of turnovers -lrb- over a season -rrb- is larger than number of turnovers -lrb- over a season -rrb- of player kobe bryant
+player that has the smallest number of blocks -lrb- over a season -rrb-
+player whose number of assists -lrb- over a season -rrb- is smaller than number of assists -lrb- over a season -rrb- of player kobe bryant
+player whose number of assists -lrb- over a season -rrb- is at most number of assists -lrb- over a season -rrb- of player kobe bryant
+number of played games -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3
+number of steals -lrb- over a season -rrb- of player kobe bryant whose position is point guard
+player whose number of played games -lrb- over a season -rrb- is not 3
+player whose number of points -lrb- over a season -rrb- is larger than 3
+player that has the smallest number of fouls -lrb- over a season -rrb-
+number of played games -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+player that has the largest number of fouls -lrb- over a season -rrb-
+player that has the smallest number of steals -lrb- over a season -rrb-
+player whose team is los angeles lakers or cleveland cavaliers
+player whose number of turnovers -lrb- over a season -rrb- is at most 3
+player whose number of fouls -lrb- over a season -rrb- is not 3
+player that has the largest number of points -lrb- over a season -rrb-
+player that has the most number of team
+player whose number of played games -lrb- over a season -rrb- is smaller than 3
+player whose number of fouls -lrb- over a season -rrb- is at least number of fouls -lrb- over a season -rrb- of player kobe bryant
+player that has the smallest number of blocks -lrb- over a season -rrb-
+player whose number of rebounds -lrb- over a season -rrb- is at least number of rebounds -lrb- over a season -rrb- of player kobe bryant
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+season of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+number of played games -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+player that has the largest number of points -lrb- over a season -rrb-
+player whose number of steals -lrb- over a season -rrb- is at most number of steals -lrb- over a season -rrb- of player kobe bryant
+number of points -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3
+number of points -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers
+player that has at most two position
+player whose team is team of player kobe bryant
+number of rebounds -lrb- over a season -rrb- of player kobe bryant
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+team of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3
+number of played games -lrb- over a season -rrb- of player kobe bryant
+team of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3
+number of played games -lrb- over a season -rrb- of player kobe bryant whose position is point guard
+number of points -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3
+player whose team is los angeles lakers or cleveland cavaliers
+player whose number of points -lrb- over a season -rrb- is not 3
+player whose number of rebounds -lrb- over a season -rrb- is not 3
+season of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+number of assists -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+player whose number of turnovers -lrb- over a season -rrb- is larger than number of turnovers -lrb- over a season -rrb- of player kobe bryant
+player whose number of rebounds -lrb- over a season -rrb- is at least number of rebounds -lrb- over a season -rrb- of player kobe bryant
+player whose number of steals -lrb- over a season -rrb- is larger than 3
+player whose number of steals -lrb- over a season -rrb- is smaller than number of steals -lrb- over a season -rrb- of player kobe bryant
+player whose season is season of player kobe bryant
+number of assists -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3
+player whose number of turnovers -lrb- over a season -rrb- is smaller than 3
+player that has at most two position
+number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+player whose number of assists -lrb- over a season -rrb- is larger than 3
+number of steals -lrb- over a season -rrb- of player kobe bryant whose season is 2004
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3
+position of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+player that has the smallest number of assists -lrb- over a season -rrb-
+player whose number of points -lrb- over a season -rrb- is at least number of points -lrb- over a season -rrb- of player kobe bryant
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+player whose number of fouls -lrb- over a season -rrb- is larger than number of fouls -lrb- over a season -rrb- of player kobe bryant
+player whose number of points -lrb- over a season -rrb- is at least number of points -lrb- over a season -rrb- of player kobe bryant
+player that has the largest number of fouls -lrb- over a season -rrb-
+player whose number of turnovers -lrb- over a season -rrb- is at least 3
+player whose number of points -lrb- over a season -rrb- is at most 3
+player whose number of rebounds -lrb- over a season -rrb- is at least number of rebounds -lrb- over a season -rrb- of player kobe bryant
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+position of player kobe bryant whose team is los angeles lakers
+number of steals -lrb- over a season -rrb- of player kobe bryant
+player whose number of turnovers -lrb- over a season -rrb- is at most 3
+number of points -lrb- over a season -rrb- of player kobe bryant
+player whose number of blocks -lrb- over a season -rrb- is at most number of blocks -lrb- over a season -rrb- of player kobe bryant
+season of player kobe bryant whose position is point guard
+team of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+number of steals -lrb- over a season -rrb- of player kobe bryant
+player whose team is team of player kobe bryant
+number of played games -lrb- over a season -rrb- of player kobe bryant whose position is point guard
+player that has the most number of position
+number of steals -lrb- over a season -rrb- of player kobe bryant
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+player whose number of blocks -lrb- over a season -rrb- is smaller than number of blocks -lrb- over a season -rrb- of player kobe bryant
+player that has the largest number of played games -lrb- over a season -rrb-
+number of steals -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3
+number of turnovers -lrb- over a season -rrb- of player kobe bryant whose season is 2004
+number of assists -lrb- over a season -rrb- of player kobe bryant whose position is point guard
+number of played games -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+player whose number of fouls -lrb- over a season -rrb- is larger than 3
+player that has the smallest number of played games -lrb- over a season -rrb-
+number of points -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+number of steals -lrb- over a season -rrb- of player kobe bryant whose season is 2004
+number of points -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3
+player whose number of blocks -lrb- over a season -rrb- is smaller than 3
+player whose number of turnovers -lrb- over a season -rrb- is larger than 3
+team of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+number of points -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3
+player that has the largest number of rebounds -lrb- over a season -rrb-
+season of player kobe bryant
+number of steals -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3
+player whose number of turnovers -lrb- over a season -rrb- is number of turnovers -lrb- over a season -rrb- of player kobe bryant
+player whose number of points -lrb- over a season -rrb- is at least number of points -lrb- over a season -rrb- of player kobe bryant
+player whose number of points -lrb- over a season -rrb- is smaller than 3
+player that has less than two team
+player whose number of blocks -lrb- over a season -rrb- is at least number of blocks -lrb- over a season -rrb- of player kobe bryant
+number of turnovers -lrb- over a season -rrb- of player kobe bryant
+player whose number of points -lrb- over a season -rrb- is not 3
+player whose number of assists -lrb- over a season -rrb- is at least number of assists -lrb- over a season -rrb- of player kobe bryant
+team of player kobe bryant
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+number of points -lrb- over a season -rrb- of player kobe bryant whose position is point guard
+player that has the largest number of steals -lrb- over a season -rrb-
+player whose position is position of player kobe bryant
+player that has the largest number of points -lrb- over a season -rrb-
+player whose number of blocks -lrb- over a season -rrb- is larger than 3
+player that has less than two team
+number of played games -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+player whose number of assists -lrb- over a season -rrb- is not 3
+player whose number of points -lrb- over a season -rrb- is larger than number of points -lrb- over a season -rrb- of player kobe bryant
+player whose season is 2004 or 2010
+position of player kobe bryant whose season is 2004
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+player whose season is 2004 or 2010
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3
+player that has the smallest number of points -lrb- over a season -rrb-
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3
+position of player kobe bryant
+number of played games -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+player whose number of rebounds -lrb- over a season -rrb- is at most 3
+number of points -lrb- over a season -rrb- of player kobe bryant whose position is point guard
+player whose number of steals -lrb- over a season -rrb- is at least 3
+number of points -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+number of points -lrb- over a season -rrb- of player kobe bryant whose season is 2004
+season of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+player that has the least number of position
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3
+player whose number of steals -lrb- over a season -rrb- is larger than number of steals -lrb- over a season -rrb- of player kobe bryant
+number of played games -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3
+player that has the most number of position
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers
+player whose number of turnovers -lrb- over a season -rrb- is at most number of turnovers -lrb- over a season -rrb- of player kobe bryant
+number of points -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3
+player whose number of rebounds -lrb- over a season -rrb- is larger than number of rebounds -lrb- over a season -rrb- of player kobe bryant
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers
+player whose number of played games -lrb- over a season -rrb- is larger than number of played games -lrb- over a season -rrb- of player kobe bryant
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose position is point guard
+number of steals -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+player whose number of turnovers -lrb- over a season -rrb- is larger than number of turnovers -lrb- over a season -rrb- of player kobe bryant
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+number of steals -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+position of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+position of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+player whose number of turnovers -lrb- over a season -rrb- is at least 3
+player whose number of steals -lrb- over a season -rrb- is at least 3
+player whose number of fouls -lrb- over a season -rrb- is at most 3
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers
+number of played games -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3
+player whose position is position of player kobe bryant
+player whose number of blocks -lrb- over a season -rrb- is smaller than 3
+player that has at most two position
+player whose season is 2004 or 2010
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose season is 2004
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+number of steals -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3
+number of position
+player whose number of blocks -lrb- over a season -rrb- is larger than number of blocks -lrb- over a season -rrb- of player kobe bryant
+player whose number of points -lrb- over a season -rrb- is at most number of points -lrb- over a season -rrb- of player kobe bryant
+player that has the smallest number of turnovers -lrb- over a season -rrb-
+player whose number of turnovers -lrb- over a season -rrb- is number of turnovers -lrb- over a season -rrb- of player kobe bryant
+player that has the smallest number of assists -lrb- over a season -rrb-
+number of fouls -lrb- over a season -rrb- of player kobe bryant
+team of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+player whose number of rebounds -lrb- over a season -rrb- is larger than 3
+player that has the largest number of turnovers -lrb- over a season -rrb-
+player whose number of turnovers -lrb- over a season -rrb- is at most 3
+number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3
+number of points -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+number of assists -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+number of steals -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers
+position of player kobe bryant whose position is point guard
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+season of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3
+player that has the most number of position
+season of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+number of fouls -lrb- over a season -rrb- of player kobe bryant
+player whose position is not point guard
+player whose number of rebounds -lrb- over a season -rrb- is at most number of rebounds -lrb- over a season -rrb- of player kobe bryant
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+player whose number of turnovers -lrb- over a season -rrb- is smaller than number of turnovers -lrb- over a season -rrb- of player kobe bryant
+player whose number of points -lrb- over a season -rrb- is larger than 3
+season of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+number of played games -lrb- over a season -rrb- of player kobe bryant whose number of rebounds -lrb- over a season -rrb- is 3
+player that has the largest number of points -lrb- over a season -rrb-
+number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3
+player whose number of fouls -lrb- over a season -rrb- is larger than number of fouls -lrb- over a season -rrb- of player kobe bryant
+team of player kobe bryant whose position is point guard
+player that has the largest number of fouls -lrb- over a season -rrb-
+player whose number of fouls -lrb- over a season -rrb- is at least 3
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose team is los angeles lakers
+player whose number of steals -lrb- over a season -rrb- is at most 3
+number of steals -lrb- over a season -rrb- of player kobe bryant whose number of fouls -lrb- over a season -rrb- is 3
+player whose number of steals -lrb- over a season -rrb- is smaller than 3
+player whose season is not 2004
+player whose position is point guard or forward
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3
+player that has the least number of position
+number of turnovers -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+number of team
+position of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3
+player whose number of turnovers -lrb- over a season -rrb- is larger than 3
+team of player kobe bryant whose season is 2004
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of points -lrb- over a season -rrb- is 3
+position of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3
+player whose number of points -lrb- over a season -rrb- is at most number of points -lrb- over a season -rrb- of player kobe bryant
+number of turnovers -lrb- over a season -rrb- of player kobe bryant whose position is point guard
+number of rebounds -lrb- over a season -rrb- of player kobe bryant whose season is 2004
+player whose number of blocks -lrb- over a season -rrb- is at least 3
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of steals -lrb- over a season -rrb- is 3
+player whose number of rebounds -lrb- over a season -rrb- is larger than number of rebounds -lrb- over a season -rrb- of player kobe bryant
+player whose season is not 2004
+player whose number of turnovers -lrb- over a season -rrb- is at least number of turnovers -lrb- over a season -rrb- of player kobe bryant
+player that has the largest number of rebounds -lrb- over a season -rrb-
+number of blocks -lrb- over a season -rrb- of player kobe bryant whose number of blocks -lrb- over a season -rrb- is 3
+player that has the largest number of steals -lrb- over a season -rrb-
+number of rebounds -lrb- over a season -rrb- of player kobe bryant
+position of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3
+position of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+player whose number of points -lrb- over a season -rrb- is at least number of points -lrb- over a season -rrb- of player kobe bryant
+player whose number of points -lrb- over a season -rrb- is smaller than number of points -lrb- over a season -rrb- of player kobe bryant
+player whose number of points -lrb- over a season -rrb- is smaller than 3
+player whose number of blocks -lrb- over a season -rrb- is not 3
+number of fouls -lrb- over a season -rrb- of player kobe bryant whose number of assists -lrb- over a season -rrb- is 3
+season of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3
+player whose number of rebounds -lrb- over a season -rrb- is larger than 3
+position of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+number of blocks -lrb- over a season -rrb- of player kobe bryant
+number of steals -lrb- over a season -rrb- of player kobe bryant
+number of played games -lrb- over a season -rrb- of player kobe bryant whose number of turnovers -lrb- over a season -rrb- is 3
+season of player kobe bryant whose number of played games -lrb- over a season -rrb- is 3
+height of block 1
+block whose width is not 3 inches
+block that is right of the most number of block
+width of block 1
+block whose height is at most 3 inches
+block that is below block 1 and whose height is 3 inches
+block that block whose height is 3 inches is left of
+block that is right of block whose shape is a pyramid
+block whose height is at least width of block 1
+block that is left of block whose width is 3 inches
+block that is below at most two block
+block whose length is smaller than 3 inches
+block that block 1 or block 2 is above
+block that block 1 is right of and that is left of block 1
+block that block 1 is below and that is above block 1
+block whose shape is a pyramid
+block that is right of block whose shape is a pyramid
+block whose height is 3 inches and that block 1 is left of
+block that is below block 1 and that block 1 is above
+block that block that is special is left of
+block that has the smallest width
+block that is right of block that is left of block 1
+average length of block
+block that has two shape
+block whose length is 3 inches
+block that is special and that is left of block 1
+block that block whose height is 3 inches is above
+block that is left of block that block 1 is below
+block whose width is 3 inches and whose height is 3 inches
+block that is below block whose width is 3 inches
+block that is right of less than two block
+block that is left of two block
+block that is above block that block 1 is right of
+block that has the most number of shape
+block whose length is larger than height of block 1
+total width of block
+block that is right of block that block 1 is below
+block whose height is not 3 inches
+block whose width is 3 inches and that is above block 1
+block that the least number of block is right of
+block whose length is length of block 1
+block that block 1 is above and whose width is 3 inches
+block that is above the most number of block
+block that is below block 1 and that is above block 1
+block that is below block whose length is 3 inches
+block that is left of block that block 1 is above
+block that block 1 is above and whose shape is a pyramid
+block that less than two block is above
+block that has the smallest width
+block whose height is larger than 3 inches or 6 inches
+block that block 1 is left of and whose width is 3 inches
+block that is left of at most two block
+block whose height is at most width of block 1
+block whose width is 3 inches
+block that is special and that is above block 1
+block that block that is special is below
+block that has the smallest width
+block whose shape is a pyramid and that block 1 is left of
+block 1 or block 2
+block that is right of block that block 1 is left of
+block that is above two block
+block whose width is 3 inches and that is left of block 1
+block that block 1 or block 2 is below
+block that less than two block is below
+block whose width is larger than length of block 1
+block that is above block 1 and that is above block 1
+block whose length is 3 inches and that is above block 1
+block whose height is smaller than 3 inches
+block that has less than two color
+block that at most two block is below
+block whose shape is shape of block 1
+block that is left of block 1 and that block 1 is left of
+block whose length is smaller than 3 inches or 6 inches
+block whose height is 3 inches and that block 1 is left of
+block whose length is 3 inches and that is left of block 1
+block that block that block 1 is below is below
+block that block that block 1 is left of is above
+block that block that block 1 is above is right of
+block whose length is larger than width of block 1
+block that is special and that is above block 1
+block whose length is larger than width of block 1
+block that block that is special is left of
+block that is below block that is above block 1
+block that is below block that block 1 is right of
+block that block 1 not is left of
+block that is left of block 1 and whose shape is a pyramid
+height of block 1
+block that is right of block 1 and that is right of block 1
+block that is above block 1
+block whose length is larger than 3 inches
+block that is above block that is above block 1
+block that block 1 not is left of
+block that block 1 is right of and that block 1 is above
+block whose length is 3 inches and whose shape is a pyramid
+block that is special and that is left of block 1
+block whose length is at most 3 inches or 6 inches
+block that the most number of block is below
+block whose width is at least width of block 1
+total width of block
+block that is below block that is special
+block that block 1 is left of and that block 1 is right of
+block that is below block whose length is 3 inches
+block that is above less than two block
+block that less than two block is below
+block that at most two block is right of
+block that is above block that block 1 is below
+block whose height is 3 inches or 6 inches
+color of block 1
+block that has the largest height
+block that has at least two color
+block that has more than two shape
+block that is above block 1 and that is below block 1
+block whose shape is a pyramid and whose shape is a pyramid
+block whose length is 3 inches and whose length is 3 inches
+block whose length is 3 inches and that is special
+block whose length is smaller than height of block 1
+block whose length is 3 inches and that block 1 is right of
+block that is below block 1 and that is right of block 1
+block whose height is at least length of block 1
+block whose height is 3 inches and that is right of block 1
+block that is above block 1 and whose width is 3 inches
+block whose width is width of block 1
+block that is below block 1 and that block 1 is above
+block whose width is 3 inches and whose height is 3 inches
+block that block that block 1 is right of is above
+block whose height is height of block 1
+block whose height is 3 inches and that is special
+block that is left of block that is left of block 1
+block that is special and that is right of block 1
+block whose length is 3 inches and that is special
+block that is above block that is above block 1
+block whose width is width of block 1
+block whose width is 3 inches and that block 1 is below
+block whose height is smaller than 3 inches or 6 inches
+block whose length is smaller than length of block 1
+block that block 1 is right of and that is special
+block whose length is 3 inches
+block that is above block that block 1 is left of
+block whose height is length of block 1
+block that is right of two block
+block whose width is larger than width of block 1
+block whose length is at least 3 inches or 6 inches
+block whose height is at least height of block 1
+block that is right of at least two block
+block whose length is at most width of block 1
+block that at most two block is right of
+block whose height is at most height of block 1
+block that block 1 is right of
+block that is left of block that is below block 1
+block that block 1 is above and that is right of block 1
+block that is below two block
+block that is above block 1 and whose shape is a pyramid
+block that at most two block is above
+block that at most two block is above
+block whose width is at least 3 inches
+block that is right of block that block 1 is above
+block that is below block whose width is 3 inches
+block that block whose length is 3 inches is right of
+block whose width is 3 inches or 6 inches
+block whose width is at least length of block 1
+block that block whose shape is a pyramid is left of
+block whose width is 3 inches and that is right of block 1
+block that block 1 is left of and that block 1 is below
+block that is above block whose length is 3 inches
+block that at most two block is left of
+block whose shape is shape of block 1
+block that is right of block 1 and that block 1 is below
+block that block that is special is above
+block whose shape is a pyramid and whose length is 3 inches
+block that is right of block whose length is 3 inches
+block that is above block 1 and whose height is 3 inches
+block that has two color
+block whose height is 3 inches and that is right of block 1
+block whose width is at most length of block 1
+block that block 1 is left of and whose length is 3 inches
+block whose shape is a pyramid or a cube
+block that is right of block 1 and whose width is 3 inches
+block that is left of block that is special
+block whose width is 3 inches and that is special
+block that not is left of block 1
+block whose height is at least width of block 1
+block that at most two block is above
+block that block 1 is left of and whose height is 3 inches
+average height of block
+block whose length is at least width of block 1
+block that block 1 is right of and that block 1 is below
+block that block 1 is right of and whose width is 3 inches
+block whose shape is a pyramid and that is right of block 1
+block that is right of block 1 and whose shape is a pyramid
+block whose length is height of block 1
+block that two block is below
+block whose width is smaller than length of block 1
+block that is right of block whose length is 3 inches
+block that block that block 1 is right of is above
+block that block 1 is right of and that is above block 1
+block that is above two block
+block whose height is smaller than 3 inches
+block that is above block that block 1 is right of
+block whose height is at least height of block 1
+block that block 1 is below and that is below block 1
+block that is below block that is special
+block that has at most two shape
+block that is right of block 1 and that is special
+block whose height is not 3 inches
+block that is left of block that is left of block 1
+block that is right of block 1
+block that is right of block whose height is 3 inches
+block that is right of the least number of block
+block whose width is smaller than 3 inches or 6 inches
+block that is left of block whose length is 3 inches
+block whose length is larger than width of block 1
+block whose length is 3 inches and that is right of block 1
+block that is below block whose length is 3 inches
+block that two block is right of
+block whose width is 3 inches and that block 1 is right of
+height of block 1
+block that block 1 is right of and that block 1 is above
+block that is left of block 1 or block 2
+block that is above block whose width is 3 inches
+total width of block
+block that is right of block 1 and that is left of block 1
+block whose height is 3 inches and whose length is 3 inches
+block whose width is at least height of block 1
+block that is right of block 1 and that block 1 is below
+block that has the most number of shape
+block that is right of block 1 and that is above block 1
+block that has two color
+block that is right of block 1 and whose length is 3 inches
+block that the least number of block is above
+block whose length is at least 3 inches
+block that is below two block
+block that more than two block is right of
+block that at least two block is left of
+block whose width is larger than height of block 1
+block that is below block 1 and whose length is 3 inches
+block that is above block 1 and that is left of block 1
+block that block 1 is right of and that is below block 1
+block that has at most two shape
+block that block that is left of block 1 is left of
+block that block that is special is below
+block whose width is smaller than 3 inches or 6 inches
+block that is below more than two block
+block whose height is 3 inches or 6 inches
+block whose width is 3 inches and that is special
+block that block 1 is left of and that is special
+block that block whose length is 3 inches is left of
+block whose length is length of block 1
+block whose length is smaller than height of block 1
+block that is below at least two block
+block whose length is at most length of block 1
+block whose height is 3 inches and whose width is 3 inches
+block that has the smallest length
+block that block 1 is left of and that block 1 is left of
+block whose length is 3 inches or 6 inches
+block that has at least two shape
+block that at most two block is below
+block that has the least number of shape
+block whose length is at most width of block 1
+block whose shape is a pyramid and that is right of block 1
+block whose width is smaller than 3 inches
+block whose shape is a pyramid and that is right of block 1
+block whose length is 3 inches and that block 1 is above
+block that is left of block that is right of block 1
+block that is right of less than two block
+block whose width is at least 3 inches
+block that not is left of block 1
+block whose height is at most 3 inches
+block that block 1 is right of and whose shape is a pyramid
+block that block 1 is above and whose height is 3 inches
+block whose width is larger than 3 inches
+block that is above block that is special
+block whose height is larger than width of block 1
+block that block that block 1 is right of is below
+block whose width is 3 inches and that is below block 1
+block that is right of block whose width is 3 inches
+block that at least two block is left of
+block that is above block 1 and that is above block 1
+block that is right of block that is right of block 1
+total height of block
+block whose length is 3 inches or 6 inches
+block whose shape is a pyramid and that is left of block 1
+block whose width is smaller than height of block 1
+block that at most two block is above
+block that is above block that is left of block 1
+block that block whose width is 3 inches is below
+block whose length is width of block 1
+block that is left of block 1 and that block 1 is left of
+block whose width is at least height of block 1
+block whose shape is not a pyramid
+block that is left of block 1 and that block 1 is above
+block whose length is larger than 3 inches
+block that is special and that is below block 1
+block that is above block that block 1 is below
+block that block 1 is above and that block 1 is left of
+block that block 1 is right of and that is left of block 1
+block whose shape is a pyramid and whose width is 3 inches
+block whose length is 3 inches and that is right of block 1
+block that is below block that block 1 is left of
+block that more than two block is below
+block that is left of block whose width is 3 inches
+block that is below less than two block
+block whose length is 3 inches and that is right of block 1
+block that has at most two shape
+block that block that is special is above
+block that the least number of block is above
+block that block 1 is above and whose shape is a pyramid
+block that is below block that is left of block 1
+block that is left of the most number of block
+block that block that block 1 is left of is left of
+block whose length is at least width of block 1
+block that is below block that block 1 is above
+block that block that block 1 is right of is right of
+block whose length is larger than height of block 1
+block whose shape is a pyramid and whose height is 3 inches
+block whose height is 3 inches and whose width is 3 inches
+block that block 1 or block 2 is right of
+block whose height is larger than 3 inches
+block that is special and that is below block 1
+block whose width is smaller than height of block 1
+article that article that won an award cites
+article that article that cites multivariate data analysis cites
+article whose author is efron and that multivariate data analysis cites
+article that article whose venue is annals of statistics cites
+article that multivariate data analysis not cites
+article that has more than two venue
+article that won an award and whose author is efron
+article that cites less than two article
+venue that is venue of at most two article
+article that has more than two author
+venue that is venue of article that multivariate data analysis cites
+article that not cites multivariate data analysis
+person that is author of article whose publication date is 2004
+article whose publication date is at least publication date of multivariate data analysis
+article that has two author
+article that has at least two venue
+article that has less than two author
+article whose publication date is publication date of multivariate data analysis
+article that cites multivariate data analysis
+person that is author of the most number of article
+article that at least two article cites
+article whose author is efron or lakoff
+venue that is venue of article that multivariate data analysis cites
+article that cites article that multivariate data analysis cites
+person that is author of less than two article
+article that cites multivariate data analysis and whose venue is annals of statistics
+article that has at most two venue
+person that is author of at most two article
+article that cites article whose author is efron
+article whose author is efron and whose publication date is 2004
+venue that is venue of at most two article
+article that has at least two venue
+article whose publication date is at most 2004 or 2010
+article whose author is efron and that won an award
+article that the most number of article cites
+article that not cites multivariate data analysis
+venue that is venue of article that cites multivariate data analysis
+venue that is not venue of multivariate data analysis
+article that multivariate data analysis cites and that won an award
+article whose publication date is smaller than 2004
+person that is author of article that multivariate data analysis cites
+article that has less than two venue
+article whose publication date is at most 2004 or 2010
+article that article that cites multivariate data analysis cites
+article that multivariate data analysis cites and that won an award
+article that won an award
+article whose author is efron and whose venue is annals of statistics
+article that cites article that won an award
+article that article that multivariate data analysis cites cites
+article that has two venue
+article whose publication date is 2004 and that cites multivariate data analysis
+article that has more than two author
+person that is author of at most two article
+venue that is venue of at most two article
+article that multivariate data analysis cites and that cites multivariate data analysis
+article whose publication date is 2004 and that cites multivariate data analysis
+article that the most number of article cites
+article that multivariate data analysis cites and whose publication date is 2004
+venue of multivariate data analysis
+article whose publication date is larger than 2004
+article whose author is not efron
+article that multivariate data analysis not cites
+article that at most two article cites
+article that has the smallest publication date
+article that article that won an award cites
+article that cites two article
+article that article that cites multivariate data analysis cites
+person that is author of two article
+article that multivariate data analysis cites and whose publication date is 2004
+article that has less than two author
+article that the most number of article cites
+article that not cites multivariate data analysis
+article that has more than two author
+article that has the largest publication date
+article whose publication date is 2004 and that won an award
+article that multivariate data analysis cites and that won an award
+article that has less than two author
+article that multivariate data analysis cites and that multivariate data analysis cites
+article that multivariate data analysis cites and that multivariate data analysis cites
+article whose publication date is 2004 or 2010
+article that cites article that multivariate data analysis cites
+person that is author of article whose author is efron
+venue that is venue of the most number of article
+article whose author is efron and that cites multivariate data analysis
+article that has more than two venue
+venue of multivariate data analysis
+person that is author of article whose publication date is 2004
+article whose publication date is at most publication date of multivariate data analysis
+venue that is venue of at most two article
+article that multivariate data analysis cites and that cites multivariate data analysis
+article whose venue is venue that is venue of multivariate data analysis
+person that is author of the least number of article
+article that cites the least number of article
+article that cites more than two article
+article whose publication date is 2004 and that cites multivariate data analysis
+venue that is venue of two article
+person that is author of article that multivariate data analysis cites
+publication date of multivariate data analysis
+venue that is venue of article whose publication date is 2004
+article that the least number of article cites
+article whose author is efron and that multivariate data analysis cites
+article that multivariate data analysis cites and whose publication date is 2004
+venue that is venue of less than two article
+person that is author of less than two article
+article that has more than two venue
+person that is author of two article
+venue that is venue of article that multivariate data analysis cites
+article whose venue is annals of statistics and whose author is efron
+article whose publication date is larger than publication date of multivariate data analysis
+article that has more than two author
+venue that is not venue of multivariate data analysis
+article that at least two article cites
+article that multivariate data analysis not cites
+article that article whose author is efron cites
+article that has the smallest publication date
+article that at most two article cites
+2004 or 2010
+article that cites article that multivariate data analysis cites
+venue that is venue of multivariate data analysis
+article that article whose venue is annals of statistics cites
+article that cites article whose author is efron
+article whose publication date is smaller than 2004
+article that has the largest publication date
+article that article whose author is efron cites
+venue that is venue of at least two article
+article that cites multivariate data analysis and whose venue is annals of statistics
+venue of multivariate data analysis
+article whose author is efron or lakoff
+ingredient that at most two recipe requires
+recipe that requires ingredient that rice pudding requires
+meal that more than two recipe is for
+recipe that is for lunch and that is for lunch
+ingredient that recipe that is for lunch requires
+ingredient that rice pudding not requires
+lunch or dinner
+ingredient that rice pudding not requires
+recipe that requires at most two ingredient
+ingredient that at least two recipe requires
+recipe that has at least two cuisine
+recipe that requires at least two ingredient
+recipe whose posting date is larger than 2004 or 2010
+recipe that requires ingredient that rice pudding requires
+recipe that has at most two cuisine
+recipe that has the least number of cuisine
+ingredient that less than two recipe requires
+recipe that is for meal that rice pudding is for
+recipe whose cuisine is cuisine of rice pudding
+ingredient that recipe that requires milk requires
+recipe that has the largest preparation time
+recipe whose preparation time is at most cooking time of rice pudding
+recipe whose cuisine is cuisine of rice pudding
+recipe whose cooking time is cooking time of rice pudding
+recipe that is for more than two meal
+recipe whose preparation time is cooking time of rice pudding
+recipe whose posting date is larger than posting date of rice pudding
+recipe that has the smallest posting date
+recipe that is for at least two meal
+recipe that has the largest posting date
+recipe whose posting date is 2004 and that is for lunch
+meal that the most number of recipe is for
+total cooking time of recipe
+recipe that has the smallest cooking time
+ingredient that the most number of recipe requires
+recipe that is for lunch and that requires milk
+ingredient that rice pudding requires and that rice pudding requires
+recipe whose posting date is at least posting date of rice pudding
+ingredient that rice pudding or quiche requires
+recipe whose posting date is larger than posting date of rice pudding
+meal that rice pudding not is for
+recipe whose posting date is 2004
+recipe whose posting date is at least posting date of rice pudding
+lunch or dinner
+recipe whose posting date is at least posting date of rice pudding
+recipe whose posting date is larger than posting date of rice pudding
+recipe whose posting date is 2004 and whose posting date is 2004
+number of recipe
+number of recipe
+recipe whose posting date is not 2004
+ingredient that less than two recipe requires
+recipe whose posting date is at most 2004 or 2010
+recipe whose posting date is smaller than 2004
+recipe that requires more than two ingredient
+recipe that requires at most two ingredient
+recipe whose posting date is at most 2004
+recipe whose cooking time is at most cooking time of rice pudding
+recipe whose preparation time is larger than cooking time of rice pudding
+recipe that has at least two cuisine
+ingredient that recipe that is for lunch requires
+recipe that has the smallest cooking time
+recipe that requires at most two ingredient
+recipe that is for lunch and whose posting date is 2004
+recipe that requires less than two ingredient
+recipe that is for lunch and that requires milk
+recipe that is for lunch and whose posting date is 2004
+recipe that requires milk and that is for lunch
+recipe that is for less than two meal
+ingredient that the most number of recipe requires
+meal that less than two recipe is for
+recipe whose preparation time is cooking time of rice pudding
+recipe that has at least two cuisine
+number of recipe
+recipe whose cooking time is larger than cooking time of rice pudding
+recipe whose posting date is not 2004
+ingredient that recipe whose posting date is 2004 requires
+recipe that requires more than two ingredient
+meal that rice pudding is for and that rice pudding is for
+meal that more than two recipe is for
+recipe whose posting date is not 2004
+recipe that requires milk and whose posting date is 2004
+total cooking time of recipe
+meal that rice pudding not is for
+recipe whose posting date is 2004 and that is for lunch
+meal that at least two recipe is for
+ingredient that more than two recipe requires
+recipe whose preparation time is smaller than cooking time of rice pudding
+ingredient that less than two recipe requires
+ingredient that rice pudding requires and that rice pudding requires
+recipe whose cooking time is at most preparation time of rice pudding
+meal that more than two recipe is for
+ingredient that rice pudding requires and that rice pudding requires
+recipe that is for at least two meal
+recipe whose posting date is 2004
+recipe that is for lunch and whose posting date is 2004
+average preparation time of recipe
+total cooking time of recipe
+recipe that has at most two cuisine
+recipe that has the smallest preparation time
+meal that rice pudding or quiche is for
+recipe whose posting date is 2004 and that is for lunch
+recipe that not requires milk
+recipe that requires the least number of ingredient
+average cooking time of recipe
+recipe that requires more than two ingredient
+meal that the least number of recipe is for
+ingredient that recipe that is for lunch requires
+recipe whose preparation time is smaller than preparation time of rice pudding
+meal that more than two recipe is for
+rice pudding or quiche
+meal that rice pudding is for and that rice pudding is for
+recipe that has the least number of cuisine
+average preparation time of recipe
+recipe that has the smallest cooking time
+meal that recipe that requires milk is for
+recipe that has the smallest posting date
+recipe that is for the most number of meal
+recipe whose preparation time is preparation time of rice pudding
+recipe that has two cuisine
+recipe whose posting date is 2004
+recipe whose cooking time is at least preparation time of rice pudding
+ingredient that rice pudding or quiche requires
+recipe that requires at most two ingredient
+recipe that has less than two cuisine
+recipe that requires the most number of ingredient
+recipe that is for more than two meal
+ingredient that at least two recipe requires
+recipe that is for lunch or dinner
+number of recipe
+recipe that is for less than two meal
+ingredient that rice pudding not requires
+meal that recipe whose posting date is 2004 is for
+recipe whose cooking time is at least preparation time of rice pudding
+recipe whose posting date is smaller than 2004 or 2010
+meal that recipe whose posting date is 2004 is for
+recipe that not is for lunch
+recipe whose preparation time is cooking time of rice pudding
+meal that at least two recipe is for
+recipe that requires milk
+recipe that requires at least two ingredient
+lunch or dinner
+recipe that has the least number of cuisine
+recipe whose cooking time is cooking time of rice pudding
+recipe whose posting date is smaller than 2004
+recipe whose posting date is at least 2004 or 2010
+recipe that is for less than two meal
+recipe whose posting date is posting date of rice pudding
+recipe whose cooking time is cooking time of rice pudding
+recipe that is for lunch and that is for lunch
+recipe whose cooking time is at most cooking time of rice pudding
+recipe whose preparation time is at most cooking time of rice pudding
+recipe whose preparation time is preparation time of rice pudding
+meal that rice pudding not is for
+recipe whose posting date is larger than 2004
+recipe that has the largest cooking time
+preparation time of rice pudding
+recipe that has the largest cooking time
+posting date of rice pudding
+recipe that has the most number of cuisine
+recipe that requires milk
+recipe that is for at least two meal
+recipe whose posting date is at least posting date of rice pudding
+preparation time of rice pudding
+recipe whose preparation time is larger than preparation time of rice pudding
+meal that the least number of recipe is for
+average cooking time of recipe
+ingredient that recipe that requires milk requires
+recipe that is for lunch and that requires milk
+recipe whose cooking time is at most cooking time of rice pudding
+recipe whose preparation time is at most preparation time of rice pudding
+recipe whose posting date is at most 2004
+recipe whose preparation time is smaller than cooking time of rice pudding
+restaurant that serves lunch and that has waiter service
+number of restaurant
+restaurant that has waiter service and that is good for kids
+30 reviews or 40 reviews
+restaurant whose star rating is smaller than 3 stars or 5 stars
+restaurant that has waiter service and whose star rating is 3 stars
+restaurant that takes credit cards and that has take-out
+cuisine that is not cuisine of thai cafe
+restaurant whose price rating is 2 dollar signs or 3 dollar signs
+restaurant that has the least number of neighborhood
+restaurant that serves lunch and that takes credit cards
+restaurant whose price rating is price rating of thai cafe
+restaurant that has delivery and that has take-out
+restaurant that is good for groups and that has delivery
+restaurant that is good for kids and that has delivery
+restaurant that has outdoor seating and whose price rating is 2 dollar signs
+restaurant whose cuisine is thai and that is good for kids
+neighborhood that is neighborhood of at least two restaurant
+restaurant whose price rating is 2 dollar signs and that takes credit cards
+restaurant whose price rating is 2 dollar signs and whose star rating is 3 stars
+restaurant that has take-out and that is good for groups
+restaurant that has less than two cuisine
+restaurant that has the most number of cuisine
+restaurant whose cuisine is thai and whose price rating is 2 dollar signs
+restaurant whose cuisine is thai and that serves lunch
+restaurant that serves lunch and that has delivery
+restaurant that serves at most two meal
+restaurant that is good for groups and that has outdoor seating
+restaurant whose price rating is larger than 2 dollar signs or 3 dollar signs
+restaurant whose star rating is 3 stars or 5 stars
+restaurant that serves lunch and that is good for kids
+cuisine that is cuisine of restaurant whose neighborhood is midtown west
+neighborhood that is neighborhood of thai cafe or pizzeria juno
+restaurant that has outdoor seating and that is good for kids
+restaurant that has take-out and that serves lunch
+restaurant that serves lunch and whose neighborhood is midtown west
+restaurant that has take-out and that is good for groups
+meal that two restaurant serves
+restaurant that has outdoor seating and whose neighborhood is midtown west
+restaurant that takes reservations and that serves lunch
+restaurant whose star rating is 3 stars and that has delivery
+restaurant that has waiter service and whose cuisine is thai
+restaurant that has delivery and that has take-out
+restaurant that has delivery and whose price rating is 2 dollar signs
+restaurant that has outdoor seating and whose neighborhood is midtown west
+restaurant that serves lunch and that has take-out
+restaurant that is good for kids and that is good for kids
+meal that the least number of restaurant serves
+cuisine that is cuisine of thai cafe or pizzeria juno
+restaurant that has outdoor seating and that has take-out
+meal that thai cafe not serves
+restaurant that is good for groups and whose neighborhood is midtown west
+restaurant whose price rating is 2 dollar signs and whose price rating is 2 dollar signs
+restaurant that has the largest price rating
+restaurant that has delivery and whose star rating is 3 stars
+2 dollar signs or 3 dollar signs
+restaurant whose price rating is 2 dollar signs and that is good for groups
+neighborhood that is neighborhood of the least number of restaurant
+restaurant whose star rating is 3 stars and whose price rating is 2 dollar signs
+restaurant whose cuisine is thai and that is good for groups
+restaurant whose star rating is 3 stars and that serves lunch
+neighborhood that is neighborhood of restaurant that takes reservations
+restaurant that takes credit cards and that has outdoor seating
+cuisine that is cuisine of restaurant that takes credit cards
+restaurant that has take-out and that has take-out
+restaurant that has take-out and that has delivery
+restaurant whose price rating is larger than 2 dollar signs
+meal that restaurant that is good for kids serves
+neighborhood that is neighborhood of restaurant that is good for groups
+restaurant that serves two meal
+restaurant whose neighborhood is midtown west and whose price rating is 2 dollar signs
+restaurant that is good for groups and that has take-out
+restaurant whose price rating is at most 2 dollar signs
+restaurant that serves lunch or dinner
+restaurant whose price rating is 2 dollar signs and that has outdoor seating
+neighborhood of thai cafe
+restaurant that has outdoor seating and that has outdoor seating
+restaurant that not serves lunch
+restaurant whose cuisine is cuisine that is cuisine of thai cafe
+restaurant that takes reservations and that takes credit cards
+restaurant that takes credit cards and whose price rating is 2 dollar signs
+restaurant whose star rating is 3 stars and that takes reservations
+meal that more than two restaurant serves
+restaurant whose cuisine is thai
+restaurant whose price rating is larger than 2 dollar signs
+cuisine that is cuisine of two restaurant
+restaurant that serves lunch and that is good for groups
+restaurant whose cuisine is thai and that has delivery
+restaurant whose price rating is 2 dollar signs or 3 dollar signs
+restaurant that has delivery and whose price rating is 2 dollar signs
+restaurant whose price rating is 2 dollar signs and that has delivery
+meal that less than two restaurant serves
+restaurant that has waiter service and that is good for kids
+cuisine that is cuisine of restaurant that serves lunch
+restaurant whose neighborhood is midtown west and that has take-out
+restaurant whose price rating is 2 dollar signs and that is good for kids
+restaurant that serves less than two meal
+restaurant that has outdoor seating and that is good for groups
+price rating of thai cafe
+cuisine that is cuisine of two restaurant
+restaurant that has the largest price rating
+restaurant whose price rating is not 2 dollar signs
+restaurant whose star rating is at most 3 stars
+restaurant whose cuisine is thai and that takes reservations
+restaurant whose neighborhood is neighborhood that is neighborhood of thai cafe
+restaurant that serves lunch and that takes credit cards
+restaurant that has outdoor seating and that is good for kids
+meal that restaurant that has waiter service serves
+restaurant whose neighborhood is midtown west and that has waiter service
+meal that restaurant whose star rating is 3 stars serves
+restaurant that takes credit cards and whose cuisine is thai
+restaurant that is good for kids and that has take-out
+neighborhood that is neighborhood of restaurant that has waiter service
+restaurant whose price rating is 2 dollar signs and that has delivery
+restaurant whose star rating is 3 stars and that has waiter service
+cuisine that is not cuisine of thai cafe
+restaurant whose neighborhood is midtown west and whose star rating is 3 stars
+restaurant whose cuisine is thai and that takes reservations
+restaurant that has take-out and that takes reservations
+restaurant that serves meal that thai cafe serves
+cuisine that is cuisine of thai cafe and that is cuisine of thai cafe
+neighborhood that is neighborhood of thai cafe and that is neighborhood of thai cafe
+cuisine that is cuisine of restaurant that has outdoor seating
+restaurant whose price rating is at least 2 dollar signs or 3 dollar signs
+cuisine that is cuisine of restaurant that has waiter service
+restaurant that takes reservations and that takes credit cards
+restaurant whose price rating is 2 dollar signs and that has waiter service
+restaurant that takes reservations and that has delivery
+restaurant that takes reservations and that has outdoor seating
+restaurant that serves more than two meal
+restaurant that has take-out and that takes reservations
+restaurant that has delivery and that has take-out
+restaurant that has less than two cuisine
+restaurant whose cuisine is thai and whose star rating is 3 stars
+meal that restaurant whose neighborhood is midtown west serves
+restaurant whose star rating is 3 stars and that has waiter service
+restaurant whose price rating is smaller than price rating of thai cafe
+restaurant that has waiter service and that takes credit cards
+restaurant that has the least number of neighborhood
+restaurant that has at most two cuisine
+restaurant that serves lunch and that has outdoor seating
+restaurant that has take-out and that has waiter service
+neighborhood that is neighborhood of restaurant whose neighborhood is midtown west
+restaurant that serves lunch and that takes reservations
+restaurant whose cuisine is cuisine of thai cafe
+cuisine that is cuisine of less than two restaurant
+restaurant that has outdoor seating and that has waiter service
+restaurant that serves the least number of meal
+restaurant whose star rating is not 3 stars
+average price rating of restaurant
+restaurant that is good for groups and that serves lunch
+restaurant that has at least two neighborhood
+restaurant that serves lunch and that takes reservations
+restaurant whose star rating is at least 3 stars or 5 stars
+restaurant whose cuisine is thai and whose star rating is 3 stars
+star rating of thai cafe
+cuisine that is cuisine of restaurant that serves lunch
+cuisine that is cuisine of thai cafe or pizzeria juno
+restaurant that has at least two cuisine
+restaurant whose star rating is not 3 stars
+restaurant whose cuisine is thai and whose cuisine is thai
+meal that restaurant whose price rating is 2 dollar signs serves
+restaurant whose neighborhood is midtown west and that has take-out
+cuisine that is cuisine of more than two restaurant
+restaurant that has outdoor seating and that serves lunch
+meal that less than two restaurant serves
+restaurant that has at most two neighborhood
+restaurant that takes reservations and that is good for kids
+star rating of thai cafe
+meal that less than two restaurant serves
+restaurant that has the most number of cuisine
+restaurant that serves lunch and whose star rating is 3 stars
+restaurant whose star rating is 3 stars and whose neighborhood is midtown west
+restaurant that takes credit cards and that takes reservations
+restaurant that has delivery and that has waiter service
+restaurant whose price rating is 2 dollar signs and that has waiter service
+restaurant that serves lunch and that serves lunch
+restaurant whose neighborhood is midtown west and that is good for groups
+restaurant whose price rating is 2 dollar signs and whose star rating is 3 stars
+restaurant that is good for groups and that serves lunch
+average star rating of restaurant
+restaurant that is good for kids and that is good for kids
+meal that restaurant whose cuisine is thai serves
+restaurant that has delivery and that takes reservations
+restaurant that serves more than two meal
+restaurant that serves lunch and whose cuisine is thai
+meal that thai cafe serves
+restaurant whose price rating is 2 dollar signs and whose price rating is 2 dollar signs
+cuisine that is cuisine of restaurant that has waiter service
+restaurant whose star rating is at most star rating of thai cafe
+cuisine that is cuisine of thai cafe and that is cuisine of thai cafe
+neighborhood that is neighborhood of restaurant that has delivery
+cuisine that is cuisine of restaurant whose star rating is 3 stars
+restaurant that has outdoor seating and that has delivery
+restaurant that serves lunch and whose star rating is 3 stars
+cuisine that is cuisine of restaurant whose cuisine is thai
+restaurant whose price rating is 2 dollar signs and that has outdoor seating
+restaurant that has waiter service
+restaurant whose neighborhood is midtown west and that is good for kids
+30 reviews or 40 reviews
+restaurant whose price rating is larger than 2 dollar signs or 3 dollar signs
+restaurant whose star rating is smaller than 3 stars or 5 stars
+restaurant that serves lunch and that has delivery
+restaurant that has delivery and that takes reservations
+restaurant whose cuisine is thai and that is good for kids
+restaurant that has waiter service and that has outdoor seating
+restaurant whose star rating is 3 stars and that has outdoor seating
+neighborhood that is neighborhood of restaurant that is good for kids
+restaurant that has take-out and that takes credit cards
+cuisine that is cuisine of less than two restaurant
+restaurant that takes credit cards and whose star rating is 3 stars
+restaurant that has the most number of cuisine
+average price rating of restaurant
+restaurant that is good for kids and whose neighborhood is midtown west
+neighborhood that is neighborhood of more than two restaurant
+restaurant that has outdoor seating and that takes credit cards
+restaurant that is good for kids and whose cuisine is thai
+restaurant whose cuisine is thai and that serves lunch
+restaurant whose price rating is at least 2 dollar signs or 3 dollar signs
+restaurant that takes credit cards and that is good for kids
+restaurant that is good for kids and whose star rating is 3 stars
+total price rating of restaurant
+restaurant that has the most number of neighborhood
+restaurant that not serves lunch
+restaurant that is good for kids and that has delivery
+neighborhood that is neighborhood of restaurant whose star rating is 3 stars
+restaurant that serves lunch and that is good for groups
+restaurant that serves lunch and whose star rating is 3 stars
+restaurant that has waiter service and that has delivery
+restaurant that is good for groups and whose cuisine is thai
+neighborhood that is neighborhood of at most two restaurant
+restaurant whose neighborhood is midtown west and whose cuisine is thai
+restaurant whose cuisine is thai and whose neighborhood is midtown west
+restaurant that takes reservations and that has take-out
+restaurant whose price rating is at least 2 dollar signs
+restaurant that is good for kids and whose neighborhood is midtown west
+neighborhood that is neighborhood of restaurant that serves lunch
+neighborhood that is neighborhood of restaurant that takes reservations
+restaurant that has outdoor seating and that takes credit cards
+restaurant whose star rating is 3 stars and that is good for kids
+neighborhood that is neighborhood of restaurant that is good for kids
+cuisine of thai cafe
+restaurant that takes reservations and whose price rating is 2 dollar signs
+restaurant whose price rating is 2 dollar signs
+average star rating of restaurant
+restaurant whose star rating is larger than 3 stars
+restaurant whose neighborhood is midtown west and that has waiter service
+restaurant that is good for groups and that is good for groups
+restaurant that has delivery and that serves lunch
+restaurant that takes reservations and that has waiter service
+neighborhood that is neighborhood of restaurant whose cuisine is thai
+restaurant whose star rating is smaller than 3 stars
+restaurant whose cuisine is thai and that is good for groups
+neighborhood that is neighborhood of at least two restaurant
+total star rating of restaurant
+restaurant that takes reservations and whose cuisine is thai
+restaurant that has at least two neighborhood
+restaurant whose neighborhood is midtown west and that has delivery
+restaurant that takes credit cards and whose price rating is 2 dollar signs
+meal that thai cafe serves and that thai cafe serves
+restaurant whose price rating is 2 dollar signs and that is good for groups
+restaurant whose cuisine is not thai
+restaurant whose neighborhood is not midtown west
+restaurant that has waiter service and that has waiter service
+total star rating of restaurant
+gender that is gender of employee whose job title is not software engineer
+student whose start date is at least start date of employee alice
+person whose birthdate is 2004 and whose height is 180 cm
+student whose start date is at least 2004
+start date of student alice
+gender that is gender of the least number of person
+person that student whose field of study is not computer science is friends with
+person that is friends with student whose end date is larger than 2004
+student whose end date is at least start date of employee alice
+person that is friends with the most number of person
+employee whose start date is smaller than start date of student alice
+person that is friends with alice and that is logged in
+employee whose start date is end date of employee alice
+student whose start date is at most start date of employee alice
+student whose start date is at most end date of employee alice
+city that is birthplace of person whose height is 180 cm
+employer of employee alice whose start date is 2004
+relationship status that is relationship status of student whose start date is at most 2004
+person that student whose start date is at most 2004 is friends with
+person whose birthplace is new york and that alice is friends with
+employee whose job title is job title of employee alice
+student that has the most number of field of study
+city that is birthplace of student whose end date is at least 2004
+employee whose start date is smaller than birthdate of alice
+employee that has the least number of job title
+person that at least two person is friends with
+student whose start date is start date of student alice
+student whose start date is not 2004
+student whose start date is at most start date of student alice
+start date of employee alice whose start date is 2004
+gender that is gender of employee whose employer is not mckinsey
+person that has at least two gender
+employee whose end date is at least 2004
+relationship status that is relationship status of student whose university is not brown university
+person that alice is friends with and that alice is friends with
+person that is friends with alice and whose height is 180 cm
+person that employee whose end date is not 2004 is friends with
+person that is friends with employee whose end date is not 2004
+relationship status that is relationship status of less than two person
+person that is friends with alice and whose birthplace is new york
+student that has the largest start date
+person whose gender is male and that is friends with alice
+person that student whose end date is not 2004 is friends with
+student whose university is brown university or ucla
+student whose start date is larger than end date of student alice
+employee that has at most two employer
+gender that is gender of student whose university is not brown university
+start date of student alice whose university is brown university
+city that is birthplace of person whose height is 180 cm
+employee whose end date is not 2004
+person whose birthdate is smaller than 2004
+person whose birthdate is at least birthdate of alice
+person that is friends with student whose end date is at most 2004
+person that employee whose job title is not software engineer is friends with
+person that is friends with employee whose start date is at least 2004
+student whose start date is smaller than start date of student alice
+computer science or history
+employee whose start date is at most 2004 or 2010
+city that is birthplace of student whose end date is at most 2004
+relationship status that is relationship status of employee whose start date is not 2004
+person that is logged in and whose height is 180 cm
+employee whose end date is smaller than 2004 or 2010
+end date of employee alice whose end date is 2004
+person whose height is at least 180 cm or 200 cm
+job title of employee alice whose job title is software engineer
+student that has the smallest end date
+employee whose employer is not mckinsey
+person whose relationship status is single and whose gender is male
+relationship status that is relationship status of person whose height is 180 cm
+employee whose end date is larger than 2004 or 2010
+employee whose start date is at least 2004 or 2010
+relationship status that is relationship status of person whose relationship status is single
+student whose start date is smaller than end date of student alice
+employee whose job title is not software engineer
+student whose start date is larger than end date of employee alice
+person whose height is 180 cm and whose end date is 2004
+person that is friends with at most two person
+person whose height is person whose height is 180 cm
+person that employee whose start date is at least 2004 is friends with
+person that is friends with student whose start date is smaller than 2004
+person that is friends with student whose start date is at least 2004
+relationship status that is relationship status of student whose start date is smaller than 2004
+city that is birthplace of person whose height is 180 cm
+employee whose start date is at least birthdate of alice
+student whose end date is smaller than 2004
+person that is friends with employee whose job title is not software engineer
+city that is birthplace of employee whose end date is smaller than 2004
+student whose field of study is not computer science
+employee whose start date is at most end date of employee alice
+person that alice is friends with and that is logged in
+relationship status that is relationship status of employee whose start date is at most 2004
+student whose start date is at most end date of student alice
+person that is friends with student whose start date is at least 2004
+city that is birthplace of student whose start date is at most 2004
+person whose birthdate is start date of student alice
+person that student whose start date is smaller than 2004 is friends with
+student whose end date is at least birthdate of alice
+start date of student alice whose field of study is computer science
+person that is friends with student whose start date is larger than 2004
+employee whose end date is end date of student alice
+person whose relationship status is relationship status of alice
+gender that is gender of employee whose end date is larger than 2004
+gender that is gender of person that alice is friends with
+gender that is gender of student whose end date is not 2004
+student whose end date is birthdate of alice
+person that is friends with less than two person
+person that student whose end date is at most 2004 is friends with
+person that is friends with employee whose end date is at least 2004
+person that is friends with employee whose end date is at most 2004
+employee whose end date is larger than birthdate of alice
+city that is birthplace of employee whose start date is at least 2004
+person that is logged in and whose relationship status is single
+person that has two relationship status
+person that employee whose start date is at most 2004 is friends with
+relationship status that is relationship status of two person
+employee whose start date is at most 2004
+employee whose start date is at least birthdate of alice
+person that less than two person is friends with
+person that student whose university is not brown university is friends with
+student that has the least number of university
+gender that is gender of less than two person
+person whose height is 180 cm and whose start date is 2004
+person that person whose birthplace is new york is friends with
+person that has less than two relationship status
+gender that is gender of the least number of person
+person whose height is smaller than 180 cm or 200 cm
+person whose birthdate is at most 2004
+student whose start date is at least 2004
+person whose height is 180 cm and whose job title is software engineer
+student whose end date is smaller than 2004 or 2010
+gender that is gender of employee whose end date is at most 2004
+person whose height is at most 180 cm or 200 cm
+city that is birthplace of student whose start date is at least 2004
+employee whose start date is smaller than 2004
+relationship status that is relationship status of employee whose employer is not mckinsey
+relationship status that is relationship status of employee whose start date is not 2004
+relationship status that is relationship status of employee whose start date is at most 2004
+employee whose end date is larger than birthdate of alice
+relationship status that is relationship status of person whose height is 180 cm
+person that is friends with employee whose end date is at most 2004
+start date of employee alice whose end date is 2004
+person whose height is 180 cm and whose job title is software engineer
+person that is friends with employee whose start date is smaller than 2004
+person that has two gender
+relationship status that is relationship status of employee whose end date is at least 2004
+employee whose end date is at least end date of student alice
+employee whose end date is smaller than birthdate of alice
+person whose birthdate is 2004
+job title that is job title of person whose height is 180 cm
+number of job title
+person that person whose height is 180 cm is friends with
+relationship status that is relationship status of employee whose end date is smaller than 2004
+city that is birthplace of the most number of person
+city that is birthplace of student whose start date is not 2004
+person whose height is 180 cm and that is friends with alice
+job title of employee alice whose start date is 2004
+relationship status that is relationship status of student whose start date is not 2004
+person that employee whose employer is not mckinsey is friends with
+person whose birthdate is at least start date of student alice
+employee whose employer is not mckinsey
+person whose height is 180 cm and that is height of alice
+person whose height is 180 cm and whose field of study is computer science
+person that is friends with student whose end date is not 2004
+city that is birthplace of employee whose end date is at least 2004
+relationship status that is relationship status of employee whose end date is larger than 2004
+student that has the least number of field of study
+employee whose end date is larger than start date of student alice
+relationship status that is relationship status of two person
+person whose relationship status is single and that is logged in
+employee that has the smallest start date
+student whose end date is at least end date of employee alice
+field of study of student alice whose field of study is computer science
+employee whose start date is start date of employee alice
+person that is friends with employee whose end date is at most 2004
+relationship status that is relationship status of less than two person
+gender that is gender of student whose field of study is not computer science
+end date of employee alice whose employer is mckinsey
+person that is friends with student whose end date is not 2004
+gender that is gender of student whose end date is at most 2004
+person whose birthplace is birthplace of alice
+person whose relationship status is single and whose birthdate is 2004
+person that has less than two gender
+person that employee whose end date is smaller than 2004 is friends with
+student whose start date is smaller than end date of employee alice
+job title of employee alice whose job title is software engineer
+student whose start date is at most end date of student alice
+employee whose start date is 2004 or 2010
+gender that is gender of student whose start date is at least 2004
+person whose birthplace is new york and that is friends with alice
+city that is birthplace of employee whose start date is larger than 2004
+city that is birthplace of employee whose end date is not 2004
+relationship status that is relationship status of person whose gender is male
+student that has the most number of field of study
+relationship status that is relationship status of person whose gender is male
+relationship status that is relationship status of student whose start date is smaller than 2004
+person whose birthdate is at least start date of student alice
+person that has two gender
+relationship status that is relationship status of employee whose start date is at least 2004
+person that is friends with alice and whose height is 180 cm
+employee whose end date is smaller than end date of employee alice
+person that employee whose end date is smaller than 2004 is friends with
+employee whose job title is software engineer or program manager
+person that is friends with employee whose end date is larger than 2004
+relationship status that is relationship status of employee whose start date is smaller than 2004
+person whose height is 180 cm and whose start date is 2004
+person whose height is at most height of alice
+person that employee whose start date is larger than 2004 is friends with
+person that student whose end date is at most 2004 is friends with
+student whose start date is smaller than end date of employee alice
+person that has two birthplace
+person that is friends with employee whose end date is at most 2004
+student whose end date is at most 2004
+person that is friends with student whose end date is not 2004
+relationship status that is relationship status of person whose height is 180 cm
+person that student whose end date is not 2004 is friends with
+gender that is gender of student whose end date is larger than 2004
+student whose start date is at least 2004 or 2010
+student whose start date is at least start date of student alice
+person whose height is at least 180 cm
+person that alice not is friends with
+city that is birthplace of employee whose end date is at most 2004
+employee whose end date is larger than birthdate of alice
+gender that is gender of student whose start date is at most 2004
+student whose start date is at least 2004
+employee whose start date is smaller than start date of employee alice
+field of study of student alice whose field of study is computer science
+person that student whose start date is smaller than 2004 is friends with
+employee whose start date is start date of employee alice
+person that alice not is friends with
+student whose end date is larger than start date of employee alice
+person that is friends with student whose field of study is not computer science
+person that person whose height is 180 cm is friends with
+employee that has the most number of job title
+relationship status that is relationship status of student whose end date is smaller than 2004
+relationship status that is relationship status of student whose end date is larger than 2004
+person whose height is 180 cm and whose height is 180 cm
+student whose end date is larger than end date of student alice
+student whose start date is at most end date of employee alice
+person that is friends with alice and that alice is friends with
+person that at most two person is friends with
+student whose end date is at most end date of student alice
+student whose end date is at least start date of student alice
+person that is friends with student whose start date is at least 2004
+person that is friends with person that is friends with alice
+student that has the least number of field of study
+person whose height is 180 cm and whose field of study is computer science
+person whose gender is person whose height is 180 cm
+city that is not birthplace of alice
+city that is birthplace of student whose university is not brown university
+student whose end date is larger than end date of student alice
+student whose end date is smaller than start date of employee alice
+person whose height is 180 cm and whose start date is 2004
+employee whose end date is at least birthdate of alice
+field of study of student alice whose end date is 2004
+person that student whose end date is smaller than 2004 is friends with
+city that is birthplace of student whose start date is at most 2004
+person whose height is person whose height is 180 cm
+gender that is gender of more than two person
+city that is birthplace of employee whose start date is at least 2004
+relationship status that is relationship status of alice or bob
+person that person that alice is friends with is friends with
+gender that is gender of employee whose job title is not software engineer
+employee whose end date is at most end date of student alice
+employee whose end date is smaller than end date of student alice
+relationship status that is relationship status of employee whose job title is not software engineer
+person that student whose end date is at least 2004 is friends with
+person that alice is friends with and that is friends with alice
+gender that is gender of student whose start date is smaller than 2004
+employee whose end date is larger than start date of employee alice
+city that is birthplace of student whose start date is not 2004
+employee whose start date is at most birthdate of alice
+student whose start date is at most end date of employee alice
+employee whose start date is at most start date of student alice
+student whose start date is smaller than 2004
+person that has at least two gender
+student whose start date is larger than end date of employee alice
+person that student whose university is not brown university is friends with
+employee whose start date is at most end date of employee alice
+birthplace of alice
+student whose end date is larger than end date of employee alice
+person whose height is 180 cm and whose university is brown university
+start date of student alice whose field of study is computer science
+end date of employee alice whose job title is software engineer
+person that is friends with student whose end date is smaller than 2004
+student whose start date is larger than end date of student alice
+person that has less than two relationship status
+person that employee whose employer is not mckinsey is friends with
+person that has at least two birthplace
+person that is friends with employee whose start date is larger than 2004
+city that is birthplace of alice and that is birthplace of alice
+person that has at least two birthplace
+employee whose employer is mckinsey or google
+person that student whose end date is not 2004 is friends with
+student whose end date is larger than 2004
+employee whose start date is at most end date of student alice
+city that is birthplace of less than two person
+gender that is gender of the least number of person
+student whose start date is 2004 or 2010
+person whose height is 180 cm and that is gender of alice
+employee whose end date is smaller than 2004
+employee that has the smallest start date
+employee whose end date is at most end date of student alice
+gender that is gender of person whose birthplace is new york
+person whose gender is male and that alice is friends with
+employee whose end date is end date of student alice
+person whose height is 180 cm and that is birthplace of alice
+employee whose end date is smaller than end date of student alice
+university of student alice whose field of study is computer science
+person whose relationship status is single and whose birthdate is 2004
+person whose birthdate is at least start date of employee alice
+employee whose start date is smaller than start date of employee alice
+mckinsey or google
+student whose start date is smaller than start date of student alice
+city that is birthplace of person that alice is friends with
+employee whose end date is smaller than 2004
+student whose end date is start date of employee alice
+student whose start date is start date of employee alice
+person that is friends with person that is logged in
+person whose height is 180 cm and that alice is friends with
+student whose end date is smaller than 2004
+university of student alice whose university is brown university
+person whose birthdate is smaller than 2004 or 2010
+city that is birthplace of less than two person
+employee whose start date is smaller than 2004
+student whose start date is end date of employee alice
+person that alice is friends with
+student whose end date is smaller than 2004
+employee whose start date is at most 2004
+employee whose end date is start date of student alice
+student that has the largest start date
+city that is birthplace of student whose university is not brown university
+city that is birthplace of student whose end date is at least 2004
+person whose birthdate is 2004 and that is friends with alice
+employee that has the largest end date
+person that is friends with person whose relationship status is single
+student whose start date is end date of student alice
+student that has the least number of university
+student whose start date is at most start date of student alice
+employee whose start date is start date of student alice
+person that is friends with employee whose start date is at most 2004
+employee whose end date is end date of employee alice
+person whose birthdate is smaller than start date of student alice
+student whose start date is end date of employee alice
+employee whose start date is at least 2004
+gender that is gender of student whose start date is at least 2004
+student whose field of study is computer science or history
+employee whose end date is start date of student alice
+employee whose start date is smaller than end date of employee alice
+employee whose end date is at most end date of employee alice
+person that has the most number of relationship status
+employee that has the smallest end date
+person whose relationship status is single and that is friends with alice
+city that is birthplace of employee whose start date is larger than 2004
+student whose start date is birthdate of alice
+student whose start date is at most 2004
+person whose gender is person whose height is 180 cm
+person that alice not is friends with
+person that is friends with student whose start date is larger than 2004
+relationship status that is relationship status of student whose end date is at least 2004
+city that is birthplace of employee whose start date is not 2004
+person whose birthplace is new york and that is friends with alice
+person that is friends with employee whose start date is larger than 2004
+job title that is job title of person whose height is 180 cm
+person that is friends with employee whose start date is not 2004
+employee that has the smallest start date
+student whose end date is at most end date of student alice
+person that person that is logged in is friends with
+relationship status that is not relationship status of alice
+student that has at most two university
+person that is friends with employee whose end date is at most 2004
+employee whose start date is smaller than 2004 or 2010
+employee whose end date is at most start date of student alice
+employee whose end date is at least start date of employee alice
+height of alice
+student whose start date is larger than 2004 or 2010
+employee whose end date is larger than start date of student alice
+person that is friends with alice and whose height is 180 cm
+person whose birthdate is 2004 and whose relationship status is single
+student that has the most number of field of study
+person that is logged in and that is logged in
+employee whose job title is job title of employee alice
+gender that is gender of alice or bob
+person that is friends with employee whose job title is not software engineer
+start date of student alice whose end date is 2004
+student whose end date is at least birthdate of alice
+city that is birthplace of more than two person
+person that has at most two relationship status
+person that not is friends with alice
+student whose start date is at least 2004
+person whose height is 180 cm and whose end date is 2004
+student whose field of study is field of study of student alice
+gender that is gender of employee whose end date is at most 2004
+person whose relationship status is single and whose height is 180 cm
+city that is birthplace of student whose start date is larger than 2004
+employee that has the smallest end date
+city that is birthplace of student whose field of study is not computer science
+person that two person is friends with
+person that is friends with student whose end date is not 2004
+city that is birthplace of the most number of person
+student whose start date is at least start date of student alice
+student whose start date is at least end date of employee alice
+employee whose end date is at least start date of student alice
+person that employee whose start date is not 2004 is friends with
+student whose end date is at most birthdate of alice
+city that is birthplace of student whose end date is smaller than 2004
+person that is friends with employee whose start date is at most 2004
+city that is birthplace of student whose end date is at least 2004
+employee whose end date is smaller than 2004 or 2010
+employee whose start date is larger than end date of employee alice
+city that is birthplace of student whose field of study is not computer science
+person whose relationship status is single and that alice is friends with
+person whose birthdate is larger than birthdate of alice
+start date of employee alice whose job title is software engineer
+gender that is gender of student whose start date is not 2004
+employee whose end date is at least end date of employee alice
+person whose height is 180 cm and whose birthplace is new york
+gender that is gender of student whose start date is not 2004
+person whose height is 180 cm and that is friends with alice
+person whose birthdate is 2004 or 2010
+gender that is gender of at least two person
+relationship status that is relationship status of person whose height is 180 cm
+person that at most two person is friends with
+employee whose end date is at most end date of employee alice
+employee whose end date is at least start date of student alice
+city that is birthplace of person whose relationship status is single
+city that is birthplace of employee whose end date is larger than 2004
+employee whose start date is not 2004
+employee whose start date is not 2004
+person whose height is 180 cm and that is birthdate of alice
+employee whose end date is smaller than 2004 or 2010
+person whose height is smaller than height of alice
+person that is logged in and that alice is friends with
+person that alice or bob is friends with
+employee whose end date is larger than end date of employee alice
+relationship status that is relationship status of student whose start date is smaller than 2004
+student whose start date is smaller than 2004 or 2010
+employee whose start date is at most end date of student alice
+student whose start date is smaller than 2004 or 2010
+relationship status that is relationship status of person whose birthdate is 2004
+person that has at least two relationship status
+number of university
+gender that is gender of student whose start date is smaller than 2004
+relationship status that is relationship status of employee whose start date is at most 2004
+person that student whose start date is at least 2004 is friends with
+student whose end date is smaller than end date of student alice
+employee whose start date is larger than 2004
+gender that is gender of person whose height is 180 cm
+employee whose end date is at least 2004 or 2010
+start date of student alice whose field of study is computer science
+student whose end date is smaller than end date of employee alice
+person that is friends with student whose start date is not 2004
+student whose start date is not 2004
+person that is friends with employee whose end date is at most 2004
+relationship status that is relationship status of more than two person
+person that person whose gender is male is friends with
+person that is logged in and whose relationship status is single
+city that is birthplace of person whose relationship status is single
+city that is birthplace of person that is friends with alice
+person whose gender is male and that is friends with alice
+employee whose end date is at least end date of student alice
+person that employee whose start date is not 2004 is friends with
+student whose end date is smaller than birthdate of alice
+student whose start date is at least end date of employee alice
+person that is friends with person that alice is friends with
+person that has the most number of birthplace
+person that is friends with employee whose end date is larger than 2004
+gender that is gender of employee whose start date is smaller than 2004
+relationship status that is relationship status of employee whose job title is not software engineer
+person that student whose end date is at most 2004 is friends with
+university that is university of person whose height is 180 cm
+city that is birthplace of student whose field of study is not computer science
+person that alice not is friends with
+person whose gender is male and that is friends with alice
+relationship status that is relationship status of employee whose end date is at least 2004
+person whose birthdate is larger than start date of student alice
+person that is friends with employee whose start date is larger than 2004
+relationship status that is relationship status of employee whose start date is larger than 2004
+relationship status that is relationship status of two person
+person that person that is logged in is friends with
+employee that has at most two job title
+city that is birthplace of less than two person
+relationship status that is relationship status of person whose birthplace is new york
+city that is birthplace of student whose end date is smaller than 2004
+person whose height is smaller than height of alice
+student that has the largest start date
+person that is friends with employee whose start date is larger than 2004
+city that is birthplace of person whose gender is male
+person whose birthplace is new york and that is logged in
+student whose university is not brown university
+student whose start date is not 2004
+student whose end date is end date of student alice
+person whose birthplace is new york and whose birthplace is new york
+employee that has at most two employer
+person that has more than two birthplace
+person that is friends with employee whose start date is not 2004
+person whose birthdate is 2004
+employee whose start date is smaller than end date of employee alice
+student whose start date is start date of student alice
+student whose end date is at most start date of employee alice
+person that is friends with person whose gender is male
+person that is friends with two person
+person that is friends with employee whose end date is smaller than 2004
+person whose birthplace is person whose height is 180 cm
+employee whose employer is not mckinsey
+student that has at most two field of study
+student whose start date is at least end date of student alice
+student whose start date is smaller than birthdate of alice
+person whose relationship status is person whose height is 180 cm
+person that employee whose end date is larger than 2004 is friends with
+relationship status that is relationship status of alice and that is relationship status of alice
+relationship status that is relationship status of student whose start date is smaller than 2004
+city that is birthplace of employee whose start date is smaller than 2004
+person whose gender is male and whose birthdate is 2004
+gender that is gender of student whose start date is at most 2004
+employee whose end date is at most birthdate of alice
+person that student whose end date is smaller than 2004 is friends with
+student whose end date is at least 2004
+employee whose start date is at most birthdate of alice
+person whose height is 180 cm and that is gender of alice
+person that is friends with student whose start date is at most 2004
+student whose end date is smaller than 2004 or 2010
+person that employee whose job title is not software engineer is friends with
+employee whose end date is end date of employee alice
+student whose university is not brown university
+gender that is gender of person whose height is 180 cm
+student whose field of study is computer science or history
+student whose end date is larger than end date of student alice
+person that person that alice is friends with is friends with
+student whose start date is larger than end date of student alice
+city that is birthplace of employee whose end date is larger than 2004
+person that is friends with employee whose end date is at most 2004
+person that has two gender
+person that person whose birthplace is new york is friends with
+person whose height is not 180 cm
+person that is friends with alice and whose relationship status is single
+student whose start date is not 2004
+employee whose start date is smaller than end date of employee alice
+student whose end date is at most birthdate of alice
+employee whose end date is at most birthdate of alice
+student whose start date is smaller than end date of student alice
+gender that is gender of the least number of person
+city that is birthplace of student whose start date is not 2004
+employee whose job title is software engineer or program manager
+person that alice is friends with and whose relationship status is single
+student whose start date is at most start date of employee alice
+student whose start date is smaller than start date of student alice
+employee whose end date is at least birthdate of alice
+gender that is gender of employee whose start date is not 2004
+person that is friends with person that is friends with alice
+student whose start date is not 2004
+city that is birthplace of employee whose start date is smaller than 2004
+student whose end date is at least start date of student alice
+person that person whose relationship status is single is friends with
+person whose height is 180 cm and whose field of study is computer science
+person that employee whose end date is not 2004 is friends with
+person whose height is 180 cm and whose birthplace is new york
+student that has at most two field of study
+start date of employee alice
+relationship status that is relationship status of student whose field of study is not computer science
+person whose height is 180 cm and whose end date is 2004
+gender that is gender of employee whose end date is not 2004
+student whose end date is at least birthdate of alice
+person whose height is 180 cm and that is logged in
+employee whose end date is larger than end date of student alice
+student whose end date is smaller than birthdate of alice
+city that is birthplace of student whose end date is not 2004
+person that is logged in and whose relationship status is single
+city that is birthplace of employee whose start date is smaller than 2004
+person that employee whose end date is at least 2004 is friends with
+gender that is gender of employee whose employer is not mckinsey
+employee whose start date is smaller than start date of student alice
+person that is friends with person whose height is 180 cm
+employee whose start date is at most start date of student alice
+student whose end date is 2004 or 2010
+person whose height is 180 cm and whose start date is 2004
+gender that is gender of alice
+employee whose end date is at most start date of student alice
+student whose end date is at least birthdate of alice
+city that is birthplace of employee whose start date is smaller than 2004
+person that student whose end date is larger than 2004 is friends with
+student whose start date is smaller than end date of employee alice
+relationship status that is relationship status of student whose start date is not 2004
+student whose start date is at least start date of employee alice
+student whose university is university of student alice
+gender that is gender of employee whose employer is not mckinsey
+student that has the most number of university
+city that is birthplace of employee whose job title is not software engineer
+person whose birthplace is person whose height is 180 cm
+person that person whose birthdate is 2004 is friends with
+gender that is gender of student whose end date is at least 2004
+student whose end date is smaller than end date of employee alice
+student that has at most two university
+start date of employee alice whose end date is 2004
+person whose birthplace is new york and whose relationship status is single
+person whose height is at most height of alice
+student whose start date is end date of employee alice
+employee whose start date is at least end date of employee alice
+person that is friends with alice and that alice is friends with
+employee whose start date is larger than start date of student alice
+relationship status that is relationship status of student whose start date is larger than 2004
+employee that has at most two job title
+person whose relationship status is single and that alice is friends with
+student that has the least number of field of study
+relationship status that is relationship status of person whose birthdate is 2004
+person that has more than two gender
+student whose start date is smaller than start date of employee alice
+student whose start date is at least end date of employee alice
+person whose height is 180 cm and that is birthdate of alice
+employee whose employer is employer of employee alice
+person that is friends with at least two person
+person whose height is 180 cm and that is birthplace of alice
+person whose birthdate is larger than end date of student alice
+person that student whose end date is at most 2004 is friends with
+person whose birthdate is 2004 and whose birthplace is new york
+person that is friends with student whose end date is at least 2004
+person that student whose end date is larger than 2004 is friends with
+student whose end date is at most start date of student alice
+employee whose end date is at least end date of student alice
+person that is friends with alice and that is logged in
+employee whose end date is start date of employee alice
+employee whose start date is start date of employee alice
+relationship status that is relationship status of employee whose job title is not software engineer
+relationship status that is relationship status of person that is logged in
+student whose start date is start date of employee alice
+employee whose start date is at least birthdate of alice
+person whose height is 180 cm and whose employer is mckinsey
+city that is birthplace of student whose start date is at most 2004
+person that has at most two relationship status
+employee whose start date is at least 2004
+student whose start date is at most 2004 or 2010
+gender that is gender of less than two person
+gender that is gender of student whose university is not brown university
+number of person
+student that has at most two field of study
+person that is friends with alice and whose birthplace is new york
+start date of student alice whose end date is 2004
+student that has at most two field of study
+person that is logged in and whose birthplace is new york
+gender that is gender of employee whose end date is larger than 2004
+person whose height is 180 cm and that is birthplace of alice
+person whose birthdate is at least 2004
+student whose start date is smaller than end date of student alice
+person that employee whose end date is at least 2004 is friends with
+person whose birthdate is 2004 and that alice is friends with
+employee whose end date is smaller than start date of employee alice
+person that is friends with person whose height is 180 cm
+person whose height is 180 cm and that alice is friends with
+person whose height is 180 cm and that is logged in
+city that is birthplace of student whose end date is smaller than 2004
+employee whose end date is at least start date of employee alice
+relationship status that is relationship status of student whose start date is at most 2004
+gender that is gender of employee whose start date is smaller than 2004
+employee whose end date is smaller than end date of employee alice
+employee whose employer is employer of employee alice
+student whose start date is smaller than start date of employee alice
+student whose start date is smaller than birthdate of alice
+student whose end date is end date of student alice
+person that is friends with student whose start date is at least 2004
+person that person whose birthdate is 2004 is friends with
+student whose end date is at most start date of student alice
+student that has the largest start date
+person whose birthdate is smaller than birthdate of alice
+person whose height is 180 cm and whose start date is 2004
+student whose start date is smaller than start date of employee alice
+start date of student alice whose end date is 2004
+job title of employee alice whose employer is mckinsey
+city that is birthplace of employee whose end date is at least 2004
+gender that is gender of employee whose end date is at least 2004
+person that is friends with employee whose start date is at least 2004
+student whose end date is at least 2004
+person whose birthdate is at most start date of student alice
+employee whose start date is larger than 2004
+person whose height is height of alice
+university that is university of person whose height is 180 cm
+relationship status that is relationship status of employee whose start date is at least 2004
+person whose birthdate is smaller than end date of employee alice
+number of field
+number of company
+city that is birthplace of employee whose end date is smaller than 2004
+employee whose start date is at most birthdate of alice
+job title of employee alice
+person that is friends with employee whose job title is not software engineer
+student whose end date is at most end date of employee alice
+person whose height is 180 cm and that is relationship status of alice
+person whose birthplace is not new york
+relationship status that is relationship status of person whose height is 180 cm
+employee whose start date is smaller than 2004
+person whose height is 180 cm and whose birthdate is 2004
+person whose height is 180 cm and whose field of study is computer science
+university of student alice
+employee whose end date is birthdate of alice
+student that has the smallest start date
+person whose height is 180 cm and that is height of alice
+gender that is gender of employee whose end date is larger than 2004
+gender that is gender of employee whose start date is at most 2004
+person that is friends with more than two person
+gender that is gender of student whose start date is not 2004
+student whose start date is 2004 or 2010
+average height of person
+gender that is gender of employee whose job title is not software engineer
+number of gender
+student whose start date is at most 2004
+relationship status that is relationship status of employee whose end date is not 2004
+person that is friends with alice and that is friends with alice
+employee whose employer is mckinsey or google
+person that student whose start date is smaller than 2004 is friends with
+employee whose end date is smaller than 2004
