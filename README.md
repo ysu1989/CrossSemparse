@@ -14,7 +14,7 @@ Semantic parsing, which maps natural language utterances into computer-understan
 There are three complementary ways to solve the cold start problem:
 
 <p align="center">
-<img align="center" src="misc/cold_start_nli.png" alt="Cold Start Solution" width="500px"/>
+<img align="center" src="misc/cold_start_nli.png" alt="Cold Start Solution" width="600px"/>
 </p>
 
 1. Re-use the training data for some existing domains via *transfer learning* (this repo)
