@@ -47,7 +47,7 @@ pip install --ignore-installed --upgrade $TF_BINARY_URL
 ```
 
 
-Install yaml:
+Install other dependencies:
 
 ```
 pip install pyyaml
