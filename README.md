@@ -3,10 +3,10 @@
 ## The Cold Start Problem
 Semantic parsing, which maps natural language utterances into computer-understandable logical forms, has drawn substantial attention recently as a promising direction for developing natural language interfaces to computers. There are so many domains (healthcare, finance, IoT, sports, *etc.*) for which we can build a natural language interface, making *portability / scalability* an impending challenge. Or in other words, it's the *cold start problem of natural language interface*: 
 
-<p align="center"><i>Given a new domain, how can we build a semantic parser for it?</i></p>
+<p align="center"><i>Given a new domain, how can we build a natural language interface for it?</i></p>
 
 <p align="center">
-<img align="center" src="misc/cold_start.jpg" alt="Cold Start Problem" width="400px"/>
+<img align="center" src="misc/cold_start.jpg" alt="Cold Start Problem" width="500px"/>
 </p>
 
 ## Solution
